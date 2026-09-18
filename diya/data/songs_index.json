@@ -3,6 +3,10 @@
     "id": "3ae85bc1-d962-806c-8a32-edda8e151b8b",
     "title": "Jeena Jeena",
     "slug": "jeena_jeena",
+    "movie": "Badlapur",
+    "artist": "Atif Aslam, Sachin-Jigar",
+    "duration": "3:48",
+    "cover_art": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02972a8fa058a13f91a1a46850",
     "spotify_url": "https://open.spotify.com/track/5lKE040hUfDAKOR8HLG92p?si=c96501e5345d45f1",
     "youtube_url": "https://www.youtube.com/watch?v=zFdi834FiZ4",
     "filename": "jeena_jeena.json"
@@ -11,6 +15,10 @@
     "id": "3bf85bc1-d962-809d-baf9-d5857f1bb7ac",
     "title": "Titli - Chennai Express",
     "slug": "titli_-_chennai_express",
+    "movie": "Chennai Express",
+    "artist": "Chinmayi Sripaada, Gopi Sunder",
+    "duration": "5:50",
+    "cover_art": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0294c54b0918e86cb477b594f4",
     "spotify_url": "https://open.spotify.com/track/1mEpeKvjH9T6acliz2GI3D?si=3e546d86a5f9405f",
     "youtube_url": "https://www.youtube.com/watch?v=V8zXLMIjlcw",
     "filename": "titli_-_chennai_express.json"
@@ -19,6 +27,10 @@
     "id": "3ae85bc1-d962-804b-80b0-d90b4c8ac1c0",
     "title": "Hoor",
     "slug": "hoor",
+    "movie": "Hindi Medium",
+    "artist": "Atif Aslam, Sachin-Jigar",
+    "duration": "3:57",
+    "cover_art": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02bb73a0010d3d84273ec4ad85",
     "spotify_url": "https://open.spotify.com/track/4mjTMmz0j6Wl3GhODoPqTx?si=2200761706e64297",
     "youtube_url": "https://www.youtube.com/watch?v=Gs8g3Yhv8xH",
     "filename": "hoor.json"
@@ -27,6 +39,10 @@
     "id": "3cd85bc1-d962-80dc-983d-e6139bb86a90",
     "title": "Jhak Maar Ke",
     "slug": "jhak_maar_ke",
+    "movie": "Desi Boyz",
+    "artist": "Neeraj Shridhar, Harshdeep Kaur, Pritam",
+    "duration": "3:53",
+    "cover_art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d0/44/05/d04405c9-20f8-f11a-fa14-8867e988a409/8902894697743_cover.jpg/300x300bb.jpg",
     "spotify_url": null,
     "youtube_url": "https://www.youtube.com/watch?v=R5CxtjmrIE4",
     "filename": "jhak_maar_ke.json"

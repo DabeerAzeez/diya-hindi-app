@@ -179,8 +179,8 @@ class DiyaHandler(http.server.SimpleHTTPRequestHandler):
                 return
             return self.send_json({'error': 'Story not found'}, 404)
 
-        if path.startswith('/api/stories/assets/'):
-            asset_fn = path[len('/api/stories/assets/'):]
+        if path.startswith('/api/stories/assets/') or ('/assets/' in path and 'stories' in path):
+            asset_fn = path.split('/assets/')[-1]
             asset_path = os.path.join(STORIES_DIR, 'assets', asset_fn)
             if os.path.exists(asset_path):
                 ext = os.path.splitext(asset_fn)[1].lower()
@@ -209,6 +209,10 @@ class DiyaHandler(http.server.SimpleHTTPRequestHandler):
                                 'slug': s_data.get('slug', fn[:-5]),
                                 'spotify_url': s_data.get('spotify_url'),
                                 'youtube_url': s_data.get('youtube_url'),
+                                'cover_art': s_data.get('cover_art'),
+                                'movie': s_data.get('movie'),
+                                'artist': s_data.get('artist'),
+                                'duration': s_data.get('duration'),
                                 'filename': fn
                             })
             return self.send_json(songs)

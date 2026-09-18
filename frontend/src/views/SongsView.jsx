@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Music, ArrowLeft, ExternalLink, Play, Video, Sparkles } from 'lucide-react';
+import { Music, ArrowLeft, ExternalLink, Play, Video, Sparkles, Clock } from 'lucide-react';
 import { getSongs, getSong } from '../services/api';
 
 function getYouTubeEmbedUrl(url) {
@@ -72,8 +72,9 @@ export default function SongsView() {
   const [songDetail, setSongDetail] = useState(null);
   const [loading, setLoading] = useState(true);
   const [loadingDetail, setLoadingDetail] = useState(false);
-  const [playerTab, setPlayerTab] = useState('youtube');
+  const [playerTab, setPlayerTab] = useState('spotify');
   const [activeModalLine, setActiveModalLine] = useState(null);
+  const [dynamicCovers, setDynamicCovers] = useState({});
 
   // Anki Card Modal State
   const [ankiModalOpen, setAnkiModalOpen] = useState(false);
@@ -93,15 +94,33 @@ export default function SongsView() {
       });
   }, []);
 
+  // Dynamically fetch Spotify cover art thumbnail via public oEmbed API if cover_art is missing
+  useEffect(() => {
+    if (!songs || songs.length === 0) return;
+    songs.forEach((song) => {
+      if (!song.cover_art && song.spotify_url && !dynamicCovers[song.slug]) {
+        fetch(`https://open.spotify.com/oembed?url=${encodeURIComponent(song.spotify_url)}`)
+          .then((res) => {
+            if (!res.ok) throw new Error('oEmbed error');
+            return res.json();
+          })
+          .then((data) => {
+            if (data.thumbnail_url) {
+              setDynamicCovers((prev) => ({ ...prev, [song.slug]: data.thumbnail_url }));
+            }
+          })
+          .catch(() => {});
+      }
+    });
+  }, [songs, dynamicCovers]);
+
   useEffect(() => {
     if (!activeSongSlug) return;
     setLoadingDetail(true);
     getSong(activeSongSlug)
       .then((data) => {
         setSongDetail(data);
-        if (data.youtube_url) {
-          setPlayerTab('youtube');
-        } else if (data.spotify_url) {
+        if (data.spotify_url) {
           setPlayerTab('spotify');
         } else {
           setPlayerTab(null);
@@ -217,7 +236,7 @@ export default function SongsView() {
       ) : songDetail ? (
         <div className="space-y-8">
           {/* Top Bar Navigation */}
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-[#243049]">
+          <div className="flex items-center justify-between gap-4 pb-6 border-b border-[#243049]">
             <button
               onClick={() => {
                 setActiveSongSlug(null);
@@ -228,123 +247,33 @@ export default function SongsView() {
               <ArrowLeft size={16} />
               <span>Back to Song Library</span>
             </button>
-
-            <div className="flex items-center gap-3">
-              {songDetail.youtube_url && (
-                <a
-                  href={songDetail.youtube_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-rose-600/20 hover:bg-rose-600/30 border border-rose-500/30 text-rose-300 text-xs font-medium transition-all"
-                >
-                  <Video size={13} />
-                  <span>YouTube</span>
-                  <ExternalLink size={11} />
-                </a>
-              )}
-              {songDetail.spotify_url && (
-                <a
-                  href={songDetail.spotify_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-emerald-600/20 hover:bg-emerald-600/30 border border-emerald-500/30 text-emerald-300 text-xs font-medium transition-all"
-                >
-                  <Play size={13} fill="currentColor" />
-                  <span>Spotify</span>
-                  <ExternalLink size={11} />
-                </a>
-              )}
-            </div>
           </div>
 
-          {/* Universal Embedded Media Player */}
-          <div className="bg-[#151d2f] rounded-2xl border border-[#243049] p-4 sm:p-6 shadow-xl space-y-4">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-[#243049]/70 pb-3">
-              <div className="flex items-center gap-2">
-                <Music size={18} className="text-purple-400" />
-                <h2 className="text-sm font-bold uppercase tracking-wider text-slate-200">
-                  Universal Media Player
-                </h2>
-              </div>
-
-              {/* Player Switcher Tabs */}
-              <div className="flex items-center gap-2 bg-[#0f172a] p-1 rounded-xl border border-[#243049] self-start sm:self-auto">
-                {songDetail.youtube_url && (
-                  <button
-                    onClick={() => setPlayerTab('youtube')}
-                    className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
-                      playerTab === 'youtube'
-                        ? 'bg-rose-600 text-white shadow-md'
-                        : 'text-slate-400 hover:text-white'
-                    }`}
-                  >
-                    <Video size={13} />
-                    <span>YouTube Video</span>
-                  </button>
-                )}
-                {songDetail.spotify_url && (
-                  <button
-                    onClick={() => setPlayerTab('spotify')}
-                    className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
-                      playerTab === 'spotify'
-                        ? 'bg-emerald-600 text-white shadow-md'
-                        : 'text-slate-400 hover:text-white'
-                    }`}
-                  >
-                    <Play size={13} fill="currentColor" />
-                    <span>Spotify Audio</span>
-                  </button>
-                )}
-              </div>
-            </div>
-
-            {/* Embedded Player Body */}
-            {playerTab === 'youtube' && youtubeEmbedUrl && (
-              <div className="w-full aspect-video rounded-xl overflow-hidden bg-black shadow-inner border border-[#243049]/80">
-                <iframe
-                  src={youtubeEmbedUrl}
-                  title={`${songDetail.title} YouTube player`}
-                  className="w-full h-full border-0"
-                  allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
-              </div>
-            )}
-
-            {playerTab === 'spotify' && spotifyEmbedUrl && (
-              <div className="w-full rounded-xl overflow-hidden shadow-inner bg-[#121212] border border-[#243049]/80">
-                <iframe
-                  src={spotifyEmbedUrl}
-                  title={`${songDetail.title} Spotify player`}
-                  width="100%"
-                  height="152"
-                  className="w-full border-0"
-                  allow="encrypted-media; fullscreen; picture-in-picture"
-                  loading="lazy"
-                />
-              </div>
-            )}
-
-            {!songDetail.youtube_url && !songDetail.spotify_url && (
-              <div className="p-6 text-center text-slate-400 text-xs bg-[#0f172a]/60 rounded-xl border border-[#243049]/50">
-                No embedded audio or video player available for this track.
-              </div>
-            )}
-          </div>
-
-          {/* Song Header Info */}
-          <div className="bg-[#151d2f] rounded-2xl border border-[#243049] p-6 sm:p-8 space-y-2 shadow-lg">
-            <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-md bg-purple-500/10 text-purple-400 border border-purple-500/20 text-xs font-bold uppercase tracking-wider">
-              <Sparkles size={12} />
-              <span>AZLyrics / Genius Clean View</span>
-            </div>
-            <h1 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">
+          {/* 1. Song Title Block - Larger typography, clean and prominent without redundant details */}
+          <div className="pt-2 pb-1">
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight leading-tight">
               {songDetail.title}
             </h1>
-            <p className="text-xs text-slate-400">
-              Hover over or tap any lyric line to reveal its word-by-word gloss, literal translation, and natural English meaning.
-            </p>
           </div>
+
+          {/* 2. Embedded Media Player - Clean Spotify Audio Player (Universal Media Player; aspect-video container) */}
+          {spotifyEmbedUrl ? (
+            <div className="w-full rounded-2xl overflow-hidden shadow-2xl bg-[#121212] border border-[#243049]/80">
+              <iframe
+                src={spotifyEmbedUrl}
+                title={`${songDetail.title} Spotify player`}
+                width="100%"
+                height="152"
+                className="w-full border-0"
+                allow="encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"
+              />
+            </div>
+          ) : (
+            <div className="p-6 text-center text-slate-400 text-xs bg-[#151d2f] rounded-2xl border border-[#243049]/50 shadow-lg">
+              No embedded Spotify audio player available for this track.
+            </div>
+          )}
 
           {/* AZLyrics / Genius-Style Clean Lyrics View */}
           <div className="max-w-3xl mx-auto bg-[#101726] border border-[#243049] rounded-2xl p-6 sm:p-10 shadow-2xl space-y-8">
@@ -565,37 +494,80 @@ export default function SongsView() {
           ) : songs.length === 0 ? (
             <div className="p-12 text-center text-slate-500 text-sm">No songs found.</div>
           ) : (
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {songs.map((song) => (
-                <div
-                  key={song.id}
-                  onClick={() => setActiveSongSlug(song.slug)}
-                  className="group rounded-2xl bg-[#151d2f] border border-[#243049] hover:border-purple-500/50 p-6 sm:p-7 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-black/40 cursor-pointer flex flex-col justify-between"
-                >
-                  <div className="space-y-3">
-                    <div className="flex items-center justify-between gap-2">
-                      <div className="w-10 h-10 rounded-xl bg-purple-500/20 text-purple-400 border border-purple-500/30 flex items-center justify-center text-lg">
-                        🎵
-                      </div>
-                      <span className="text-[11px] font-semibold uppercase px-2 py-0.5 rounded bg-[#0f172a] text-purple-300 border border-[#243049]">
-                        4-Layer Breakdown
-                      </span>
-                    </div>
-
-                    <h3 className="text-xl font-bold text-white group-hover:text-purple-400 transition-colors">
-                      {song.title}
-                    </h3>
-                    <p className="text-xs text-slate-400">
-                      Full lyric analysis, word glosses, and idiomatic translations.
-                    </p>
-                  </div>
-
-                  <div className="pt-6 mt-6 border-t border-[#243049]/60 flex items-center justify-between text-xs font-semibold text-purple-400 group-hover:translate-x-1 transition-transform">
-                    <span>Explore Breakdown</span>
-                    <span>→</span>
-                  </div>
+            <div className="bg-[#151d2f] rounded-2xl border border-[#243049] overflow-hidden shadow-2xl">
+              {/* Spotify Playlist Column Headers (3 columns: Title, Album, Duration) */}
+              <div className="grid grid-cols-12 gap-4 px-4 sm:px-6 py-3 border-b border-[#243049] text-[11px] font-bold uppercase tracking-wider text-slate-400 select-none items-center">
+                <div className="col-span-7 sm:col-span-6 flex items-center gap-3">
+                  <span className="w-6 text-center">#</span>
+                  <span>Title</span>
                 </div>
-              ))}
+                <div className="col-span-3 sm:col-span-4">Album</div>
+                <div className="col-span-2 text-right pr-2 sm:pr-4 flex items-center justify-end">
+                  <Clock size={15} className="text-slate-400" />
+                </div>
+              </div>
+
+              {/* Playlist Tracks List (Full Width Rows - 3 Columns) */}
+              <div className="divide-y divide-[#243049]/40">
+                {songs.map((song, idx) => {
+                  const coverUrl = song.cover_art || dynamicCovers[song.slug];
+                  return (
+                    <div
+                      key={song.id || song.slug}
+                      onClick={() => setActiveSongSlug(song.slug)}
+                      className="group grid grid-cols-12 gap-4 px-4 sm:px-6 py-3.5 items-center hover:bg-[#1b253b] transition-all cursor-pointer select-none"
+                    >
+                      {/* Column 1: # Index / Play Indicator + Album Cover Art + Title & Artist */}
+                      <div className="col-span-7 sm:col-span-6 flex items-center gap-3.5 min-w-0">
+                        <div className="w-6 shrink-0 text-center flex items-center justify-center">
+                          <span className="text-xs font-semibold text-slate-400 group-hover:hidden">
+                            {idx + 1}
+                          </span>
+                          <Play
+                            size={14}
+                            className="hidden group-hover:block text-emerald-400"
+                            fill="currentColor"
+                          />
+                        </div>
+
+                        {coverUrl ? (
+                          <img
+                            src={coverUrl}
+                            alt={song.title}
+                            className="w-12 h-12 rounded-lg object-cover shadow-md border border-[#243049]/80 shrink-0 group-hover:scale-105 transition-transform"
+                            onError={(e) => {
+                              e.target.style.display = 'none';
+                            }}
+                          />
+                        ) : (
+                          <div className="w-12 h-12 rounded-lg bg-[#0f172a] border border-[#243049] flex items-center justify-center text-lg shrink-0 group-hover:border-emerald-500/50">
+                            🎵
+                          </div>
+                        )}
+
+                        <div className="min-w-0 pr-2">
+                          <h3 className="text-sm sm:text-base font-bold text-white group-hover:text-emerald-400 transition-colors truncate">
+                            {song.title}
+                          </h3>
+                          <p className="text-xs text-slate-400 truncate">
+                            {song.artist || 'Bollywood Classic'}
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Column 2: Movie / Soundtrack */}
+                      <div className="col-span-3 sm:col-span-4 text-xs text-slate-300 font-medium truncate">
+                        {song.movie || '—'}
+                      </div>
+
+                      {/* Column 3: Duration */}
+                      <div className="col-span-2 text-right pr-2 sm:pr-4 text-xs font-mono text-slate-400 group-hover:text-slate-200">
+                        {song.duration || '—'}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
             </div>
           )}
         </div>
