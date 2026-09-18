@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-09-18T01:18:14Z",
+  "synced_at": "2026-09-18T01:24:56Z",
   "stats": {
     "total": 242,
     "Mastered": 135,
@@ -19,12 +19,10 @@
       "factor": 2750,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-01",
-        "lesson::A0-02"
+        "lesson::A0-01"
       ],
       "lesson_codes": [
-        "A0-01",
-        "A0-02"
+        "A0-01"
       ],
       "primary_lesson": "A0-01",
       "is_general": false
@@ -41,9 +39,11 @@
       "factor": 2800,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-03",
         "lesson::A1-02"
       ],
       "lesson_codes": [
+        "A0-03",
         "A1-02"
       ],
       "primary_lesson": "A1-02",
@@ -62,13 +62,15 @@
       "status": "Mastered",
       "tags": [
         "lesson::A0-01",
-        "lesson::A0-02"
+        "lesson::A0-02",
+        "lesson::A0-03"
       ],
       "lesson_codes": [
         "A0-01",
-        "A0-02"
+        "A0-02",
+        "A0-03"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -83,12 +85,12 @@
       "factor": 2650,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-02",
-        "lesson::A1-01"
+        "lesson::A0-01",
+        "lesson::A0-02"
       ],
       "lesson_codes": [
-        "A0-02",
-        "A1-01"
+        "A0-01",
+        "A0-02"
       ],
       "primary_lesson": "A0-02",
       "is_general": false
@@ -105,9 +107,11 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-01",
         "lesson::A0-02"
       ],
       "lesson_codes": [
+        "A0-01",
         "A0-02"
       ],
       "primary_lesson": "A0-02",
@@ -125,12 +129,10 @@
       "factor": 2800,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-01",
-        "lesson::A0-04"
+        "lesson::A0-01"
       ],
       "lesson_codes": [
-        "A0-01",
-        "A0-04"
+        "A0-01"
       ],
       "primary_lesson": "A0-01",
       "is_general": false
@@ -146,12 +148,10 @@
       "queue": 2,
       "factor": 2800,
       "status": "Mastered",
-      "tags": [
-        "lesson::general"
-      ],
+      "tags": [],
       "lesson_codes": [],
-      "primary_lesson": "general",
-      "is_general": true
+      "primary_lesson": "",
+      "is_general": false
     },
     {
       "cardId": 1785455281065,
@@ -165,9 +165,11 @@
       "factor": 2650,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-01",
         "lesson::A0-03"
       ],
       "lesson_codes": [
+        "A0-01",
         "A0-03"
       ],
       "primary_lesson": "A0-03",
@@ -186,13 +188,13 @@
       "status": "Mastered",
       "tags": [
         "lesson::A0-01",
-        "lesson::A0-03"
+        "lesson::A0-02"
       ],
       "lesson_codes": [
         "A0-01",
-        "A0-03"
+        "A0-02"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A0-02",
       "is_general": false
     },
     {
@@ -207,12 +209,16 @@
       "factor": 2600,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-05"
+        "lesson::A0-01",
+        "lesson::A0-02",
+        "lesson::A0-03"
       ],
       "lesson_codes": [
-        "A0-05"
+        "A0-01",
+        "A0-02",
+        "A0-03"
       ],
-      "primary_lesson": "A0-05",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -228,13 +234,15 @@
       "status": "Mastered",
       "tags": [
         "lesson::A0-01",
-        "lesson::A0-02"
+        "lesson::A0-02",
+        "lesson::A0-03"
       ],
       "lesson_codes": [
         "A0-01",
-        "A0-02"
+        "A0-02",
+        "A0-03"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -269,14 +277,16 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-01",
         "lesson::A0-03",
         "lesson::A0-05"
       ],
       "lesson_codes": [
+        "A0-01",
         "A0-03",
         "A0-05"
       ],
-      "primary_lesson": "A0-03",
+      "primary_lesson": "A0-05",
       "is_general": false
     },
     {
@@ -291,9 +301,11 @@
       "factor": 2250,
       "status": "Struggling",
       "tags": [
+        "lesson::A0-08",
         "lesson::A1-01"
       ],
       "lesson_codes": [
+        "A0-08",
         "A1-01"
       ],
       "primary_lesson": "A1-01",
@@ -318,7 +330,7 @@
         "A0-01",
         "A0-02"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A0-02",
       "is_general": false
     },
     {
@@ -334,13 +346,15 @@
       "status": "Mastered",
       "tags": [
         "lesson::A0-01",
-        "lesson::A0-02"
+        "lesson::A0-02",
+        "lesson::A0-03"
       ],
       "lesson_codes": [
         "A0-01",
-        "A0-02"
+        "A0-02",
+        "A0-03"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -355,9 +369,13 @@
       "factor": 2650,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-01",
+        "lesson::A0-02",
         "lesson::A0-03"
       ],
       "lesson_codes": [
+        "A0-01",
+        "A0-02",
         "A0-03"
       ],
       "primary_lesson": "A0-03",
@@ -375,9 +393,11 @@
       "factor": 2650,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-01",
         "lesson::A0-02"
       ],
       "lesson_codes": [
+        "A0-01",
         "A0-02"
       ],
       "primary_lesson": "A0-02",
@@ -395,9 +415,11 @@
       "factor": 2100,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-03",
         "lesson::A0-04"
       ],
       "lesson_codes": [
+        "A0-03",
         "A0-04"
       ],
       "primary_lesson": "A0-04",
@@ -415,12 +437,16 @@
       "factor": 2650,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-02"
+        "lesson::A0-01",
+        "lesson::A0-02",
+        "lesson::A0-03"
       ],
       "lesson_codes": [
-        "A0-02"
+        "A0-01",
+        "A0-02",
+        "A0-03"
       ],
-      "primary_lesson": "A0-02",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -435,9 +461,13 @@
       "factor": 2150,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-01",
+        "lesson::A0-02",
         "lesson::A0-03"
       ],
       "lesson_codes": [
+        "A0-01",
+        "A0-02",
         "A0-03"
       ],
       "primary_lesson": "A0-03",
@@ -455,9 +485,11 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-01",
         "lesson::A0-02"
       ],
       "lesson_codes": [
+        "A0-01",
         "A0-02"
       ],
       "primary_lesson": "A0-02",
@@ -475,12 +507,16 @@
       "factor": 2150,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-04",
-        "lesson::A0-05"
+        "lesson::A0-01",
+        "lesson::A0-02",
+        "lesson::A0-03",
+        "lesson::A0-04"
       ],
       "lesson_codes": [
-        "A0-04",
-        "A0-05"
+        "A0-01",
+        "A0-02",
+        "A0-03",
+        "A0-04"
       ],
       "primary_lesson": "A0-04",
       "is_general": false
@@ -497,12 +533,12 @@
       "factor": 2650,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-02",
-        "lesson::A0-04"
+        "lesson::A0-01",
+        "lesson::A0-02"
       ],
       "lesson_codes": [
-        "A0-02",
-        "A0-04"
+        "A0-01",
+        "A0-02"
       ],
       "primary_lesson": "A0-02",
       "is_general": false
@@ -519,9 +555,13 @@
       "factor": 2450,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-01",
+        "lesson::A0-02",
         "lesson::A0-04"
       ],
       "lesson_codes": [
+        "A0-01",
+        "A0-02",
         "A0-04"
       ],
       "primary_lesson": "A0-04",
@@ -539,14 +579,16 @@
       "factor": 2300,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-03",
         "lesson::A0-04",
         "lesson::A0-05"
       ],
       "lesson_codes": [
+        "A0-03",
         "A0-04",
         "A0-05"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A0-05",
       "is_general": false
     },
     {
@@ -561,14 +603,22 @@
       "factor": 2600,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-01",
+        "lesson::A0-02",
+        "lesson::A0-03",
         "lesson::A0-04",
+        "lesson::A0-05",
         "lesson::A1-02"
       ],
       "lesson_codes": [
+        "A0-01",
+        "A0-02",
+        "A0-03",
         "A0-04",
+        "A0-05",
         "A1-02"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A1-02",
       "is_general": false
     },
     {
@@ -583,9 +633,13 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-01",
+        "lesson::A0-02",
         "lesson::A0-04"
       ],
       "lesson_codes": [
+        "A0-01",
+        "A0-02",
         "A0-04"
       ],
       "primary_lesson": "A0-04",
@@ -603,9 +657,11 @@
       "factor": 2650,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-01",
         "lesson::A0-04"
       ],
       "lesson_codes": [
+        "A0-01",
         "A0-04"
       ],
       "primary_lesson": "A0-04",
@@ -624,13 +680,13 @@
       "status": "Mastered",
       "tags": [
         "lesson::A0-03",
-        "lesson::A1-01"
+        "lesson::A0-05"
       ],
       "lesson_codes": [
         "A0-03",
-        "A1-01"
+        "A0-05"
       ],
-      "primary_lesson": "A0-03",
+      "primary_lesson": "A0-05",
       "is_general": false
     },
     {
@@ -645,14 +701,18 @@
       "factor": 2300,
       "status": "Learning",
       "tags": [
+        "lesson::A0-01",
+        "lesson::A0-02",
         "lesson::A0-04",
         "lesson::A1-02"
       ],
       "lesson_codes": [
+        "A0-01",
+        "A0-02",
         "A0-04",
         "A1-02"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A1-02",
       "is_general": false
     },
     {
@@ -667,12 +727,12 @@
       "factor": 2100,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-04",
-        "lesson::A1-04"
+        "lesson::A0-03",
+        "lesson::A0-04"
       ],
       "lesson_codes": [
-        "A0-04",
-        "A1-04"
+        "A0-03",
+        "A0-04"
       ],
       "primary_lesson": "A0-04",
       "is_general": false
@@ -689,9 +749,13 @@
       "factor": 2100,
       "status": "Struggling",
       "tags": [
+        "lesson::A0-01",
+        "lesson::A0-02",
         "lesson::A0-04"
       ],
       "lesson_codes": [
+        "A0-01",
+        "A0-02",
         "A0-04"
       ],
       "primary_lesson": "A0-04",
@@ -709,9 +773,15 @@
       "factor": 2150,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-01",
+        "lesson::A0-02",
+        "lesson::A0-03",
         "lesson::A0-04"
       ],
       "lesson_codes": [
+        "A0-01",
+        "A0-02",
+        "A0-03",
         "A0-04"
       ],
       "primary_lesson": "A0-04",
@@ -729,9 +799,11 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-03",
         "lesson::A0-06"
       ],
       "lesson_codes": [
+        "A0-03",
         "A0-06"
       ],
       "primary_lesson": "A0-06",
@@ -749,14 +821,16 @@
       "factor": 2100,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-03",
         "lesson::A0-06",
         "lesson::A1-02"
       ],
       "lesson_codes": [
+        "A0-03",
         "A0-06",
         "A1-02"
       ],
-      "primary_lesson": "A0-06",
+      "primary_lesson": "A1-02",
       "is_general": false
     },
     {
@@ -771,14 +845,15 @@
       "factor": 2150,
       "status": "Mastered",
       "tags": [
-        "lesson::A2-01",
-        "lesson::general"
+        "lesson::A1-08",
+        "lesson::A2-01"
       ],
       "lesson_codes": [
+        "A1-08",
         "A2-01"
       ],
       "primary_lesson": "A2-01",
-      "is_general": true
+      "is_general": false
     },
     {
       "cardId": 1785455281096,
@@ -792,14 +867,13 @@
       "factor": 2650,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-02",
-        "lesson::general"
+        "lesson::A0-03"
       ],
       "lesson_codes": [
-        "A0-02"
+        "A0-03"
       ],
-      "primary_lesson": "A0-02",
-      "is_general": true
+      "primary_lesson": "A0-03",
+      "is_general": false
     },
     {
       "cardId": 1785455281097,
@@ -813,14 +887,17 @@
       "factor": 1900,
       "status": "Struggling",
       "tags": [
-        "lesson::A2-01",
-        "lesson::general"
+        "lesson::A0-03",
+        "lesson::A1-02",
+        "lesson::A1-08"
       ],
       "lesson_codes": [
-        "A2-01"
+        "A0-03",
+        "A1-02",
+        "A1-08"
       ],
-      "primary_lesson": "A2-01",
-      "is_general": true
+      "primary_lesson": "A1-08",
+      "is_general": false
     },
     {
       "cardId": 1785455281098,
@@ -834,9 +911,11 @@
       "factor": 2350,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-03",
         "lesson::A0-06"
       ],
       "lesson_codes": [
+        "A0-03",
         "A0-06"
       ],
       "primary_lesson": "A0-06",
@@ -854,14 +933,15 @@
       "factor": 2350,
       "status": "Mastered",
       "tags": [
-        "lesson::A2-01",
-        "lesson::general"
+        "lesson::A0-03",
+        "lesson::A1-08"
       ],
       "lesson_codes": [
-        "A2-01"
+        "A0-03",
+        "A1-08"
       ],
-      "primary_lesson": "A2-01",
-      "is_general": true
+      "primary_lesson": "A1-08",
+      "is_general": false
     },
     {
       "cardId": 1785455281100,
@@ -875,14 +955,15 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
-        "lesson::A2-01",
-        "lesson::general"
+        "lesson::A0-03",
+        "lesson::A1-08"
       ],
       "lesson_codes": [
-        "A2-01"
+        "A0-03",
+        "A1-08"
       ],
-      "primary_lesson": "A2-01",
-      "is_general": true
+      "primary_lesson": "A1-08",
+      "is_general": false
     },
     {
       "cardId": 1785455281101,
@@ -896,11 +977,15 @@
       "factor": 2650,
       "status": "Mastered",
       "tags": [
-        "lesson::general"
+        "lesson::A0-03",
+        "lesson::A0-06"
       ],
-      "lesson_codes": [],
-      "primary_lesson": "general",
-      "is_general": true
+      "lesson_codes": [
+        "A0-03",
+        "A0-06"
+      ],
+      "primary_lesson": "A0-06",
+      "is_general": false
     },
     {
       "cardId": 1785455281102,
@@ -914,14 +999,13 @@
       "factor": 2100,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-08",
-        "lesson::general"
+        "lesson::A0-08"
       ],
       "lesson_codes": [
         "A0-08"
       ],
       "primary_lesson": "A0-08",
-      "is_general": true
+      "is_general": false
     },
     {
       "cardId": 1785455281103,
@@ -935,9 +1019,13 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-03",
+        "lesson::A0-05",
         "lesson::A0-08"
       ],
       "lesson_codes": [
+        "A0-03",
+        "A0-05",
         "A0-08"
       ],
       "primary_lesson": "A0-08",
@@ -955,14 +1043,13 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-08",
-        "lesson::general"
+        "lesson::A0-03"
       ],
       "lesson_codes": [
-        "A0-08"
+        "A0-03"
       ],
-      "primary_lesson": "A0-08",
-      "is_general": true
+      "primary_lesson": "A0-03",
+      "is_general": false
     },
     {
       "cardId": 1785455281105,
@@ -976,14 +1063,14 @@
       "factor": 2350,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-01",
+        "lesson::A0-02",
         "lesson::A1-02"
       ],
       "lesson_codes": [
-        "A0-01",
+        "A0-02",
         "A1-02"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A1-02",
       "is_general": false
     },
     {
@@ -998,14 +1085,15 @@
       "factor": 2100,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-08",
-        "lesson::general"
+        "lesson::A0-03",
+        "lesson::A0-08"
       ],
       "lesson_codes": [
+        "A0-03",
         "A0-08"
       ],
       "primary_lesson": "A0-08",
-      "is_general": true
+      "is_general": false
     },
     {
       "cardId": 1785455281107,
@@ -1026,7 +1114,7 @@
         "A0-03",
         "A1-02"
       ],
-      "primary_lesson": "A0-03",
+      "primary_lesson": "A1-02",
       "is_general": false
     },
     {
@@ -1041,9 +1129,11 @@
       "factor": 1900,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-01",
         "lesson::A0-03"
       ],
       "lesson_codes": [
+        "A0-01",
         "A0-03"
       ],
       "primary_lesson": "A0-03",
@@ -1061,9 +1151,11 @@
       "factor": 2100,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-03",
         "lesson::A0-08"
       ],
       "lesson_codes": [
+        "A0-03",
         "A0-08"
       ],
       "primary_lesson": "A0-08",
@@ -1081,9 +1173,11 @@
       "factor": 2300,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-03",
         "lesson::A0-08"
       ],
       "lesson_codes": [
+        "A0-03",
         "A0-08"
       ],
       "primary_lesson": "A0-08",
@@ -1101,9 +1195,11 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-01",
         "lesson::A0-03"
       ],
       "lesson_codes": [
+        "A0-01",
         "A0-03"
       ],
       "primary_lesson": "A0-03",
@@ -1121,14 +1217,12 @@
       "factor": 2300,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-01",
         "lesson::A0-02"
       ],
       "lesson_codes": [
-        "A0-01",
         "A0-02"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A0-02",
       "is_general": false
     },
     {
@@ -1143,12 +1237,14 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
-        "lesson::A1-01"
+        "lesson::A0-01",
+        "lesson::A0-02"
       ],
       "lesson_codes": [
-        "A1-01"
+        "A0-01",
+        "A0-02"
       ],
-      "primary_lesson": "A1-01",
+      "primary_lesson": "A0-02",
       "is_general": false
     },
     {
@@ -1164,13 +1260,15 @@
       "status": "Mastered",
       "tags": [
         "lesson::A0-01",
+        "lesson::A0-03",
         "lesson::A1-01"
       ],
       "lesson_codes": [
         "A0-01",
+        "A0-03",
         "A1-01"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A1-01",
       "is_general": false
     },
     {
@@ -1185,9 +1283,15 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-01",
+        "lesson::A0-02",
+        "lesson::A0-03",
         "lesson::A0-04"
       ],
       "lesson_codes": [
+        "A0-01",
+        "A0-02",
+        "A0-03",
         "A0-04"
       ],
       "primary_lesson": "A0-04",
@@ -1205,14 +1309,18 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-01",
+        "lesson::A0-02",
         "lesson::A0-04",
         "lesson::A1-02"
       ],
       "lesson_codes": [
+        "A0-01",
+        "A0-02",
         "A0-04",
         "A1-02"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A1-02",
       "is_general": false
     },
     {
@@ -1228,13 +1336,13 @@
       "status": "Mastered",
       "tags": [
         "lesson::A0-04",
-        "lesson::A0-06"
+        "lesson::A1-05"
       ],
       "lesson_codes": [
         "A0-04",
-        "A0-06"
+        "A1-05"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A1-05",
       "is_general": false
     },
     {
@@ -1249,14 +1357,15 @@
       "factor": 2450,
       "status": "Mastered",
       "tags": [
-        "lesson::A1-10",
-        "lesson::general"
+        "lesson::A0-01",
+        "lesson::A0-08"
       ],
       "lesson_codes": [
-        "A1-10"
+        "A0-01",
+        "A0-08"
       ],
-      "primary_lesson": "A1-10",
-      "is_general": true
+      "primary_lesson": "A0-08",
+      "is_general": false
     },
     {
       "cardId": 1786154412088,
@@ -1269,12 +1378,10 @@
       "queue": 2,
       "factor": 2600,
       "status": "Mastered",
-      "tags": [
-        "lesson::general"
-      ],
+      "tags": [],
       "lesson_codes": [],
-      "primary_lesson": "general",
-      "is_general": true
+      "primary_lesson": "",
+      "is_general": false
     },
     {
       "cardId": 1786206309049,
@@ -1288,9 +1395,13 @@
       "factor": 2300,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-03",
+        "lesson::A0-05",
         "lesson::A0-06"
       ],
       "lesson_codes": [
+        "A0-03",
+        "A0-05",
         "A0-06"
       ],
       "primary_lesson": "A0-06",
@@ -1308,14 +1419,19 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
-        "lesson::A2-01",
-        "lesson::general"
+        "lesson::A0-01",
+        "lesson::A0-02",
+        "lesson::A0-08",
+        "lesson::A1-08"
       ],
       "lesson_codes": [
-        "A2-01"
+        "A0-01",
+        "A0-02",
+        "A0-08",
+        "A1-08"
       ],
-      "primary_lesson": "A2-01",
-      "is_general": true
+      "primary_lesson": "A1-08",
+      "is_general": false
     },
     {
       "cardId": 1786207151648,
@@ -1376,7 +1492,7 @@
         "A0-01",
         "A0-02"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A0-02",
       "is_general": false
     },
     {
@@ -1391,14 +1507,19 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
-        "lesson::A2-01",
-        "lesson::general"
+        "lesson::A0-01",
+        "lesson::A0-02",
+        "lesson::A0-08",
+        "lesson::A1-08"
       ],
       "lesson_codes": [
-        "A2-01"
+        "A0-01",
+        "A0-02",
+        "A0-08",
+        "A1-08"
       ],
-      "primary_lesson": "A2-01",
-      "is_general": true
+      "primary_lesson": "A1-08",
+      "is_general": false
     },
     {
       "cardId": 1786236329276,
@@ -1412,12 +1533,16 @@
       "factor": 2300,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-08",
-        "lesson::A1-02"
+        "lesson::A0-01",
+        "lesson::A0-02",
+        "lesson::A0-06",
+        "lesson::A0-08"
       ],
       "lesson_codes": [
-        "A0-08",
-        "A1-02"
+        "A0-01",
+        "A0-02",
+        "A0-06",
+        "A0-08"
       ],
       "primary_lesson": "A0-08",
       "is_general": false
@@ -1434,14 +1559,19 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
-        "lesson::A2-01",
-        "lesson::general"
+        "lesson::A0-01",
+        "lesson::A0-02",
+        "lesson::A0-08",
+        "lesson::A1-08"
       ],
       "lesson_codes": [
-        "A2-01"
+        "A0-01",
+        "A0-02",
+        "A0-08",
+        "A1-08"
       ],
-      "primary_lesson": "A2-01",
-      "is_general": true
+      "primary_lesson": "A1-08",
+      "is_general": false
     },
     {
       "cardId": 1786236329278,
@@ -1455,14 +1585,19 @@
       "factor": 2100,
       "status": "Mastered",
       "tags": [
-        "lesson::A2-01",
-        "lesson::general"
+        "lesson::A0-01",
+        "lesson::A0-02",
+        "lesson::A0-08",
+        "lesson::A1-08"
       ],
       "lesson_codes": [
-        "A2-01"
+        "A0-01",
+        "A0-02",
+        "A0-08",
+        "A1-08"
       ],
-      "primary_lesson": "A2-01",
-      "is_general": true
+      "primary_lesson": "A1-08",
+      "is_general": false
     },
     {
       "cardId": 1786236329279,
@@ -1476,14 +1611,19 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
-        "lesson::A2-01",
-        "lesson::general"
+        "lesson::A0-01",
+        "lesson::A0-02",
+        "lesson::A0-08",
+        "lesson::A1-08"
       ],
       "lesson_codes": [
-        "A2-01"
+        "A0-01",
+        "A0-02",
+        "A0-08",
+        "A1-08"
       ],
-      "primary_lesson": "A2-01",
-      "is_general": true
+      "primary_lesson": "A1-08",
+      "is_general": false
     },
     {
       "cardId": 1786236329280,
@@ -1497,14 +1637,19 @@
       "factor": 2300,
       "status": "Mastered",
       "tags": [
-        "lesson::A2-01",
-        "lesson::general"
+        "lesson::A0-01",
+        "lesson::A0-02",
+        "lesson::A0-08",
+        "lesson::A1-08"
       ],
       "lesson_codes": [
-        "A2-01"
+        "A0-01",
+        "A0-02",
+        "A0-08",
+        "A1-08"
       ],
-      "primary_lesson": "A2-01",
-      "is_general": true
+      "primary_lesson": "A1-08",
+      "is_general": false
     },
     {
       "cardId": 1786236329281,
@@ -1518,14 +1663,19 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
-        "lesson::A2-01",
-        "lesson::general"
+        "lesson::A0-01",
+        "lesson::A0-02",
+        "lesson::A0-03",
+        "lesson::A1-08"
       ],
       "lesson_codes": [
-        "A2-01"
+        "A0-01",
+        "A0-02",
+        "A0-03",
+        "A1-08"
       ],
-      "primary_lesson": "A2-01",
-      "is_general": true
+      "primary_lesson": "A1-08",
+      "is_general": false
     },
     {
       "cardId": 1786236329282,
@@ -1539,14 +1689,21 @@
       "factor": 2300,
       "status": "Mastered",
       "tags": [
-        "lesson::A2-01",
-        "lesson::general"
+        "lesson::A0-01",
+        "lesson::A0-02",
+        "lesson::A0-08",
+        "lesson::A1-06",
+        "lesson::A1-08"
       ],
       "lesson_codes": [
-        "A2-01"
+        "A0-01",
+        "A0-02",
+        "A0-08",
+        "A1-06",
+        "A1-08"
       ],
-      "primary_lesson": "A2-01",
-      "is_general": true
+      "primary_lesson": "A1-08",
+      "is_general": false
     },
     {
       "cardId": 1786236329283,
@@ -1560,14 +1717,21 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
-        "lesson::A2-01",
-        "lesson::general"
+        "lesson::A0-01",
+        "lesson::A0-02",
+        "lesson::A0-03",
+        "lesson::A0-08",
+        "lesson::A1-08"
       ],
       "lesson_codes": [
-        "A2-01"
+        "A0-01",
+        "A0-02",
+        "A0-03",
+        "A0-08",
+        "A1-08"
       ],
-      "primary_lesson": "A2-01",
-      "is_general": true
+      "primary_lesson": "A1-08",
+      "is_general": false
     },
     {
       "cardId": 1786236329284,
@@ -1581,14 +1745,19 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
-        "lesson::A2-01",
-        "lesson::general"
+        "lesson::A0-01",
+        "lesson::A0-02",
+        "lesson::A0-08",
+        "lesson::A1-08"
       ],
       "lesson_codes": [
-        "A2-01"
+        "A0-01",
+        "A0-02",
+        "A0-08",
+        "A1-08"
       ],
-      "primary_lesson": "A2-01",
-      "is_general": true
+      "primary_lesson": "A1-08",
+      "is_general": false
     },
     {
       "cardId": 1786236329285,
@@ -1602,14 +1771,19 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
-        "lesson::A2-01",
-        "lesson::general"
+        "lesson::A0-01",
+        "lesson::A0-02",
+        "lesson::A0-08",
+        "lesson::A1-08"
       ],
       "lesson_codes": [
-        "A2-01"
+        "A0-01",
+        "A0-02",
+        "A0-08",
+        "A1-08"
       ],
-      "primary_lesson": "A2-01",
-      "is_general": true
+      "primary_lesson": "A1-08",
+      "is_general": false
     },
     {
       "cardId": 1786236329286,
@@ -1623,14 +1797,19 @@
       "factor": 2300,
       "status": "Learning",
       "tags": [
-        "lesson::A2-01",
-        "lesson::general"
+        "lesson::A0-01",
+        "lesson::A0-02",
+        "lesson::A0-08",
+        "lesson::A1-08"
       ],
       "lesson_codes": [
-        "A2-01"
+        "A0-01",
+        "A0-02",
+        "A0-08",
+        "A1-08"
       ],
-      "primary_lesson": "A2-01",
-      "is_general": true
+      "primary_lesson": "A1-08",
+      "is_general": false
     },
     {
       "cardId": 1786236329287,
@@ -1644,14 +1823,21 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
-        "lesson::A2-01",
-        "lesson::general"
+        "lesson::A0-01",
+        "lesson::A0-02",
+        "lesson::A0-03",
+        "lesson::A0-08",
+        "lesson::A1-08"
       ],
       "lesson_codes": [
-        "A2-01"
+        "A0-01",
+        "A0-02",
+        "A0-03",
+        "A0-08",
+        "A1-08"
       ],
-      "primary_lesson": "A2-01",
-      "is_general": true
+      "primary_lesson": "A1-08",
+      "is_general": false
     },
     {
       "cardId": 1786304566158,
@@ -1665,14 +1851,18 @@
       "factor": 2300,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-04",
-        "lesson::A1-06"
+        "lesson::A1-02",
+        "lesson::A1-03",
+        "lesson::A1-06",
+        "lesson::A1-08"
       ],
       "lesson_codes": [
-        "A0-04",
-        "A1-06"
+        "A1-02",
+        "A1-03",
+        "A1-06",
+        "A1-08"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A1-08",
       "is_general": false
     },
     {
@@ -1687,14 +1877,20 @@
       "factor": 1950,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-03",
         "lesson::A0-04",
-        "lesson::A1-03"
+        "lesson::A1-03",
+        "lesson::A1-05",
+        "lesson::A1-08"
       ],
       "lesson_codes": [
+        "A0-03",
         "A0-04",
-        "A1-03"
+        "A1-03",
+        "A1-05",
+        "A1-08"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A1-08",
       "is_general": false
     },
     {
@@ -1709,9 +1905,11 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-02",
         "lesson::A0-03"
       ],
       "lesson_codes": [
+        "A0-02",
         "A0-03"
       ],
       "primary_lesson": "A0-03",
@@ -1729,12 +1927,14 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-01"
+        "lesson::A0-02",
+        "lesson::A0-03"
       ],
       "lesson_codes": [
-        "A0-01"
+        "A0-02",
+        "A0-03"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -1749,9 +1949,15 @@
       "factor": 2100,
       "status": "Learning",
       "tags": [
+        "lesson::A0-02",
+        "lesson::A0-03",
+        "lesson::A0-05",
         "lesson::A1-04"
       ],
       "lesson_codes": [
+        "A0-02",
+        "A0-03",
+        "A0-05",
         "A1-04"
       ],
       "primary_lesson": "A1-04",
@@ -1770,13 +1976,15 @@
       "status": "Mastered",
       "tags": [
         "lesson::A0-02",
+        "lesson::A0-03",
         "lesson::A0-05"
       ],
       "lesson_codes": [
         "A0-02",
+        "A0-03",
         "A0-05"
       ],
-      "primary_lesson": "A0-02",
+      "primary_lesson": "A0-05",
       "is_general": false
     },
     {
@@ -1791,14 +1999,12 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-01",
-        "lesson::A0-03"
+        "lesson::A1-02"
       ],
       "lesson_codes": [
-        "A0-01",
-        "A0-03"
+        "A1-02"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A1-02",
       "is_general": false
     },
     {
@@ -1813,9 +2019,11 @@
       "factor": 2300,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-01",
         "lesson::A1-02"
       ],
       "lesson_codes": [
+        "A0-01",
         "A1-02"
       ],
       "primary_lesson": "A1-02",
@@ -1833,12 +2041,14 @@
       "factor": 2100,
       "status": "Struggling",
       "tags": [
-        "lesson::A0-03"
+        "lesson::A0-03",
+        "lesson::A1-02"
       ],
       "lesson_codes": [
-        "A0-03"
+        "A0-03",
+        "A1-02"
       ],
-      "primary_lesson": "A0-03",
+      "primary_lesson": "A1-02",
       "is_general": false
     },
     {
@@ -1853,12 +2063,14 @@
       "factor": 2300,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-01"
+        "lesson::A0-01",
+        "lesson::A0-03"
       ],
       "lesson_codes": [
-        "A0-01"
+        "A0-01",
+        "A0-03"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -1874,13 +2086,15 @@
       "status": "Mastered",
       "tags": [
         "lesson::A0-01",
-        "lesson::A0-02"
+        "lesson::A0-02",
+        "lesson::A0-03"
       ],
       "lesson_codes": [
         "A0-01",
-        "A0-02"
+        "A0-02",
+        "A0-03"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -1895,14 +2109,18 @@
       "factor": 1700,
       "status": "Struggling",
       "tags": [
+        "lesson::A0-01",
         "lesson::A0-03",
-        "lesson::A0-06"
+        "lesson::A0-06",
+        "lesson::A2-01"
       ],
       "lesson_codes": [
+        "A0-01",
         "A0-03",
-        "A0-06"
+        "A0-06",
+        "A2-01"
       ],
-      "primary_lesson": "A0-03",
+      "primary_lesson": "A2-01",
       "is_general": false
     },
     {
@@ -1917,12 +2135,20 @@
       "factor": 2300,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-04"
+        "lesson::A0-01",
+        "lesson::A0-02",
+        "lesson::A0-03",
+        "lesson::A0-04",
+        "lesson::A1-02"
       ],
       "lesson_codes": [
-        "A0-04"
+        "A0-01",
+        "A0-02",
+        "A0-03",
+        "A0-04",
+        "A1-02"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A1-02",
       "is_general": false
     },
     {
@@ -1937,14 +2163,20 @@
       "factor": 2300,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-01",
+        "lesson::A0-02",
         "lesson::A0-04",
-        "lesson::A0-08"
+        "lesson::A0-08",
+        "lesson::A1-05"
       ],
       "lesson_codes": [
+        "A0-01",
+        "A0-02",
         "A0-04",
-        "A0-08"
+        "A0-08",
+        "A1-05"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A1-05",
       "is_general": false
     },
     {
@@ -1959,12 +2191,14 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-04"
+        "lesson::A0-04",
+        "lesson::A0-06"
       ],
       "lesson_codes": [
-        "A0-04"
+        "A0-04",
+        "A0-06"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A0-06",
       "is_general": false
     },
     {
@@ -1980,13 +2214,15 @@
       "status": "Learning",
       "tags": [
         "lesson::A0-04",
+        "lesson::A0-06",
         "lesson::A1-02"
       ],
       "lesson_codes": [
         "A0-04",
+        "A0-06",
         "A1-02"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A1-02",
       "is_general": false
     },
     {
@@ -2001,14 +2237,13 @@
       "factor": 2300,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-06",
-        "lesson::general"
+        "lesson::A0-06"
       ],
       "lesson_codes": [
         "A0-06"
       ],
       "primary_lesson": "A0-06",
-      "is_general": true
+      "is_general": false
     },
     {
       "cardId": 1786503349042,
@@ -2022,14 +2257,14 @@
       "factor": 2300,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-04",
+        "lesson::A0-02",
         "lesson::A0-08"
       ],
       "lesson_codes": [
-        "A0-04",
+        "A0-02",
         "A0-08"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A0-08",
       "is_general": false
     },
     {
@@ -2044,9 +2279,15 @@
       "factor": 2100,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-01",
+        "lesson::A0-02",
+        "lesson::A0-04",
         "lesson::A1-03"
       ],
       "lesson_codes": [
+        "A0-01",
+        "A0-02",
+        "A0-04",
         "A1-03"
       ],
       "primary_lesson": "A1-03",
@@ -2064,14 +2305,16 @@
       "factor": 2300,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-01",
         "lesson::A0-03",
-        "lesson::A1-01"
+        "lesson::A1-02"
       ],
       "lesson_codes": [
+        "A0-01",
         "A0-03",
-        "A1-01"
+        "A1-02"
       ],
-      "primary_lesson": "A0-03",
+      "primary_lesson": "A1-02",
       "is_general": false
     },
     {
@@ -2086,14 +2329,19 @@
       "factor": 2100,
       "status": "Struggling",
       "tags": [
-        "lesson::A2-01",
-        "lesson::general"
+        "lesson::A0-01",
+        "lesson::A0-02",
+        "lesson::A0-08",
+        "lesson::A1-08"
       ],
       "lesson_codes": [
-        "A2-01"
+        "A0-01",
+        "A0-02",
+        "A0-08",
+        "A1-08"
       ],
-      "primary_lesson": "A2-01",
-      "is_general": true
+      "primary_lesson": "A1-08",
+      "is_general": false
     },
     {
       "cardId": 1787013851224,
@@ -2106,15 +2354,10 @@
       "queue": 2,
       "factor": 2500,
       "status": "Mastered",
-      "tags": [
-        "lesson::A1-06",
-        "lesson::general"
-      ],
-      "lesson_codes": [
-        "A1-06"
-      ],
-      "primary_lesson": "A1-06",
-      "is_general": true
+      "tags": [],
+      "lesson_codes": [],
+      "primary_lesson": "",
+      "is_general": false
     },
     {
       "cardId": 1787020643392,
@@ -2129,13 +2372,17 @@
       "status": "Mastered",
       "tags": [
         "lesson::A0-01",
+        "lesson::A0-02",
+        "lesson::A0-03",
         "lesson::A0-05"
       ],
       "lesson_codes": [
         "A0-01",
+        "A0-02",
+        "A0-03",
         "A0-05"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A0-05",
       "is_general": false
     },
     {
@@ -2151,13 +2398,13 @@
       "status": "Struggling",
       "tags": [
         "lesson::A0-01",
-        "lesson::A0-05"
+        "lesson::A0-02"
       ],
       "lesson_codes": [
         "A0-01",
-        "A0-05"
+        "A0-02"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A0-02",
       "is_general": false
     },
     {
@@ -2172,14 +2419,18 @@
       "factor": 1700,
       "status": "Struggling",
       "tags": [
+        "lesson::A0-02",
+        "lesson::A0-03",
         "lesson::A0-04",
-        "lesson::A1-06"
+        "lesson::A0-05"
       ],
       "lesson_codes": [
+        "A0-02",
+        "A0-03",
         "A0-04",
-        "A1-06"
+        "A0-05"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A0-05",
       "is_general": false
     },
     {
@@ -2194,12 +2445,16 @@
       "factor": 2100,
       "status": "Learning",
       "tags": [
-        "lesson::A0-04"
+        "lesson::A0-03",
+        "lesson::A0-04",
+        "lesson::A0-05"
       ],
       "lesson_codes": [
-        "A0-04"
+        "A0-03",
+        "A0-04",
+        "A0-05"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A0-05",
       "is_general": false
     },
     {
@@ -2214,12 +2469,20 @@
       "factor": 1950,
       "status": "Learning",
       "tags": [
-        "lesson::A0-04"
+        "lesson::A0-01",
+        "lesson::A0-02",
+        "lesson::A0-03",
+        "lesson::A0-04",
+        "lesson::A0-05"
       ],
       "lesson_codes": [
-        "A0-04"
+        "A0-01",
+        "A0-02",
+        "A0-03",
+        "A0-04",
+        "A0-05"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A0-05",
       "is_general": false
     },
     {
@@ -2234,14 +2497,16 @@
       "factor": 2050,
       "status": "Struggling",
       "tags": [
+        "lesson::A0-01",
         "lesson::A0-03",
         "lesson::A0-05"
       ],
       "lesson_codes": [
+        "A0-01",
         "A0-03",
         "A0-05"
       ],
-      "primary_lesson": "A0-03",
+      "primary_lesson": "A0-05",
       "is_general": false
     },
     {
@@ -2276,14 +2541,12 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-01",
         "lesson::A0-02"
       ],
       "lesson_codes": [
-        "A0-01",
         "A0-02"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A0-02",
       "is_general": false
     },
     {
@@ -2298,14 +2561,16 @@
       "factor": 2650,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-01",
-        "lesson::A1-02"
+        "lesson::A0-06",
+        "lesson::A1-02",
+        "lesson::A2-01"
       ],
       "lesson_codes": [
-        "A0-01",
-        "A1-02"
+        "A0-06",
+        "A1-02",
+        "A2-01"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A2-01",
       "is_general": false
     },
     {
@@ -2320,14 +2585,15 @@
       "factor": 2300,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-04",
-        "lesson::general"
+        "lesson::A0-03",
+        "lesson::A0-04"
       ],
       "lesson_codes": [
+        "A0-03",
         "A0-04"
       ],
       "primary_lesson": "A0-04",
-      "is_general": true
+      "is_general": false
     },
     {
       "cardId": 1787021167990,
@@ -2341,9 +2607,15 @@
       "factor": 2300,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-01",
+        "lesson::A0-02",
+        "lesson::A0-04",
         "lesson::A1-03"
       ],
       "lesson_codes": [
+        "A0-01",
+        "A0-02",
+        "A0-04",
         "A1-03"
       ],
       "primary_lesson": "A1-03",
@@ -2381,14 +2653,16 @@
       "factor": 2350,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-02",
         "lesson::A0-06",
-        "lesson::A1-02"
+        "lesson::A2-01"
       ],
       "lesson_codes": [
+        "A0-02",
         "A0-06",
-        "A1-02"
+        "A2-01"
       ],
-      "primary_lesson": "A0-06",
+      "primary_lesson": "A2-01",
       "is_general": false
     },
     {
@@ -2403,11 +2677,17 @@
       "factor": 1900,
       "status": "Learning",
       "tags": [
-        "lesson::general"
+        "lesson::A0-03",
+        "lesson::A0-05",
+        "lesson::A2-07"
       ],
-      "lesson_codes": [],
-      "primary_lesson": "general",
-      "is_general": true
+      "lesson_codes": [
+        "A0-03",
+        "A0-05",
+        "A2-07"
+      ],
+      "primary_lesson": "A2-07",
+      "is_general": false
     },
     {
       "cardId": 1787191036533,
@@ -2421,14 +2701,17 @@
       "factor": 2100,
       "status": "Mastered",
       "tags": [
-        "lesson::A1-10",
-        "lesson::general"
+        "lesson::A0-08",
+        "lesson::A1-01",
+        "lesson::A1-09"
       ],
       "lesson_codes": [
-        "A1-10"
+        "A0-08",
+        "A1-01",
+        "A1-09"
       ],
-      "primary_lesson": "A1-10",
-      "is_general": true
+      "primary_lesson": "A1-09",
+      "is_general": false
     },
     {
       "cardId": 1787191036534,
@@ -2443,13 +2726,15 @@
       "status": "Mastered",
       "tags": [
         "lesson::A0-01",
+        "lesson::A0-02",
         "lesson::A1-03"
       ],
       "lesson_codes": [
         "A0-01",
+        "A0-02",
         "A1-03"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A1-03",
       "is_general": false
     },
     {
@@ -2464,12 +2749,12 @@
       "factor": 2450,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-04",
-        "lesson::A1-07"
+        "lesson::A0-03",
+        "lesson::A0-04"
       ],
       "lesson_codes": [
-        "A0-04",
-        "A1-07"
+        "A0-03",
+        "A0-04"
       ],
       "primary_lesson": "A0-04",
       "is_general": false
@@ -2486,14 +2771,13 @@
       "factor": 2300,
       "status": "Mastered",
       "tags": [
-        "lesson::A1-10",
-        "lesson::general"
+        "lesson::A0-06"
       ],
       "lesson_codes": [
-        "A1-10"
+        "A0-06"
       ],
-      "primary_lesson": "A1-10",
-      "is_general": true
+      "primary_lesson": "A0-06",
+      "is_general": false
     },
     {
       "cardId": 1787191036537,
@@ -2506,15 +2790,10 @@
       "queue": 2,
       "factor": 2500,
       "status": "Mastered",
-      "tags": [
-        "lesson::A1-01",
-        "lesson::general"
-      ],
-      "lesson_codes": [
-        "A1-01"
-      ],
-      "primary_lesson": "A1-01",
-      "is_general": true
+      "tags": [],
+      "lesson_codes": [],
+      "primary_lesson": "",
+      "is_general": false
     },
     {
       "cardId": 1787191036538,
@@ -2567,12 +2846,10 @@
       "queue": 2,
       "factor": 2350,
       "status": "Learning",
-      "tags": [
-        "lesson::general"
-      ],
+      "tags": [],
       "lesson_codes": [],
-      "primary_lesson": "general",
-      "is_general": true
+      "primary_lesson": "",
+      "is_general": false
     },
     {
       "cardId": 1787191036542,
@@ -2585,12 +2862,10 @@
       "queue": 2,
       "factor": 2150,
       "status": "Learning",
-      "tags": [
-        "lesson::general"
-      ],
+      "tags": [],
       "lesson_codes": [],
-      "primary_lesson": "general",
-      "is_general": true
+      "primary_lesson": "",
+      "is_general": false
     },
     {
       "cardId": 1787191036543,
@@ -2603,12 +2878,10 @@
       "queue": 2,
       "factor": 2300,
       "status": "Learning",
-      "tags": [
-        "lesson::general"
-      ],
+      "tags": [],
       "lesson_codes": [],
-      "primary_lesson": "general",
-      "is_general": true
+      "primary_lesson": "",
+      "is_general": false
     },
     {
       "cardId": 1787191036544,
@@ -2629,7 +2902,7 @@
         "A0-01",
         "A1-02"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A1-02",
       "is_general": false
     },
     {
@@ -2651,7 +2924,7 @@
         "A0-01",
         "A0-02"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A0-02",
       "is_general": false
     },
     {
@@ -2666,9 +2939,13 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-01",
+        "lesson::A0-02",
         "lesson::A0-04"
       ],
       "lesson_codes": [
+        "A0-01",
+        "A0-02",
         "A0-04"
       ],
       "primary_lesson": "A0-04",
@@ -2693,7 +2970,7 @@
         "A0-01",
         "A0-02"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A0-02",
       "is_general": false
     },
     {
@@ -2708,14 +2985,12 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-04",
         "lesson::A0-06"
       ],
       "lesson_codes": [
-        "A0-04",
         "A0-06"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A0-06",
       "is_general": false
     },
     {
@@ -2730,14 +3005,13 @@
       "factor": 2250,
       "status": "Learning",
       "tags": [
-        "lesson::A0-08",
-        "lesson::general"
+        "lesson::A0-08"
       ],
       "lesson_codes": [
         "A0-08"
       ],
       "primary_lesson": "A0-08",
-      "is_general": true
+      "is_general": false
     },
     {
       "cardId": 1787191036550,
@@ -2778,7 +3052,7 @@
         "A0-01",
         "A0-02"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A0-02",
       "is_general": false
     },
     {
@@ -2793,14 +3067,16 @@
       "factor": 2350,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-01",
         "lesson::A0-02",
         "lesson::A0-03"
       ],
       "lesson_codes": [
+        "A0-01",
         "A0-02",
         "A0-03"
       ],
-      "primary_lesson": "A0-02",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -2815,14 +3091,16 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-01",
         "lesson::A0-02",
         "lesson::A0-03"
       ],
       "lesson_codes": [
+        "A0-01",
         "A0-02",
         "A0-03"
       ],
-      "primary_lesson": "A0-02",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -2837,12 +3115,14 @@
       "factor": 2100,
       "status": "Mastered",
       "tags": [
-        "lesson::A1-05",
-        "lesson::A1-06"
+        "lesson::A0-03",
+        "lesson::A0-05",
+        "lesson::A1-05"
       ],
       "lesson_codes": [
-        "A1-05",
-        "A1-06"
+        "A0-03",
+        "A0-05",
+        "A1-05"
       ],
       "primary_lesson": "A1-05",
       "is_general": false
@@ -2859,12 +3139,14 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-01"
+        "lesson::A0-03",
+        "lesson::A0-05"
       ],
       "lesson_codes": [
-        "A0-01"
+        "A0-03",
+        "A0-05"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A0-05",
       "is_general": false
     },
     {
@@ -2900,13 +3182,17 @@
       "status": "Learning",
       "tags": [
         "lesson::A0-01",
-        "lesson::A0-02"
+        "lesson::A0-02",
+        "lesson::A0-03",
+        "lesson::A0-05"
       ],
       "lesson_codes": [
         "A0-01",
-        "A0-02"
+        "A0-02",
+        "A0-03",
+        "A0-05"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A0-05",
       "is_general": false
     },
     {
@@ -2921,14 +3207,14 @@
       "factor": 1900,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-06",
+        "lesson::A0-03",
         "lesson::A1-02"
       ],
       "lesson_codes": [
-        "A0-06",
+        "A0-03",
         "A1-02"
       ],
-      "primary_lesson": "A0-06",
+      "primary_lesson": "A1-02",
       "is_general": false
     },
     {
@@ -2943,9 +3229,11 @@
       "factor": 2650,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-01",
         "lesson::A1-07"
       ],
       "lesson_codes": [
+        "A0-01",
         "A1-07"
       ],
       "primary_lesson": "A1-07",
@@ -2963,14 +3251,18 @@
       "factor": 2300,
       "status": "Learning",
       "tags": [
-        "lesson::A0-05",
+        "lesson::A0-01",
+        "lesson::A0-02",
+        "lesson::A0-03",
         "lesson::A1-02"
       ],
       "lesson_codes": [
-        "A0-05",
+        "A0-01",
+        "A0-02",
+        "A0-03",
         "A1-02"
       ],
-      "primary_lesson": "A0-05",
+      "primary_lesson": "A1-02",
       "is_general": false
     },
     {
@@ -2985,14 +3277,14 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-04",
-        "lesson::A1-04"
+        "lesson::A0-03",
+        "lesson::A1-02"
       ],
       "lesson_codes": [
-        "A0-04",
-        "A1-04"
+        "A0-03",
+        "A1-02"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A1-02",
       "is_general": false
     },
     {
@@ -3007,14 +3299,14 @@
       "factor": 2300,
       "status": "Learning",
       "tags": [
-        "lesson::A0-01",
-        "lesson::A1-06"
+        "lesson::A0-02",
+        "lesson::A1-02"
       ],
       "lesson_codes": [
-        "A0-01",
-        "A1-06"
+        "A0-02",
+        "A1-02"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A1-02",
       "is_general": false
     },
     {
@@ -3049,9 +3341,11 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-03",
         "lesson::A0-06"
       ],
       "lesson_codes": [
+        "A0-03",
         "A0-06"
       ],
       "primary_lesson": "A0-06",
@@ -3069,14 +3363,13 @@
       "factor": 2300,
       "status": "Mastered",
       "tags": [
-        "lesson::A2-01",
-        "lesson::general"
+        "lesson::A1-08"
       ],
       "lesson_codes": [
-        "A2-01"
+        "A1-08"
       ],
-      "primary_lesson": "A2-01",
-      "is_general": true
+      "primary_lesson": "A1-08",
+      "is_general": false
     },
     {
       "cardId": 1787627217027,
@@ -3090,12 +3383,12 @@
       "factor": 2650,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-08"
+        "lesson::A0-06"
       ],
       "lesson_codes": [
-        "A0-08"
+        "A0-06"
       ],
-      "primary_lesson": "A0-08",
+      "primary_lesson": "A0-06",
       "is_general": false
     },
     {
@@ -3110,14 +3403,15 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
-        "lesson::A2-01",
-        "lesson::general"
+        "lesson::A0-03",
+        "lesson::A1-08"
       ],
       "lesson_codes": [
-        "A2-01"
+        "A0-03",
+        "A1-08"
       ],
-      "primary_lesson": "A2-01",
-      "is_general": true
+      "primary_lesson": "A1-08",
+      "is_general": false
     },
     {
       "cardId": 1787627434971,
@@ -3130,15 +3424,10 @@
       "queue": 2,
       "factor": 2050,
       "status": "Learning",
-      "tags": [
-        "lesson::A0-08",
-        "lesson::general"
-      ],
-      "lesson_codes": [
-        "A0-08"
-      ],
-      "primary_lesson": "A0-08",
-      "is_general": true
+      "tags": [],
+      "lesson_codes": [],
+      "primary_lesson": "",
+      "is_general": false
     },
     {
       "cardId": 1787711943318,
@@ -3192,12 +3481,12 @@
       "factor": 2500,
       "status": "Learning",
       "tags": [
-        "lesson::A1-01"
+        "lesson::A0-03"
       ],
       "lesson_codes": [
-        "A1-01"
+        "A0-03"
       ],
-      "primary_lesson": "A1-01",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -3231,12 +3520,10 @@
       "queue": 2,
       "factor": 2300,
       "status": "Learning",
-      "tags": [
-        "lesson::general"
-      ],
+      "tags": [],
       "lesson_codes": [],
-      "primary_lesson": "general",
-      "is_general": true
+      "primary_lesson": "",
+      "is_general": false
     },
     {
       "cardId": 1787711943323,
@@ -3249,12 +3536,10 @@
       "queue": 2,
       "factor": 2650,
       "status": "Mastered",
-      "tags": [
-        "lesson::general"
-      ],
+      "tags": [],
       "lesson_codes": [],
-      "primary_lesson": "general",
-      "is_general": true
+      "primary_lesson": "",
+      "is_general": false
     },
     {
       "cardId": 1787711943324,
@@ -3308,12 +3593,10 @@
       "factor": 2300,
       "status": "Learning",
       "tags": [
-        "lesson::A0-03",
-        "lesson::A1-01"
+        "lesson::A0-03"
       ],
       "lesson_codes": [
-        "A0-03",
-        "A1-01"
+        "A0-03"
       ],
       "primary_lesson": "A0-03",
       "is_general": false
@@ -3350,11 +3633,15 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
-        "lesson::general"
+        "lesson::A0-03",
+        "lesson::A1-08"
       ],
-      "lesson_codes": [],
-      "primary_lesson": "general",
-      "is_general": true
+      "lesson_codes": [
+        "A0-03",
+        "A1-08"
+      ],
+      "primary_lesson": "A1-08",
+      "is_general": false
     },
     {
       "cardId": 1787712827679,
@@ -3369,13 +3656,13 @@
       "status": "Learning",
       "tags": [
         "lesson::A0-01",
-        "lesson::A0-04"
+        "lesson::A0-02"
       ],
       "lesson_codes": [
         "A0-01",
-        "A0-04"
+        "A0-02"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A0-02",
       "is_general": false
     },
     {
@@ -3390,14 +3677,14 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-01",
-        "lesson::A0-02"
+        "lesson::A0-02",
+        "lesson::A0-03"
       ],
       "lesson_codes": [
-        "A0-01",
-        "A0-02"
+        "A0-02",
+        "A0-03"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -3412,14 +3699,12 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-01",
         "lesson::A1-02"
       ],
       "lesson_codes": [
-        "A0-01",
         "A1-02"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A1-02",
       "is_general": false
     },
     {
@@ -3434,9 +3719,11 @@
       "factor": 2300,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-01",
         "lesson::A1-02"
       ],
       "lesson_codes": [
+        "A0-01",
         "A1-02"
       ],
       "primary_lesson": "A1-02",
@@ -3454,9 +3741,11 @@
       "factor": 2100,
       "status": "Learning",
       "tags": [
+        "lesson::A0-01",
         "lesson::A1-02"
       ],
       "lesson_codes": [
+        "A0-01",
         "A1-02"
       ],
       "primary_lesson": "A1-02",
@@ -3474,14 +3763,14 @@
       "factor": 2300,
       "status": "Learning",
       "tags": [
-        "lesson::A0-01",
+        "lesson::A0-03",
         "lesson::A1-02"
       ],
       "lesson_codes": [
-        "A0-01",
+        "A0-03",
         "A1-02"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A1-02",
       "is_general": false
     },
     {
@@ -3503,7 +3792,7 @@
         "A0-01",
         "A1-02"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A1-02",
       "is_general": false
     },
     {
@@ -3545,7 +3834,7 @@
         "A0-08",
         "A1-04"
       ],
-      "primary_lesson": "A0-08",
+      "primary_lesson": "A1-04",
       "is_general": false
     },
     {
@@ -3560,9 +3849,13 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-01",
+        "lesson::A0-02",
         "lesson::A0-04"
       ],
       "lesson_codes": [
+        "A0-01",
+        "A0-02",
         "A0-04"
       ],
       "primary_lesson": "A0-04",
@@ -3580,14 +3873,12 @@
       "factor": 2500,
       "status": "Learning",
       "tags": [
-        "lesson::A0-01",
-        "lesson::A1-01"
+        "lesson::A1-04"
       ],
       "lesson_codes": [
-        "A0-01",
-        "A1-01"
+        "A1-04"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A1-04",
       "is_general": false
     },
     {
@@ -3602,14 +3893,12 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-01",
-        "lesson::A1-01"
+        "lesson::A1-04"
       ],
       "lesson_codes": [
-        "A0-01",
-        "A1-01"
+        "A1-04"
       ],
-      "primary_lesson": "A0-01",
+      "primary_lesson": "A1-04",
       "is_general": false
     },
     {
@@ -3624,9 +3913,11 @@
       "factor": 2500,
       "status": "Learning",
       "tags": [
+        "lesson::A0-02",
         "lesson::A1-04"
       ],
       "lesson_codes": [
+        "A0-02",
         "A1-04"
       ],
       "primary_lesson": "A1-04",
@@ -3644,14 +3935,16 @@
       "factor": 2450,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-03",
         "lesson::A0-08",
         "lesson::A1-04"
       ],
       "lesson_codes": [
+        "A0-03",
         "A0-08",
         "A1-04"
       ],
-      "primary_lesson": "A0-08",
+      "primary_lesson": "A1-04",
       "is_general": false
     },
     {
@@ -3666,9 +3959,13 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
+        "lesson::A0-01",
+        "lesson::A0-02",
         "lesson::A0-04"
       ],
       "lesson_codes": [
+        "A0-01",
+        "A0-02",
         "A0-04"
       ],
       "primary_lesson": "A0-04",
@@ -3686,9 +3983,15 @@
       "factor": 2350,
       "status": "Learning",
       "tags": [
+        "lesson::A0-02",
+        "lesson::A0-03",
+        "lesson::A1-02",
         "lesson::A1-04"
       ],
       "lesson_codes": [
+        "A0-02",
+        "A0-03",
+        "A1-02",
         "A1-04"
       ],
       "primary_lesson": "A1-04",
@@ -3727,15 +4030,14 @@
       "status": "Learning",
       "tags": [
         "lesson::A0-01",
-        "lesson::A2-02",
-        "lesson::general"
+        "lesson::A1-07"
       ],
       "lesson_codes": [
         "A0-01",
-        "A2-02"
+        "A1-07"
       ],
-      "primary_lesson": "A0-01",
-      "is_general": true
+      "primary_lesson": "A1-07",
+      "is_general": false
     },
     {
       "cardId": 1788232411037,
@@ -3749,16 +4051,13 @@
       "factor": 2500,
       "status": "Mastered",
       "tags": [
-        "lesson::A0-01",
-        "lesson::A2-02",
-        "lesson::general"
+        "lesson::A1-07"
       ],
       "lesson_codes": [
-        "A0-01",
-        "A2-02"
+        "A1-07"
       ],
-      "primary_lesson": "A0-01",
-      "is_general": true
+      "primary_lesson": "A1-07",
+      "is_general": false
     },
     {
       "cardId": 1788232411038,
@@ -3773,15 +4072,14 @@
       "status": "Learning",
       "tags": [
         "lesson::A0-04",
-        "lesson::A2-02",
-        "lesson::general"
+        "lesson::A1-07"
       ],
       "lesson_codes": [
         "A0-04",
-        "A2-02"
+        "A1-07"
       ],
-      "primary_lesson": "A0-04",
-      "is_general": true
+      "primary_lesson": "A1-07",
+      "is_general": false
     },
     {
       "cardId": 1788232411039,
@@ -3795,16 +4093,13 @@
       "factor": 2100,
       "status": "Struggling",
       "tags": [
-        "lesson::A0-01",
-        "lesson::A2-02",
-        "lesson::general"
+        "lesson::A1-07"
       ],
       "lesson_codes": [
-        "A0-01",
-        "A2-02"
+        "A1-07"
       ],
-      "primary_lesson": "A0-01",
-      "is_general": true
+      "primary_lesson": "A1-07",
+      "is_general": false
     },
     {
       "cardId": 1788913926723,
@@ -3818,13 +4113,18 @@
       "factor": 2500,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
-        "lesson::A1-03"
+        "lesson::A0-01",
+        "lesson::A0-02",
+        "lesson::A1-03",
+        "lesson::A1-10"
       ],
       "lesson_codes": [
-        "A1-03"
+        "A0-01",
+        "A0-02",
+        "A1-03",
+        "A1-10"
       ],
-      "primary_lesson": "A1-03",
+      "primary_lesson": "A1-10",
       "is_general": false
     },
     {
@@ -3839,10 +4139,13 @@
       "factor": 2150,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
+        "lesson::A0-01",
+        "lesson::A0-02",
         "lesson::A0-07"
       ],
       "lesson_codes": [
+        "A0-01",
+        "A0-02",
         "A0-07"
       ],
       "primary_lesson": "A0-07",
@@ -3860,13 +4163,14 @@
       "factor": 2500,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
-        "lesson::A0-07"
+        "lesson::A0-07",
+        "lesson::A1-02"
       ],
       "lesson_codes": [
-        "A0-07"
+        "A0-07",
+        "A1-02"
       ],
-      "primary_lesson": "A0-07",
+      "primary_lesson": "A1-02",
       "is_general": false
     },
     {
@@ -3881,10 +4185,11 @@
       "factor": 2500,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
+        "lesson::A0-01",
         "lesson::A0-07"
       ],
       "lesson_codes": [
+        "A0-01",
         "A0-07"
       ],
       "primary_lesson": "A0-07",
@@ -3902,10 +4207,11 @@
       "factor": 2500,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
+        "lesson::A0-03",
         "lesson::A0-07"
       ],
       "lesson_codes": [
+        "A0-03",
         "A0-07"
       ],
       "primary_lesson": "A0-07",
@@ -3923,13 +4229,14 @@
       "factor": 2500,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
-        "lesson::A0-07"
+        "lesson::A0-07",
+        "lesson::A1-02"
       ],
       "lesson_codes": [
-        "A0-07"
+        "A0-07",
+        "A1-02"
       ],
-      "primary_lesson": "A0-07",
+      "primary_lesson": "A1-02",
       "is_general": false
     },
     {
@@ -3944,10 +4251,11 @@
       "factor": 2500,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
+        "lesson::A0-03",
         "lesson::A1-07"
       ],
       "lesson_codes": [
+        "A0-03",
         "A1-07"
       ],
       "primary_lesson": "A1-07",
@@ -3965,13 +4273,12 @@
       "factor": 2350,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
-        "lesson::A1-07"
+        "lesson::A0-02"
       ],
       "lesson_codes": [
-        "A1-07"
+        "A0-02"
       ],
-      "primary_lesson": "A1-07",
+      "primary_lesson": "A0-02",
       "is_general": false
     },
     {
@@ -3986,13 +4293,16 @@
       "factor": 2500,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
-        "lesson::A1-07"
+        "lesson::A0-03",
+        "lesson::A0-06",
+        "lesson::A1-02"
       ],
       "lesson_codes": [
-        "A1-07"
+        "A0-03",
+        "A0-06",
+        "A1-02"
       ],
-      "primary_lesson": "A1-07",
+      "primary_lesson": "A1-02",
       "is_general": false
     },
     {
@@ -4007,13 +4317,12 @@
       "factor": 2500,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
-        "lesson::A1-07"
+        "lesson::A0-08"
       ],
       "lesson_codes": [
-        "A1-07"
+        "A0-08"
       ],
-      "primary_lesson": "A1-07",
+      "primary_lesson": "A0-08",
       "is_general": false
     },
     {
@@ -4028,7 +4337,6 @@
       "factor": 2500,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
         "lesson::A1-07"
       ],
       "lesson_codes": [
@@ -4049,7 +4357,6 @@
       "factor": 2500,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
         "lesson::A1-07"
       ],
       "lesson_codes": [
@@ -4070,10 +4377,13 @@
       "factor": 2500,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
+        "lesson::A0-01",
+        "lesson::A1-01",
         "lesson::A1-07"
       ],
       "lesson_codes": [
+        "A0-01",
+        "A1-01",
         "A1-07"
       ],
       "primary_lesson": "A1-07",
@@ -4091,10 +4401,11 @@
       "factor": 2500,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
+        "lesson::A0-01",
         "lesson::A1-07"
       ],
       "lesson_codes": [
+        "A0-01",
         "A1-07"
       ],
       "primary_lesson": "A1-07",
@@ -4112,13 +4423,12 @@
       "factor": 2300,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
-        "lesson::A1-07"
+        "lesson::A0-03"
       ],
       "lesson_codes": [
-        "A1-07"
+        "A0-03"
       ],
-      "primary_lesson": "A1-07",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -4133,7 +4443,6 @@
       "factor": 2300,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
         "lesson::A1-07"
       ],
       "lesson_codes": [
@@ -4154,10 +4463,13 @@
       "factor": 2500,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
+        "lesson::A0-01",
+        "lesson::A1-01",
         "lesson::A1-07"
       ],
       "lesson_codes": [
+        "A0-01",
+        "A1-01",
         "A1-07"
       ],
       "primary_lesson": "A1-07",
@@ -4176,7 +4488,6 @@
       "status": "Learning",
       "tags": [
         "colloquial",
-        "hindi-coach",
         "slang"
       ],
       "lesson_codes": [],
@@ -4195,7 +4506,6 @@
       "factor": 2300,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
         "lesson::A1-08"
       ],
       "lesson_codes": [
@@ -4216,7 +4526,6 @@
       "factor": 2500,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
         "lesson::A1-08"
       ],
       "lesson_codes": [
@@ -4237,7 +4546,6 @@
       "factor": 2500,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
         "lesson::A1-08"
       ],
       "lesson_codes": [
@@ -4258,7 +4566,6 @@
       "factor": 2500,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
         "lesson::A1-08"
       ],
       "lesson_codes": [
@@ -4279,10 +4586,11 @@
       "factor": 2500,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
+        "lesson::A0-03",
         "lesson::A1-08"
       ],
       "lesson_codes": [
+        "A0-03",
         "A1-08"
       ],
       "primary_lesson": "A1-08",
@@ -4300,7 +4608,6 @@
       "factor": 2300,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
         "lesson::A1-08"
       ],
       "lesson_codes": [
@@ -4321,7 +4628,6 @@
       "factor": 2500,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
         "lesson::A1-08"
       ],
       "lesson_codes": [
@@ -4342,10 +4648,14 @@
       "factor": 2500,
       "status": "Learning",
       "tags": [
-        "hindi-coach"
+        "lesson::A1-02",
+        "lesson::A1-05"
       ],
-      "lesson_codes": [],
-      "primary_lesson": "",
+      "lesson_codes": [
+        "A1-02",
+        "A1-05"
+      ],
+      "primary_lesson": "A1-05",
       "is_general": false
     },
     {
@@ -4360,10 +4670,14 @@
       "factor": 2500,
       "status": "Learning",
       "tags": [
-        "hindi-coach"
+        "lesson::A0-03",
+        "lesson::A1-05"
       ],
-      "lesson_codes": [],
-      "primary_lesson": "",
+      "lesson_codes": [
+        "A0-03",
+        "A1-05"
+      ],
+      "primary_lesson": "A1-05",
       "is_general": false
     },
     {
@@ -4378,10 +4692,14 @@
       "factor": 2500,
       "status": "Learning",
       "tags": [
-        "hindi-coach"
+        "lesson::A0-03",
+        "lesson::A1-05"
       ],
-      "lesson_codes": [],
-      "primary_lesson": "",
+      "lesson_codes": [
+        "A0-03",
+        "A1-05"
+      ],
+      "primary_lesson": "A1-05",
       "is_general": false
     },
     {
@@ -4396,10 +4714,14 @@
       "factor": 2500,
       "status": "Learning",
       "tags": [
-        "hindi-coach"
+        "lesson::A0-03",
+        "lesson::A1-05"
       ],
-      "lesson_codes": [],
-      "primary_lesson": "",
+      "lesson_codes": [
+        "A0-03",
+        "A1-05"
+      ],
+      "primary_lesson": "A1-05",
       "is_general": false
     },
     {
@@ -4413,9 +4735,7 @@
       "queue": 2,
       "factor": 2500,
       "status": "Learning",
-      "tags": [
-        "hindi-coach"
-      ],
+      "tags": [],
       "lesson_codes": [],
       "primary_lesson": "",
       "is_general": false
@@ -4434,13 +4754,12 @@
       "tags": [
         "connectors",
         "high-roi-lexicon",
-        "hindi-coach",
-        "lesson::A1-09"
+        "lesson::A0-08"
       ],
       "lesson_codes": [
-        "A1-09"
+        "A0-08"
       ],
-      "primary_lesson": "A1-09",
+      "primary_lesson": "A0-08",
       "is_general": false
     },
     {
@@ -4456,14 +4775,17 @@
       "status": "Learning",
       "tags": [
         "high-roi-lexicon",
-        "hindi-coach",
-        "lesson::A1-09",
+        "lesson::A0-02",
+        "lesson::A0-03",
+        "lesson::A0-04",
         "spoken-formulas"
       ],
       "lesson_codes": [
-        "A1-09"
+        "A0-02",
+        "A0-03",
+        "A0-04"
       ],
-      "primary_lesson": "A1-09",
+      "primary_lesson": "A0-04",
       "is_general": false
     },
     {
@@ -4480,13 +4802,12 @@
       "tags": [
         "connectors",
         "high-roi-lexicon",
-        "hindi-coach",
-        "lesson::A1-09"
+        "lesson::A0-06"
       ],
       "lesson_codes": [
-        "A1-09"
+        "A0-06"
       ],
-      "primary_lesson": "A1-09",
+      "primary_lesson": "A0-06",
       "is_general": false
     },
     {
@@ -4502,14 +4823,15 @@
       "status": "Learning",
       "tags": [
         "high-roi-lexicon",
-        "hindi-coach",
-        "lesson::A1-09",
+        "lesson::A0-01",
+        "lesson::A0-02",
         "postpositions"
       ],
       "lesson_codes": [
-        "A1-09"
+        "A0-01",
+        "A0-02"
       ],
-      "primary_lesson": "A1-09",
+      "primary_lesson": "A0-02",
       "is_general": false
     },
     {
@@ -4524,13 +4846,12 @@
       "factor": 0,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
-        "lesson::A1-09"
+        "lesson::A0-06"
       ],
       "lesson_codes": [
-        "A1-09"
+        "A0-06"
       ],
-      "primary_lesson": "A1-09",
+      "primary_lesson": "A0-06",
       "is_general": false
     },
     {
@@ -4545,7 +4866,6 @@
       "factor": 0,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
         "lesson::A1-09"
       ],
       "lesson_codes": [
@@ -4566,10 +4886,11 @@
       "factor": 0,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
+        "lesson::A0-03",
         "lesson::A1-09"
       ],
       "lesson_codes": [
+        "A0-03",
         "A1-09"
       ],
       "primary_lesson": "A1-09",
@@ -4587,13 +4908,16 @@
       "factor": 0,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
-        "lesson::A1-09"
+        "lesson::A0-03",
+        "lesson::A1-02",
+        "lesson::A1-08"
       ],
       "lesson_codes": [
-        "A1-09"
+        "A0-03",
+        "A1-02",
+        "A1-08"
       ],
-      "primary_lesson": "A1-09",
+      "primary_lesson": "A1-08",
       "is_general": false
     },
     {
@@ -4608,13 +4932,16 @@
       "factor": 0,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
-        "lesson::A1-09"
+        "lesson::A0-03",
+        "lesson::A1-09",
+        "lesson::A2-01"
       ],
       "lesson_codes": [
-        "A1-09"
+        "A0-03",
+        "A1-09",
+        "A2-01"
       ],
-      "primary_lesson": "A1-09",
+      "primary_lesson": "A2-01",
       "is_general": false
     },
     {
@@ -4629,13 +4956,18 @@
       "factor": 0,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
-        "lesson::A1-09"
+        "lesson::A0-03",
+        "lesson::A0-06",
+        "lesson::A1-09",
+        "lesson::A2-01"
       ],
       "lesson_codes": [
-        "A1-09"
+        "A0-03",
+        "A0-06",
+        "A1-09",
+        "A2-01"
       ],
-      "primary_lesson": "A1-09",
+      "primary_lesson": "A2-01",
       "is_general": false
     },
     {
@@ -4650,10 +4982,11 @@
       "factor": 0,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
+        "lesson::A0-01",
         "lesson::A1-09"
       ],
       "lesson_codes": [
+        "A0-01",
         "A1-09"
       ],
       "primary_lesson": "A1-09",
@@ -4671,10 +5004,11 @@
       "factor": 0,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
+        "lesson::A0-03",
         "lesson::A1-09"
       ],
       "lesson_codes": [
+        "A0-03",
         "A1-09"
       ],
       "primary_lesson": "A1-09",
@@ -4692,13 +5026,12 @@
       "factor": 0,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
-        "lesson::A1-09"
+        "lesson::A0-02"
       ],
       "lesson_codes": [
-        "A1-09"
+        "A0-02"
       ],
-      "primary_lesson": "A1-09",
+      "primary_lesson": "A0-02",
       "is_general": false
     },
     {
@@ -4713,10 +5046,11 @@
       "factor": 0,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
+        "lesson::A0-08",
         "lesson::A1-09"
       ],
       "lesson_codes": [
+        "A0-08",
         "A1-09"
       ],
       "primary_lesson": "A1-09",
@@ -4734,10 +5068,13 @@
       "factor": 0,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
+        "lesson::A0-03",
+        "lesson::A1-08",
         "lesson::A1-09"
       ],
       "lesson_codes": [
+        "A0-03",
+        "A1-08",
         "A1-09"
       ],
       "primary_lesson": "A1-09",
@@ -4755,10 +5092,11 @@
       "factor": 0,
       "status": "Learning",
       "tags": [
-        "hindi-coach",
+        "lesson::A0-03",
         "lesson::A1-09"
       ],
       "lesson_codes": [
+        "A0-03",
         "A1-09"
       ],
       "primary_lesson": "A1-09",
@@ -4775,14 +5113,9 @@
       "queue": 0,
       "factor": 0,
       "status": "Learning",
-      "tags": [
-        "hindi_coach",
-        "lesson_song_test"
-      ],
-      "lesson_codes": [
-        "song-test"
-      ],
-      "primary_lesson": "song-test",
+      "tags": [],
+      "lesson_codes": [],
+      "primary_lesson": "",
       "is_general": false
     },
     {
@@ -4796,14 +5129,9 @@
       "queue": 0,
       "factor": 0,
       "status": "Learning",
-      "tags": [
-        "hindi_coach",
-        "lesson_jeena_jeena"
-      ],
-      "lesson_codes": [
-        "jeena-jeena"
-      ],
-      "primary_lesson": "jeena-jeena",
+      "tags": [],
+      "lesson_codes": [],
+      "primary_lesson": "",
       "is_general": false
     },
     {
@@ -4817,14 +5145,9 @@
       "queue": 0,
       "factor": 0,
       "status": "Learning",
-      "tags": [
-        "hindi_coach",
-        "lesson_sun_saathiya"
-      ],
-      "lesson_codes": [
-        "sun-saathiya"
-      ],
-      "primary_lesson": "sun-saathiya",
+      "tags": [],
+      "lesson_codes": [],
+      "primary_lesson": "",
       "is_general": false
     },
     {
@@ -4838,14 +5161,9 @@
       "queue": 0,
       "factor": 0,
       "status": "Learning",
-      "tags": [
-        "hindi_coach",
-        "lesson_offline_test"
-      ],
-      "lesson_codes": [
-        "offline-test"
-      ],
-      "primary_lesson": "offline-test",
+      "tags": [],
+      "lesson_codes": [],
+      "primary_lesson": "",
       "is_general": false
     },
     {
@@ -4859,14 +5177,9 @@
       "queue": 0,
       "factor": 0,
       "status": "Learning",
-      "tags": [
-        "hindi_coach",
-        "lesson_offline_test"
-      ],
-      "lesson_codes": [
-        "offline-test"
-      ],
-      "primary_lesson": "offline-test",
+      "tags": [],
+      "lesson_codes": [],
+      "primary_lesson": "",
       "is_general": false
     },
     {
@@ -4880,14 +5193,9 @@
       "queue": 0,
       "factor": 0,
       "status": "Learning",
-      "tags": [
-        "hindi_coach",
-        "lesson_offline_test"
-      ],
-      "lesson_codes": [
-        "offline-test"
-      ],
-      "primary_lesson": "offline-test",
+      "tags": [],
+      "lesson_codes": [],
+      "primary_lesson": "",
       "is_general": false
     },
     {
@@ -4901,14 +5209,9 @@
       "queue": 0,
       "factor": 0,
       "status": "Learning",
-      "tags": [
-        "hindi_coach",
-        "lesson_offline_test"
-      ],
-      "lesson_codes": [
-        "offline-test"
-      ],
-      "primary_lesson": "offline-test",
+      "tags": [],
+      "lesson_codes": [],
+      "primary_lesson": "",
       "is_general": false
     },
     {
@@ -4922,14 +5225,9 @@
       "queue": 0,
       "factor": 0,
       "status": "Learning",
-      "tags": [
-        "hindi_coach",
-        "lesson_offline_test"
-      ],
-      "lesson_codes": [
-        "offline-test"
-      ],
-      "primary_lesson": "offline-test",
+      "tags": [],
+      "lesson_codes": [],
+      "primary_lesson": "",
       "is_general": false
     },
     {
@@ -4943,14 +5241,9 @@
       "queue": 0,
       "factor": 0,
       "status": "Learning",
-      "tags": [
-        "hindi_coach",
-        "lesson_offline_test"
-      ],
-      "lesson_codes": [
-        "offline-test"
-      ],
-      "primary_lesson": "offline-test",
+      "tags": [],
+      "lesson_codes": [],
+      "primary_lesson": "",
       "is_general": false
     },
     {
@@ -4964,14 +5257,9 @@
       "queue": 0,
       "factor": 0,
       "status": "Learning",
-      "tags": [
-        "hindi_coach",
-        "lesson_offline_test"
-      ],
-      "lesson_codes": [
-        "offline-test"
-      ],
-      "primary_lesson": "offline-test",
+      "tags": [],
+      "lesson_codes": [],
+      "primary_lesson": "",
       "is_general": false
     },
     {
@@ -4985,14 +5273,9 @@
       "queue": 0,
       "factor": 0,
       "status": "Learning",
-      "tags": [
-        "hindi_coach",
-        "lesson_offline_test"
-      ],
-      "lesson_codes": [
-        "offline-test"
-      ],
-      "primary_lesson": "offline-test",
+      "tags": [],
+      "lesson_codes": [],
+      "primary_lesson": "",
       "is_general": false
     },
     {
@@ -5006,14 +5289,9 @@
       "queue": 0,
       "factor": 0,
       "status": "Learning",
-      "tags": [
-        "hindi_coach",
-        "lesson_offline_test"
-      ],
-      "lesson_codes": [
-        "offline-test"
-      ],
-      "primary_lesson": "offline-test",
+      "tags": [],
+      "lesson_codes": [],
+      "primary_lesson": "",
       "is_general": false
     },
     {
@@ -5027,14 +5305,9 @@
       "queue": 0,
       "factor": 0,
       "status": "Learning",
-      "tags": [
-        "hindi_coach",
-        "lesson_jeena_jeena"
-      ],
-      "lesson_codes": [
-        "jeena-jeena"
-      ],
-      "primary_lesson": "jeena-jeena",
+      "tags": [],
+      "lesson_codes": [],
+      "primary_lesson": "",
       "is_general": false
     },
     {
@@ -5048,14 +5321,9 @@
       "queue": 0,
       "factor": 0,
       "status": "Learning",
-      "tags": [
-        "hindi_coach",
-        "lesson_offline_test"
-      ],
-      "lesson_codes": [
-        "offline-test"
-      ],
-      "primary_lesson": "offline-test",
+      "tags": [],
+      "lesson_codes": [],
+      "primary_lesson": "",
       "is_general": false
     }
   ]

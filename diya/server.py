@@ -301,6 +301,19 @@ class DiyaHandler(http.server.SimpleHTTPRequestHandler):
                             elif code:
                                 lesson_codes.append(code)
 
+                    # Sort lesson codes by curriculum hierarchy (highest prerequisite is last)
+                    LESSON_HIERARCHY = [
+                        'A0-X', 'A0-01', 'A0-02', 'A0-03', 'A0-04', 'A0-05', 'A0-06', 'A0-07', 'A0-08',
+                        'A1-01', 'A1-02', 'A1-03', 'A1-04', 'A1-05', 'A1-06', 'A1-07', 'A1-08', 'A1-09', 'A1-10',
+                        'A2-01', 'A2-02', 'A2-03', 'A2-04', 'A2-05', 'A2-06', 'A2-07', 'A2-08',
+                        'B1-01', 'B1-02', 'B1-03', 'B1-04', 'B1-05'
+                    ]
+                    sorted_codes = sorted(
+                        lesson_codes,
+                        key=lambda x: LESSON_HIERARCHY.index(x) if x in LESSON_HIERARCHY else -1
+                    )
+                    primary_lesson = sorted_codes[-1] if sorted_codes else ('general' if is_general else '')
+
                     front_val = ''
                     back_val = ''
                     fields = c.get('fields', {})
@@ -323,8 +336,8 @@ class DiyaHandler(http.server.SimpleHTTPRequestHandler):
                         'factor': factor,
                         'status': status,
                         'tags': tags,
-                        'lesson_codes': lesson_codes,
-                        'primary_lesson': lesson_codes[0] if lesson_codes else ('general' if is_general else ''),
+                        'lesson_codes': sorted_codes,
+                        'primary_lesson': primary_lesson,
                         'is_general': is_general
                     })
 

@@ -107,15 +107,25 @@ export function getCardsForLesson(cards = [], lessonCode = '') {
  */
 export function calculateLessonStats(cards = [], lessonCode = '', minThreshold = MIN_CARDS_PER_LESSON) {
   const safeCards = Array.isArray(cards) ? cards : [];
-  const isReference = isReferenceLesson(lessonCode);
+  const target = normalizeLessonCode(lessonCode).toLowerCase();
   const lessonCards = getCardsForLesson(safeCards, lessonCode);
   const totalCards = lessonCards.length;
+
+  // Grade attribution: only cards whose most complicated / highest prerequisite topic is this lesson
+  const gradingCards = safeCards.filter(
+    (c) => c && c.primary_lesson && normalizeLessonCode(c.primary_lesson).toLowerCase() === target
+  );
+  const gradingTotal = gradingCards.length;
 
   let mastered = 0;
   let learning = 0;
   let struggling = 0;
 
-  lessonCards.forEach((c) => {
+  // Base marks on gradingCards (or fallback to lessonCards if grading pool is empty but lesson cards exist)
+  const cardsToGrade = gradingTotal > 0 ? gradingCards : lessonCards;
+  const gradeBasisCount = cardsToGrade.length;
+
+  cardsToGrade.forEach((c) => {
     if (c.status === 'Mastered') mastered++;
     else if (c.status === 'Struggling') struggling++;
     else learning++;
@@ -125,7 +135,9 @@ export function calculateLessonStats(cards = [], lessonCode = '', minThreshold =
     const gradientStyle = getMasteryGradientStyle(null);
     return {
       cards: lessonCards,
+      gradingCards,
       totalCards,
+      gradingTotal,
       mastered,
       learning,
       struggling,
@@ -143,9 +155,9 @@ export function calculateLessonStats(cards = [], lessonCode = '', minThreshold =
     };
   }
 
-  const masteryPct = totalCards > 0 ? Math.round((mastered / totalCards) * 100) : 0;
-  const learningPct = totalCards > 0 ? Math.round((learning / totalCards) * 100) : 0;
-  const strugglingPct = totalCards > 0 ? Math.round((struggling / totalCards) * 100) : 0;
+  const masteryPct = gradeBasisCount > 0 ? Math.round((mastered / gradeBasisCount) * 100) : 0;
+  const learningPct = gradeBasisCount > 0 ? Math.round((learning / gradeBasisCount) * 100) : 0;
+  const strugglingPct = gradeBasisCount > 0 ? Math.round((struggling / gradeBasisCount) * 100) : 0;
   const isDeficit = totalCards < minThreshold;
   const deficitCount = Math.max(0, minThreshold - totalCards);
 
