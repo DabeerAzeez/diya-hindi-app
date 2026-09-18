@@ -59,11 +59,11 @@ export default function Navbar({ currentView, setView, ankiStatus, onOpenProfile
         {/* Right Controls: Anki Indicator & Profile */}
         <div className="flex items-center gap-3">
           
-          {/* Anki Live / Cloud Connection Status Indicator */}
+          {/* Anki Live Connection Status Indicator */}
           <div 
             title={
               ankiStatus?.connected 
-                ? 'Anki Live (:8765) — Connected' 
+                ? 'Anki Live (:8765)' 
                 : ankiStatus?.mode === 'cloud'
                 ? 'Anki Cloud Mode (Reading local deck snapshot)'
                 : 'Anki Offline — Run Anki with AnkiConnect locally'

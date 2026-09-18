@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { X, Save, CheckCircle2, User, Sparkles, FileText, AlertCircle } from 'lucide-react';
-import ReactQuill from 'react-quill';
-import 'react-quill/dist/quill.snow.css';
+import { X, Save, CheckCircle2, Sparkles, FileText, AlertCircle } from 'lucide-react';
 import { getProfile, saveProfile } from '../services/api';
+import RichTextEditor from './RichTextEditor';
 
 export default function ProfileDrawer({ isOpen, onClose }) {
   const [profile, setProfile] = useState({
@@ -138,12 +137,11 @@ export default function ProfileDrawer({ isOpen, onClose }) {
             <p className="text-xs text-slate-400 mb-2">
               Guidance for how Diya should teach, reinforce rules, or adjust her immersion tone:
             </p>
-            <ReactQuill
-              theme="snow"
+            <RichTextEditor
               value={profile.diya_instructions}
               onChange={(content) => setProfile({ ...profile, diya_instructions: content })}
               placeholder="e.g. Immersion first, grammar consolidation second..."
-              className="bg-[#151d2f] text-white rounded-xl overflow-hidden [&_.ql-toolbar]:border-[#243049] [&_.ql-toolbar]:bg-[#1c263d] [&_.ql-container]:border-[#243049] [&_.ql-editor]:min-h-[100px]"
+              minHeight="110px"
             />
           </div>
 
@@ -158,12 +156,11 @@ export default function ProfileDrawer({ isOpen, onClose }) {
             <p className="text-xs text-slate-400 mb-2">
               Personal context, career updates, Shivani catch-up topics, other languages I know, and hobbies:
             </p>
-            <ReactQuill
-              theme="snow"
+            <RichTextEditor
               value={profile.notes}
               onChange={(content) => setProfile({ ...profile, notes: content })}
               placeholder="Career direction, guitar/piano setup, Shivani reunion in Norwich UK, other languages I know..."
-              className="bg-[#151d2f] text-white rounded-xl overflow-hidden [&_.ql-toolbar]:border-[#243049] [&_.ql-toolbar]:bg-[#1c263d] [&_.ql-container]:border-[#243049] [&_.ql-editor]:min-h-[200px]"
+              minHeight="220px"
             />
           </div>
 

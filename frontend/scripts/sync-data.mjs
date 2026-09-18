@@ -35,31 +35,33 @@ copyDirSync(DIYA_DATA_DIR, TARGET_DATA_DIR);
 
 // 2. Generate profile.json for static consumption
 try {
-  let student = {};
-  let learning_strategy = {};
-  if (fs.existsSync(MEMORY_PROGRESS)) {
-    const prog = JSON.parse(fs.readFileSync(MEMORY_PROGRESS, 'utf-8'));
-    student = prog.student || {};
-    learning_strategy = prog.learning_strategy || {};
+  const canonicalProfile = path.join(DIYA_DATA_DIR, 'profile.json');
+  if (fs.existsSync(canonicalProfile)) {
+    const profileData = JSON.parse(fs.readFileSync(canonicalProfile, 'utf-8'));
+    fs.writeFileSync(path.join(TARGET_DATA_DIR, 'profile.json'), JSON.stringify(profileData, null, 2), 'utf-8');
+    console.log('[sync-data] Synchronized canonical profile.json');
+  } else {
+    let student = {};
+    let learning_strategy = {};
+    if (fs.existsSync(MEMORY_PROGRESS)) {
+      const prog = JSON.parse(fs.readFileSync(MEMORY_PROGRESS, 'utf-8'));
+      student = prog.student || {};
+      learning_strategy = prog.learning_strategy || {};
+    }
+
+    const profileData = {
+      name: student.name || 'Student',
+      pronouns: 'He/Him',
+      gender: student.gender || 'Male',
+      diya_instructions: '<p>' + (learning_strategy.approach || 'Immersion first, grammar consolidation second') + '</p>',
+      notes: '',
+      target: student.target || 'A0 to A2 Conversational Fluency',
+      primary_goal: student.primary_goal || 'Reunion trip with Shivani in Norwich, UK'
+    };
+
+    fs.writeFileSync(path.join(TARGET_DATA_DIR, 'profile.json'), JSON.stringify(profileData, null, 2), 'utf-8');
+    console.log('[sync-data] Generated profile.json fallback');
   }
-
-  let stratContent = '';
-  if (fs.existsSync(STRATEGY_FILE)) {
-    stratContent = fs.readFileSync(STRATEGY_FILE, 'utf-8');
-  }
-
-  const profileData = {
-    name: student.name || 'Student',
-    pronouns: 'He/Him',
-    gender: student.gender || 'Male',
-    diya_instructions: learning_strategy.approach || 'Immersion first, grammar consolidation second',
-    notes: stratContent,
-    target: student.target || 'A0 to A2 Conversational Fluency',
-    primary_goal: student.primary_goal || 'Reunion trip with Shivani in Norwich, UK'
-  };
-
-  fs.writeFileSync(path.join(TARGET_DATA_DIR, 'profile.json'), JSON.stringify(profileData, null, 2), 'utf-8');
-  console.log('[sync-data] Generated profile.json');
 } catch (e) {
   console.warn('[sync-data] Warning: Could not generate profile.json', e.message);
 }

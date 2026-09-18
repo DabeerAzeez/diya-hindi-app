@@ -25,7 +25,7 @@ STORIES_DIR = os.path.join(DATA_DIR, 'stories')
 SONGS_DIR = os.path.join(DATA_DIR, 'songs')
 FRONTEND_DIST = os.path.join(BASE_DIR, 'frontend', 'dist')
 PROGRESS_FILE = os.path.join(BASE_DIR, 'memory', 'progress.json')
-STRATEGY_FILE = os.path.join(BASE_DIR, 'Learner Profile & Strategy.md')
+PROFILE_FILE = os.path.join(DATA_DIR, 'profile.json')
 GEMINI_FILE = os.path.join(BASE_DIR, 'GEMINI.md')
 QUEUE_FILE = os.path.join(DATA_DIR, 'anki_queue.json')
 SNAPSHOT_FILE = os.path.join(DATA_DIR, 'deck_snapshot.json')
@@ -47,8 +47,8 @@ def watchdog():
             if httpd_server:
                 httpd_server.shutdown()
             os._exit(0)
-        if client_connected and (time.time() - last_heartbeat > 12):
-            print('\n[Watchdog] No heartbeat from browser for >12s. Terminating DIYA server...')
+        if client_connected and (time.time() - last_heartbeat > 60):
+            print('\n[Watchdog] No heartbeat from browser for >60s. Terminating DIYA server...')
             if httpd_server:
                 httpd_server.shutdown()
             os._exit(0)
@@ -360,29 +360,19 @@ class DiyaHandler(http.server.SimpleHTTPRequestHandler):
             })
 
         if path == '/api/profile':
-            prog = load_json(PROGRESS_FILE, {})
-            strat_content = ''
-            if os.path.exists(STRATEGY_FILE):
-                with open(STRATEGY_FILE, 'r', encoding='utf-8') as f:
-                    strat_content = f.read()
-            gemini_content = ''
-            if os.path.exists(GEMINI_FILE):
-                with open(GEMINI_FILE, 'r', encoding='utf-8') as f:
-                    gemini_content = f.read()
-
-            student = prog.get('student', {})
-            coach = prog.get('coach', {})
-            
-            # Extract notes / context
-            profile_data = {
-                'name': student.get('name', 'Student'),
-                'pronouns': 'He/Him',
-                'gender': student.get('gender', 'Male'),
-                'diya_instructions': prog.get('learning_strategy', {}).get('approach', 'Immersion first, grammar consolidation second'),
-                'notes': strat_content,
-                'target': student.get('target', 'A0 to A2 Conversational Fluency'),
-                'primary_goal': student.get('primary_goal', 'Reunion trip with Shivani in Norwich, UK')
-            }
+            profile_data = load_json(PROFILE_FILE)
+            if not profile_data:
+                prog = load_json(PROGRESS_FILE, {})
+                student = prog.get('student', {})
+                profile_data = {
+                    'name': student.get('name', 'Student'),
+                    'pronouns': 'He/Him',
+                    'gender': student.get('gender', 'Male'),
+                    'diya_instructions': '<p>' + prog.get('learning_strategy', {}).get('approach', 'Immersion first, grammar consolidation second') + '</p>',
+                    'notes': '',
+                    'target': student.get('target', 'A0 to A2 Conversational Fluency'),
+                    'primary_goal': student.get('primary_goal', 'Reunion trip with Shivani in Norwich, UK')
+                }
             return self.send_json(profile_data)
 
         # Fallback to SPA index.html for client-side routing if serving frontend build
@@ -417,10 +407,30 @@ class DiyaHandler(http.server.SimpleHTTPRequestHandler):
             try:
                 name = payload.get('name', 'Student')
                 gender = payload.get('gender', 'Male')
+                pronouns = payload.get('pronouns', 'He/Him')
                 instructions = payload.get('diya_instructions', '')
                 notes = payload.get('notes', '')
+                target = payload.get('target', 'A0 to A2 Conversational Fluency')
+                primary_goal = payload.get('primary_goal', 'Reunion trip with Shivani in Norwich, UK')
 
-                # 1. Update progress.json
+                # 1. Save canonical profile.json in diya/data
+                profile_data = {
+                    'name': name,
+                    'pronouns': pronouns,
+                    'gender': gender,
+                    'diya_instructions': instructions,
+                    'notes': notes,
+                    'target': target,
+                    'primary_goal': primary_goal
+                }
+                save_json(PROFILE_FILE, profile_data)
+
+                # Sync to frontend static data folders if they exist
+                for target_dir in [os.path.join(BASE_DIR, 'frontend', 'public', 'data'), os.path.join(FRONTEND_DIST, 'data')]:
+                    if os.path.exists(target_dir):
+                        save_json(os.path.join(target_dir, 'profile.json'), profile_data)
+
+                # 2. Update progress.json student info
                 prog = load_json(PROGRESS_FILE, {})
                 if 'student' not in prog:
                     prog['student'] = {}
@@ -430,11 +440,6 @@ class DiyaHandler(http.server.SimpleHTTPRequestHandler):
                     prog['learning_strategy'] = {}
                 prog['learning_strategy']['custom_instructions'] = instructions
                 save_json(PROGRESS_FILE, prog)
-
-                # 2. Update Learner Profile & Strategy.md
-                if notes:
-                    with open(STRATEGY_FILE, 'w', encoding='utf-8') as f:
-                        f.write(notes)
 
                 return self.send_json({'success': True, 'message': 'Profile updated successfully'})
             except Exception as e:
@@ -470,6 +475,7 @@ def main():
     w = threading.Thread(target=watchdog, daemon=True)
     w.start()
 
+    socketserver.TCPServer.allow_reuse_address = True
     while PORT < 8100:
         try:
             with socketserver.TCPServer(('', PORT), DiyaHandler) as httpd:
