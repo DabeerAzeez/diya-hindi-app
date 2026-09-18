@@ -21,3 +21,6 @@ frontend/public/data/
 # Test output artifacts
 baseline_test_results.json
 
+# Ephemeral Git Worktrees for AI agents
+.worktrees/
+
