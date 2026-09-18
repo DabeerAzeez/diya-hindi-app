@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-09-18T01:24:56Z",
+  "synced_at": "2026-09-18T01:33:06Z",
   "stats": {
     "total": 242,
     "Mastered": 135,
@@ -46,7 +46,7 @@
         "A0-03",
         "A1-02"
       ],
-      "primary_lesson": "A1-02",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -70,7 +70,7 @@
         "A0-02",
         "A0-03"
       ],
-      "primary_lesson": "A0-03",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -92,7 +92,7 @@
         "A0-01",
         "A0-02"
       ],
-      "primary_lesson": "A0-02",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -114,7 +114,7 @@
         "A0-01",
         "A0-02"
       ],
-      "primary_lesson": "A0-02",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -172,7 +172,7 @@
         "A0-01",
         "A0-03"
       ],
-      "primary_lesson": "A0-03",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -194,7 +194,7 @@
         "A0-01",
         "A0-02"
       ],
-      "primary_lesson": "A0-02",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -218,7 +218,7 @@
         "A0-02",
         "A0-03"
       ],
-      "primary_lesson": "A0-03",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -242,7 +242,7 @@
         "A0-02",
         "A0-03"
       ],
-      "primary_lesson": "A0-03",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -286,7 +286,7 @@
         "A0-03",
         "A0-05"
       ],
-      "primary_lesson": "A0-05",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -308,7 +308,7 @@
         "A0-08",
         "A1-01"
       ],
-      "primary_lesson": "A1-01",
+      "primary_lesson": "A0-08",
       "is_general": false
     },
     {
@@ -330,7 +330,7 @@
         "A0-01",
         "A0-02"
       ],
-      "primary_lesson": "A0-02",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -354,7 +354,7 @@
         "A0-02",
         "A0-03"
       ],
-      "primary_lesson": "A0-03",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -378,7 +378,7 @@
         "A0-02",
         "A0-03"
       ],
-      "primary_lesson": "A0-03",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -400,7 +400,7 @@
         "A0-01",
         "A0-02"
       ],
-      "primary_lesson": "A0-02",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -422,7 +422,7 @@
         "A0-03",
         "A0-04"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -446,7 +446,7 @@
         "A0-02",
         "A0-03"
       ],
-      "primary_lesson": "A0-03",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -470,7 +470,7 @@
         "A0-02",
         "A0-03"
       ],
-      "primary_lesson": "A0-03",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -492,7 +492,7 @@
         "A0-01",
         "A0-02"
       ],
-      "primary_lesson": "A0-02",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -518,7 +518,7 @@
         "A0-03",
         "A0-04"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -540,7 +540,7 @@
         "A0-01",
         "A0-02"
       ],
-      "primary_lesson": "A0-02",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -564,7 +564,7 @@
         "A0-02",
         "A0-04"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -588,7 +588,7 @@
         "A0-04",
         "A0-05"
       ],
-      "primary_lesson": "A0-05",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -618,7 +618,7 @@
         "A0-05",
         "A1-02"
       ],
-      "primary_lesson": "A1-02",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -642,7 +642,7 @@
         "A0-02",
         "A0-04"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -664,7 +664,7 @@
         "A0-01",
         "A0-04"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -686,7 +686,7 @@
         "A0-03",
         "A0-05"
       ],
-      "primary_lesson": "A0-05",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -712,7 +712,7 @@
         "A0-04",
         "A1-02"
       ],
-      "primary_lesson": "A1-02",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -734,7 +734,7 @@
         "A0-03",
         "A0-04"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -758,7 +758,7 @@
         "A0-02",
         "A0-04"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -784,7 +784,7 @@
         "A0-03",
         "A0-04"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -806,7 +806,7 @@
         "A0-03",
         "A0-06"
       ],
-      "primary_lesson": "A0-06",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -830,7 +830,7 @@
         "A0-06",
         "A1-02"
       ],
-      "primary_lesson": "A1-02",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -852,7 +852,7 @@
         "A1-08",
         "A2-01"
       ],
-      "primary_lesson": "A2-01",
+      "primary_lesson": "A1-08",
       "is_general": false
     },
     {
@@ -896,7 +896,7 @@
         "A1-02",
         "A1-08"
       ],
-      "primary_lesson": "A1-08",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -918,7 +918,7 @@
         "A0-03",
         "A0-06"
       ],
-      "primary_lesson": "A0-06",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -940,7 +940,7 @@
         "A0-03",
         "A1-08"
       ],
-      "primary_lesson": "A1-08",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -962,7 +962,7 @@
         "A0-03",
         "A1-08"
       ],
-      "primary_lesson": "A1-08",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -984,7 +984,7 @@
         "A0-03",
         "A0-06"
       ],
-      "primary_lesson": "A0-06",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -1028,7 +1028,7 @@
         "A0-05",
         "A0-08"
       ],
-      "primary_lesson": "A0-08",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -1070,7 +1070,7 @@
         "A0-02",
         "A1-02"
       ],
-      "primary_lesson": "A1-02",
+      "primary_lesson": "A0-02",
       "is_general": false
     },
     {
@@ -1092,7 +1092,7 @@
         "A0-03",
         "A0-08"
       ],
-      "primary_lesson": "A0-08",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -1114,7 +1114,7 @@
         "A0-03",
         "A1-02"
       ],
-      "primary_lesson": "A1-02",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -1136,7 +1136,7 @@
         "A0-01",
         "A0-03"
       ],
-      "primary_lesson": "A0-03",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -1158,7 +1158,7 @@
         "A0-03",
         "A0-08"
       ],
-      "primary_lesson": "A0-08",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -1180,7 +1180,7 @@
         "A0-03",
         "A0-08"
       ],
-      "primary_lesson": "A0-08",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -1202,7 +1202,7 @@
         "A0-01",
         "A0-03"
       ],
-      "primary_lesson": "A0-03",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -1244,7 +1244,7 @@
         "A0-01",
         "A0-02"
       ],
-      "primary_lesson": "A0-02",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -1268,7 +1268,7 @@
         "A0-03",
         "A1-01"
       ],
-      "primary_lesson": "A1-01",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -1294,7 +1294,7 @@
         "A0-03",
         "A0-04"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -1320,7 +1320,7 @@
         "A0-04",
         "A1-02"
       ],
-      "primary_lesson": "A1-02",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -1342,7 +1342,7 @@
         "A0-04",
         "A1-05"
       ],
-      "primary_lesson": "A1-05",
+      "primary_lesson": "A0-04",
       "is_general": false
     },
     {
@@ -1364,7 +1364,7 @@
         "A0-01",
         "A0-08"
       ],
-      "primary_lesson": "A0-08",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -1404,7 +1404,7 @@
         "A0-05",
         "A0-06"
       ],
-      "primary_lesson": "A0-06",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -1430,7 +1430,7 @@
         "A0-08",
         "A1-08"
       ],
-      "primary_lesson": "A1-08",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -1492,7 +1492,7 @@
         "A0-01",
         "A0-02"
       ],
-      "primary_lesson": "A0-02",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -1518,7 +1518,7 @@
         "A0-08",
         "A1-08"
       ],
-      "primary_lesson": "A1-08",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -1544,7 +1544,7 @@
         "A0-06",
         "A0-08"
       ],
-      "primary_lesson": "A0-08",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -1570,7 +1570,7 @@
         "A0-08",
         "A1-08"
       ],
-      "primary_lesson": "A1-08",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -1596,7 +1596,7 @@
         "A0-08",
         "A1-08"
       ],
-      "primary_lesson": "A1-08",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -1622,7 +1622,7 @@
         "A0-08",
         "A1-08"
       ],
-      "primary_lesson": "A1-08",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -1648,7 +1648,7 @@
         "A0-08",
         "A1-08"
       ],
-      "primary_lesson": "A1-08",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -1674,7 +1674,7 @@
         "A0-03",
         "A1-08"
       ],
-      "primary_lesson": "A1-08",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -1702,7 +1702,7 @@
         "A1-06",
         "A1-08"
       ],
-      "primary_lesson": "A1-08",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -1730,7 +1730,7 @@
         "A0-08",
         "A1-08"
       ],
-      "primary_lesson": "A1-08",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -1756,7 +1756,7 @@
         "A0-08",
         "A1-08"
       ],
-      "primary_lesson": "A1-08",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -1782,7 +1782,7 @@
         "A0-08",
         "A1-08"
       ],
-      "primary_lesson": "A1-08",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -1808,7 +1808,7 @@
         "A0-08",
         "A1-08"
       ],
-      "primary_lesson": "A1-08",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -1836,7 +1836,7 @@
         "A0-08",
         "A1-08"
       ],
-      "primary_lesson": "A1-08",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -1862,7 +1862,7 @@
         "A1-06",
         "A1-08"
       ],
-      "primary_lesson": "A1-08",
+      "primary_lesson": "A1-02",
       "is_general": false
     },
     {
@@ -1890,7 +1890,7 @@
         "A1-05",
         "A1-08"
       ],
-      "primary_lesson": "A1-08",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -1912,7 +1912,7 @@
         "A0-02",
         "A0-03"
       ],
-      "primary_lesson": "A0-03",
+      "primary_lesson": "A0-02",
       "is_general": false
     },
     {
@@ -1934,7 +1934,7 @@
         "A0-02",
         "A0-03"
       ],
-      "primary_lesson": "A0-03",
+      "primary_lesson": "A0-02",
       "is_general": false
     },
     {
@@ -1960,7 +1960,7 @@
         "A0-05",
         "A1-04"
       ],
-      "primary_lesson": "A1-04",
+      "primary_lesson": "A0-02",
       "is_general": false
     },
     {
@@ -1984,7 +1984,7 @@
         "A0-03",
         "A0-05"
       ],
-      "primary_lesson": "A0-05",
+      "primary_lesson": "A0-02",
       "is_general": false
     },
     {
@@ -2026,7 +2026,7 @@
         "A0-01",
         "A1-02"
       ],
-      "primary_lesson": "A1-02",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -2048,7 +2048,7 @@
         "A0-03",
         "A1-02"
       ],
-      "primary_lesson": "A1-02",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -2070,7 +2070,7 @@
         "A0-01",
         "A0-03"
       ],
-      "primary_lesson": "A0-03",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -2094,7 +2094,7 @@
         "A0-02",
         "A0-03"
       ],
-      "primary_lesson": "A0-03",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -2120,7 +2120,7 @@
         "A0-06",
         "A2-01"
       ],
-      "primary_lesson": "A2-01",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -2148,7 +2148,7 @@
         "A0-04",
         "A1-02"
       ],
-      "primary_lesson": "A1-02",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -2176,7 +2176,7 @@
         "A0-08",
         "A1-05"
       ],
-      "primary_lesson": "A1-05",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -2198,7 +2198,7 @@
         "A0-04",
         "A0-06"
       ],
-      "primary_lesson": "A0-06",
+      "primary_lesson": "A0-04",
       "is_general": false
     },
     {
@@ -2222,7 +2222,7 @@
         "A0-06",
         "A1-02"
       ],
-      "primary_lesson": "A1-02",
+      "primary_lesson": "A0-04",
       "is_general": false
     },
     {
@@ -2264,7 +2264,7 @@
         "A0-02",
         "A0-08"
       ],
-      "primary_lesson": "A0-08",
+      "primary_lesson": "A0-02",
       "is_general": false
     },
     {
@@ -2290,7 +2290,7 @@
         "A0-04",
         "A1-03"
       ],
-      "primary_lesson": "A1-03",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -2314,7 +2314,7 @@
         "A0-03",
         "A1-02"
       ],
-      "primary_lesson": "A1-02",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -2340,7 +2340,7 @@
         "A0-08",
         "A1-08"
       ],
-      "primary_lesson": "A1-08",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -2382,7 +2382,7 @@
         "A0-03",
         "A0-05"
       ],
-      "primary_lesson": "A0-05",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -2404,7 +2404,7 @@
         "A0-01",
         "A0-02"
       ],
-      "primary_lesson": "A0-02",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -2430,7 +2430,7 @@
         "A0-04",
         "A0-05"
       ],
-      "primary_lesson": "A0-05",
+      "primary_lesson": "A0-02",
       "is_general": false
     },
     {
@@ -2454,7 +2454,7 @@
         "A0-04",
         "A0-05"
       ],
-      "primary_lesson": "A0-05",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -2482,7 +2482,7 @@
         "A0-04",
         "A0-05"
       ],
-      "primary_lesson": "A0-05",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -2506,7 +2506,7 @@
         "A0-03",
         "A0-05"
       ],
-      "primary_lesson": "A0-05",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -2570,7 +2570,7 @@
         "A1-02",
         "A2-01"
       ],
-      "primary_lesson": "A2-01",
+      "primary_lesson": "A0-06",
       "is_general": false
     },
     {
@@ -2592,7 +2592,7 @@
         "A0-03",
         "A0-04"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -2618,7 +2618,7 @@
         "A0-04",
         "A1-03"
       ],
-      "primary_lesson": "A1-03",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -2662,7 +2662,7 @@
         "A0-06",
         "A2-01"
       ],
-      "primary_lesson": "A2-01",
+      "primary_lesson": "A0-02",
       "is_general": false
     },
     {
@@ -2686,7 +2686,7 @@
         "A0-05",
         "A2-07"
       ],
-      "primary_lesson": "A2-07",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -2710,7 +2710,7 @@
         "A1-01",
         "A1-09"
       ],
-      "primary_lesson": "A1-09",
+      "primary_lesson": "A0-08",
       "is_general": false
     },
     {
@@ -2734,7 +2734,7 @@
         "A0-02",
         "A1-03"
       ],
-      "primary_lesson": "A1-03",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -2756,7 +2756,7 @@
         "A0-03",
         "A0-04"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -2902,7 +2902,7 @@
         "A0-01",
         "A1-02"
       ],
-      "primary_lesson": "A1-02",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -2924,7 +2924,7 @@
         "A0-01",
         "A0-02"
       ],
-      "primary_lesson": "A0-02",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -2948,7 +2948,7 @@
         "A0-02",
         "A0-04"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -2970,7 +2970,7 @@
         "A0-01",
         "A0-02"
       ],
-      "primary_lesson": "A0-02",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -3052,7 +3052,7 @@
         "A0-01",
         "A0-02"
       ],
-      "primary_lesson": "A0-02",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -3076,7 +3076,7 @@
         "A0-02",
         "A0-03"
       ],
-      "primary_lesson": "A0-03",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -3100,7 +3100,7 @@
         "A0-02",
         "A0-03"
       ],
-      "primary_lesson": "A0-03",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -3124,7 +3124,7 @@
         "A0-05",
         "A1-05"
       ],
-      "primary_lesson": "A1-05",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -3146,7 +3146,7 @@
         "A0-03",
         "A0-05"
       ],
-      "primary_lesson": "A0-05",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -3192,7 +3192,7 @@
         "A0-03",
         "A0-05"
       ],
-      "primary_lesson": "A0-05",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -3214,7 +3214,7 @@
         "A0-03",
         "A1-02"
       ],
-      "primary_lesson": "A1-02",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -3236,7 +3236,7 @@
         "A0-01",
         "A1-07"
       ],
-      "primary_lesson": "A1-07",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -3262,7 +3262,7 @@
         "A0-03",
         "A1-02"
       ],
-      "primary_lesson": "A1-02",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -3284,7 +3284,7 @@
         "A0-03",
         "A1-02"
       ],
-      "primary_lesson": "A1-02",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -3306,7 +3306,7 @@
         "A0-02",
         "A1-02"
       ],
-      "primary_lesson": "A1-02",
+      "primary_lesson": "A0-02",
       "is_general": false
     },
     {
@@ -3348,7 +3348,7 @@
         "A0-03",
         "A0-06"
       ],
-      "primary_lesson": "A0-06",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -3410,7 +3410,7 @@
         "A0-03",
         "A1-08"
       ],
-      "primary_lesson": "A1-08",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -3640,7 +3640,7 @@
         "A0-03",
         "A1-08"
       ],
-      "primary_lesson": "A1-08",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -3662,7 +3662,7 @@
         "A0-01",
         "A0-02"
       ],
-      "primary_lesson": "A0-02",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -3684,7 +3684,7 @@
         "A0-02",
         "A0-03"
       ],
-      "primary_lesson": "A0-03",
+      "primary_lesson": "A0-02",
       "is_general": false
     },
     {
@@ -3726,7 +3726,7 @@
         "A0-01",
         "A1-02"
       ],
-      "primary_lesson": "A1-02",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -3748,7 +3748,7 @@
         "A0-01",
         "A1-02"
       ],
-      "primary_lesson": "A1-02",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -3770,7 +3770,7 @@
         "A0-03",
         "A1-02"
       ],
-      "primary_lesson": "A1-02",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -3792,7 +3792,7 @@
         "A0-01",
         "A1-02"
       ],
-      "primary_lesson": "A1-02",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -3834,7 +3834,7 @@
         "A0-08",
         "A1-04"
       ],
-      "primary_lesson": "A1-04",
+      "primary_lesson": "A0-08",
       "is_general": false
     },
     {
@@ -3858,7 +3858,7 @@
         "A0-02",
         "A0-04"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -3920,7 +3920,7 @@
         "A0-02",
         "A1-04"
       ],
-      "primary_lesson": "A1-04",
+      "primary_lesson": "A0-02",
       "is_general": false
     },
     {
@@ -3944,7 +3944,7 @@
         "A0-08",
         "A1-04"
       ],
-      "primary_lesson": "A1-04",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -3968,7 +3968,7 @@
         "A0-02",
         "A0-04"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -3994,7 +3994,7 @@
         "A1-02",
         "A1-04"
       ],
-      "primary_lesson": "A1-04",
+      "primary_lesson": "A0-02",
       "is_general": false
     },
     {
@@ -4036,7 +4036,7 @@
         "A0-01",
         "A1-07"
       ],
-      "primary_lesson": "A1-07",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -4078,7 +4078,7 @@
         "A0-04",
         "A1-07"
       ],
-      "primary_lesson": "A1-07",
+      "primary_lesson": "A0-04",
       "is_general": false
     },
     {
@@ -4124,7 +4124,7 @@
         "A1-03",
         "A1-10"
       ],
-      "primary_lesson": "A1-10",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -4148,7 +4148,7 @@
         "A0-02",
         "A0-07"
       ],
-      "primary_lesson": "A0-07",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -4170,7 +4170,7 @@
         "A0-07",
         "A1-02"
       ],
-      "primary_lesson": "A1-02",
+      "primary_lesson": "A0-07",
       "is_general": false
     },
     {
@@ -4192,7 +4192,7 @@
         "A0-01",
         "A0-07"
       ],
-      "primary_lesson": "A0-07",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -4214,7 +4214,7 @@
         "A0-03",
         "A0-07"
       ],
-      "primary_lesson": "A0-07",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -4236,7 +4236,7 @@
         "A0-07",
         "A1-02"
       ],
-      "primary_lesson": "A1-02",
+      "primary_lesson": "A0-07",
       "is_general": false
     },
     {
@@ -4258,7 +4258,7 @@
         "A0-03",
         "A1-07"
       ],
-      "primary_lesson": "A1-07",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -4302,7 +4302,7 @@
         "A0-06",
         "A1-02"
       ],
-      "primary_lesson": "A1-02",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -4386,7 +4386,7 @@
         "A1-01",
         "A1-07"
       ],
-      "primary_lesson": "A1-07",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -4408,7 +4408,7 @@
         "A0-01",
         "A1-07"
       ],
-      "primary_lesson": "A1-07",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -4472,7 +4472,7 @@
         "A1-01",
         "A1-07"
       ],
-      "primary_lesson": "A1-07",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -4593,7 +4593,7 @@
         "A0-03",
         "A1-08"
       ],
-      "primary_lesson": "A1-08",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -4655,7 +4655,7 @@
         "A1-02",
         "A1-05"
       ],
-      "primary_lesson": "A1-05",
+      "primary_lesson": "A1-02",
       "is_general": false
     },
     {
@@ -4677,7 +4677,7 @@
         "A0-03",
         "A1-05"
       ],
-      "primary_lesson": "A1-05",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -4699,7 +4699,7 @@
         "A0-03",
         "A1-05"
       ],
-      "primary_lesson": "A1-05",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -4721,7 +4721,7 @@
         "A0-03",
         "A1-05"
       ],
-      "primary_lesson": "A1-05",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -4785,7 +4785,7 @@
         "A0-03",
         "A0-04"
       ],
-      "primary_lesson": "A0-04",
+      "primary_lesson": "A0-02",
       "is_general": false
     },
     {
@@ -4831,7 +4831,7 @@
         "A0-01",
         "A0-02"
       ],
-      "primary_lesson": "A0-02",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -4893,7 +4893,7 @@
         "A0-03",
         "A1-09"
       ],
-      "primary_lesson": "A1-09",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -4917,7 +4917,7 @@
         "A1-02",
         "A1-08"
       ],
-      "primary_lesson": "A1-08",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -4941,7 +4941,7 @@
         "A1-09",
         "A2-01"
       ],
-      "primary_lesson": "A2-01",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -4967,7 +4967,7 @@
         "A1-09",
         "A2-01"
       ],
-      "primary_lesson": "A2-01",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -4989,7 +4989,7 @@
         "A0-01",
         "A1-09"
       ],
-      "primary_lesson": "A1-09",
+      "primary_lesson": "A0-01",
       "is_general": false
     },
     {
@@ -5011,7 +5011,7 @@
         "A0-03",
         "A1-09"
       ],
-      "primary_lesson": "A1-09",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -5053,7 +5053,7 @@
         "A0-08",
         "A1-09"
       ],
-      "primary_lesson": "A1-09",
+      "primary_lesson": "A0-08",
       "is_general": false
     },
     {
@@ -5077,7 +5077,7 @@
         "A1-08",
         "A1-09"
       ],
-      "primary_lesson": "A1-09",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
@@ -5099,7 +5099,7 @@
         "A0-03",
         "A1-09"
       ],
-      "primary_lesson": "A1-09",
+      "primary_lesson": "A0-03",
       "is_general": false
     },
     {
