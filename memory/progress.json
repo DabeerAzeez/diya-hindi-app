@@ -1,0 +1,249 @@
+{
+  "student": {
+    "name": "Student",
+    "gender": "Male",
+    "location": "Toronto, Canada",
+    "background": [
+      "English (Native)",
+      "Tamil (SOV / Postpositions)",
+      "French",
+      "Spanish"
+    ],
+    "target": "A0 to A2 Conversational Hinglish Fluency",
+    "primary_goal": "Reunion trip with Shivani in Norwich, UK (October)"
+  },
+  "coach": {
+    "name": "Diya",
+    "gender": "Female",
+    "pronouns": "She/Her",
+    "speech_rules": {
+      "coach_self_reference": "-tii hoon / -ii / -ūngii (Feminine)",
+      "student_addressing_coach": "Feminine agreements (Aap kaisī hain? / Aap kartii hain?)"
+    }
+  },
+  "learning_strategy": {
+    "approach": "Immersion first, grammar consolidation second",
+    "script_policy": "100% Romanized Hindi / Hinglish. Devanagari only for reference.",
+    "lesson_delivery_language": "100% Romanized Hindi / Hinglish immersion for all lessons after A1-08 (A1-09 onwards)",
+    "current_level": "A2",
+    "current_lesson_code": "A2-01",
+    "current_lesson_title": "Compound Verbs & Aspectual Nuances",
+    "anki_deck": {
+      "deck_name": "Hindi",
+      "model": "Basic",
+      "current_card_count": 228,
+      "daily_target": 8
+    },
+    "notion": {
+      "parent_page_id": "3ad85bc1d96280979536d9f70446ca04",
+      "lessons_section_id": "3ae85bc1-d962-803d-8a50-f92d02ac5be1"
+    },
+    "custom_instructions": "Check agreement"
+  },
+  "completed_lessons": [
+    {
+      "code": "A0-X",
+      "title": "Pronunciation & Hindi Phonetics",
+      "concepts": [
+        "Dental vs. Retroflex (T/D)",
+        "Aspirated vs. Unaspirated",
+        "Retroflex Flaps (r/rh)",
+        "Perso-Arabic sounds & nasalization"
+      ]
+    },
+    {
+      "code": "A0-01",
+      "title": "Pronouns, 'To Be' Verbs & Hinglish Foundations",
+      "concepts": [
+        "Subject Pronouns",
+        "Hoon/Hai/Ho/Hain",
+        "Male verb endings",
+        "SOV Word Order"
+      ]
+    },
+    {
+      "code": "A0-02",
+      "title": "Present Continuous & Present Habitual (Doing vs. Does)",
+      "concepts": [
+        "Verb stem + rahaa hoon",
+        "Verb stem + taa hoon",
+        "Routines vs Current activities"
+      ]
+    },
+    {
+      "code": "A0-03",
+      "title": "Basic Connectors & Postpositions",
+      "concepts": [
+        "Me, Par, Se",
+        "Ke saath, Ke liye, Ke paas, Ke baare me",
+        "Lekin, Isliye, Kyunki, Vaise",
+        "Tamil case marker comparison"
+      ]
+    },
+    {
+      "code": "A0-04",
+      "title": "Can and Want",
+      "concepts": [
+        "Saktaa hoon (ability)",
+        "Chaahtaa hoon (want to do)",
+        "Chaahiye (need/want item)",
+        "Pasand hai (likes)"
+      ]
+    },
+    {
+      "code": "A0-05",
+      "title": "The Oblique Shift & Core Postpositions",
+      "concepts": [
+        "Triggering postpositions",
+        "Masculine singular -aa to -e",
+        "Infinitive -naa to -ne",
+        "Demonstrative ye->is, vo->us",
+        "Consolidation with chahiye/ko"
+      ]
+    },
+    {
+      "code": "A0-06",
+      "title": "Simple Past Tense & Completed Actions",
+      "concepts": [
+        "Past of To Be (thaa/thee/the)",
+        "Irregular past (gayaa, aayaa, kiyaa, bolaa)",
+        "Comprehension phrases (samajh gayaa)"
+      ]
+    },
+    {
+      "code": "A0-07",
+      "title": "Gender Suffixes & Agreement Rules",
+      "concepts": [
+        "Rule of thumb: aa (masc sing), e (masc plural/respect), ii (fem)",
+        "Noun-adjective-verb harmony"
+      ]
+    },
+    {
+      "code": "A0-08",
+      "title": "Simple Future Tense & Expressing Plans",
+      "concepts": [
+        "-ūngaa / -enge endings",
+        "Scheduling and promises",
+        "Weekend plans and commitments"
+      ]
+    },
+    {
+      "code": "A1-01",
+      "title": "Imperatives & Giving Directions",
+      "concepts": [
+        "Casual -o vs. Polite -iye",
+        "Negative imperatives (mat vs. na)",
+        "Directional vocab & spatial postpositions"
+      ]
+    },
+    {
+      "code": "A1-02",
+      "title": "Possessives, Relationships & Family",
+      "concepts": [
+        "Meraa/Merī/Mere, Aapkaa/Aapkī/Aapke",
+        "Postposition Kaa/Ke/Kee agreement with target noun",
+        "Family and friend descriptors"
+      ]
+    },
+    {
+      "code": "A1-03",
+      "title": "Multiple Uses of 'Ki' vs. 'Kaa/Ke/Kee'",
+      "concepts": [
+        "Kaa/Ke/Kee as associative/possessive agreeing with following noun",
+        "Ki as subordinating conjunction (that) linking clauses"
+      ]
+    },
+    {
+      "code": "A1-04",
+      "title": "Obligation, Compulsion & Permission",
+      "concepts": [
+        "External obligation (padtaa hai)",
+        "Strong necessity (jaanaa hai / jaanaa padegaa)",
+        "Permission requests (kyaa main...?)"
+      ]
+    },
+    {
+      "code": "A1-05",
+      "title": "Habitual Past Tense & Past Continuous Tense",
+      "concepts": [
+        "Past habits ('used to do' / verb stem + taa thaa)",
+        "Past continuous ('was doing' / verb stem + rahaa thaa)"
+      ]
+    },
+    {
+      "code": "A1-06",
+      "title": "Communication Verbs (Bolna, Kehna, Bataana, Baat Karna)",
+      "concepts": [
+        "Bolna (one-way speech/language)",
+        "Kehna (to state/quote)",
+        "Bataana (to tell/inform)",
+        "Baat karna (two-way conversation)"
+      ]
+    },
+    {
+      "code": "A1-07",
+      "title": "Quantifiers, Numbers, Shopping & Bargaining",
+      "concepts": [
+        "Cardinal numbers (1-30, round tens)",
+        "Quantifiers (thodaa, bahut, zyaadaa, kam, kuch, sab)",
+        "Demonstrative & adjective suffix -vaalaa",
+        "Price inquiries (kitne kaa/kee/ke)",
+        "Street bargaining and negotiation formulas"
+      ]
+    },
+    {
+      "code": "A1-08",
+      "title": "Transitive Verbs & Ergative Case Marker (Ne)",
+      "concepts": [
+        "Intransitive vs Transitive verbs in past",
+        "Pronoun transformations with ne (Maine, Usne, etc.)",
+        "Object agreement rule & Ko neutralizer",
+        "Irregular verbs (kiyaa, liyaa, diyaa, peeyaa)",
+        "Exceptions without ne (bolnaa, laanaa, bhoolnaa, samajhnaa)"
+      ]
+    },
+    {
+      "code": "A1-09",
+      "title": "Conversational Connectors, Discourse Markers & Improv Fillers",
+      "concepts": [
+        "Conversational glue (matlab, vaise, yaani, achhaa, theek hai)",
+        "Improv reactions and banter (arre yaar, sach mein?, sahi baat hai, bilkul)",
+        "Chronological sequencers (pehle, phir, uske baad, aakhiri mein)",
+        "Pivots & alternative conditions (iske alaavaa, varna)"
+      ]
+    },
+    {
+      "code": "A1-10",
+      "title": "Expressing Opinions, Impressions & Mental States",
+      "concepts": [
+        "Opinion framing formulas (Mujhe lagtaa hai ki, Mere khayaal se, Meraa maannaa hai ki)",
+        "Dative experiencer alignment with Tamil (Enakku thonrudhu)",
+        "Nuances of certainty and probability (Zaroor, Pakkaa, Ho saktaa hai, Shaayad, Pakkaa nahin)",
+        "Polite agreement & soft disagreement (Sahi baat hai, Yeh point sahi hai, Mujhe aisaa nahin lagtaa)"
+      ]
+    }
+  ],
+  "mastered_patterns": [
+    "SOV sentence structure alignment from Tamil",
+    "Present habitual with male conjugation (-taa hoon)",
+    "Present continuous (-rahaa hoon)",
+    "Core postpositions (me, par, se, ke saath, ke liye)",
+    "Oblique shifts on masculine nouns (kamre me, Shivani se milne ke liye)",
+    "Irregular past verbs (gayaa, kiyaa, bolaa)",
+    "Future plans (-ūngaa)",
+    "Polite and casual imperatives (aaiye / aao)",
+    "Clause linking with Ki vs Kaa/Ke/Kee",
+    "Obligation structures with padtaa hai and jaanaa hai",
+    "Communication verbs distinction (Bolna vs Baat karna)",
+    "Shopping expressions, price inquiries, and -vaalaa demonstratives",
+    "Ergative case marker (Ne) and dynamic object agreement",
+    "Conversational connectors, fillers, and improv reactions (Matlab, Vaise, Yaani, Sahi baat hai)",
+    "Opinion framing with dative experiencer (Mujhe lagtaa hai ki...) and thoughtful viewpoints (Mere khayaal se...)",
+    "Nuances of certainty, probability, and polite disagreement in natural Hinglish"
+  ],
+  "active_struggles": [
+    "Oblique shifts on compound phrases or demonstratives before rapid speech",
+    "Quick mental recall of Hindi cardinal numbers between 15 and 30 in rapid spoken conversation",
+    "Fluid spontaneous use of 'Ho saktaa hai ki...' vs 'Shaayad' in rapid discourse"
+  ]
+}

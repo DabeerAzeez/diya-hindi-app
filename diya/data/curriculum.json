@@ -1,0 +1,601 @@
+[
+  {
+    "code": "A0-X",
+    "title": "Pronunciation & Hindi Phonetics",
+    "level": "A0",
+    "level_name": "Level A0: Absolute Beginner (Foundations)",
+    "summary": [
+      "Dental vs. Retroflex distinctions (Dantya vs. Murdhanya: T/D placement behind teeth vs. curled back on roof)",
+      "Unaspirated vs. Aspirated consonant pairs (air burst mechanics: K vs. Kh, P vs. Ph, T vs. Th)",
+      "Flaps & Retroflex Flaps (Spanish-style tapped *R* vs. the unique Hindi flick *Ṛ / Ṛh*)",
+      "Perso-Arabic loan sounds (*Z, F, Kh, Gh, Q*) & Nasalization (*Anusvara / Chandrabindu*)",
+      "**Phonetics Baseline Note:** All Anki flashcards across the entire deck have pronunciation diacritics included on the second line (macrons for long vowels, under-dots for retroflexes). Dedicated Anki practice cards are not required for this lesson."
+    ],
+    "key_formulas": [],
+    "is_completed": true,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "A0-01",
+    "title": "Pronouns, To Be Verbs & Hinglish Foundations",
+    "level": "A0",
+    "level_name": "Level A0: Absolute Beginner (Foundations)",
+    "summary": [
+      "Subject Pronouns (*Main, Tum, Aap, Hum, Vo, Ye*)",
+      "Honorific levels in address (Casual *Tum* vs. Respectful *Aap*)",
+      "Present tense of \"To Be\" (*Hoon, Hai, Ho, Hain*)",
+      "Speaker Gender agreement: Male verb endings (-taa, -aa, -ūngaa)",
+      "Subject-Object-Verb (SOV) sentence order (Tamil alignment)",
+      "Natural Hinglish greetings and present state (*\"Namaste\"*, *\"Aap kaise hain?\"*, *\"Main ready hoon\"*)"
+    ],
+    "key_formulas": [],
+    "is_completed": true,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "A0-02",
+    "title": "Present Continuous & Present Habitual (Doing vs. Does)",
+    "level": "A0",
+    "level_name": "Level A0: Absolute Beginner (Foundations)",
+    "summary": [
+      "Present Continuous construction (*Verb stem + rahaa/rahe hoon/hai/ho/hain*)",
+      "Expressing ongoing actions (*\"Main kaam kar rahaa hoon\"*, *\"Movie dekh rahaa hoon\"*)",
+      "Present Habitual construction (*Verb stem + taa/te hoon/hai/ho/hain*)",
+      "Daily routines, habits, and frequency (*\"Main daily gym jaataa hoon\"*, *\"Toronto mein rahtaa hoon\"*)",
+      "Inquiring about routines (*\"Tum kyaa kar rahe ho?\"*, *\"Aap kyaa karte hain?\"*)"
+    ],
+    "key_formulas": [
+      "Present Continuous construction (*Verb stem + rahaa/rahe hoon/hai/ho/hain*)",
+      "Present Habitual construction (*Verb stem + taa/te hoon/hai/ho/hain*)"
+    ],
+    "is_completed": true,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "A0-03",
+    "title": "Basic Connectors & Postpositions",
+    "level": "A0",
+    "level_name": "Level A0: Absolute Beginner (Foundations)",
+    "summary": [
+      "Core postpositions (*Mein* - in/at, *Par* - on/at, *Se* - from/with/by)",
+      "Relational compound postpositions (*Ke saath* - with, *Ke liye* - for, *Ke paas* - near/to have, *Ke baare mein* - about)",
+      "Essential logic connectors (*Lekin / Par* - but, *Isliye* - that's why/so, *Kyunki* - because, *Vaise* - by the way)",
+      "Comparative mapping of Hindi postpositions to English and Tamil case markers (*il, aal, udan*)"
+    ],
+    "key_formulas": [],
+    "is_completed": true,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "A0-04",
+    "title": "Can and Want (Needs, Desires, Likes & Abilities)",
+    "level": "A0",
+    "level_name": "Level A0: Absolute Beginner (Foundations)",
+    "summary": [
+      "Expressing desires using *Want to* (*Verb-naa + chaahtaa hoon*)",
+      "Expressing necessity/need using *Chaahiye* (*Mujhe [Item] chaahiye*)",
+      "Expressing physical ability/capacity using *Saktaa* (*Verb stem + saktaa hoon*)",
+      "Expressing likes and preferences using *Pasand hai* (*\"Mujhe ye place pasand hai\"*)",
+      "Stating lack of knowledge (*\"Mujhe nahin pataa\"*)",
+      "Polite offerings and requests (*\"Kyaa aap meri help kar sakte hain?\"*)"
+    ],
+    "key_formulas": [
+      "Expressing physical ability/capacity using *Saktaa* (*Verb stem + saktaa hoon*)"
+    ],
+    "is_completed": true,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "A0-05",
+    "title": "The Oblique Shift & Core Postpositions",
+    "level": "A0",
+    "level_name": "Level A0: Absolute Beginner (Foundations)",
+    "summary": [
+      "Trigger mechanism: Any postposition modifying a preceding noun, pronoun, or verb",
+      "Infinitive verb shift (*-naa* $\\rightarrow$ *-ne* before postpositions, e.g., *milnaa* $\\rightarrow$ *Shivani se milne ke liye*)",
+      "High-yield action frames (*Verb-ne + ke liye*, *Verb-ne + se pehle*, *Verb-ne + ke baad*)",
+      "Masculine singular noun shift (*-aa* $\\rightarrow$ *-e*, e.g., *kamraa* $\\rightarrow$ *kamre mein*, *rastaa* $\\rightarrow$ *raste par*)",
+      "Demonstrative & pronoun shifts (*Ye* $\\rightarrow$ *Is*, *Vo* $\\rightarrow$ *Us*, *Kaun* $\\rightarrow$ *Kis*)",
+      "Reflexive possessive shift (*Apnaa* $\\rightarrow$ *Apne*)"
+    ],
+    "key_formulas": [],
+    "is_completed": true,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "A0-06",
+    "title": "Simple Past Tense & Completed Actions",
+    "level": "A0",
+    "level_name": "Level A0: Absolute Beginner (Foundations)",
+    "summary": [
+      "Past tense of \"To Be\" (*Thaa, Thee, The, Theen*)",
+      "High-frequency irregular completed verbs (*Gayaa/Gaye*, *Aayaa/Aaye*, *Kiyaa*, *Bolaa*)",
+      "Narrating daily past occurrences (*\"Kal busy din thaa\"*, *\"Main kaam par gayaa\"*)",
+      "Inquiring about past events (*\"Kyaa huaa?\"*, *\"Aap kahaan gaye the?\"*)",
+      "Expressing comprehension (*\"Samajh gayaa\"*, *\"Main samajh gayaa\"*)"
+    ],
+    "key_formulas": [],
+    "is_completed": true,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "A0-07",
+    "title": "Gender Suffixes & Agreement Rules",
+    "level": "A0",
+    "level_name": "Level A0: Absolute Beginner (Foundations)",
+    "summary": [
+      "Universal rule of thumb for endings:",
+      "`-aa`: Masculine singular (Main [male], Vo [he], Ye [this boy])",
+      "`-e`: Masculine plural, formal/respectful address (*Aap, Tum, Hum, Vo/Ye*)",
+      "`-ii`: Feminine singular & plural (*Main [female], Vo [she], Hum [fem]*)",
+      "Adjective-Noun-Verb harmony across gender and number"
+    ],
+    "key_formulas": [],
+    "is_completed": true,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "A0-08",
+    "title": "Simple Future Tense & Expressing Plans",
+    "level": "A0",
+    "level_name": "Level A0: Absolute Beginner (Foundations)",
+    "summary": [
+      "Verb conjugations for future tense (*-ūngaa*, *-oge*, *-enge*)",
+      "Scheduling, promises, and future contact (*\"Kal aapko call karūngaa\"*, *\"Hum jaldi milenge\"*)",
+      "Inquiring about upcoming plans (*\"Weekend par kyaa karoge?\"*)",
+      "Time expressions and durations (*\"10 minutes mein pahunchūngaa\"*, *\"Thodaa time lagegaa\"*)"
+    ],
+    "key_formulas": [],
+    "is_completed": true,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "A1-01",
+    "title": "Imperatives & Giving Directions",
+    "level": "A1",
+    "level_name": "Level A1: Elementary Spoken Hindi",
+    "summary": [
+      "Casual vs. Polite Imperatives (*-o* vs. *-iye*: *Karo / Kijiye*, *Aao / Aaiye*, *Dekho / Dekhiye*)",
+      "Negative imperatives (*Mat* for strong prohibitive vs. *Na* for gentle suggestion)",
+      "Directional vocabulary (*Aage, Peeche, Daayein, Baayein, Seedha*)",
+      "Spatial postpositions (*Ke saamne, Ke andar, Ke baahar, Ke paas*)",
+      "Navigating streets, cabs, and transit directions"
+    ],
+    "key_formulas": [],
+    "is_completed": true,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "A1-02",
+    "title": "Possessives, Relationships & Family",
+    "level": "A1",
+    "level_name": "Level A1: Elementary Spoken Hindi",
+    "summary": [
+      "Possessive pronouns (*Meraa/Merii/Mere*, *Aapkaa/Aapkii/Aapke*, *Iskaa/Uskaa*)",
+      "Possessive postposition *Kaa / Ke / Kee* and its dynamic agreement with the *following* noun",
+      "Describing friends, colleagues, and family (*Dost, Bhai, Behen*)",
+      "Stating background, origin, and age (*\"Meri age [number] saal hai\"*)"
+    ],
+    "key_formulas": [],
+    "is_completed": true,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "A1-03",
+    "title": "Multiple Uses of Ki vs. Kaa/Ke/Kee",
+    "level": "A1",
+    "level_name": "Level A1: Elementary Spoken Hindi",
+    "summary": [
+      "The associative/possessive role of *Kaa/Ke/Kee* (Tamil *udaiya*, French/Spanish *de*)",
+      "The subordinating conjunction *Ki* (Tamil *endru*, French *que*, Spanish *que*, English *that*)",
+      "Linking speech, thoughts, and clauses (*\"Maine sochaa ki...\"*, *\"Mujhe lagtaa hai ki...\"*)"
+    ],
+    "key_formulas": [],
+    "is_completed": true,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "A1-04",
+    "title": "Obligation, Compulsion & Permission",
+    "level": "A1",
+    "level_name": "Level A1: Elementary Spoken Hindi",
+    "summary": [
+      "Habitual / external obligation using *Padtaa hai* (*\"Mujhe daily office jaanaa padtaa hai\"*)",
+      "Strong personal necessity using infinitive + *Hai / Padegaa* (*\"Mujhe nikalnaa hai\"*, *\"Kaam karnaa padegaa\"*)",
+      "Requesting and granting permission (*\"Kyaa main andar aa saktaa hoon?\"*)",
+      "Rules and prohibitions (*\"Yahaan smoking manaa hai\"*)"
+    ],
+    "key_formulas": [],
+    "is_completed": true,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "A1-05",
+    "title": "Habitual Past Tense & Past Continuous Tense",
+    "level": "A1",
+    "level_name": "Level A1: Elementary Spoken Hindi",
+    "summary": [
+      "Habitual Past (\"used to do\" / past routines): *Verb root + taa/tee/te + thaa/thee/the*",
+      "Past Continuous (\"was doing\" / past ongoing): *Verb root + rahaa/rahee/rahe + thaa/thee/the*",
+      "Reminiscing about university days, improv memories, and past lifestyle habits"
+    ],
+    "key_formulas": [
+      "Habitual Past (\"used to do\" / past routines): *Verb root + taa/tee/te + thaa/thee/the*",
+      "Past Continuous (\"was doing\" / past ongoing): *Verb root + rahaa/rahee/rahe + thaa/thee/the*"
+    ],
+    "is_completed": true,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "A1-06",
+    "title": "Communication Verbs (Bolna, Kehna, Bataana, Baat Karna)",
+    "level": "A1",
+    "level_name": "Level A1: Elementary Spoken Hindi",
+    "summary": [
+      "*Bolna*: To speak / produce words (language ability, one-way speech)",
+      "*Kehna*: To say / state a quote or thought (often with *ki*)",
+      "*Bataana*: To tell / inform / provide details to someone (*ko bataana*)",
+      "*Baat karna*: To talk / have a two-way conversation (*se baat karna*)"
+    ],
+    "key_formulas": [],
+    "is_completed": true,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "A1-07",
+    "title": "Quantifiers, Numbers, Shopping & Bargaining",
+    "level": "A1",
+    "level_name": "Level A1: Elementary Spoken Hindi",
+    "summary": [
+      "Cardinal numbers overview (focus on 1–30 and practical tens: 40, 50, 100)",
+      "Quantifiers (*Bahut, Zyaadaa, Kam, Kuch, Sab, Thodaa*)",
+      "Demonstratives in shopping (*\"Ye vaalaa\"*, *\"Vo vaalaa\"*)",
+      "Inquiring prices (*\"Ye kitne kaa hai?\"*, *\"Total kitnaa huaa?\"*)",
+      "Bargaining and requesting discounts (*\"Thodaa kam karo\"*, *\"Thodaa mehengaa hai\"*)"
+    ],
+    "key_formulas": [],
+    "is_completed": true,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "A1-08",
+    "title": "Transitive Verbs & Ergative Case Marker (Ne)",
+    "level": "A1",
+    "level_name": "Level A1: Elementary Spoken Hindi",
+    "summary": [
+      "Intransitive verbs (no *ne*, verb agrees with subject) vs. Transitive verbs (requires *ne* in completed past)",
+      "Pronoun transformations with *Ne*: *Maine, Humne, Aapne, Tumne, Usne, Unhone, Kisne*",
+      "Dynamic verb agreement with the object:",
+      "Masculine singular object: *Maine seb khaayaa* (I ate an apple)",
+      "Feminine singular object: *Maine chaay pee* (I drank tea)",
+      "Plural objects: *Maine gaane sune* (I listened to songs)",
+      "Default masculine singular (-aa) when object has *ko* (*Maine Shivani ko dekhaa*) or no explicit object",
+      "Irregular past forms of common transitive verbs (*Karnaa -> kiyaa*, *Lenaa -> liyaa*, *Denaa -> diyaa*, *Peenaa -> peeyaa*)",
+      "Core exceptions that never take *ne*: *Bolnaa* (spoke), *Laanaa* (brought), *Bhoolnaa* (forgot), *Samajhnaa* (understood)"
+    ],
+    "key_formulas": [
+      "Irregular past forms of common transitive verbs (*Karnaa -> kiyaa*, *Lenaa -> liyaa*, *Denaa -> diyaa*, *Peenaa -> peeyaa*)"
+    ],
+    "is_completed": true,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "A1-09",
+    "title": "Conversational Connectors, Discourse Markers & Improv Fillers",
+    "level": "A1",
+    "level_name": "Level A1: Elementary Spoken Hindi",
+    "summary": [
+      "Conversational fillers & discourse glue: *Matlab, Vaise, Yaani, Sach mein?, Arre yaar, Achhaa, Theek hai, Sahi baat hai*",
+      "Chronological sequencers & story transitions: *Pehle, Phir / Uske baad, Aakhiri mein, Iske alaavaa, Varna*",
+      "Reactive conversational tactics: validating, teasing, asking for clarification, and improv callback formulas"
+    ],
+    "key_formulas": [],
+    "is_completed": true,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "A1-10",
+    "title": "Expressing Opinions, Impressions & Mental States",
+    "level": "A1",
+    "level_name": "Level A1: Elementary Spoken Hindi",
+    "summary": [
+      "Opinion framing formulas: *\"Mujhe lagtaa hai ki...\"*, *\"Mere khayaal se...\"*, *\"Meraa maannaa hai ki...\"*",
+      "Nuances of certainty and doubt: *Shaayad, Ho saktaa hai, Pakkaa nahin, Zaroor*",
+      "Polite agreement & disagreement in Hinglish: *\"Sahi baat hai\"*, *\"Mujhe aisaa nahin lagtaa\"*, *\"Yeh point sahi hai\"*"
+    ],
+    "key_formulas": [],
+    "is_completed": true,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "A2-01",
+    "title": "Compound Verbs & Aspectual Nuances",
+    "level": "A2",
+    "level_name": "Level A2: Pre-Intermediate Spoken Hindi",
+    "summary": [
+      "Structure: *Main Verb Stem + Explanatory Auxiliary (Lenaa, Denaa, Jaanaa, Daalnaa)*",
+      "Completeness and orientation of action:",
+      "*-Lenaa*: Action done for self-benefit or inward (*\"Khaa lo\"*, *\"Samajh liyaa\"*, *\"Soch lo\"*)",
+      "*-Denaa*: Action directed outward for others (*\"De diyaa\"*, *\"Bataa do\"*, *\"Samjhaa diyaa\"*)",
+      "*-Jaanaa*: Completion, permanence, change of state (*\"Ho gayaa\"*, *\"Chalaa gayaa\"*, *\"Aa gayaa\"*)",
+      "*-Daalnaa*: Sudden, decisive, or forceful completion (*\"Kar daalaa\"*, *\"Bol daalaa\"*)"
+    ],
+    "key_formulas": [
+      "Structure: *Main Verb Stem + Explanatory Auxiliary (Lenaa, Denaa, Jaanaa, Daalnaa)*"
+    ],
+    "is_completed": false,
+    "is_active": true,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "A2-02",
+    "title": "Complex Sentence Structures & Correlatives",
+    "level": "A2",
+    "level_name": "Level A2: Pre-Intermediate Spoken Hindi",
+    "summary": [
+      "Correlative pronoun pairs:",
+      "*Jo ... Vo* (The one who / that which ... that)",
+      "*Jahaan ... Vahaan* (Where ... there)",
+      "*Jab ... Tab* (When ... then)",
+      "*Jitnaa ... Utnaa* (As much as ... that much)",
+      "*Jaise ... Vaise* (As / The way ... so / that way)",
+      "Conditional and subordinating conjunctions: *Agar ... toh*, *Kyunki*, *Halaanki ... phir bhi*"
+    ],
+    "key_formulas": [],
+    "is_completed": false,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "A2-03",
+    "title": "Core Descriptive Adjectives, Sensory Qualities & Polar Opposites 🏷️ (Vocabulary Anchor 1)",
+    "level": "A2",
+    "level_name": "Level A2: Pre-Intermediate Spoken Hindi",
+    "summary": [
+      "Physical & Temperature Qualities: *Garam* (hot) vs. *Thandaa* (cold), *Meethaa* (sweet) vs. *Teekhaa* (spicy)",
+      "Size & Dimension: *Badaa* (big) vs. *Chhotaa* (small), *Bhaari* (heavy) vs. *Halkaa* (light)",
+      "Speed & Ease: *Tez* (fast/sharp) vs. *Dheere* (slow), *Aasaan* (easy) vs. *Mushkil* (difficult)",
+      "Condition & State: *Saaf* (clean) vs. *Gandaa* (dirty), *Mehengaa* (expensive) vs. *Sastaa* (cheap)",
+      "Truth & Direction: *Sachaa* (true) vs. *Jhoothaa* (false), *Seedhaa* (straight/simple) vs. *Ultaa* (inverted/opposite)"
+    ],
+    "key_formulas": [],
+    "is_completed": false,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "A2-04",
+    "title": "Dative Experiencer Frameworks (Lagnaa, Aanaa, Pataa, Yaad)",
+    "level": "A2",
+    "level_name": "Level A2: Pre-Intermediate Spoken Hindi",
+    "summary": [
+      "Experiencer subject with *Ko / Mujhe*:",
+      "Sensations & states: *Bhookh lagnaa, Pyaas lagnaa, Thand/Garmi lagnaa, Buraa lagnaa, Achhaa lagnaa*",
+      "Skills and capacities (*Aanaa*): *\"Mujhe guitar bajanaa aataa hai\"*, *\"Mujhe French aatii hai\"*",
+      "Knowledge and facts (*Pataa hona*): *\"Mujhe pataa hai ki...\"*, *\"Kyaa aapko pataa hai?\"*",
+      "Remembering and missing (*Yaad aanaa / Yaad hona*): *\"Mujhe university ke din yaad aate hain\"*"
+    ],
+    "key_formulas": [],
+    "is_completed": false,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "A2-05",
+    "title": "The Hinglish Code-Switching Architecture & English Backup Strategies",
+    "level": "A2",
+    "level_name": "Level A2: Pre-Intermediate Spoken Hindi",
+    "summary": [
+      "The Anatomy of Spoken Hinglish: Safe loanword classes (Nouns, descriptive adjectives) vs. Non-negotiable Hindi grammar (Postpositions, pronouns, obliques, tense auxiliaries)",
+      "The Conjunct Verb Engine: English word + *Karnaa* (active) vs. *Honaa* (passive) vs. *Lagnaa/Feel honaa* (sensory) (*decide karnaa, cancel honaa, weird lagnaa*)",
+      "Aspectual Compound Verbs on English Stems: *\"Call kar do\"*, *\"Check kar lo\"*, *\"Message send kar diyaa\"*, *\"Plan cancel ho gayaa\"*",
+      "Natural loanword gender assignment rules in spoken Hindi (Why *coffee/meeting* are feminine while *phone/project* are masculine)",
+      "Avoiding false Anglicized calques (Literal word-for-word idioms to avoid)"
+    ],
+    "key_formulas": [],
+    "is_completed": false,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "A2-06",
+    "title": "High-Yield Spoken Action Verbs & Practical Movement 🏷️ (Vocabulary Anchor 2)",
+    "level": "A2",
+    "level_name": "Level A2: Pre-Intermediate Spoken Hindi",
+    "summary": [
+      "Handling Objects: *Rakhnaa* (to put/keep), *Uthaanaa* (to pick up/lift), *Chhodnaa* (to leave/drop off), *Pakadnaa* (to catch/hold)",
+      "Movement & Transit: *Pahunchnaa* (to arrive/reach), *Ruknaa* (to pause/stay) vs. *Roknaa* (to stop something), *Chalaanaa* (to drive/operate/run)",
+      "Practical Daily Actions: *Dhoondhnaa* (to search/find), *Milnaa* (to meet/be found), *Girnaa* (to fall), *Bachnaa* (to survive/be saved) vs. *Bachaanaa* (to save)",
+      "Managing & Holding: *Sambhaalnaa* (to manage/handle/take care of)"
+    ],
+    "key_formulas": [],
+    "is_completed": false,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "A2-07",
+    "title": "The Subjunctive Mood, Permissions & Hypothetical Situations",
+    "level": "A2",
+    "level_name": "Level A2: Pre-Intermediate Spoken Hindi",
+    "summary": [
+      "The Subjunctive / Optative:",
+      "Suggestive questions & polite offers: *\"Main bolūn?\"*, *\"Kyaa hum chalein?\"*, *\"Main order karūn?\"*",
+      "Permission and collaborative decisions: *\"Aap baithein\"*, *\"Vo bole\"*",
+      "Counterfactuals and hypotheticals:",
+      "Regret & wishes: *\"Kaash aisaa hotaa!\"* (I wish it were so!)",
+      "Unreal past / conditional imagination: *\"Agar main Norwich mein hotaa, toh hum pub jaate...\"*"
+    ],
+    "key_formulas": [],
+    "is_completed": false,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "A2-08",
+    "title": "Core Emotional Descriptors, Mental States & Relational Nuances 🏷️ (Vocabulary Anchor 3)",
+    "level": "A2",
+    "level_name": "Level A2: Pre-Intermediate Spoken Hindi",
+    "summary": [
+      "Emotional & Psychological States: *Pareshaan* (worried/troubled), *Hairaan* (surprised/shocked), *Shaant* (calm/quiet), *Gussa* (angry), *Khush* (happy) vs. *Udaas* (sad)",
+      "Situational Descriptors: *Ajeeb* (weird/strange), *Zaroori* (important/necessary), *Khaas* (special)",
+      "High-Frequency Discourse Adverbs: *Aamtaur par* (usually/generally), *Achaanak* (suddenly), *Bilkul* (absolutely/completely), *Khaaskar* (especially), *Shaayad* (perhaps)"
+    ],
+    "key_formulas": [],
+    "is_completed": false,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "B1-01",
+    "title": "The Passive Voice & Impersonal Constructions",
+    "level": "B1",
+    "level_name": "Level B1: Intermediate Spoken Hindi",
+    "summary": [
+      "Formation: *Verb Stem / Completed Past Participle + Jaanaa* (Inflected in any tense)",
+      "Everyday applications:",
+      "Completed past passive: *\"Email bhej diyaa gayaa\"* (The email was sent), *\"Meeting cancel kii gayii\"* (The meeting was cancelled)",
+      "Present habitual / general rule passive: *\"Aisaa kiyaa jaataa hai\"* (It is done like this), *\"Yahaan ticket nahin miltaa\"*",
+      "Impersonal ability and physical incapacity (*Subject + se + Verb stem + nahin jaataa*):",
+      "*\"Mujhse itnaa wait nahin kiyaa jaataa\"* (I can't bear waiting this long / It cannot be waited by me)"
+    ],
+    "key_formulas": [
+      "Impersonal ability and physical incapacity (*Subject + se + Verb stem + nahin jaataa*):"
+    ],
+    "is_completed": false,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "B1-02",
+    "title": "Causative Verbs & Secondary Agency (Karnaa → Karaanaa → Karvaanaa)",
+    "level": "B1",
+    "level_name": "Level B1: Intermediate Spoken Hindi",
+    "summary": [
+      "Mechanism of causation: Direct action vs. First causative (causing someone to act) vs. Second causative (having work done through an intermediary)",
+      "High-frequency causative triples:",
+      "*Karnaa* (to do) $\\rightarrow$ *Karaanaa* $\\rightarrow$ *Karvaanaa* (*\"Maine laptop repair karvaayaa\"*)",
+      "*Khaanaa* (to eat) $\\rightarrow$ *Khilaanaa* (to feed/treat someone)",
+      "*Peenaa* (to drink) $\\rightarrow$ *Pilaanaa* (to serve drinks / buy a round)",
+      "*Dekhnaa* (to see) $\\rightarrow$ *Dikhanaaa* (to show)",
+      "*Sunnaa* (to hear) $\\rightarrow$ *Sunaanaa* (to recite / tell a story / play music)",
+      "*Milnaa* (to meet) $\\rightarrow$ *Milaanaa* (to introduce people / connect)",
+      "Intermediary postposition *Se*: *\"Maine Shivani se baat karvaayii\"* (I had someone speak to Shivani)"
+    ],
+    "key_formulas": [],
+    "is_completed": false,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "B1-03",
+    "title": "High-Yield Abstract Concepts, Trust & Relational Vocabulary 🏷️ (Vocabulary Anchor 4)",
+    "level": "B1",
+    "level_name": "Level B1: Intermediate Spoken Hindi",
+    "summary": [
+      "Trust & Belief: *Bharosaa / Vishwaas* (trust/faith), *Umeed* (hope/expectation), *Sachchaai* (truth)",
+      "Agency & Decisions: *Faislaa* (decision), *Zimmedaari* (responsibility), *Koshish* (effort/attempt), *Haq* (right/entitlement)",
+      "Social Bonds: *Rishtaa* (relationship/connection), *Dosti* (friendship), *Aadat* (habit), *Ehsaas* (realization/feeling)",
+      "Outcomes & Value: *Faaydaa* (benefit/advantage) vs. *Nuqsaan* (loss/harm), *Farq* (difference — *\"Isse koi farq nahin padtaa\"*)"
+    ],
+    "key_formulas": [],
+    "is_completed": false,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "B1-04",
+    "title": "Adverbial Participles & Complex Clause Modifiers",
+    "level": "B1",
+    "level_name": "Level B1: Intermediate Spoken Hindi",
+    "summary": [
+      "Imperfective Participles (*Verb stem + te hue* — Simultaneous ongoing action):",
+      "*\"Hum coffee peete hue baat karenge\"* (We will talk while drinking coffee)",
+      "*\"Chalte-chalte maine sochaa...\"* (While walking, I thought...)",
+      "Perfective Participles (*Verb stem + kar / karke* — Sequential completed action / \"Having done X\"):",
+      "*\"Khaanaa khaakar nikalte hain\"* (Having eaten / After eating, let's head out)",
+      "*\"Soch-samajhkar bolo\"* (Think carefully before speaking)",
+      "Immediate Sequence (*Verb stem + te hi* — \"As soon as\"):",
+      "*\"Pahunchte hi mujhe call karnaa\"* (Call me as soon as you arrive)"
+    ],
+    "key_formulas": [
+      "Imperfective Participles (*Verb stem + te hue* — Simultaneous ongoing action):",
+      "Perfective Participles (*Verb stem + kar / karke* — Sequential completed action / \"Having done X\"):",
+      "Immediate Sequence (*Verb stem + te hi* — \"As soon as\"):"
+    ],
+    "is_completed": false,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "B1-05",
+    "title": "Conversational Idioms, Expressive Phrasal Formulas & Colloquial Discourse 🏷️ (Vocabulary Anchor 5)",
+    "level": "B1",
+    "level_name": "Level B1: Intermediate Spoken Hindi",
+    "summary": [
+      "Street-Smart Conversational Inquiries: *\"Chakkar kyaa hai?\"* (What's the catch / deal?), *\"Kise pataa?\"* (Who knows?)",
+      "Intentionality & Nuance: *Jaan-bujhkar* (deliberately/on purpose), *Galti se* (by mistake), *Aise hi* (just like that / casually)",
+      "Conversational Pivot Phrases: *Khair* (anyway / regardless), *Darasal* (as a matter of fact / actually), *Dekhaa jaaye toh* (if you look at it)",
+      "Expressive Hindi Idiomatic Metaphors used in Hinglish:",
+      "*Dimag kharaab karnaa* (to drive someone crazy / annoy)",
+      "*Haath dhonaa* (to miss out / lose out on something)",
+      "*Hawaa nikalnaa* (to lose steam / run out of energy)",
+      "*Taang kheenchnaa* (to pull someone's leg / tease)"
+    ],
+    "key_formulas": [],
+    "is_completed": false,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "B1-06",
+    "title": "Presumptive Mood, Deductions & Speculative Future (Hogaa / Kar Rahaa Hogaa)",
+    "level": "B1",
+    "level_name": "Level B1: Intermediate Spoken Hindi",
+    "summary": [
+      "Expressing deductions and probability using *Hogaa*:",
+      "Present state deduction: *\"Vo abhi office mein hogaa\"* (He must be in the office right now)",
+      "Present continuous deduction: *\"Shivani abhi train mein travel kar rahii hogii\"* (Shivani must be traveling on the train right now)",
+      "Past completed deduction: *\"Usne message dekh liyaa hogaa\"* (He/She must have seen the message by now)",
+      "Contrasting certainty (*Hai/Thaa*), probability (*Hogaa*), and subjunctive possibility (*Ho / Shaayad*)"
+    ],
+    "key_formulas": [],
+    "is_completed": false,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  },
+  {
+    "code": "B1-07",
+    "title": "Comprehensive B1 Synthesis & Spontaneous Conversational Fluency",
+    "level": "B1",
+    "level_name": "Level B1: Intermediate Spoken Hindi",
+    "summary": [
+      "Complete integration of Passive voice, Causatives, Participles, and Presumptive mood",
+      "Fluid long-form discussions on professional pivots, lifestyle changes, and deep friendship catch-ups",
+      "Natural, uninterrupted code-switching without hesitations or grammar collapses"
+    ],
+    "key_formulas": [],
+    "is_completed": false,
+    "is_active": false,
+    "notion_url": "https://www.notion.so/3ad85bc1d96280979536d9f70446ca04"
+  }
+]

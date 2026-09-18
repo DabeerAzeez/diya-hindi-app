@@ -1,0 +1,219 @@
+{
+  "id": "3c785bc1-d962-8024-8061-d4efb89ee749",
+  "code": "A1-01",
+  "title": "Lesson A1-01: Imperatives & Giving Directions",
+  "slug": "lesson_a1-01__imperatives___giving_directions",
+  "sections": [
+    {
+      "title": "🌟Summary",
+      "type": "heading_1",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Is lesson mein hum **Imperatives (Commands/Requests)** aur **Directions/Spatial Postpositions** seekhenge! Imperatives direct verbs hote hain jo instructions, advice, ya raste batane ke liye use hote hain."
+        },
+        {
+          "type": "bullet",
+          "text": "**Tum (Casual/Friendly):** Verb stem + $-o$ (e.g., *aao*, *baitho*, *bataao*)",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Aap (Polite/Formal):** Verb stem + $-iye$ (e.g., *aaiye*, *baithiye*, *bataaiye*)",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Negative Commands:** *Mat* (preferred/direct) ya *Na* use hota hai verb se pehle (e.g., *tension mat lo*)",
+          "children": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Spatial directions bilkul Tamil aur English ki tarah logical hain, par Hindi mein postpositions landmark ke baad aate hain."
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Verb Stem} + \\text{-o} \\longrightarrow \\text{Tum Imperative (Casual)}$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Verb Stem} + \\text{-iye} \\longrightarrow \\text{Aap Imperative (Polite)}$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Mat} + \\text{Imperative Verb} \\longrightarrow \\text{Negative Command}$$"
+        }
+      ]
+    },
+    {
+      "title": "📘Lesson",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "🗣️ Tum vs. Aap Imperatives",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "bullet",
+          "text": "**Tum level (Informal/Friends):**",
+          "children": [
+            "*Suno* (Listen)",
+            "*Dekho* (Look)",
+            "*Ruko* (Stop/Wait)",
+            "*Yahaam aao* (Come here)"
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**Aap level (Polite/Respectful):**",
+          "children": [
+            "*Suniye* (Please listen)",
+            "*Dekhiye* (Please look)",
+            "*Rukiye* (Please wait)",
+            "*Yahaam aaiye* (Please come here)"
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**Irregular Stems (Crucial):**",
+          "children": [
+            "*Lenaa* (To take) → *Lo* (Tum) / *Lijiye* (Aap)",
+            "*Denaa* (To give) → *Do* (Tum) / *Dijiye* (Aap)",
+            "*Karnaa* (To do) → *Karo* (Tum) / *Kijiye* (Aap)",
+            "*Peenaa* (To drink) → *Piyo* (Tum) / *Pijiye* (Aap)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "🚫 Negative Imperatives (Mat vs. Na)",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "bullet",
+          "text": "Direct prohibition ke liye **Mat** use karo:",
+          "children": [
+            "*Tension mat lo!* (Don't stress/take tension!)",
+            "*Late mat ho.* (Don't be late.)",
+            "*Wahaam mat jaao.* (Don't go there.)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "🧭 Directional Vocabulary & Spatial Postpositions",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "bullet",
+          "text": "**Directions:**",
+          "children": [
+            "*Seedha* (Straight)",
+            "*Daayeim* / *Right* (Right)",
+            "*Baayeim* / *Left* (Left)",
+            "*Aage* (Ahead/Forward)",
+            "*Peeche* (Behind/Back)"
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**Spatial Postpositions:**",
+          "children": [
+            "*Ke saamne* (In front of / opposite)",
+            "*Ke paas* (Near)",
+            "*Ke andar* (Inside)",
+            "*Ke baahar* (Outside)",
+            "*Ke peeche* (Behind)"
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**Turn Verbs:**",
+          "children": [
+            "*Mudo* / *Mudiye* (Turn)",
+            "*Right mudo* (Turn right)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "❓Quiz",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "Concept & Grammar Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "toggle",
+          "title": "**Casual (*****tum*****) aur polite (*****aap*****) imperatives banane ka formula kya hai?**",
+          "children": [
+            "**Answer:** *Tum* ke liye verb stem mein $-o$ add karte hain, aur *aap* ke liye stem mein",
+            "$-iye$ add karte hain."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Hindi mein negative command/request dene ke liye kaunsa word verb se pehle use hota hai?**",
+          "children": [
+            "**Answer:** *Mat* (e.g., *Mat jaao*, *Tension mat lo*)."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**\"Care home ke saamne\" phrase mein postposition kya hai aur iska meaning kya hai?**",
+          "children": [
+            "**Answer:** Postposition *ke saamne* hai, jiska meaning \"in front of / opposite to\" hota hai."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Translation Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "toggle",
+          "title": "**Take right from the station and go straight.** *(informal)*",
+          "children": [
+            "**Answer:** `Station se right mudo aur seedha jaao.`",
+            "Station (station) | se (from) | right (right) | mudo (turn) | aur (and) | seedha (straight) | jaao (go)"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Please don't worry.** *(polite)*",
+          "children": [
+            "**Answer:** `Chinta mat kijiye.` / `Tension mat lijiye.`",
+            "Chinta/Tension (worry/tension) | mat (don't) | kijiye/lijiye (please do/take)"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Pub ke saamne ruko.**",
+          "children": [
+            "**Answer:** Stop/Wait in front of the pub."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Please come inside and sit.** *(polite)*",
+          "children": [
+            "**Answer:** `Andar aaiye aur baithiye.`",
+            "Andar (inside) | aaiye (please come) | aur (and) | baithiye (please sit)"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Aage se left lo.**",
+          "children": [
+            "**Answer:** Take a left from ahead."
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": "\n# 🌟Summary\n\nIs lesson mein hum **Imperatives (Commands/Requests)** aur **Directions/Spatial Postpositions** seekhenge! Imperatives direct verbs hote hain jo instructions, advice, ya raste batane ke liye use hote hain.\n\n* **Tum (Casual/Friendly):** Verb stem + $-o$ (e.g., *aao*, *baitho*, *bataao*)\n* **Aap (Polite/Formal):** Verb stem + $-iye$ (e.g., *aaiye*, *baithiye*, *bataaiye*)\n* **Negative Commands:** *Mat* (preferred/direct) ya *Na* use hota hai verb se pehle (e.g., *tension mat lo*)\nSpatial directions bilkul Tamil aur English ki tarah logical hain, par Hindi mein postpositions landmark ke baad aate hain.\n\n\n$$\n\\text{Verb Stem} + \\text{-o} \\longrightarrow \\text{Tum Imperative (Casual)}\n$$\n\n\n$$\n\\text{Verb Stem} + \\text{-iye} \\longrightarrow \\text{Aap Imperative (Polite)}\n$$\n\n\n$$\n\\text{Mat} + \\text{Imperative Verb} \\longrightarrow \\text{Negative Command}\n$$\n\n\n# 📘Lesson\n\n\n## 🗣️ Tum vs. Aap Imperatives\n\n* **Tum level (Informal/Friends):**\n    * *Suno* (Listen)\n    * *Dekho* (Look)\n    * *Ruko* (Stop/Wait)\n    * *Yahaam aao* (Come here)\n* **Aap level (Polite/Respectful):**\n    * *Suniye* (Please listen)\n    * *Dekhiye* (Please look)\n    * *Rukiye* (Please wait)\n    * *Yahaam aaiye* (Please come here)\n* **Irregular Stems (Crucial):**\n    * *Lenaa* (To take) → *Lo* (Tum) / *Lijiye* (Aap)\n    * *Denaa* (To give) → *Do* (Tum) / *Dijiye* (Aap)\n    * *Karnaa* (To do) → *Karo* (Tum) / *Kijiye* (Aap)\n    * *Peenaa* (To drink) → *Piyo* (Tum) / *Pijiye* (Aap)\n\n## 🚫 Negative Imperatives (Mat vs. Na)\n\n* Direct prohibition ke liye **Mat** use karo:\n    * *Tension mat lo!* (Don't stress/take tension!)\n    * *Late mat ho.* (Don't be late.)\n    * *Wahaam mat jaao.* (Don't go there.)\n\n## 🧭 Directional Vocabulary & Spatial Postpositions\n\n* **Directions:**\n    * *Seedha* (Straight)\n    * *Daayeim* / *Right* (Right)\n    * *Baayeim* / *Left* (Left)\n    * *Aage* (Ahead/Forward)\n    * *Peeche* (Behind/Back)\n* **Spatial Postpositions:**\n    * *Ke saamne* (In front of / opposite)\n    * *Ke paas* (Near)\n    * *Ke andar* (Inside)\n    * *Ke baahar* (Outside)\n    * *Ke peeche* (Behind)\n* **Turn Verbs:**\n    * *Mudo* / *Mudiye* (Turn)\n    * *Right mudo* (Turn right)\n\n# ❓Quiz\n\n\n### Concept & Grammar Questions\n\n<details><summary>**Casual (*****tum*****) aur polite (*****aap*****) imperatives banane ka formula kya hai?**</summary>\n\n* **Answer:** *Tum* ke liye verb stem mein $-o$ add karte hain, aur *aap* ke liye stem mein\n* $-iye$ add karte hain.\n</details>\n\n<details><summary>**Hindi mein negative command/request dene ke liye kaunsa word verb se pehle use hota hai?**</summary>\n\n* **Answer:** *Mat* (e.g., *Mat jaao*, *Tension mat lo*).\n</details>\n\n<details><summary>**\"Care home ke saamne\" phrase mein postposition kya hai aur iska meaning kya hai?**</summary>\n\n* **Answer:** Postposition *ke saamne* hai, jiska meaning \"in front of / opposite to\" hota hai.\n</details>\n\n\n### Translation Questions\n\n<details><summary>**Take right from the station and go straight.** *(informal)*</summary>\n\n* **Answer:** `Station se right mudo aur seedha jaao.`\n* Station (station) | se (from) | right (right) | mudo (turn) | aur (and) | seedha (straight) | jaao (go)\n</details>\n\n<details><summary>**Please don't worry.** *(polite)*</summary>\n\n* **Answer:** `Chinta mat kijiye.` / `Tension mat lijiye.`\n* Chinta/Tension (worry/tension) | mat (don't) | kijiye/lijiye (please do/take)\n</details>\n\n<details><summary>**Pub ke saamne ruko.**</summary>\n\n* **Answer:** Stop/Wait in front of the pub.\n</details>\n\n<details><summary>**Please come inside and sit.** *(polite)*</summary>\n\n* **Answer:** `Andar aaiye aur baithiye.`\n* Andar (inside) | aaiye (please come) | aur (and) | baithiye (please sit)\n</details>\n\n<details><summary>**Aage se left lo.**</summary>\n\n* **Answer:** Take a left from ahead.\n</details>\n"
+}

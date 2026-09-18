@@ -1,0 +1,564 @@
+{
+  "id": "3d785bc1-d962-81bf-a754-ff7968180756",
+  "code": "A1-08",
+  "title": "Lesson A1-08: Transitive Verbs & Ergative Case Marker (Ne)",
+  "slug": "lesson_a1-08__transitive_verbs___ergative_case_marker__ne",
+  "sections": [
+    {
+      "title": "🌟Summary",
+      "type": "heading_1",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "In this lesson, we conquer the single most defining architectural pillar of conversational Hindi: **The Ergative Case Marker (*Ne*)** and **Past Transitive Verb Agreement**."
+        },
+        {
+          "type": "paragraph",
+          "text": "Whenever an action is completed in the past using a **transitive verb** (a verb that takes a direct object, like *eating, seeing, drinking, making, sending, asking*), Hindi undergoes an elegant structural flip:"
+        },
+        {
+          "type": "numbered",
+          "text": "The subject takes the postposition **`ne`**.",
+          "children": []
+        },
+        {
+          "type": "numbered",
+          "text": "Because the subject now has a postposition, it enters the oblique case and **relinquishes grammatical control of the verb**.",
+          "children": []
+        },
+        {
+          "type": "numbered",
+          "text": "The verb agrees dynamically in gender and number with the **direct object** instead!",
+          "children": []
+        },
+        {
+          "type": "numbered",
+          "text": "If the direct object is marked with **`ko`** (specific person or specific object), agreement is blocked, and the verb defaults to the neutral **masculine singular (`-aa`)**.",
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "📐 Mathematical Formulas",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Subject} + \\text{ne} + \\text{Object} + \\text{Verb}_{(\\text{agrees with Object})}$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Subject} + \\text{ne} + \\text{Object} + \\text{ko} + \\text{Verb}_{(\\text{default masculine singular: } -aa)}$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Maine} + \\text{coffee (f)} + \\text{pee (f)}$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Maine} + \\text{Shivani (f)} + \\text{ko} + \\text{dekhaa (default -aa)}$$"
+        }
+      ]
+    },
+    {
+      "title": "🌐 Polyglot Linguistic Parallels",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "bullet",
+          "text": "**French Connection:** Think of the *passé composé* agreement with preceding direct objects (*La pomme que j'ai mangée* — the verb agrees with the apple, not the speaker!). In Hindi past tense, the verb *always* agrees with the object unless blocked by *ko*.",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Tamil Connection:** In Tamil, the subject retains nominative agency, but passive/instrumental structures use *-āl* (e.g., *ennāl seyyappattadu*). Hindi's *ne* turns the active past into an ergative construction where the focus naturally balances between actor and outcome.",
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "📘Lesson",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "⚡ 1. Intransitive vs. Transitive Verbs: When Does \"Ne\" Apply?",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The rule is strictly binary and depends on the **nature of the verb**:"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Verb Type",
+              "Definition",
+              "Completed Past Rule",
+              "Examples"
+            ],
+            [
+              "**Intransitive**",
+              "Verbs with **no direct object** (motion, state, bodily function)",
+              "**NO `ne`**. Verb agrees with the **subject**.",
+              "*Jaanaa* (to go), *Aanaa* (to come), *Baithnaa* (to sit), *Sonaa* (to sleep)"
+            ],
+            [
+              "**Transitive**",
+              "Verbs that **act upon a direct object**",
+              "**REQUIRES `ne`**. Verb agrees with the **object**.",
+              "*Khaanaa* (to eat), *Peenaa* (to drink), *Dekhnaa* (to see), *Karnaa* (to do), *Sunnaa* (to hear)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Contrast:",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "bullet",
+          "text": "*Intransitive:* **Main gayaa.** (I went — agrees with male speaker *Main*).",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "*Transitive:* **Maine pizza khaayaa.** (I ate pizza — *khaayaa* agrees with masculine noun *pizza*).",
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "👥 2. Pronoun Transformations with \"Ne\"",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "When pronouns combine with `ne`, they merge into dedicated, high-frequency spoken forms:"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Base Pronoun",
+              "+ Ne",
+              "Romanized Form",
+              "Meaning"
+            ],
+            [
+              "**Main** (I)",
+              "Main + ne",
+              "**Maine**",
+              "I (in past transitive)"
+            ],
+            [
+              "**Hum** (We)",
+              "Hum + ne",
+              "**Humne**",
+              "We"
+            ],
+            [
+              "**Tum** (You, casual)",
+              "Tum + ne",
+              "**Tumne**",
+              "You"
+            ],
+            [
+              "**Aap** (You, formal)",
+              "Aap + ne",
+              "**Aapne**",
+              "You"
+            ],
+            [
+              "**Ye** (This / He / She close)",
+              "Is + ne",
+              "**Isne**",
+              "He / She / This"
+            ],
+            [
+              "**Vo** (That / He / She far)",
+              "Us + ne",
+              "**Usne**",
+              "He / She / That"
+            ],
+            [
+              "**Ye** (These / They close)",
+              "In + hone",
+              "**Inhone**",
+              "They / Respected He/She"
+            ],
+            [
+              "**Vo** (Those / They far)",
+              "Un + hone",
+              "**Unhone**",
+              "They / Respected He/She"
+            ],
+            [
+              "**Kaun** (Who)",
+              "Kis + ne",
+              "**Kisne**",
+              "Who? (Who did it?)"
+            ]
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "**Pro-Tip:** In Hinglish conversation, you will use **Maine**, **Tumne**, **Aapne**, and **Usne** in nearly 90% of your storytelling anecdotes!"
+        }
+      ]
+    },
+    {
+      "title": "🎯 3. Dynamic Object Agreement (The Magic Rule)",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Because the subject is locked behind `ne`, the verb looks to the **Object** for instructions:"
+        },
+        {
+          "type": "paragraph",
+          "text": "```"
+        },
+        {
+          "type": "paragraph",
+          "text": "[Subject + ne] + [OBJECT] + [VERB]"
+        },
+        {
+          "type": "paragraph",
+          "text": "│         ▲"
+        },
+        {
+          "type": "paragraph",
+          "text": "└─────────┘ (Verb matches Object!)"
+        },
+        {
+          "type": "paragraph",
+          "text": "```"
+        }
+      ]
+    },
+    {
+      "title": "1. Masculine Singular Object $\\to$ Verb ends in `-aa`",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "bullet",
+          "text": "*Maine ek email bhejaa.* (I sent an email — *email* is treated as masc).",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "*Usne khaanaa banaayaa.* (He/She made food).",
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "2. Feminine Singular Object $\\to$ Verb ends in `-ii`",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "bullet",
+          "text": "*Maine chaay pee.* (I drank tea — *chaay* is fem).",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "*Tumne guitar khareedii?* / *Aapne coffee pee?* (Did you buy a guitar? / Did you drink coffee?).",
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "3. Masculine Plural Object $\\to$ Verb ends in `-e`",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "bullet",
+          "text": "*Maine do gaane sune.* (I listened to two songs).",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "*Usne saare documents bheje.* (He/She sent all the documents).",
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "4. Feminine Plural Object $\\to$ Verb ends in `-iin` (nasalized `-ī`)",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "bullet",
+          "text": "*Maine do films dekheen.* (I watched two movies).",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "*Shivani ne puraanii photos bhejeen.* (Shivani sent old photos).",
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "🛡️ 4. The \"Ko\" Neutralizer (The Blocking Rule)",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "What happens when you talk about a specific person (e.g., *\"I saw Shivani\"* or *\"I called the doctor\"*), where the person takes the object postposition `ko`?"
+        },
+        {
+          "type": "bullet",
+          "text": "When an object takes **`ko`**, it ALSO goes into the oblique case!",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "Now **both** the subject and the object are blocked by postpositions (`ne` and `ko`).",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "With nobody left to tell the verb what to do, the verb defaults to the neutral **Masculine Singular (`-aa`)**:",
+          "children": []
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Maine} + \\text{Shivani} + \\text{ko} + \\text{dekhaa} \\quad (\\text{NOT dekhii!})$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Usne} + \\text{doctor} + \\text{ko} + \\text{call kiyaa}$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Maine} + \\text{doston} + \\text{ko} + \\text{invite kiyaa}$$"
+        }
+      ]
+    },
+    {
+      "title": "🔄 5. Irregular Past Transitive Verbs",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "These four verbs are used constantly in spoken Hinglish and feature slight vowel contractions in the past:"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Infinitive",
+              "Root Meaning",
+              "Masc Sing (`-aa`)",
+              "Fem Sing (`-ii`)",
+              "Masc Plur (`-e`)",
+              "Fem Plur (`-iin`)"
+            ],
+            [
+              "**Karnaa**",
+              "To do",
+              "**kiyaa**",
+              "**kii**",
+              "**kiye**",
+              "**keen**"
+            ],
+            [
+              "**Lenaa**",
+              "To take",
+              "**liyaa**",
+              "**lii**",
+              "**liye**",
+              "**leen**"
+            ],
+            [
+              "**Denaa**",
+              "To give",
+              "**diyaa**",
+              "**dii**",
+              "**diye**",
+              "**deen**"
+            ],
+            [
+              "**Peenaa**",
+              "To drink",
+              "**peeyaa**",
+              "**pee**",
+              "**peeye**",
+              "**peen**"
+            ]
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "Examples:",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "*\"Maine kaam kiyaa.\"* (I did the work).",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "*\"Aapne chaabiyaan leen?\"* (Did you take the keys?).",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "*\"Usne mujhe address diyaa.\"* (He/She gave me the address).",
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "🚫 6. The 4 Rebel Verbs (Transitive WITHOUT \"Ne\")",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A handful of verbs in Hindi logically look like transitive verbs, but historically and grammatically **NEVER take `ne`**. The subject stays in the direct case and the verb agrees with the **subject**:"
+        },
+        {
+          "type": "numbered",
+          "text": "**Bolnaa** (To speak / produce words):",
+          "children": [
+            "*Main bolaa.* (I spoke — male).",
+            "*Shivani bolii.* (Shivani spoke — female).",
+            "*(Avoid \"Maine bolaa\" in careful grammar; use \"Maine kahaa\" if you want to use ne).*"
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**Laanaa** (To bring):",
+          "children": [
+            "Contraction of *le + aanaa* (literally \"take and come\" — motion verb!).",
+            "*Main pizza laayaa.* (I brought pizza).",
+            "*Shivani gift laayī.* (Shivani brought a gift)."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**Bhoolnaa** (To forget):",
+          "children": [
+            "*Main apnaa password bhool gayaa.* (I forgot my password)."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**Samajhnaa** (To understand):",
+          "children": [
+            "*Main samajh gayaa!* (I understood!)."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "❓Quiz",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "Concept & Grammar Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "toggle",
+          "title": "**Why does the sentence *\"Maine coffee pee\"* end in *-ee* even when spoken by a male speaker?**",
+          "children": [
+            "**Answer:** Because the subject *Main* takes the ergative marker *ne* (*Maine*), which relinquishes subject agreement. The verb must agree with the direct object *coffee*, which is grammatically feminine."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**In the sentence *\"Maine Shivani ko dekhaa\"*, why is the verb *dekhaa* (masculine) instead of *dekhii* (feminine)?**",
+          "children": [
+            "**Answer:** The object *Shivani* is followed by the postposition *ko*. When both subject (with *ne*) and object (with *ko*) have postpositions, agreement is blocked, and the verb defaults to the neutral masculine singular ending (*-aa*)."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Which of the following verbs NEVER take the ergative marker *ne* in the completed past: *dekhnaa, jaanaa, laanaa, karna, bolnaa*?**",
+          "children": [
+            "**Answer:** *Jaanaa* (intransitive), *laanaa* (exception / compound of *le + aanaa*), and *bolnaa* (rebel exception) never take *ne*."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Translation Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "toggle",
+          "title": "**I drank coffee this morning. (male speaker)**",
+          "children": [
+            "**Answer:** `Maine aaj subah coffee pee.` — मैंने आज सुबह कॉफ़ी पी।",
+            "[Maine (I + ne) + aaj (today) + subah (morning) + coffee (coffee, f) + pee (drank, f)]"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Did you listen to my new song? (casual / to Shivani)**",
+          "children": [
+            "**Answer:** `Tumne meraa nayaa gaanaa sunaa?` — तुमने मेरा नया गाना सुना?",
+            "[Tumne (you + ne) + meraa nayaa gaanaa (my new song, m) + sunaa (heard/listened, m)]"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Shivani told me about Norwich.**",
+          "children": [
+            "**Answer:** `Shivani ne mujhe Norwich ke baare mein bataayaa.` — शिवानी ने मुझे नॉर्विच के बारे में बताया।",
+            "[Shivani ne (Shivani + ne) + mujhe (to me) + Norwich ke baare mein (about Norwich) + bataayaa (told, default m)]"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Who did this work?**",
+          "children": [
+            "**Answer:** `Yeh kaam kisne kiyaa?` — यह काम किसने किया?",
+            "[Yeh kaam (this work, m) + kisne (who + ne) + kiyaa (did, m)]"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**I sent two emails before the meeting.**",
+          "children": [
+            "**Answer:** `Maine meeting se pehle do emails bheje.` — मैंने मीटिंग से पहले दो ईमेल भेजे।",
+            "[Maine (I + ne) + meeting se pehle (before meeting) + do emails (two emails, m.pl) + bheje (sent, m.pl)]"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**I brought pizza for everyone. (Remember the rebel verb rule!)**",
+          "children": [
+            "**Answer:** `Main sabke liye pizza laayaa.` — मैं सबके लिए पिज़्ज़ा लाया।",
+            "[Main (I, direct) + sabke liye (for everyone) + pizza (pizza) + laayaa (brought, agrees with male subject, NO ne)]"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**We made dinner together.**",
+          "children": [
+            "**Answer:** `Humne saath mein dinner banaayaa.` — हमने साथ में डिनर बनाया।",
+            "[Humne (we + ne) + saath mein (together) + dinner (dinner, m) + banaayaa (made, m)]"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Did you see Shivani's message? (formal / respectful)**",
+          "children": [
+            "**Answer:** `Aapne Shivani kaa message dekhaa?` — आपने शिवानी का मैसेज देखा?",
+            "[Aapne (you + ne) + Shivani kaa message (Shivani's message, m) + dekhaa (saw, m)]"
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": "\n# 🌟Summary\n\nIn this lesson, we conquer the single most defining architectural pillar of conversational Hindi: **The Ergative Case Marker (*Ne*)** and **Past Transitive Verb Agreement**.\n\nWhenever an action is completed in the past using a **transitive verb** (a verb that takes a direct object, like *eating, seeing, drinking, making, sending, asking*), Hindi undergoes an elegant structural flip:\n\n1. The subject takes the postposition **`ne`**.\n1. Because the subject now has a postposition, it enters the oblique case and **relinquishes grammatical control of the verb**.\n1. The verb agrees dynamically in gender and number with the **direct object** instead!\n1. If the direct object is marked with **`ko`** (specific person or specific object), agreement is blocked, and the verb defaults to the neutral **masculine singular (`-aa`)**.\n\n### 📐 Mathematical Formulas\n\n$$\\text{Subject} + \\text{ne} + \\text{Object} + \\text{Verb}_{(\\text{agrees with Object})}$$\n\n$$\\text{Subject} + \\text{ne} + \\text{Object} + \\text{ko} + \\text{Verb}_{(\\text{default masculine singular: } -aa)}$$\n\n$$\\text{Maine} + \\text{coffee (f)} + \\text{pee (f)}$$\n\n$$\\text{Maine} + \\text{Shivani (f)} + \\text{ko} + \\text{dekhaa (default -aa)}$$\n\n\n### 🌐 Polyglot Linguistic Parallels\n\n* **French Connection:** Think of the *passé composé* agreement with preceding direct objects (*La pomme que j'ai mangée* — the verb agrees with the apple, not the speaker!). In Hindi past tense, the verb *always* agrees with the object unless blocked by *ko*.\n* **Tamil Connection:** In Tamil, the subject retains nominative agency, but passive/instrumental structures use *-āl* (e.g., *ennāl seyyappattadu*). Hindi's *ne* turns the active past into an ergative construction where the focus naturally balances between actor and outcome.\n\n---\n\n\n# 📘Lesson\n\n\n## ⚡ 1. Intransitive vs. Transitive Verbs: When Does \"Ne\" Apply?\n\nThe rule is strictly binary and depends on the **nature of the verb**:\n\n| Verb Type | Definition | Completed Past Rule | Examples |\n| --- | --- | --- | --- |\n| **Intransitive** | Verbs with **no direct object** (motion, state, bodily function) | **NO `ne`**. Verb agrees with the **subject**. | *Jaanaa* (to go), *Aanaa* (to come), *Baithnaa* (to sit), *Sonaa* (to sleep) |\n| **Transitive** | Verbs that **act upon a direct object** | **REQUIRES `ne`**. Verb agrees with the **object**. | *Khaanaa* (to eat), *Peenaa* (to drink), *Dekhnaa* (to see), *Karnaa* (to do), *Sunnaa* (to hear) |\n\n\n### Contrast:\n\n* *Intransitive:* **Main gayaa.** (I went — agrees with male speaker *Main*).\n* *Transitive:* **Maine pizza khaayaa.** (I ate pizza — *khaayaa* agrees with masculine noun *pizza*).\n\n---\n\n\n## 👥 2. Pronoun Transformations with \"Ne\"\n\nWhen pronouns combine with `ne`, they merge into dedicated, high-frequency spoken forms:\n\n| Base Pronoun | + Ne | Romanized Form | Meaning |\n| --- | --- | --- | --- |\n| **Main** (I) | Main + ne | **Maine** | I (in past transitive) |\n| **Hum** (We) | Hum + ne | **Humne** | We |\n| **Tum** (You, casual) | Tum + ne | **Tumne** | You |\n| **Aap** (You, formal) | Aap + ne | **Aapne** | You |\n| **Ye** (This / He / She close) | Is + ne | **Isne** | He / She / This |\n| **Vo** (That / He / She far) | Us + ne | **Usne** | He / She / That |\n| **Ye** (These / They close) | In + hone | **Inhone** | They / Respected He/She |\n| **Vo** (Those / They far) | Un + hone | **Unhone** | They / Respected He/She |\n| **Kaun** (Who) | Kis + ne | **Kisne** | Who? (Who did it?) |\n\n> **Pro-Tip:** In Hinglish conversation, you will use **Maine**, **Tumne**, **Aapne**, and **Usne** in nearly 90% of your storytelling anecdotes!\n\n\n---\n\n\n## 🎯 3. Dynamic Object Agreement (The Magic Rule)\n\nBecause the subject is locked behind `ne`, the verb looks to the **Object** for instructions:\n\n```\n\n[Subject + ne] + [OBJECT] + [VERB]\n\n│         ▲\n\n└─────────┘ (Verb matches Object!)\n\n```\n\n\n### 1. Masculine Singular Object $\\to$ Verb ends in `-aa`\n\n* *Maine ek email bhejaa.* (I sent an email — *email* is treated as masc).\n* *Usne khaanaa banaayaa.* (He/She made food).\n\n### 2. Feminine Singular Object $\\to$ Verb ends in `-ii`\n\n* *Maine chaay pee.* (I drank tea — *chaay* is fem).\n* *Tumne guitar khareedii?* / *Aapne coffee pee?* (Did you buy a guitar? / Did you drink coffee?).\n\n### 3. Masculine Plural Object $\\to$ Verb ends in `-e`\n\n* *Maine do gaane sune.* (I listened to two songs).\n* *Usne saare documents bheje.* (He/She sent all the documents).\n\n### 4. Feminine Plural Object $\\to$ Verb ends in `-iin` (nasalized `-ī`)\n\n* *Maine do films dekheen.* (I watched two movies).\n* *Shivani ne puraanii photos bhejeen.* (Shivani sent old photos).\n\n---\n\n\n## 🛡️ 4. The \"Ko\" Neutralizer (The Blocking Rule)\n\nWhat happens when you talk about a specific person (e.g., *\"I saw Shivani\"* or *\"I called the doctor\"*), where the person takes the object postposition `ko`?\n\n* When an object takes **`ko`**, it ALSO goes into the oblique case!\n* Now **both** the subject and the object are blocked by postpositions (`ne` and `ko`).\n* With nobody left to tell the verb what to do, the verb defaults to the neutral **Masculine Singular (`-aa`)**:\n$$\\text{Maine} + \\text{Shivani} + \\text{ko} + \\text{dekhaa} \\quad (\\text{NOT dekhii!})$$\n\n$$\\text{Usne} + \\text{doctor} + \\text{ko} + \\text{call kiyaa}$$\n\n$$\\text{Maine} + \\text{doston} + \\text{ko} + \\text{invite kiyaa}$$\n\n\n---\n\n\n## 🔄 5. Irregular Past Transitive Verbs\n\nThese four verbs are used constantly in spoken Hinglish and feature slight vowel contractions in the past:\n\n| Infinitive | Root Meaning | Masc Sing (`-aa`) | Fem Sing (`-ii`) | Masc Plur (`-e`) | Fem Plur (`-iin`) |\n| --- | --- | --- | --- | --- | --- |\n| **Karnaa** | To do | **kiyaa** | **kii** | **kiye** | **keen** |\n| **Lenaa** | To take | **liyaa** | **lii** | **liye** | **leen** |\n| **Denaa** | To give | **diyaa** | **dii** | **diye** | **deen** |\n| **Peenaa** | To drink | **peeyaa** | **pee** | **peeye** | **peen** |\n\n* Examples:\n* *\"Maine kaam kiyaa.\"* (I did the work).\n* *\"Aapne chaabiyaan leen?\"* (Did you take the keys?).\n* *\"Usne mujhe address diyaa.\"* (He/She gave me the address).\n\n---\n\n\n## 🚫 6. The 4 Rebel Verbs (Transitive WITHOUT \"Ne\")\n\nA handful of verbs in Hindi logically look like transitive verbs, but historically and grammatically **NEVER take `ne`**. The subject stays in the direct case and the verb agrees with the **subject**:\n\n1. **Bolnaa** (To speak / produce words):\n    * *Main bolaa.* (I spoke — male).\n    * *Shivani bolii.* (Shivani spoke — female).\n    * *(Avoid \"Maine bolaa\" in careful grammar; use \"Maine kahaa\" if you want to use ne).*\n1. **Laanaa** (To bring):\n    * Contraction of *le + aanaa* (literally \"take and come\" — motion verb!).\n    * *Main pizza laayaa.* (I brought pizza).\n    * *Shivani gift laayī.* (Shivani brought a gift).\n1. **Bhoolnaa** (To forget):\n    * *Main apnaa password bhool gayaa.* (I forgot my password).\n1. **Samajhnaa** (To understand):\n    * *Main samajh gayaa!* (I understood!).\n\n---\n\n\n# ❓Quiz\n\n\n### Concept & Grammar Questions\n\n<details><summary>**Why does the sentence *\"Maine coffee pee\"* end in *-ee* even when spoken by a male speaker?**</summary>\n\n* **Answer:** Because the subject *Main* takes the ergative marker *ne* (*Maine*), which relinquishes subject agreement. The verb must agree with the direct object *coffee*, which is grammatically feminine.\n</details>\n\n<details><summary>**In the sentence *\"Maine Shivani ko dekhaa\"*, why is the verb *dekhaa* (masculine) instead of *dekhii* (feminine)?**</summary>\n\n* **Answer:** The object *Shivani* is followed by the postposition *ko*. When both subject (with *ne*) and object (with *ko*) have postpositions, agreement is blocked, and the verb defaults to the neutral masculine singular ending (*-aa*).\n</details>\n\n<details><summary>**Which of the following verbs NEVER take the ergative marker *ne* in the completed past: *dekhnaa, jaanaa, laanaa, karna, bolnaa*?**</summary>\n\n* **Answer:** *Jaanaa* (intransitive), *laanaa* (exception / compound of *le + aanaa*), and *bolnaa* (rebel exception) never take *ne*.\n</details>\n\n\n---\n\n\n### Translation Questions\n\n<details><summary>**I drank coffee this morning. (male speaker)**</summary>\n\n* **Answer:** `Maine aaj subah coffee pee.` — मैंने आज सुबह कॉफ़ी पी।\n* [Maine (I + ne) + aaj (today) + subah (morning) + coffee (coffee, f) + pee (drank, f)]\n</details>\n\n<details><summary>**Did you listen to my new song? (casual / to Shivani)**</summary>\n\n* **Answer:** `Tumne meraa nayaa gaanaa sunaa?` — तुमने मेरा नया गाना सुना?\n* [Tumne (you + ne) + meraa nayaa gaanaa (my new song, m) + sunaa (heard/listened, m)]\n</details>\n\n<details><summary>**Shivani told me about Norwich.**</summary>\n\n* **Answer:** `Shivani ne mujhe Norwich ke baare mein bataayaa.` — शिवानी ने मुझे नॉर्विच के बारे में बताया।\n* [Shivani ne (Shivani + ne) + mujhe (to me) + Norwich ke baare mein (about Norwich) + bataayaa (told, default m)]\n</details>\n\n<details><summary>**Who did this work?**</summary>\n\n* **Answer:** `Yeh kaam kisne kiyaa?` — यह काम किसने किया?\n* [Yeh kaam (this work, m) + kisne (who + ne) + kiyaa (did, m)]\n</details>\n\n<details><summary>**I sent two emails before the meeting.**</summary>\n\n* **Answer:** `Maine meeting se pehle do emails bheje.` — मैंने मीटिंग से पहले दो ईमेल भेजे।\n* [Maine (I + ne) + meeting se pehle (before meeting) + do emails (two emails, m.pl) + bheje (sent, m.pl)]\n</details>\n\n<details><summary>**I brought pizza for everyone. (Remember the rebel verb rule!)**</summary>\n\n* **Answer:** `Main sabke liye pizza laayaa.` — मैं सबके लिए पिज़्ज़ा लाया।\n* [Main (I, direct) + sabke liye (for everyone) + pizza (pizza) + laayaa (brought, agrees with male subject, NO ne)]\n</details>\n\n<details><summary>**We made dinner together.**</summary>\n\n* **Answer:** `Humne saath mein dinner banaayaa.` — हमने साथ में डिनर बनाया।\n* [Humne (we + ne) + saath mein (together) + dinner (dinner, m) + banaayaa (made, m)]\n</details>\n\n<details><summary>**Did you see Shivani's message? (formal / respectful)**</summary>\n\n* **Answer:** `Aapne Shivani kaa message dekhaa?` — आपने शिवानी का मैसेज देखा?\n* [Aapne (you + ne) + Shivani kaa message (Shivani's message, m) + dekhaa (saw, m)]\n</details>\n"
+}

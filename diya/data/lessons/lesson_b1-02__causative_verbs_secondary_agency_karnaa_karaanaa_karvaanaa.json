@@ -1,0 +1,203 @@
+{
+  "id": "141e785a-2562-4183-9362-5c07b97e81d5",
+  "code": "B1-02",
+  "title": "Lesson B1-02: Causative Verbs & Secondary Agency (Karnaa → Karaanaa → Karvaanaa)",
+  "slug": "lesson_b1-02__causative_verbs_secondary_agency_karnaa_karaanaa_karvaanaa",
+  "sections": [
+    {
+      "title": "🌟Summary",
+      "type": "heading_1",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Jab aap koi kaam khud karne ke bajaay kisi se 'karwaate' hain ya kisi doosre person ko inspire/facilitate karte hain, toh Hindi ki unique **Causative Verb Morphology** active hoti hai. In triples ko master karna higher-level conversational fluency unlock karta hai."
+        }
+      ]
+    },
+    {
+      "title": "🧠 Polyglot Structural Anchors",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "bullet",
+          "text": "**Tamil Causative System:**",
+          "children": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Tamil causatives (*sei -> seivikkai, saapidu -> oottu*) Hindi causative stems (*-aa-* aur *-vaa-*) ke exact equivalent hain."
+        },
+        {
+          "type": "bullet",
+          "text": "**Romance 'Faire faire' Structure:**",
+          "children": []
+        },
+        {
+          "type": "paragraph",
+          "text": "French (*faire faire / faire manger*) aur Spanish (*hacer hacer*) direct Hindi *karaanaa / karvaanaa* se map hote hain."
+        }
+      ]
+    },
+    {
+      "title": "📐 Core Mathematical Formulas",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Base Verb} \\longrightarrow \\text{1st Causative (-aa-)} \\longrightarrow \\text{2nd Causative (-vaa-)}$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Karnaa} \\longrightarrow \\text{Karaanaa} \\longrightarrow \\text{Karvaanaa} \\quad (\\text{do} \\to \\text{have done})$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Intermediary Agent}: \\text{Person} + \\text{se} \\quad (\\text{Maine Shivani se baat karvaayii})$$"
+        }
+      ]
+    },
+    {
+      "title": "📘Lesson",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "🔄 1. High-Frequency Causative Triples",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "* **Karnaa** (To do) $\\to$ **Karaanaa** $\\to$ **Karvaanaa**: *Maine laptop repair karvaayaa.*"
+        },
+        {
+          "type": "paragraph",
+          "text": "* **Khaanaa** (To eat) $\\to$ **Khilaanaa** (To feed / treat): *Shivani ko dinner khilaaoongaa.*"
+        },
+        {
+          "type": "paragraph",
+          "text": "* **Peenaa** (To drink) $\\to$ **Pilaanaa** (To serve drinks): *Pub mein ek round pilaaoongaa.*"
+        },
+        {
+          "type": "paragraph",
+          "text": "* **Dekhnaa** (To see) $\\to$ **Dikhanaaa** (To show): *Norwich photos dikhaanaa!*"
+        },
+        {
+          "type": "paragraph",
+          "text": "* **Milnaa** (To meet) $\\to$ **Milaanaa** (To introduce): *Main Shivani ko apne doston se milaaoongaa.*"
+        }
+      ]
+    },
+    {
+      "title": "🤝 2. Secondary Agency & The 'Se' Connector",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Jab aap kisi intermediary ke through kaam karwate hain:"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Maine mechanic se car service karvaayii.* (I had the mechanic service the car.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Maine agent se train tickets book karvaaye.*"
+        }
+      ]
+    },
+    {
+      "title": "🎭 Dialogue Example",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "**Shivani:** *\"Jab tum UK aaoge, toh main tumhe Norwich ke best spots dikhaaoongii aur local food khilaaoongii!\"*"
+        },
+        {
+          "type": "paragraph",
+          "text": "**You:** *\"Awesome! Aur pub mein main sabko ek round drinks pilaaoongaa.\"*"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Shivani:** *\"Haha deal! Aur main tumhe apne care home team ke kuch logon se bhi milaaoongii.\"*"
+        },
+        {
+          "type": "paragraph",
+          "text": "**You:** *\"Great! Mujhe unse milkar unke experiences sunne mein bohot interest hogaa.\"*"
+        }
+      ]
+    },
+    {
+      "title": "❓Quiz",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "Concept & Grammar Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "numbered",
+          "text": "**First Causative (e.g. *Khilaanaa*) aur Second Causative (e.g. *Khilvaanaa*) mein kyaa functional difference hotaa hai?**",
+          "children": [
+            "**Answer:** First causative mein subject directly doosre ko action perform karwaata hai (*Maine bacche ko khilaayaa* = I fed the child); Second causative mein subject kisi teesre person (intermediary) se action execute karwaata hai (*Maine Shivani se usko khilvaayaa*)."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**Causative sentences mein intermediary agent (the person who actually does the physical work) kaun sa postposition leta hai?**",
+          "children": [
+            "**Answer:** Intermediary agent postposition **Se** leta hai (*Maine developer se code review karvaayaa*)."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Translation Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "numbered",
+          "text": "**I got my acoustic guitar tuned and serviced at the local music shop. (informal, m)**",
+          "children": [
+            "**Answer:** `Maine local music shop par apna acoustic guitar tune aur service karvaayaa.` — मैंने लोकल म्यूजिक शॉप पर अपना अकूस्टिक गिटार ट्यून और सर्विस करवाया।",
+            "[Maine + local music shop par + apna acoustic guitar + tune aur service karvaayaa]."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**Please show me the new photos of your Norwich apartment. (polite)**",
+          "children": [
+            "**Answer:** `Kripya mujhe apne Norwich apartment ki nayi photos dikhaaiye.` — कृपया मुझे अपने नॉर्विच अपार्टमेंट की नई फ़ोटोज़ दिखाइए।",
+            "[Kripya mujhe + apne Norwich apartment ki nayi photos + dikhaaiye (please show)]."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**I will introduce you to my AI tech colleagues in Toronto. (casual, m)**",
+          "children": [
+            "**Answer:** `Main tumhe Toronto mein apne AI tech colleagues se milaaoongaa.` — मैं तुम्हें टोरंटो में अपने AI टेक कलीग्स से मिलाऊँगा।",
+            "[Main tumhe + Toronto mein + apne AI tech colleagues se + milaaoongaa (will introduce)]."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**Can you please have the cab driver stop near the station entrance? (polite)**",
+          "children": [
+            "**Answer:** `Kyaa aap cab driver se gaadi station entrance ke paas rukvaa sakte hain?` — क्या आप कैब ड्राइवर से गाड़ी स्टेशन एंट्रेंस के पास रुकवा सकते हैं?",
+            "[Kyaa aap + cab driver se + gaadi + station entrance ke paas + rukvaa sakte hain?]."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**She treated everyone to delicious homemade chai after the rehearsal. (informal)**",
+          "children": [
+            "**Answer:** `Rehearsal ke baad unhone sabko delicious homemade chaay pilaayii.` — रिहर्सल के बाद उन्होंने सबको डिलीशियस होममेड चाय पिलाई।",
+            "[Rehearsal ke baad + unhone sabko + delicious homemade chaay + pilaayii (served drinks)]."
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": "# Lesson B1-02: Causative Verbs & Secondary Agency (Karnaa → Karaanaa → Karvaanaa)\n\n# 🌟Summary\n\nJab aap koi kaam khud karne ke bajaay kisi se 'karwaate' hain ya kisi doosre person ko inspire/facilitate karte hain, toh Hindi ki unique **Causative Verb Morphology** active hoti hai. In triples ko master karna higher-level conversational fluency unlock karta hai.\n\n### 🧠 Polyglot Structural Anchors\n\n* **Tamil Causative System:**\nTamil causatives (*sei -> seivikkai, saapidu -> oottu*) Hindi causative stems (*-aa-* aur *-vaa-*) ke exact equivalent hain.\n\n* **Romance 'Faire faire' Structure:**\nFrench (*faire faire / faire manger*) aur Spanish (*hacer hacer*) direct Hindi *karaanaa / karvaanaa* se map hote hain.\n\n### 📐 Core Mathematical Formulas\n\n$$\\text{Base Verb} \\longrightarrow \\text{1st Causative (-aa-)} \\longrightarrow \\text{2nd Causative (-vaa-)}$$\n\n$$\\text{Karnaa} \\longrightarrow \\text{Karaanaa} \\longrightarrow \\text{Karvaanaa} \\quad (\\text{do} \\to \\text{have done})$$\n\n$$\\text{Intermediary Agent}: \\text{Person} + \\text{se} \\quad (\\text{Maine Shivani se baat karvaayii})$$\n\n---\n\n# 📘Lesson\n\n## 🔄 1. High-Frequency Causative Triples\n\n* **Karnaa** (To do) $\\to$ **Karaanaa** $\\to$ **Karvaanaa**: *Maine laptop repair karvaayaa.*\n\n* **Khaanaa** (To eat) $\\to$ **Khilaanaa** (To feed / treat): *Shivani ko dinner khilaaoongaa.*\n\n* **Peenaa** (To drink) $\\to$ **Pilaanaa** (To serve drinks): *Pub mein ek round pilaaoongaa.*\n\n* **Dekhnaa** (To see) $\\to$ **Dikhanaaa** (To show): *Norwich photos dikhaanaa!*\n\n* **Milnaa** (To meet) $\\to$ **Milaanaa** (To introduce): *Main Shivani ko apne doston se milaaoongaa.*\n\n## 🤝 2. Secondary Agency & The 'Se' Connector\n\nJab aap kisi intermediary ke through kaam karwate hain:\n\n* *Maine mechanic se car service karvaayii.* (I had the mechanic service the car.)\n\n* *Maine agent se train tickets book karvaaye.*\n\n---\n\n## 🎭 Dialogue Example\n\n* **Shivani:** *\"Jab tum UK aaoge, toh main tumhe Norwich ke best spots dikhaaoongii aur local food khilaaoongii!\"*\n* **You:** *\"Awesome! Aur pub mein main sabko ek round drinks pilaaoongaa.\"*\n* **Shivani:** *\"Haha deal! Aur main tumhe apne care home team ke kuch logon se bhi milaaoongii.\"*\n* **You:** *\"Great! Mujhe unse milkar unke experiences sunne mein bohot interest hogaa.\"*\n\n---\n\n# ❓Quiz\n\n### Concept & Grammar Questions\n\n1. **First Causative (e.g. *Khilaanaa*) aur Second Causative (e.g. *Khilvaanaa*) mein kyaa functional difference hotaa hai?**\n    * **Answer:** First causative mein subject directly doosre ko action perform karwaata hai (*Maine bacche ko khilaayaa* = I fed the child); Second causative mein subject kisi teesre person (intermediary) se action execute karwaata hai (*Maine Shivani se usko khilvaayaa*).\n1. **Causative sentences mein intermediary agent (the person who actually does the physical work) kaun sa postposition leta hai?**\n    * **Answer:** Intermediary agent postposition **Se** leta hai (*Maine developer se code review karvaayaa*).\n\n---\n\n### Translation Questions\n\n1. **I got my acoustic guitar tuned and serviced at the local music shop. (informal, m)**\n    * **Answer:** `Maine local music shop par apna acoustic guitar tune aur service karvaayaa.` — मैंने लोकल म्यूजिक शॉप पर अपना अकूस्टिक गिटार ट्यून और सर्विस करवाया।\n    * [Maine + local music shop par + apna acoustic guitar + tune aur service karvaayaa].\n1. **Please show me the new photos of your Norwich apartment. (polite)**\n    * **Answer:** `Kripya mujhe apne Norwich apartment ki nayi photos dikhaaiye.` — कृपया मुझे अपने नॉर्विच अपार्टमेंट की नई फ़ोटोज़ दिखाइए।\n    * [Kripya mujhe + apne Norwich apartment ki nayi photos + dikhaaiye (please show)].\n1. **I will introduce you to my AI tech colleagues in Toronto. (casual, m)**\n    * **Answer:** `Main tumhe Toronto mein apne AI tech colleagues se milaaoongaa.` — मैं तुम्हें टोरंटो में अपने AI टेक कलीग्स से मिलाऊँगा।\n    * [Main tumhe + Toronto mein + apne AI tech colleagues se + milaaoongaa (will introduce)].\n1. **Can you please have the cab driver stop near the station entrance? (polite)**\n    * **Answer:** `Kyaa aap cab driver se gaadi station entrance ke paas rukvaa sakte hain?` — क्या आप कैब ड्राइवर से गाड़ी स्टेशन एंट्रेंस के पास रुकवा सकते हैं?\n    * [Kyaa aap + cab driver se + gaadi + station entrance ke paas + rukvaa sakte hain?].\n1. **She treated everyone to delicious homemade chai after the rehearsal. (informal)**\n    * **Answer:** `Rehearsal ke baad unhone sabko delicious homemade chaay pilaayii.` — रिहर्सल के बाद उन्होंने सबको डिलीशियस होममेड चाय पिलाई।\n    * [Rehearsal ke baad + unhone sabko + delicious homemade chaay + pilaayii (served drinks)]."
+}

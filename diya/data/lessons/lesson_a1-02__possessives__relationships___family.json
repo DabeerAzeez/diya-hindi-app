@@ -1,0 +1,238 @@
+{
+  "id": "3c885bc1-d962-800c-a986-d6bdc91db0ee",
+  "code": "A1-02",
+  "title": "Lesson A1-02: Possessives, Relationships & Family",
+  "slug": "lesson_a1-02__possessives__relationships___family",
+  "sections": [
+    {
+      "title": "🌟Summary",
+      "type": "heading_1",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Is lesson mein hum seekhenge ki Hindi aur Hinglish mein possessives (*ka/ke/ki*), relationships, aur family connections ko kaise express karte hain. Tamil ke possessive marker (*-udaiya* / *-oda*) aur French/Spanish ke *de* ki tarah, Hindi mein possessive postposition **kaa / ke / kee** us noun ke gender aur number ke hisaab se change hota hai jisko possess kiya ja raha hai (possessed item), na ki owner ke hisaab se. Iske saath hum personal relationships, age, aur social circles describe karne ke structures cover karenge taaki aap daily conversations aur catch-ups mein naturally connect kar sakein."
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Owner} + \\text{kaa / ke / kee} + \\text{Possessed Noun} \\longrightarrow \\text{Agreement matches Possessed Noun}$$"
+        }
+      ]
+    },
+    {
+      "title": "📘Lesson",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "🔑 1. Possessive Pronouns & Postposition (Kaa / Ke / Kee)",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Hindi mein possessive pronouns aur marker **kaa/ke/kee** hamesha aane waale object/person ke gender aur number par depend karte hain:"
+        },
+        {
+          "type": "bullet",
+          "text": "**Kaa (Masculine Singular):** *Meraa dost* (My friend), *Shivani kaa flat* (Shivani's flat)",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Ke (Masculine Plural / Respect / Oblique):** *Mere dost* (My friends), *Aapke bhai* (Your brother - respectful), *Shivani ke colleagues*",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Kee (Feminine Singular & Plural):** *Merī behen* (My sister), *Shivani kī job* (Shivani's job), *Unkī team*",
+          "children": []
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "**English**",
+              "**Masculine Singular**",
+              "**Masculine Plural / Respect**",
+              "**Feminine (Singular/Plural)**"
+            ],
+            [
+              "**My**",
+              "Meraa",
+              "Mere",
+              "Merī"
+            ],
+            [
+              "**Your (Tum)**",
+              "Teraa / Tumhaaraa",
+              "Tere / Tumhaare",
+              "Terī / Tumhaarī"
+            ],
+            [
+              "**Your (Aap)**",
+              "Aapkaa",
+              "Aapke",
+              "Aapkī"
+            ],
+            [
+              "**His / Her / Its (Near)**",
+              "Iskaa",
+              "Iske",
+              "Iskī"
+            ],
+            [
+              "**His / Her / Its (Far)**",
+              "Uskaa",
+              "Uske",
+              "Uskī"
+            ],
+            [
+              "**Our**",
+              "Hamaaraa",
+              "Hamaare",
+              "Hamaarī"
+            ],
+            [
+              "**Their**",
+              "Unkaa",
+              "Unke",
+              "Unkī"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "👥 2. Family & Relationship Vocabulary",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "bullet",
+          "text": "**Bhai** = Brother",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Behen** = Sister",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Dost / Yaar** = Friend / Buddy",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Parents / Papa / Mama ** = Parents / Dad / Mom",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Colleague / Team member** = Colleague / Teammate (Hinglish standard)",
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "🎂 3. Expressing Age & Background",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Age express karne ke liye formula simple hai:"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Subject} + \\text{kī umar} + \\text{[Number]} + \\text{saal hai}$$"
+        },
+        {
+          "type": "bullet",
+          "text": "*Merī umar 26 saal hai.* (My age is 26 years.)",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "*Shivani UK mein rehtī hai.* (Shivani lives in the UK.)",
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "❓Quiz",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "Concept & Grammar Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "toggle",
+          "title": "Possessive postposition (*kaa / ke / kee*) owner ke gender par depend karta hai ya possessed noun ke gender par?",
+          "children": [
+            "**Answer:** Hamesha possessed noun ke gender aur number par depend karta hai."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "\"My friend\" masculine singular ho toh kya use karenge, aur feminine ho toh kya?",
+          "children": [
+            "**Answer:** Masculine ke liye *Meraa dost*, feminine ke liye *Merī dost*."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "Tamil possessive marker *oda* Hindi ke kis grammatical element ke barabar function karta hai?",
+          "children": [
+            "**Answer:** Hindi postposition *kaa / ke / kee* ke barabar function karta hai."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Translation Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "toggle",
+          "title": "**This is my brother's new car.**",
+          "children": [
+            "**Answer:** `Ye mere bhai kī nayī car hai.`",
+            "ye (this) | mere bhai kī (my brother's) | nayī (new - fem) | car | hai (is)"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**How is Shivani's job at the care home?**",
+          "children": [
+            "**Answer:** `Care home mein Shivani kī job kaisī hai?`",
+            "care home mein (in care home) | Shivani kī (Shivani's) | job | kaisī (how - fem) | hai (is)"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**My friends live in Toronto.**",
+          "children": [
+            "**Answer:** `Mere dost Toronto mein rehte hain.`",
+            "mere dost (my friends - masc pl) | Toronto mein (in Toronto) | rehte hain (live)"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Is that your acoustic guitar? *****(polite, formal, f)***",
+          "children": [
+            "**Answer:** `Kyaa vo aapkī acoustic guitar hai?`",
+            "kyaa (question marker) | vo (that) | aapkī (your - polite/fem) | acoustic guitar | hai (is)"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Aapkī family kaise hai?**",
+          "children": [
+            "**Answer:** How is your family?"
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": "\n# 🌟Summary\n\nIs lesson mein hum seekhenge ki Hindi aur Hinglish mein possessives (*ka/ke/ki*), relationships, aur family connections ko kaise express karte hain. Tamil ke possessive marker (*-udaiya* / *-oda*) aur French/Spanish ke *de* ki tarah, Hindi mein possessive postposition **kaa / ke / kee** us noun ke gender aur number ke hisaab se change hota hai jisko possess kiya ja raha hai (possessed item), na ki owner ke hisaab se. Iske saath hum personal relationships, age, aur social circles describe karne ke structures cover karenge taaki aap daily conversations aur catch-ups mein naturally connect kar sakein.\n\n\n$$\n\\text{Owner} + \\text{kaa / ke / kee} + \\text{Possessed Noun} \\longrightarrow \\text{Agreement matches Possessed Noun}\n$$\n\n\n# 📘Lesson\n\n\n## 🔑 1. Possessive Pronouns & Postposition (Kaa / Ke / Kee)\n\nHindi mein possessive pronouns aur marker **kaa/ke/kee** hamesha aane waale object/person ke gender aur number par depend karte hain:\n\n* **Kaa (Masculine Singular):** *Meraa dost* (My friend), *Shivani kaa flat* (Shivani's flat)\n* **Ke (Masculine Plural / Respect / Oblique):** *Mere dost* (My friends), *Aapke bhai* (Your brother - respectful), *Shivani ke colleagues*\n* **Kee (Feminine Singular & Plural):** *Merī behen* (My sister), *Shivani kī job* (Shivani's job), *Unkī team*\n| **English** | **Masculine Singular** | **Masculine Plural / Respect** | **Feminine (Singular/Plural)** |\n| --- | --- | --- | --- |\n| **My** | Meraa | Mere | Merī |\n| **Your (Tum)** | Teraa / Tumhaaraa | Tere / Tumhaare | Terī / Tumhaarī |\n| **Your (Aap)** | Aapkaa | Aapke | Aapkī |\n| **His / Her / Its (Near)** | Iskaa | Iske | Iskī |\n| **His / Her / Its (Far)** | Uskaa | Uske | Uskī |\n| **Our** | Hamaaraa | Hamaare | Hamaarī |\n| **Their** | Unkaa | Unke | Unkī |\n\n\n## 👥 2. Family & Relationship Vocabulary\n\n* **Bhai** = Brother\n* **Behen** = Sister\n* **Dost / Yaar** = Friend / Buddy\n* **Parents / Papa / Mama ** = Parents / Dad / Mom\n* **Colleague / Team member** = Colleague / Teammate (Hinglish standard)\n\n## 🎂 3. Expressing Age & Background\n\nAge express karne ke liye formula simple hai:\n\n$$\\text{Subject} + \\text{kī umar} + \\text{[Number]} + \\text{saal hai}$$\n\n* *Merī umar 26 saal hai.* (My age is 26 years.)\n* *Shivani UK mein rehtī hai.* (Shivani lives in the UK.)\n\n# ❓Quiz\n\n\n### Concept & Grammar Questions\n\n<details><summary>Possessive postposition (*kaa / ke / kee*) owner ke gender par depend karta hai ya possessed noun ke gender par?</summary>\n\n* **Answer:** Hamesha possessed noun ke gender aur number par depend karta hai.\n</details>\n\n<details><summary>\"My friend\" masculine singular ho toh kya use karenge, aur feminine ho toh kya?</summary>\n\n* **Answer:** Masculine ke liye *Meraa dost*, feminine ke liye *Merī dost*.\n</details>\n\n<details><summary>Tamil possessive marker *oda* Hindi ke kis grammatical element ke barabar function karta hai?</summary>\n\n* **Answer:** Hindi postposition *kaa / ke / kee* ke barabar function karta hai.\n</details>\n\n\n### Translation Questions\n\n<details><summary>**This is my brother's new car.**</summary>\n\n* **Answer:** `Ye mere bhai kī nayī car hai.`\n* ye (this) | mere bhai kī (my brother's) | nayī (new - fem) | car | hai (is)\n</details>\n\n<details><summary>**How is Shivani's job at the care home?**</summary>\n\n* **Answer:** `Care home mein Shivani kī job kaisī hai?`\n* care home mein (in care home) | Shivani kī (Shivani's) | job | kaisī (how - fem) | hai (is)\n</details>\n\n<details><summary>**My friends live in Toronto.**</summary>\n\n* **Answer:** `Mere dost Toronto mein rehte hain.`\n* mere dost (my friends - masc pl) | Toronto mein (in Toronto) | rehte hain (live)\n</details>\n\n<details><summary>**Is that your acoustic guitar? *****(polite, formal, f)***</summary>\n\n* **Answer:** `Kyaa vo aapkī acoustic guitar hai?`\n* kyaa (question marker) | vo (that) | aapkī (your - polite/fem) | acoustic guitar | hai (is)\n</details>\n\n<details><summary>**Aapkī family kaise hai?**</summary>\n\n* **Answer:** How is your family?\n</details>\n"
+}

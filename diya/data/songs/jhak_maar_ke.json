@@ -1,0 +1,67 @@
+{
+  "id": "3cd85bc1-d962-80dc-983d-e6139bb86a90",
+  "title": "Jhak Maar Ke",
+  "slug": "jhak_maar_ke",
+  "spotify_url": null,
+  "youtube_url": "https://www.youtube.com/watch?v=R5CxtjmrIE4",
+  "lyrics_url": null,
+  "verses": [
+    {
+      "title": "Chorus",
+      "lines": [
+        {
+          "line": "**Ab Na Tu, Rakhna Tu**",
+          "details": [
+            "Word-by-word breakdown into English: `Ab` (Now) | `Na` (Not / Don't) | `Tu` (You) | `Rakhna` (Keep) | `Tu` (You)",
+            "Literal translation: `\"Now don't you, keep you\"`",
+            "Translation: `\"Now don't hold back or keep anything from me\"`"
+          ]
+        },
+        {
+          "line": "**Mere Dil Ka Yeh Chota Mota Haq Maar Ke**",
+          "details": [
+            "Word-by-word breakdown into English: `Mere` (My) | `Dil` (Heart) | `Ka` (Of) | `Yeh` (This) | `Chota Mota` (Small / Minor) | `Haq` (Right / Due) | `Maar Ke` (Usurping / Denying)",
+            "Literal translation: `\"Killing/denying this small minor right of my heart\"`",
+            "Translation: `\"By denying my heart its small, rightful due\"`"
+          ]
+        },
+        {
+          "line": "**Galti Se, Galti Ki**",
+          "details": [
+            "Word-by-word breakdown into English: `Galti` (Mistake) | `Se` (By) | `Galti` (Mistake) | `Ki` (Did / Made)",
+            "Literal translation: `\"By mistake, made a mistake\"`",
+            "Translation: `\"I made a huge mistake by accident\"`"
+          ]
+        },
+        {
+          "line": "**Kabhi Pichhe Pichhe Aaya Tere Jhak Maar Ke**",
+          "details": [
+            "Word-by-word breakdown into English: `Kabhi` (Ever / Once) | `Pichhe Pichhe` (Behind / Following) | `Aaya` (Came) | `Tere` (Yours / Behind you) | `Jhak Maar Ke` (Doing something foolishly / out of desperation / eating crow)",
+            "Literal translation: `\"Ever came behind you after banging my head/acting foolishly\"`",
+            "Translation: `\"When I foolishly came chasing after you\"`"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Verse 1",
+      "lines": []
+    },
+    {
+      "title": "Chorus Refrain",
+      "lines": []
+    },
+    {
+      "title": "Verse 2",
+      "lines": []
+    },
+    {
+      "title": "Verse 3",
+      "lines": []
+    },
+    {
+      "title": "Chorus & Outro",
+      "lines": []
+    }
+  ]
+}

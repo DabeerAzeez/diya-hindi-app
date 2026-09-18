@@ -1,0 +1,221 @@
+{
+  "id": "80889a4b-77f7-4a43-baa1-654fdd24e8ab",
+  "code": "B1-04",
+  "title": "Lesson B1-04: Adverbial Participles & Complex Clause Modifiers",
+  "slug": "lesson_b1-04__adverbial_participles_complex_clause_modifiers",
+  "sections": [
+    {
+      "title": "🌟Summary",
+      "type": "heading_1",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Complex, natural narrative fluency ke liye Adverbial Participles (*-te hue, -kar / -karke, -te hi*) Hindi ka ultimate syntactic engine hain. Inke zariye aap simultaneous actions, sequential steps, aur instantaneous triggers ko bina cumbersome conjunctions ke compactly link kar sakte hain."
+        }
+      ]
+    },
+    {
+      "title": "🧠 Polyglot Structural Anchors",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "bullet",
+          "text": "**Tamil Adverbial Participle Mirror:**",
+          "children": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Tamil adverbial participles (*-kittu* for simultaneous: *pesikitte*, *-adhuve* for immediate: *vandhadhum*, verbal participle *-thu* for sequential: *saaptu*) Hindi participles ke 100% exact syntactic parallels hain."
+        },
+        {
+          "type": "bullet",
+          "text": "**Romance Gerunds:**",
+          "children": []
+        },
+        {
+          "type": "paragraph",
+          "text": "French (*en buvant du café*) aur Spanish (*hablando / habiendo comido*) exact *-te hue* aur *-kar* clauses se match karte hain."
+        }
+      ]
+    },
+    {
+      "title": "📐 Core Mathematical Formulas",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Simultaneous Action}: \\text{Verb Stem} + \\text{te hue} \\quad (\\text{coffee peete hue baat karnaa})$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Sequential Action (Having done X)}: \\text{Verb Stem} + \\text{kar / karke} \\quad (\\text{khaanaa khaakar nikalnaa})$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Immediate Trigger (As soon as)}: \\text{Verb Stem} + \\text{te hi} \\quad (\\text{pahunchte hi call karnaa})$$"
+        }
+      ]
+    },
+    {
+      "title": "📘Lesson",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "☕ 1. Imperfective Participles (-te hue: Simultaneous)",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Jab do actions ek hi time par simultaneously ho rahe hon:"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Hum coffee peete hue purani university memories discuss karenge.*"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Chalte-chalte maine yeh observation notice kiyaa.* (While walking along...)"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Music sunte hue coding karna bohot relaxing hotaa hai.*"
+        }
+      ]
+    },
+    {
+      "title": "🏁 2. Perfective Participles (-kar / -karke: Sequential)",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Jab pehla action successfully finish ho kar agla action trigger hota hai ('Having done X, then Y'):"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Khaanaa khaakar hum river walk par chalenge.*"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Soch-samajhkar koi bhi response choose karo.*"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Files save karke laptop shut down kar do.*"
+        }
+      ]
+    },
+    {
+      "title": "⚡ 3. Immediate Sequence (-te hi: Instantaneous)",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Jab ek action ke hote hi doosra action instantly trigger hota hai ('As soon as'):"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Norwich station pahunchte hi mujhe message kar denaa.*"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Alarm bajte hi main uth gayaa.*"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Meeting end hote hi feedback share karenge.*"
+        }
+      ]
+    },
+    {
+      "title": "🎭 Dialogue Example",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "**Shivani:** *\"Station pahunchte hi mujhe call kar denaa, main station ke bahar wait kar rahii hoongii!\"*"
+        },
+        {
+          "type": "paragraph",
+          "text": "**You:** *\"Bilkul! Train se utarte hi phone karoongaa. Phir cafe mein baithkar coffee peete hue aaraam se catch-up karenge.\"*"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Shivani:** *\"Awesome plan! Phir evening mein khaanaa khaakar pub chalenge.\"*"
+        }
+      ]
+    },
+    {
+      "title": "❓Quiz",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "Concept & Grammar Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "numbered",
+          "text": "**'-te hue' aur '-kar' clauses mein temporal sequence kaa kyaa fundamental farq hai?**",
+          "children": [
+            "**Answer:** *-te hue* simultaneous ongoing actions show karta hai jo parallel chal rahe hain (*TV dekhte hue khaanaa*), jabki *-kar / -karke* sequential action show karta hai jisme pehla action complete hone ke baad agla action start hota hai (*Khaanaa khaakar nikalnaa*)."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**'Pahunchte hi mujhe call karnaa' mein '-te hi' particle kyaa convey karta hai?**",
+          "children": [
+            "**Answer:** Yeh zero time delay ya instantaneous sequence convey karta hai (\"As soon as you arrive, call me\")."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Translation Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "numbered",
+          "text": "**We will discuss our travel plans while drinking coffee in the cafe. (informal, m)**",
+          "children": [
+            "**Answer:** `Hum cafe mein coffee peete hue apne travel plans discuss karenge.` — हम कैफ़े में कॉफ़ी पीते हुए अपने ट्रेवल प्लान्स डिस्कस करेंगे।",
+            "[Hum cafe mein + coffee peete hue (while drinking coffee) + apne travel plans discuss karenge]."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**As soon as the flight landed, I texted my friends in Toronto. (informal, m)**",
+          "children": [
+            "**Answer:** `Flight land hote hi maine Toronto mein apne doston ko text kiyaa.` — फ़्लाइट लैंड होते ही मैंने टोरंटो में अपने दोस्तों को टेक्स्ट किया।",
+            "[Flight land hote hi (as soon as flight landed) + maine Toronto mein apne doston ko text kiyaa]."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**After finishing work, let's go for a walk along the river. (casual)**",
+          "children": [
+            "**Answer:** `Kaam khatam karke, river ke kinaare walk par chalte hain.` — काम खत्म करके, रिवर के किनारे वॉक पर चलते हैं।",
+            "[Kaam khatam karke (after finishing work) + river ke kinaare walk par chalte hain]."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**Think carefully before making any major career transition. (polite)**",
+          "children": [
+            "**Answer:** `Koi bhi badaa career transition karne se pehle achhe se soch-samajhkar faislaa kijiye.` — कोई भी बड़ा करियर ट्रांज़िशन करने से पहले अच्छे से सोच-समझकर फ़ैसला कीजिए।",
+            "[Koi bhi badaa career transition karne se pehle + achhe se soch-samajhkar (having thought carefully) + faislaa kijiye]."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**While listening to acoustic guitar melodies, I feel completely relaxed. (informal, m)**",
+          "children": [
+            "**Answer:** `Acoustic guitar melodies sunte hue, main bilkul relaxed feel kartaa hoon.` — अकूस्टिक गिटार मेलोडीज़ सुनते हुए, मैं बिल्कुल रिलैक्स्ड फील करता हूँ।",
+            "[Acoustic guitar melodies sunte hue + main bilkul relaxed feel kartaa hoon]."
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": "# Lesson B1-04: Adverbial Participles & Complex Clause Modifiers\n\n# 🌟Summary\n\nComplex, natural narrative fluency ke liye Adverbial Participles (*-te hue, -kar / -karke, -te hi*) Hindi ka ultimate syntactic engine hain. Inke zariye aap simultaneous actions, sequential steps, aur instantaneous triggers ko bina cumbersome conjunctions ke compactly link kar sakte hain.\n\n### 🧠 Polyglot Structural Anchors\n\n* **Tamil Adverbial Participle Mirror:**\nTamil adverbial participles (*-kittu* for simultaneous: *pesikitte*, *-adhuve* for immediate: *vandhadhum*, verbal participle *-thu* for sequential: *saaptu*) Hindi participles ke 100% exact syntactic parallels hain.\n\n* **Romance Gerunds:**\nFrench (*en buvant du café*) aur Spanish (*hablando / habiendo comido*) exact *-te hue* aur *-kar* clauses se match karte hain.\n\n### 📐 Core Mathematical Formulas\n\n$$\\text{Simultaneous Action}: \\text{Verb Stem} + \\text{te hue} \\quad (\\text{coffee peete hue baat karnaa})$$\n\n$$\\text{Sequential Action (Having done X)}: \\text{Verb Stem} + \\text{kar / karke} \\quad (\\text{khaanaa khaakar nikalnaa})$$\n\n$$\\text{Immediate Trigger (As soon as)}: \\text{Verb Stem} + \\text{te hi} \\quad (\\text{pahunchte hi call karnaa})$$\n\n---\n\n# 📘Lesson\n\n## ☕ 1. Imperfective Participles (-te hue: Simultaneous)\n\nJab do actions ek hi time par simultaneously ho rahe hon:\n\n* *Hum coffee peete hue purani university memories discuss karenge.*\n\n* *Chalte-chalte maine yeh observation notice kiyaa.* (While walking along...)\n\n* *Music sunte hue coding karna bohot relaxing hotaa hai.*\n\n## 🏁 2. Perfective Participles (-kar / -karke: Sequential)\n\nJab pehla action successfully finish ho kar agla action trigger hota hai ('Having done X, then Y'):\n\n* *Khaanaa khaakar hum river walk par chalenge.*\n\n* *Soch-samajhkar koi bhi response choose karo.*\n\n* *Files save karke laptop shut down kar do.*\n\n## ⚡ 3. Immediate Sequence (-te hi: Instantaneous)\n\nJab ek action ke hote hi doosra action instantly trigger hota hai ('As soon as'):\n\n* *Norwich station pahunchte hi mujhe message kar denaa.*\n\n* *Alarm bajte hi main uth gayaa.*\n\n* *Meeting end hote hi feedback share karenge.*\n\n---\n\n## 🎭 Dialogue Example\n\n* **Shivani:** *\"Station pahunchte hi mujhe call kar denaa, main station ke bahar wait kar rahii hoongii!\"*\n* **You:** *\"Bilkul! Train se utarte hi phone karoongaa. Phir cafe mein baithkar coffee peete hue aaraam se catch-up karenge.\"*\n* **Shivani:** *\"Awesome plan! Phir evening mein khaanaa khaakar pub chalenge.\"*\n\n---\n\n# ❓Quiz\n\n### Concept & Grammar Questions\n\n1. **'-te hue' aur '-kar' clauses mein temporal sequence kaa kyaa fundamental farq hai?**\n    * **Answer:** *-te hue* simultaneous ongoing actions show karta hai jo parallel chal rahe hain (*TV dekhte hue khaanaa*), jabki *-kar / -karke* sequential action show karta hai jisme pehla action complete hone ke baad agla action start hota hai (*Khaanaa khaakar nikalnaa*).\n1. **'Pahunchte hi mujhe call karnaa' mein '-te hi' particle kyaa convey karta hai?**\n    * **Answer:** Yeh zero time delay ya instantaneous sequence convey karta hai (\"As soon as you arrive, call me\").\n\n---\n\n### Translation Questions\n\n1. **We will discuss our travel plans while drinking coffee in the cafe. (informal, m)**\n    * **Answer:** `Hum cafe mein coffee peete hue apne travel plans discuss karenge.` — हम कैफ़े में कॉफ़ी पीते हुए अपने ट्रेवल प्लान्स डिस्कस करेंगे।\n    * [Hum cafe mein + coffee peete hue (while drinking coffee) + apne travel plans discuss karenge].\n1. **As soon as the flight landed, I texted my friends in Toronto. (informal, m)**\n    * **Answer:** `Flight land hote hi maine Toronto mein apne doston ko text kiyaa.` — फ़्लाइट लैंड होते ही मैंने टोरंटो में अपने दोस्तों को टेक्स्ट किया।\n    * [Flight land hote hi (as soon as flight landed) + maine Toronto mein apne doston ko text kiyaa].\n1. **After finishing work, let's go for a walk along the river. (casual)**\n    * **Answer:** `Kaam khatam karke, river ke kinaare walk par chalte hain.` — काम खत्म करके, रिवर के किनारे वॉक पर चलते हैं।\n    * [Kaam khatam karke (after finishing work) + river ke kinaare walk par chalte hain].\n1. **Think carefully before making any major career transition. (polite)**\n    * **Answer:** `Koi bhi badaa career transition karne se pehle achhe se soch-samajhkar faislaa kijiye.` — कोई भी बड़ा करियर ट्रांज़िशन करने से पहले अच्छे से सोच-समझकर फ़ैसला कीजिए।\n    * [Koi bhi badaa career transition karne se pehle + achhe se soch-samajhkar (having thought carefully) + faislaa kijiye].\n1. **While listening to acoustic guitar melodies, I feel completely relaxed. (informal, m)**\n    * **Answer:** `Acoustic guitar melodies sunte hue, main bilkul relaxed feel kartaa hoon.` — अकूस्टिक गिटार मेलोडीज़ सुनते हुए, मैं बिल्कुल रिलैक्स्ड फील करता हूँ।\n    * [Acoustic guitar melodies sunte hue + main bilkul relaxed feel kartaa hoon]."
+}

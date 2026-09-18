@@ -1,0 +1,233 @@
+{
+  "id": "3ca85bc1-d962-80a8-960f-f048dfd78b35",
+  "code": "A1-03",
+  "title": "Lesson A1-03: Multiple Uses of 'Ki' vs. 'Kaa/Ke/Kee'",
+  "slug": "lesson_a1-03__multiple_uses_of__ki__vs___kaa_ke_kee",
+  "sections": [
+    {
+      "title": "🌟Summary",
+      "type": "heading_1",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Is lesson mein hum **Kaa / Ke / Kee** (Possessive/Associative Postposition) aur **Ki** (Subordinate Conjunction \"that\") ke beech ke farq ko clearly master karenge. Polyglot context ke according:"
+        },
+        {
+          "type": "bullet",
+          "text": "**Kaa / Ke / Kee** = Tamil *udaiya* / *in*, French *de*, Spanish *de* (agrees with following noun gender/number).",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Ki** = French *que*, Spanish *que*, English *that* (links two independent clauses).",
+          "children": []
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "**Type**",
+              "**Function**",
+              "**Rule / Formula**",
+              "**Example**"
+            ],
+            [
+              "**Possessive Postposition**",
+              "Ownership / Relationship",
+              "`Noun + kaa/ke/kee + Noun`",
+              "*Shivani ka ghar* / *Aapki patni*"
+            ],
+            [
+              "**Action Collocation**",
+              "\"Try to\", \"Need to\"",
+              "`$$\\text{Verb (Oblique: -ne)} + \\text{ki} + \\text{Noun (try/koshish)}$$`",
+              "*Seekhne ki koshish* / *Try karna*"
+            ],
+            [
+              "**Conjunction**",
+              "Links 2 clauses (\"that\")",
+              "`Clause 1 + ki + Clause 2`",
+              "*Mujhe pata hai ki aap busy ho.*"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "📘Lesson",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "🔗 1. Kaa / Ke / Kee as Possessive & Collocation Postposition",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Hindi mein possessive postpositions aane wale target noun ke gender aur case ke according change hote hain:"
+        },
+        {
+          "type": "bullet",
+          "text": "**Kaa (Masculine Singular Direct):** *Shivani ka ghar*",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Ke (Masculine Plural / Oblique):** *Shivani ke dost* ya *Shivani ke ghar mein*",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Kee / Ki (Feminine):** *Shivani ki job* ya *Aapki car*",
+          "children": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Jab hum verbs ke saath *koshish*, *try*, ya *permission* jaise feminine nouns use karte hain:"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Verb stem} + \\text{-ne} + \\text{ki} + \\text{koshish / try / zaroorat}$$"
+        }
+      ]
+    },
+    {
+      "title": "⚡ 2. Ki as Conjunction (\"That\")",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Jab do sentences ko joda jaata hai, tab short **ki** (*that*) use hota hai:"
+        },
+        {
+          "type": "bullet",
+          "text": "*Main jaanta hoon* + *ki* + *Shivani UK mein rehti hai.*",
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "❓Quiz",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "Concept & Grammar Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "toggle",
+          "title": "**\"Shivani ka ghar\" mein \"ka\" kyu use hua, jabki Shivani feminine hai?**",
+          "children": [
+            "**Answer:** Postposition *kaa/ke/kee* hamesha aane wale noun (object/possession) ke gender se agree karta hai, possessor ke gender se nahi. *Ghar* masculine singular hai, isliye *ka* use hua."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**\"Hindi seekhne ki koshish\" mein \"ki\" kyu aata hai aur \"seekhna\" oblique (-ne) kyu banta hai?**",
+          "children": [
+            "**Answer:** *Koshish* (attempt) ek feminine noun hai (\"attempt OF learning\"), isliye feminine postposition *ki* aati hai. Postposition aane ki wajah se preceding verb infinitive oblique case mein shift hokar *ne* ban jaata hai."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**French/Spanish grammar ke context mein \"ki\" (conjunction) aur \"kaa/ke/kee\" (postposition) ka exact equivalent kya hai?**",
+          "children": [
+            "**Answer:** *Kaa/ke/kee* postposition French/Spanish ke preposition **de** ke barabar hai (possession/association), jabki short conjunction *ki* French/Spanish ke **que** (*that*) ke barabar hai."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Sentence \"Shivani ke ghar mein party hai\" mein \"ka\" ki jagah \"ke\" kyu use hua?**",
+          "children": [
+            "**Answer:** *Ghar* masculine singular hai, lekin aage postposition *mein* (in) aane ki wajah se *ghar* oblique ho gaya. Jab masculine singular noun oblique hota hai, toh uska modifying possessive marker *ka* shift hokar *ke* ban jaata hai."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**\"Mujhe lagtaa hai ki kal rain hogi\" mein \"ki\" ka grammatical role kya hai?**",
+          "children": [
+            "**Answer:** Yeh ek subordinate conjunction hai jo main clause (*Mujhe lagtaa hai*) ko subordinate clause (*kal rain hogi*) se jodta hai (meaning: *\"that\"*)."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Translation Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "toggle",
+          "title": "**I know that Shivani lives in Norwich.** *(m)*",
+          "children": [
+            "**Answer:** `Main jaanta hoon ki Shivani Norwich mein rehti hai.`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**I will try to speak Hindi.** *(m)*",
+          "children": [
+            "**Answer:** `Main Hindi bolne ki koshish karunga.`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Did you know that she works at a care home?** *(informal/tum)*",
+          "children": [
+            "**Answer:** `Kya tumhein pata tha ki vo care home mein kaam karti hai?`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Shivani's lifestyle coordinator job is very interesting.**",
+          "children": [
+            "**Answer:** `Shivani ki lifestyle coordinator job bahut interesting hai.`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**There is no need to worry.**",
+          "children": [
+            "**Answer:** `Chinta karne ki zaroorat nahi hai.`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Shivani ne bola ki UK mein mausam thanda hai.**",
+          "children": [
+            "**Answer:** `Shivani said that the weather is cold in the UK.`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Main har din guitar practice karne ki try karta hoon.** *(m)*",
+          "children": [
+            "**Answer:** `I try to practice guitar every day.`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Kya aapko lagta hai ki hum October mein milenge?**",
+          "children": [
+            "**Answer:** `Do you think that we will meet in October?`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Mujhe improv team ke dost ke saath dinner karna hai.**",
+          "children": [
+            "**Answer:** `I have to have dinner with a friend from the improv team.`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Usne bataya ki uski nayi flat bohot achhi hai.**",
+          "children": [
+            "**Answer:** `He/She mentioned that his/her new apartment is very nice.`"
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": "\n# 🌟Summary\n\nIs lesson mein hum **Kaa / Ke / Kee** (Possessive/Associative Postposition) aur **Ki** (Subordinate Conjunction \"that\") ke beech ke farq ko clearly master karenge. Polyglot context ke according:\n\n* **Kaa / Ke / Kee** = Tamil *udaiya* / *in*, French *de*, Spanish *de* (agrees with following noun gender/number).\n* **Ki** = French *que*, Spanish *que*, English *that* (links two independent clauses).\n| **Type** | **Function** | **Rule / Formula** | **Example** |\n| --- | --- | --- | --- |\n| **Possessive Postposition** | Ownership / Relationship | `Noun + kaa/ke/kee + Noun` | *Shivani ka ghar* / *Aapki patni* |\n| **Action Collocation** | \"Try to\", \"Need to\" | `$$\\text{Verb (Oblique: -ne)} + \\text{ki} + \\text{Noun (try/koshish)}$$` | *Seekhne ki koshish* / *Try karna* |\n| **Conjunction** | Links 2 clauses (\"that\") | `Clause 1 + ki + Clause 2` | *Mujhe pata hai ki aap busy ho.* |\n\n\n# 📘Lesson\n\n\n## 🔗 1. Kaa / Ke / Kee as Possessive & Collocation Postposition\n\nHindi mein possessive postpositions aane wale target noun ke gender aur case ke according change hote hain:\n\n* **Kaa (Masculine Singular Direct):** *Shivani ka ghar*\n* **Ke (Masculine Plural / Oblique):** *Shivani ke dost* ya *Shivani ke ghar mein*\n* **Kee / Ki (Feminine):** *Shivani ki job* ya *Aapki car*\nJab hum verbs ke saath *koshish*, *try*, ya *permission* jaise feminine nouns use karte hain:\n\n$$\\text{Verb stem} + \\text{-ne} + \\text{ki} + \\text{koshish / try / zaroorat}$$\n\n\n## ⚡ 2. Ki as Conjunction (\"That\")\n\nJab do sentences ko joda jaata hai, tab short **ki** (*that*) use hota hai:\n\n* *Main jaanta hoon* + *ki* + *Shivani UK mein rehti hai.*\n\n# ❓Quiz\n\n\n### Concept & Grammar Questions\n\n<details><summary>**\"Shivani ka ghar\" mein \"ka\" kyu use hua, jabki Shivani feminine hai?**</summary>\n\n* **Answer:** Postposition *kaa/ke/kee* hamesha aane wale noun (object/possession) ke gender se agree karta hai, possessor ke gender se nahi. *Ghar* masculine singular hai, isliye *ka* use hua.\n</details>\n\n<details><summary>**\"Hindi seekhne ki koshish\" mein \"ki\" kyu aata hai aur \"seekhna\" oblique (-ne) kyu banta hai?**</summary>\n\n* **Answer:** *Koshish* (attempt) ek feminine noun hai (\"attempt OF learning\"), isliye feminine postposition *ki* aati hai. Postposition aane ki wajah se preceding verb infinitive oblique case mein shift hokar *ne* ban jaata hai.\n</details>\n\n<details><summary>**French/Spanish grammar ke context mein \"ki\" (conjunction) aur \"kaa/ke/kee\" (postposition) ka exact equivalent kya hai?**</summary>\n\n* **Answer:** *Kaa/ke/kee* postposition French/Spanish ke preposition **de** ke barabar hai (possession/association), jabki short conjunction *ki* French/Spanish ke **que** (*that*) ke barabar hai.\n</details>\n\n<details><summary>**Sentence \"Shivani ke ghar mein party hai\" mein \"ka\" ki jagah \"ke\" kyu use hua?**</summary>\n\n* **Answer:** *Ghar* masculine singular hai, lekin aage postposition *mein* (in) aane ki wajah se *ghar* oblique ho gaya. Jab masculine singular noun oblique hota hai, toh uska modifying possessive marker *ka* shift hokar *ke* ban jaata hai.\n</details>\n\n<details><summary>**\"Mujhe lagtaa hai ki kal rain hogi\" mein \"ki\" ka grammatical role kya hai?**</summary>\n\n* **Answer:** Yeh ek subordinate conjunction hai jo main clause (*Mujhe lagtaa hai*) ko subordinate clause (*kal rain hogi*) se jodta hai (meaning: *\"that\"*).\n</details>\n\n\n### Translation Questions\n\n<details><summary>**I know that Shivani lives in Norwich.** *(m)*</summary>\n\n* **Answer:** `Main jaanta hoon ki Shivani Norwich mein rehti hai.`\n</details>\n\n<details><summary>**I will try to speak Hindi.** *(m)*</summary>\n\n* **Answer:** `Main Hindi bolne ki koshish karunga.`\n</details>\n\n<details><summary>**Did you know that she works at a care home?** *(informal/tum)*</summary>\n\n* **Answer:** `Kya tumhein pata tha ki vo care home mein kaam karti hai?`\n</details>\n\n<details><summary>**Shivani's lifestyle coordinator job is very interesting.**</summary>\n\n* **Answer:** `Shivani ki lifestyle coordinator job bahut interesting hai.`\n</details>\n\n<details><summary>**There is no need to worry.**</summary>\n\n* **Answer:** `Chinta karne ki zaroorat nahi hai.`\n</details>\n\n<details><summary>**Shivani ne bola ki UK mein mausam thanda hai.**</summary>\n\n* **Answer:** `Shivani said that the weather is cold in the UK.`\n</details>\n\n<details><summary>**Main har din guitar practice karne ki try karta hoon.** *(m)*</summary>\n\n* **Answer:** `I try to practice guitar every day.`\n</details>\n\n<details><summary>**Kya aapko lagta hai ki hum October mein milenge?**</summary>\n\n* **Answer:** `Do you think that we will meet in October?`\n</details>\n\n<details><summary>**Mujhe improv team ke dost ke saath dinner karna hai.**</summary>\n\n* **Answer:** `I have to have dinner with a friend from the improv team.`\n</details>\n\n<details><summary>**Usne bataya ki uski nayi flat bohot achhi hai.**</summary>\n\n* **Answer:** `He/She mentioned that his/her new apartment is very nice.`\n</details>\n"
+}

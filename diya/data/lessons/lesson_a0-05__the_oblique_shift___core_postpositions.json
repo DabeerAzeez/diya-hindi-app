@@ -1,0 +1,255 @@
+{
+  "id": "3b085bc1-d962-806f-b9cc-d8321d6c55e9",
+  "code": "A0-05",
+  "title": "Lesson A0-05: The Oblique Shift & Core Postpositions",
+  "slug": "lesson_a0-05__the_oblique_shift___core_postpositions",
+  "sections": [
+    {
+      "title": "🌟 Summary",
+      "type": "heading_1",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "In **Lesson 3.1**, we dive into **The Oblique Case**—a fundamental structural shift in Hindi grammar. Whenever a noun, pronoun, or infinitive verb is followed by a **postposition** (like *me*, *se*, *par*, *ke liye*, *ke baare me*), its ending changes into its \"oblique\" form."
+        },
+        {
+          "type": "paragraph",
+          "text": "Understanding this is essential for building natural sentences, especially when expressing **purposes** (*\"in order to meet\"* $\\rightarrow$ `milne ke liye`), **topics** (*\"about Shivani\"* $\\rightarrow$ `Shivani ke baare me`), or **reflections** (*\"in my life\"* $\\rightarrow$ `apni life me`)."
+        }
+      ]
+    },
+    {
+      "title": "Core Oblique Shifts at a Glance",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "**Grammatical Category**",
+              "**Direct Form (No Postposition)**",
+              "**Oblique Form (Before Postposition)**",
+              "**Example with Postposition**"
+            ],
+            [
+              "**Infinitive Verbs**",
+              "`-naa` (e.g., `milnaa`)",
+              "`-ne` (e.g., `milne`)",
+              "`milne ke liye` *(for meeting / to meet)*"
+            ],
+            [
+              "**Masculine Nouns**",
+              "`-aa` (e.g., `kamraa` - room)",
+              "`-e` (e.g., `kamre`)",
+              "`kamre me` *(in the room)*"
+            ],
+            [
+              "**Demonstratives**",
+              "`Ye` *(this)* / `Vo` *(that)*",
+              "`Is` / `Us`",
+              "`is baare me` *(about this)* / `us ke saath` *(with him/her)*"
+            ],
+            [
+              "**Possessive Reflexive**",
+              "`apnaa` *(my/one's own)*",
+              "`apne`",
+              "`apne kaam ke liye` *(for my own work)*"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "📘 Lesson 3.1: The Oblique Case Mechanics",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "🔄 1. Infinitive Verb Shift (`naa` $\\rightarrow$ `ne`)",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "In English, you say *\"to meet\"* or *\"for meeting\"*. In Hindi, whenever a full verb (ending in `-naa`) is followed by a postposition, the `-naa` changes to `-ne`."
+        },
+        {
+          "type": "paragraph",
+          "text": "MATH: \\text{Verb (-naa)} + \\text{Postposition} \\longrightarrow \\text{Verb (-ne)} + \\text{Postposition}"
+        },
+        {
+          "type": "bullet",
+          "text": "**Direct Infinitive:** `milnaa` *(to meet)*",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Oblique + Postposition:** `milne ke liye` *(in order to meet)*",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Example:** I am excited to meet Shivani in October.",
+          "children": [
+            "`Main October me Shivani se milne ke liye excited hoon. — मैं October में Shivani से मिलने के लिए excited हूँ।`"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "📍 2. Postposition Combinations with Action Verbs",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Here are high-yield postposition frames you will use daily:"
+        },
+        {
+          "type": "bullet",
+          "text": "**Purpose (****`ke liye`**** - for / in order to):**",
+          "children": [
+            "\\text{Verb (-ne)} + \\text{ke liye}",
+            "`practice karne ke liye` *(in order to practice)*"
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**Before an action (****`se pehle`**** - before):**",
+          "children": [
+            "$$\\text{Verb (-ne)} + \\text{se pehle}$$",
+            "`UK jaane se pehle` *(before going to the UK)*"
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**After an action (****`ke baad`**** - after):**",
+          "children": [
+            "$$\\text{Verb (-ne)} + \\text{ke baad}$$",
+            "`work khatam karne ke baad` *(after finishing work)*"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "👈 3. Demonstrative Pronoun Shifts (`Ye` / `Vo`)",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "When specifying \"this\" or \"that\" right before a postposition, `Ye` shifts to `Is`, and `Vo` shifts to `Us`:"
+        },
+        {
+          "type": "bullet",
+          "text": "`Ye` *(this)* $+$ `me` $\\longrightarrow$ `Is me` *(in this)*",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "`Vo` *(that)* $+$ `ke baare me` $\\longrightarrow$ `Us ke baare me` *(about that / him / her)*",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Example:** Do you want to talk about that?",
+          "children": [
+            "`Kyaa aap us ke baare me baat karna chaahte haim? — क्या आप उसके बारे में बात करना चाहते हैं?`"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "❓ Quiz",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "Concept & Grammar Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "toggle",
+          "title": "**What triggers the oblique case shift in Hindi grammar?**",
+          "children": [
+            "**Answer:** Any postposition (such as `me`, `se`, `par`, `ke liye`, `ke baare me`, `se pehle`) appearing directly after a noun, pronoun, or infinitive verb."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**How does an action verb in its infinitive form (****`naa`****) change when you attach ****`ke liye`**** (for / in order to) or ****`se pehle`**** (before)?**",
+          "children": [
+            "**Answer:** The `naa` ending changes to `ne` (e.g., `milnaa` becomes `milne ke liye` or `milne se pehle`)."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**What do ****`Ye`**** (this) and ****`Vo`**** (that) turn into when followed by a postposition?**",
+          "children": [
+            "**Answer:** `Ye` turns into `Is` (e.g., `is me`), and `Vo` turns into `Us` (e.g., `us ke baare me`)."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Translation Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "toggle",
+          "title": "**I am very excited to meet you.**",
+          "children": [
+            "**Answer:** `Main aap se milne ke liye bahut excited hoon. — मैं आपसे मिलने के लिए बहुत excited हूँ।`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Do you want to talk about Shivani?**",
+          "children": [
+            "**Answer:** `Kyaa aap Shivani ke baare me baat karna chaahte haim? — क्या आप Shivani के बारे में बात करना चाहते हैं?`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Before going to work, I practice guitar.**",
+          "children": [
+            "**Answer:** `Work par jaane se pehle, main guitar practice karta hoon. — Work पर जाने से पहले, मैं guitar practice करता हूँ।`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**After finishing coding, I play video games.**",
+          "children": [
+            "**Answer:** `Coding finish karne ke baad, main video games kheltaa hoon. — Coding finish करने के बाद, मैं video games खेलता हूँ।`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**I need some time for this project.**",
+          "children": [
+            "**Answer:** `Mujhe is project ke liye thodaa time chaahiye. — मुझे इस project के लिए थोड़ा time चाहिए।`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Can we talk about that topic?**",
+          "children": [
+            "**Answer:** `Kyaa hum us topic ke baare me baat kar sakte haim? — क्या हम उस topic के बारे में बात कर सकते हैं?`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**`Main October me Norwich jaane ke liye ready hoon.`**",
+          "children": [
+            "**Answer:** I am ready to go to Norwich in October."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**`Kyaa tum is ke baare me jaanna chaahte ho?`**",
+          "children": [
+            "**Answer:** Do you want to know about this?"
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": "\n# 🌟 Summary\n\nIn **Lesson 3.1**, we dive into **The Oblique Case**—a fundamental structural shift in Hindi grammar. Whenever a noun, pronoun, or infinitive verb is followed by a **postposition** (like *me*, *se*, *par*, *ke liye*, *ke baare me*), its ending changes into its \"oblique\" form.\n\nUnderstanding this is essential for building natural sentences, especially when expressing **purposes** (*\"in order to meet\"* $\\rightarrow$ `milne ke liye`), **topics** (*\"about Shivani\"* $\\rightarrow$ `Shivani ke baare me`), or **reflections** (*\"in my life\"* $\\rightarrow$ `apni life me`).\n\n\n### Core Oblique Shifts at a Glance\n\n| **Grammatical Category** | **Direct Form (No Postposition)** | **Oblique Form (Before Postposition)** | **Example with Postposition** |\n| --- | --- | --- | --- |\n| **Infinitive Verbs** | `-naa` (e.g., `milnaa`) | `-ne` (e.g., `milne`) | `milne ke liye` *(for meeting / to meet)* |\n| **Masculine Nouns** | `-aa` (e.g., `kamraa` - room) | `-e` (e.g., `kamre`) | `kamre me` *(in the room)* |\n| **Demonstratives** | `Ye` *(this)* / `Vo` *(that)* | `Is` / `Us` | `is baare me` *(about this)* / `us ke saath` *(with him/her)* |\n| **Possessive Reflexive** | `apnaa` *(my/one's own)* | `apne` | `apne kaam ke liye` *(for my own work)* |\n\n\n# 📘 Lesson 3.1: The Oblique Case Mechanics\n\n\n## 🔄 1. Infinitive Verb Shift (`naa` $\\rightarrow$ `ne`)\n\nIn English, you say *\"to meet\"* or *\"for meeting\"*. In Hindi, whenever a full verb (ending in `-naa`) is followed by a postposition, the `-naa` changes to `-ne`.\n\nMATH: \\text{Verb (-naa)} + \\text{Postposition} \\longrightarrow \\text{Verb (-ne)} + \\text{Postposition}\n\n* **Direct Infinitive:** `milnaa` *(to meet)*\n* **Oblique + Postposition:** `milne ke liye` *(in order to meet)*\n* **Example:** I am excited to meet Shivani in October.\n    * `Main October me Shivani se milne ke liye excited hoon. — मैं October में Shivani से मिलने के लिए excited हूँ।`\n\n## 📍 2. Postposition Combinations with Action Verbs\n\nHere are high-yield postposition frames you will use daily:\n\n* **Purpose (****`ke liye`**** - for / in order to):**\n    * \\text{Verb (-ne)} + \\text{ke liye}\n    * `practice karne ke liye` *(in order to practice)*\n* **Before an action (****`se pehle`**** - before):**\n    * $$\\text{Verb (-ne)} + \\text{se pehle}$$\n    * `UK jaane se pehle` *(before going to the UK)*\n* **After an action (****`ke baad`**** - after):**\n    * $$\\text{Verb (-ne)} + \\text{ke baad}$$\n    * `work khatam karne ke baad` *(after finishing work)*\n\n## 👈 3. Demonstrative Pronoun Shifts (`Ye` / `Vo`)\n\nWhen specifying \"this\" or \"that\" right before a postposition, `Ye` shifts to `Is`, and `Vo` shifts to `Us`:\n\n* `Ye` *(this)* $+$ `me` $\\longrightarrow$ `Is me` *(in this)*\n* `Vo` *(that)* $+$ `ke baare me` $\\longrightarrow$ `Us ke baare me` *(about that / him / her)*\n* **Example:** Do you want to talk about that?\n    * `Kyaa aap us ke baare me baat karna chaahte haim? — क्या आप उसके बारे में बात करना चाहते हैं?`\n\n# ❓ Quiz\n\n\n### Concept & Grammar Questions\n\n<details><summary>**What triggers the oblique case shift in Hindi grammar?**</summary>\n\n* **Answer:** Any postposition (such as `me`, `se`, `par`, `ke liye`, `ke baare me`, `se pehle`) appearing directly after a noun, pronoun, or infinitive verb.\n</details>\n\n<details><summary>**How does an action verb in its infinitive form (****`naa`****) change when you attach ****`ke liye`**** (for / in order to) or ****`se pehle`**** (before)?**</summary>\n\n* **Answer:** The `naa` ending changes to `ne` (e.g., `milnaa` becomes `milne ke liye` or `milne se pehle`).\n</details>\n\n<details><summary>**What do ****`Ye`**** (this) and ****`Vo`**** (that) turn into when followed by a postposition?**</summary>\n\n* **Answer:** `Ye` turns into `Is` (e.g., `is me`), and `Vo` turns into `Us` (e.g., `us ke baare me`).\n</details>\n\n\n### Translation Questions\n\n<details><summary>**I am very excited to meet you.**</summary>\n\n* **Answer:** `Main aap se milne ke liye bahut excited hoon. — मैं आपसे मिलने के लिए बहुत excited हूँ।`\n</details>\n\n<details><summary>**Do you want to talk about Shivani?**</summary>\n\n* **Answer:** `Kyaa aap Shivani ke baare me baat karna chaahte haim? — क्या आप Shivani के बारे में बात करना चाहते हैं?`\n</details>\n\n<details><summary>**Before going to work, I practice guitar.**</summary>\n\n* **Answer:** `Work par jaane se pehle, main guitar practice karta hoon. — Work पर जाने से पहले, मैं guitar practice करता हूँ।`\n</details>\n\n<details><summary>**After finishing coding, I play video games.**</summary>\n\n* **Answer:** `Coding finish karne ke baad, main video games kheltaa hoon. — Coding finish करने के बाद, मैं video games खेलता हूँ।`\n</details>\n\n<details><summary>**I need some time for this project.**</summary>\n\n* **Answer:** `Mujhe is project ke liye thodaa time chaahiye. — मुझे इस project के लिए थोड़ा time चाहिए।`\n</details>\n\n<details><summary>**Can we talk about that topic?**</summary>\n\n* **Answer:** `Kyaa hum us topic ke baare me baat kar sakte haim? — क्या हम उस topic के बारे में बात कर सकते हैं?`\n</details>\n\n<details><summary>**`Main October me Norwich jaane ke liye ready hoon.`**</summary>\n\n* **Answer:** I am ready to go to Norwich in October.\n</details>\n\n<details><summary>**`Kyaa tum is ke baare me jaanna chaahte ho?`**</summary>\n\n* **Answer:** Do you want to know about this?\n</details>\n"
+}

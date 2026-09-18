@@ -1,0 +1,213 @@
+{
+  "id": "e1851e1e-d6cf-44a1-b719-ffb2a10a9e70",
+  "code": "B1-06",
+  "title": "Lesson B1-06: Presumptive Mood, Deductions & Speculative Future (Hogaa / Kar Rahaa Hogaa)",
+  "slug": "lesson_b1-06__presumptive_mood_deductions_speculative_future_hogaa_kar_rahaa_hogaa",
+  "sections": [
+    {
+      "title": "🌟Summary",
+      "type": "heading_1",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Jab aap future action ke baare mein predict karne ke bajaay PRESENT ya PAST situations ke baare mein smart deductions ya speculations lagate hain, toh Hindi ka **Presumptive Mood** (*Hogaa, Kar rahaa hogaa, Liyaa hogaa*) use hota hai. Yeh polyglot discourse ka high-level reasoning tool hai."
+        }
+      ]
+    },
+    {
+      "title": "🧠 Polyglot Structural Anchors",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "bullet",
+          "text": "**Romance Epistemic Future:**",
+          "children": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Spanish (*Estará en la oficina* = He must be in the office right now) aur French (*Il sera déjà parti*) exact presumptive future mechanics follow karte hain."
+        },
+        {
+          "type": "bullet",
+          "text": "**English Modal Equivalents:**",
+          "children": []
+        },
+        {
+          "type": "paragraph",
+          "text": "English 'must be doing' / 'must have seen' direct Hindi *hogaa* structures se match karte hain."
+        }
+      ]
+    },
+    {
+      "title": "📐 Core Mathematical Formulas",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Present State Deduction}: \\text{Subject} + [\\text{Location / State}] + \\text{Hogaa / Hogii / Honge}$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Present Continuous Deduction}: \\text{Verb Stem} + \\text{rahaa hogaa / rahii hogii} \\quad (\\text{must be doing right now})$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Past Completed Deduction}: \\text{Past Participle} + \\text{hogaa / hogii} \\quad (\\text{dekh liyaa hogaa = must have seen})$$"
+        }
+      ]
+    },
+    {
+      "title": "📘Lesson",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "🏢 1. Present State Deductions",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "* *Vo abhi office mein hogaa.* (He must be in the office right now.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Shivani abhi care home mein hogii.* (Shivani must be at the care home right now.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Pub abhi crowded hogaa.* (The pub must be crowded right now.)"
+        }
+      ]
+    },
+    {
+      "title": "🚆 2. Ongoing Deductions (Must be doing)",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "* *Vo abhi train mein travel kar rahii hogii.* (She must be traveling on the train right now.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Team abhi code review kar rahii hogii.*"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Toronto mein abhi subah ho rahii hogii.* (It must be morning in Toronto right now.)"
+        }
+      ]
+    },
+    {
+      "title": "📩 3. Past Completed Deductions (Must have done)",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "* *Usne mera message dekh liyaa hogaa.* (He/she must have seen my message by now.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Flight land ho gayii hogii.* (The flight must have landed already.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Unhone dinner kar liyaa hogaa.*"
+        }
+      ]
+    },
+    {
+      "title": "🎭 Dialogue Example",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "**Shivani:** *\"Maine phone silent par rakh diyaa thaa. Tumne cab book kar lii kyaa?\"*"
+        },
+        {
+          "type": "paragraph",
+          "text": "**You:** *\"Haan, cab book ho gayii hai. Driver abhi doosre block mein wait kar rahaa hogaa.\"*"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Shivani:** *\"Great! Aur pub mein unhone humaari table reserve kar lii hogii.\"*"
+        },
+        {
+          "type": "paragraph",
+          "text": "**You:** *\"Bilkul! 10 minutes mein pahunchte hain, tab tak drinks prepare ho rahii hongii.\"*"
+        }
+      ]
+    },
+    {
+      "title": "❓Quiz",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "Concept & Grammar Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "numbered",
+          "text": "**'Vo office mein hai' aur 'Vo office mein hogaa' mein reality status kaa kyaa difference hai?**",
+          "children": [
+            "**Answer:** *'Vo office mein hai'* direct factual assertion hai (100% known truth), jabki *'Vo office mein hogaa'* presumptive deduction hai (\"He must be in the office / I deduce he is there based on routine\")."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**Completed past deduction 'Usne dekh liyaa hogaa' mein verb agreement kaun decide karta hai?**",
+          "children": [
+            "**Answer:** Ergative *Ne* rule ke accordance mein, verb object ke gender aur number se agree karti hai (*Usne message [m] dekh liyaa hogaa*, *Usne email [f] dekh lii hogii*)."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Translation Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "numbered",
+          "text": "**She must be preparing for her afternoon shift at the care home right now. (informal)**",
+          "children": [
+            "**Answer:** `Vo abhi care home mein apnii afternoon shift ke liye prepare kar rahii hogii.` — वह अभी केयर होम में अपनी आफ़्टरनून शिफ्ट के लिए प्रिपेयर कर रही होगी।",
+            "[Vo abhi + care home mein + apnii afternoon shift ke liye + prepare kar rahii hogii]."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**The AI team in Toronto must have deployed the latest model release by now. (informal)**",
+          "children": [
+            "**Answer:** `Toronto mein AI team ne ab tak latest model release deploy kar diyaa hogaa.` — टोरंटो में AI टीम ने अब तक लेटेस्ट मॉडल रिलीज़ डिप्लॉय कर दिया होगा।",
+            "[Toronto mein AI team ne + ab tak (by now) + latest model release + deploy kar diyaa hogaa]."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**It must be raining in Norwich today, take your umbrella along. (casual)**",
+          "children": [
+            "**Answer:** `Aaj Norwich mein baarish ho rahii hogii, apnaa umbrella saath le lo.` — आज नॉर्विच में बारिश हो रही होगी, अपना अम्ब्रेला साथ ले लो।",
+            "[Aaj Norwich mein + baarish ho rahii hogii + apnaa umbrella saath le lo]."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**They must have already reserved our riverside table. (polite)**",
+          "children": [
+            "**Answer:** `Unhone pehle hi humaari riverside table reserve kar lii hogii.` — उन्होंने पहले ही हमारी रिवरसाइड टेबल रिज़र्व कर ली होगी।",
+            "[Unhone pehle hi + humaari riverside table + reserve kar lii hogii]."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**He must be resting after that long transatlantic flight. (informal, m)**",
+          "children": [
+            "**Answer:** `Vo us lambii transatlantic flight ke baad abhi aaraam kar rahaa hogaa.` — वह उस लंबी ट्रांसअटलांटिक फ़्लाइट के बाद अभी आराम कर रहा होगा।",
+            "[Vo us lambii transatlantic flight ke baad + abhi aaraam kar rahaa hogaa]."
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": "# Lesson B1-06: Presumptive Mood, Deductions & Speculative Future (Hogaa / Kar Rahaa Hogaa)\n\n# 🌟Summary\n\nJab aap future action ke baare mein predict karne ke bajaay PRESENT ya PAST situations ke baare mein smart deductions ya speculations lagate hain, toh Hindi ka **Presumptive Mood** (*Hogaa, Kar rahaa hogaa, Liyaa hogaa*) use hota hai. Yeh polyglot discourse ka high-level reasoning tool hai.\n\n### 🧠 Polyglot Structural Anchors\n\n* **Romance Epistemic Future:**\nSpanish (*Estará en la oficina* = He must be in the office right now) aur French (*Il sera déjà parti*) exact presumptive future mechanics follow karte hain.\n\n* **English Modal Equivalents:**\nEnglish 'must be doing' / 'must have seen' direct Hindi *hogaa* structures se match karte hain.\n\n### 📐 Core Mathematical Formulas\n\n$$\\text{Present State Deduction}: \\text{Subject} + [\\text{Location / State}] + \\text{Hogaa / Hogii / Honge}$$\n\n$$\\text{Present Continuous Deduction}: \\text{Verb Stem} + \\text{rahaa hogaa / rahii hogii} \\quad (\\text{must be doing right now})$$\n\n$$\\text{Past Completed Deduction}: \\text{Past Participle} + \\text{hogaa / hogii} \\quad (\\text{dekh liyaa hogaa = must have seen})$$\n\n---\n\n# 📘Lesson\n\n## 🏢 1. Present State Deductions\n\n* *Vo abhi office mein hogaa.* (He must be in the office right now.)\n\n* *Shivani abhi care home mein hogii.* (Shivani must be at the care home right now.)\n\n* *Pub abhi crowded hogaa.* (The pub must be crowded right now.)\n\n## 🚆 2. Ongoing Deductions (Must be doing)\n\n* *Vo abhi train mein travel kar rahii hogii.* (She must be traveling on the train right now.)\n\n* *Team abhi code review kar rahii hogii.*\n\n* *Toronto mein abhi subah ho rahii hogii.* (It must be morning in Toronto right now.)\n\n## 📩 3. Past Completed Deductions (Must have done)\n\n* *Usne mera message dekh liyaa hogaa.* (He/she must have seen my message by now.)\n\n* *Flight land ho gayii hogii.* (The flight must have landed already.)\n\n* *Unhone dinner kar liyaa hogaa.*\n\n---\n\n## 🎭 Dialogue Example\n\n* **Shivani:** *\"Maine phone silent par rakh diyaa thaa. Tumne cab book kar lii kyaa?\"*\n* **You:** *\"Haan, cab book ho gayii hai. Driver abhi doosre block mein wait kar rahaa hogaa.\"*\n* **Shivani:** *\"Great! Aur pub mein unhone humaari table reserve kar lii hogii.\"*\n* **You:** *\"Bilkul! 10 minutes mein pahunchte hain, tab tak drinks prepare ho rahii hongii.\"*\n\n---\n\n# ❓Quiz\n\n### Concept & Grammar Questions\n\n1. **'Vo office mein hai' aur 'Vo office mein hogaa' mein reality status kaa kyaa difference hai?**\n    * **Answer:** *'Vo office mein hai'* direct factual assertion hai (100% known truth), jabki *'Vo office mein hogaa'* presumptive deduction hai (\"He must be in the office / I deduce he is there based on routine\").\n1. **Completed past deduction 'Usne dekh liyaa hogaa' mein verb agreement kaun decide karta hai?**\n    * **Answer:** Ergative *Ne* rule ke accordance mein, verb object ke gender aur number se agree karti hai (*Usne message [m] dekh liyaa hogaa*, *Usne email [f] dekh lii hogii*).\n\n---\n\n### Translation Questions\n\n1. **She must be preparing for her afternoon shift at the care home right now. (informal)**\n    * **Answer:** `Vo abhi care home mein apnii afternoon shift ke liye prepare kar rahii hogii.` — वह अभी केयर होम में अपनी आफ़्टरनून शिफ्ट के लिए प्रिपेयर कर रही होगी।\n    * [Vo abhi + care home mein + apnii afternoon shift ke liye + prepare kar rahii hogii].\n1. **The AI team in Toronto must have deployed the latest model release by now. (informal)**\n    * **Answer:** `Toronto mein AI team ne ab tak latest model release deploy kar diyaa hogaa.` — टोरंटो में AI टीम ने अब तक लेटेस्ट मॉडल रिलीज़ डिप्लॉय कर दिया होगा।\n    * [Toronto mein AI team ne + ab tak (by now) + latest model release + deploy kar diyaa hogaa].\n1. **It must be raining in Norwich today, take your umbrella along. (casual)**\n    * **Answer:** `Aaj Norwich mein baarish ho rahii hogii, apnaa umbrella saath le lo.` — आज नॉर्विच में बारिश हो रही होगी, अपना अम्ब्रेला साथ ले लो।\n    * [Aaj Norwich mein + baarish ho rahii hogii + apnaa umbrella saath le lo].\n1. **They must have already reserved our riverside table. (polite)**\n    * **Answer:** `Unhone pehle hi humaari riverside table reserve kar lii hogii.` — उन्होंने पहले ही हमारी रिवरसाइड टेबल रिज़र्व कर ली होगी।\n    * [Unhone pehle hi + humaari riverside table + reserve kar lii hogii].\n1. **He must be resting after that long transatlantic flight. (informal, m)**\n    * **Answer:** `Vo us lambii transatlantic flight ke baad abhi aaraam kar rahaa hogaa.` — वह उस लंबी ट्रांसअटलांटिक फ़्लाइट के बाद अभी आराम कर रहा होगा।\n    * [Vo us lambii transatlantic flight ke baad + abhi aaraam kar rahaa hogaa]."
+}

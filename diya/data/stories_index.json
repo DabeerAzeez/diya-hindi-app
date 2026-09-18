@@ -1,0 +1,32 @@
+[
+  {
+    "id": "story_norwich_reunion",
+    "title": "Norwich Ki Train Aur Shivani Ka Surprise",
+    "level": "A1-09",
+    "summary": "Arriving at Norwich station, reunion banter with Shivani, discussing her care home transition and UK lifestyle adjustments.",
+    "topics": [
+      "Norwich",
+      "Improv Memories",
+      "Care Home Pivot",
+      "Drinks & Banter"
+    ],
+    "filename": "story_norwich_reunion.html",
+    "readingTime": "8 min",
+    "cover_image": null
+  },
+  {
+    "id": "story_norwich_secret_recipe",
+    "title": "The Secret Recipe of Norwich Market",
+    "level": "A1-10",
+    "summary": "Exploring the vibrant 900-year-old Norwich market with Shivani, trying street food, bargaining in Hinglish, and discovering an unexpected secret recipe.",
+    "topics": [
+      "Norwich Market",
+      "Street Food",
+      "Bargaining",
+      "Reunion Catch-Up"
+    ],
+    "filename": "story_norwich_secret_recipe.html",
+    "readingTime": "12 min",
+    "cover_image": "/api/stories/assets/chapter1.jpg"
+  }
+]

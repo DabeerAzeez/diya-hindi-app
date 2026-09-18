@@ -1,0 +1,231 @@
+{
+  "id": "3b085bc1-d962-802a-9feb-d8629ef11a2a",
+  "code": "A0-04",
+  "title": "Lesson A0-04: Can and Want",
+  "slug": "lesson_a0-04__can_and_want",
+  "sections": [
+    {
+      "title": "🌟 Summary",
+      "type": "heading_1",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "In **Lesson 3**, we unlocked how to express your goals, needs, preferences, and abilities using high-yield modal grammar frames. You learned the mechanics of expressing what you **want to do** (`-naa chaahtaa hoon`), what you **can do** (`saktaa hoon`), and what you **need or like** using indirect subject frames (`Mujhe... chaahiye` / `Mujhe... pasand hai`)."
+        }
+      ]
+    },
+    {
+      "title": "Core Modal Patterns Overview",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "**Expression Type**",
+              "**Formula / Structure**",
+              "**Example (Male Speaker)**"
+            ],
+            [
+              "**Want to (Action)**",
+              "Verb Infinitive (`-naa`) + `chaahtaa hoon`",
+              "*Main Shivani se milnaa chaahtaa hoon.*"
+            ],
+            [
+              "**Can / Able to**",
+              "Verb Stem (drop `-naa`) + `saktaa hoon`",
+              "*Main piano play kar saktaa hoon.*"
+            ],
+            [
+              "**Need / Want (Item)**",
+              "`Mujhe` + Item + `chaahiye`",
+              "*Mujhe thodaa time chaahiye.*"
+            ],
+            [
+              "**Like (Item/Action)**",
+              "`Mujhe` + Item/Action + `pasand hai`",
+              "*Mujhe ye place pasand hai.*"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "📘 Lesson 3 Key Grammar Reference",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "🎯 1. Desires: Wanting to do an Action",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "To express wanting to perform an action, attach `chaahtaa hoon` (for male speakers) directly after the full verb infinitive (ending in `-naa`)."
+        },
+        {
+          "type": "paragraph",
+          "text": "MATH: \\text{Subject} + \\text{Object} + \\text{Verb (-naa)} + \\text{chaahtaa hoon}"
+        },
+        {
+          "type": "bullet",
+          "text": "**Example:** I want to speak Hindi.",
+          "children": [
+            "`Main Hindi bolnaa chaahtaa hoon. — मैं हिंदी बोलना चाहता हूँ।`"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "⚡ 2. Ability: Expressing \"Can\"",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "To express ability, attach `saktaa hoon` (for male speakers) directly to the **bare verb stem** (strip off the `-naa` suffix)."
+        },
+        {
+          "type": "paragraph",
+          "text": "MATH: \\text{Subject} + \\text{Object} + \\text{Verb Stem} + \\text{saktaa hoon}"
+        },
+        {
+          "type": "bullet",
+          "text": "**Example:** I can help.",
+          "children": [
+            "`Main help kar saktaa hoon. — मैं help कर सकता हूँ।`"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "💡 3. Indirect Subjects: Needs & Preferences",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "In Hindi, needs and likes use an **indirect subject pattern** where the target person takes the dative suffix `ko` (or standard indirect pronouns like `Mujhe` for \"to me\")."
+        },
+        {
+          "type": "bullet",
+          "text": "**Desires (****`chaahiye`****):**",
+          "children": [
+            "$$\\text{Indirect Subject (Mujhe/Aapko)} + \\text{Noun/Verb (infinitive)} + \\text{chaahiye}$$",
+            "*Example:* I need coffee. $\\rightarrow$ `Mujhe coffee chaahiye. — मुझे coffee चाहिए।`",
+            "*Example: *I need to go. $\\rightarrow$ `Mujhe jaana chaahiye`"
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**Likes (****`pasand hai`****):**",
+          "children": [
+            "$$\\text{Indirect Subject (Mujhe/Aapko)} + \\text{Noun/Verb (infinitive)} + \\text{pasand hai}$$",
+            "*Example:* I like this place. $\\rightarrow$ `Mujhe ye place pasand hai. — मुझे यह place पसंद है।`",
+            "*Example: I like to run. *`Mujhe daudana pasand hai` "
+          ]
+        }
+      ]
+    },
+    {
+      "title": "❓ Quiz",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "Concept & Grammar Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "toggle",
+          "title": "**What is the structural difference between using ****`chaahtaa hoon`**** vs. ****`saktaa hoon`**** with an action verb?**",
+          "children": [
+            "**Answer:** `chaahtaa hoon` requires the **full infinitive** form of the verb (ending in `naa`), whereas `saktaa hoon` attaches directly to the **bare verb stem** (dropping the `naa`)."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Why do we say ****`Mujhe coffee chaahiye`**** instead of ****`Main coffee chaahiye`****?**",
+          "children": [
+            "**Answer:** `chaahiye` uses an indirect subject construction where the sentence literally translates to \"To me, coffee is needed,\" requiring `Mujhe` (\"to me\") rather than `Main` (\"I\")."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Translation Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "toggle",
+          "title": "**I want to meet you.**",
+          "children": [
+            "**Answer:** `Main aap se milnaa chaahtaa hoon. — मैं आप से मिलना चाहता हूँ।`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**I need some time.**",
+          "children": [
+            "**Answer:** `Mujhe thodaa time chaahiye. — मुझे थोड़ा time चाहिए।`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Can you help me?**",
+          "children": [
+            "**Answer:** `Kyaa aap merī help kar sakte haim? — क्या आप मेरी help कर सकते हैं?`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**I like this place.**",
+          "children": [
+            "**Answer:** `Mujhe ye place pasand hai. — मुझे यह place पसंद है।`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**I don't know.**",
+          "children": [
+            "**Answer:** `Mujhe nahīm pataa. — मुझे नहीं पता।`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**I can speak a little Hindi.**",
+          "children": [
+            "**Answer:** `Main thodī Hindi bol saktaa hoon. — मैं थोड़ी Hindi बोल सकता हूँ।`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Do you want to eat?**",
+          "children": [
+            "**Answer:** `Kyaa tum khaanaa chaahte ho? — क्या तुम खाना चाहते हो?`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Should you eat that?**",
+          "children": [
+            "`Tumhe vo khaana chaahiye?`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**`Main daily evening me piano practice kar saktaa hoon.`**",
+          "children": [
+            "**Answer:** I can practice piano every day in the evening."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**`Kyaa tum coffee peenaa chaahte ho?`**",
+          "children": [
+            "**Answer:** Do you want to drink coffee?"
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": "\n# 🌟 Summary\n\nIn **Lesson 3**, we unlocked how to express your goals, needs, preferences, and abilities using high-yield modal grammar frames. You learned the mechanics of expressing what you **want to do** (`-naa chaahtaa hoon`), what you **can do** (`saktaa hoon`), and what you **need or like** using indirect subject frames (`Mujhe... chaahiye` / `Mujhe... pasand hai`).\n\n\n### Core Modal Patterns Overview\n\n| **Expression Type** | **Formula / Structure** | **Example (Male Speaker)** |\n| --- | --- | --- |\n| **Want to (Action)** | Verb Infinitive (`-naa`) + `chaahtaa hoon` | *Main Shivani se milnaa chaahtaa hoon.* |\n| **Can / Able to** | Verb Stem (drop `-naa`) + `saktaa hoon` | *Main piano play kar saktaa hoon.* |\n| **Need / Want (Item)** | `Mujhe` + Item + `chaahiye` | *Mujhe thodaa time chaahiye.* |\n| **Like (Item/Action)** | `Mujhe` + Item/Action + `pasand hai` | *Mujhe ye place pasand hai.* |\n\n\n# 📘 Lesson 3 Key Grammar Reference\n\n\n## 🎯 1. Desires: Wanting to do an Action\n\nTo express wanting to perform an action, attach `chaahtaa hoon` (for male speakers) directly after the full verb infinitive (ending in `-naa`).\n\nMATH: \\text{Subject} + \\text{Object} + \\text{Verb (-naa)} + \\text{chaahtaa hoon}\n\n* **Example:** I want to speak Hindi.\n    * `Main Hindi bolnaa chaahtaa hoon. — मैं हिंदी बोलना चाहता हूँ।`\n\n## ⚡ 2. Ability: Expressing \"Can\"\n\nTo express ability, attach `saktaa hoon` (for male speakers) directly to the **bare verb stem** (strip off the `-naa` suffix).\n\nMATH: \\text{Subject} + \\text{Object} + \\text{Verb Stem} + \\text{saktaa hoon}\n\n* **Example:** I can help.\n    * `Main help kar saktaa hoon. — मैं help कर सकता हूँ।`\n\n## 💡 3. Indirect Subjects: Needs & Preferences\n\nIn Hindi, needs and likes use an **indirect subject pattern** where the target person takes the dative suffix `ko` (or standard indirect pronouns like `Mujhe` for \"to me\").\n\n* **Desires (****`chaahiye`****):**\n    * $$\\text{Indirect Subject (Mujhe/Aapko)} + \\text{Noun/Verb (infinitive)} + \\text{chaahiye}$$\n    * *Example:* I need coffee. $\\rightarrow$ `Mujhe coffee chaahiye. — मुझे coffee चाहिए।`\n    * *Example: *I need to go. $\\rightarrow$ `Mujhe jaana chaahiye`\n* **Likes (****`pasand hai`****):**\n    * $$\\text{Indirect Subject (Mujhe/Aapko)} + \\text{Noun/Verb (infinitive)} + \\text{pasand hai}$$\n    * *Example:* I like this place. $\\rightarrow$ `Mujhe ye place pasand hai. — मुझे यह place पसंद है।`\n    * *Example: I like to run. *`Mujhe daudana pasand hai` \n\n# ❓ Quiz\n\n\n### Concept & Grammar Questions\n\n<details><summary>**What is the structural difference between using ****`chaahtaa hoon`**** vs. ****`saktaa hoon`**** with an action verb?**</summary>\n\n* **Answer:** `chaahtaa hoon` requires the **full infinitive** form of the verb (ending in `naa`), whereas `saktaa hoon` attaches directly to the **bare verb stem** (dropping the `naa`).\n</details>\n\n<details><summary>**Why do we say ****`Mujhe coffee chaahiye`**** instead of ****`Main coffee chaahiye`****?**</summary>\n\n* **Answer:** `chaahiye` uses an indirect subject construction where the sentence literally translates to \"To me, coffee is needed,\" requiring `Mujhe` (\"to me\") rather than `Main` (\"I\").\n</details>\n\n\n### Translation Questions\n\n<details><summary>**I want to meet you.**</summary>\n\n* **Answer:** `Main aap se milnaa chaahtaa hoon. — मैं आप से मिलना चाहता हूँ।`\n</details>\n\n<details><summary>**I need some time.**</summary>\n\n* **Answer:** `Mujhe thodaa time chaahiye. — मुझे थोड़ा time चाहिए।`\n</details>\n\n<details><summary>**Can you help me?**</summary>\n\n* **Answer:** `Kyaa aap merī help kar sakte haim? — क्या आप मेरी help कर सकते हैं?`\n</details>\n\n<details><summary>**I like this place.**</summary>\n\n* **Answer:** `Mujhe ye place pasand hai. — मुझे यह place पसंद है।`\n</details>\n\n<details><summary>**I don't know.**</summary>\n\n* **Answer:** `Mujhe nahīm pataa. — मुझे नहीं पता।`\n</details>\n\n<details><summary>**I can speak a little Hindi.**</summary>\n\n* **Answer:** `Main thodī Hindi bol saktaa hoon. — मैं थोड़ी Hindi बोल सकता हूँ।`\n</details>\n\n<details><summary>**Do you want to eat?**</summary>\n\n* **Answer:** `Kyaa tum khaanaa chaahte ho? — क्या तुम खाना चाहते हो?`\n</details>\n\n<details><summary>**Should you eat that?**</summary>\n\n* `Tumhe vo khaana chaahiye?`\n</details>\n\n<details><summary>**`Main daily evening me piano practice kar saktaa hoon.`**</summary>\n\n* **Answer:** I can practice piano every day in the evening.\n</details>\n\n<details><summary>**`Kyaa tum coffee peenaa chaahte ho?`**</summary>\n\n* **Answer:** Do you want to drink coffee?\n</details>\n"
+}

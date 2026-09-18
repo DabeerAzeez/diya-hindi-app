@@ -1,0 +1,217 @@
+{
+  "id": "6b6089da-5651-42cc-ad2a-50975e2a08c6",
+  "code": "B1-01",
+  "title": "Lesson B1-01: The Passive Voice & Impersonal Constructions",
+  "slug": "lesson_b1-01__the_passive_voice_impersonal_constructions",
+  "sections": [
+    {
+      "title": "🌟Summary",
+      "type": "heading_1",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Swagat hai Level B1 ke pehle milestone par! Spoken Hindi mein Passive Voice sirf formal news ke liye nahin hotaa, balki daily office updates (*'Meeting cancel kii gayii'*) aur physical incapacity (*'Mujhse wait nahin kiyaa jaataa'*) express karne ka universal tool hai."
+        }
+      ]
+    },
+    {
+      "title": "🧠 Polyglot Structural Anchors",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "bullet",
+          "text": "**Romance Passive vs Reflexive:**",
+          "children": []
+        },
+        {
+          "type": "paragraph",
+          "text": "French (*Ça se fait*) aur Spanish (*Se canceló la reunión*) passive constructions Hindi ke *'Aisaa kiyaa jaataa hai'* aur *'Cancel kiyaa gayaa'* se identical hain."
+        },
+        {
+          "type": "bullet",
+          "text": "**Tamil Impersonal Negatives:**",
+          "children": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Tamil *-a mudiyaadhu* (jaise *Ennaala kaathirukka mudiyaadhu*) Hindi ke *'Mujhse intezaar nahin kiyaa jaataa'* ke exact dative/instrumental match hai."
+        }
+      ]
+    },
+    {
+      "title": "📐 Core Mathematical Formulas",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Completed Past Passive}: \\text{Past Participle} + \\text{Jaanaa (past inflected)} \\quad (\\text{kiyaa gayaa, bhejaa gayaa})$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Habitual / General Passive}: \\text{Past Participle} + \\text{Jaataa hai / Jaatii hai} \\quad (\\text{likhaa jaataa hai})$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Impersonal Incapacity}: \\text{Subject} + \\text{se} + \\text{Verb Stem} + \\text{nahin jaataa} \\quad (\\text{mujhse saha nahin jaataa})$$"
+        }
+      ]
+    },
+    {
+      "title": "📘Lesson",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "💼 1. Completed Passive Actions in Tech & Work",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "* *Email bhej dii gayii hai.* (The email has been dispatched.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Code review complete kiyaa gayaa.* (The code review was completed.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Tickets book kar liye gaye.* (The tickets have been booked.)"
+        }
+      ]
+    },
+    {
+      "title": "🏛️ 2. General Rules & Conventional Practices",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "* *Yahaan parking allow nahin kii jaatii.* (Parking is not permitted here.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Improv mein 'Yes, and' rule follow kiyaa jaataa hai.*"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Aisaa kyun kahaa jaataa hai?* (Why is it said like this?)"
+        }
+      ]
+    },
+    {
+      "title": "😫 3. Impersonal Incapacity (Inability / Overwhelmed)",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Jab insaan physically ya mentally kisi cheez ko tolerate ya perform nahin kar paataa:"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Mujhse itnaa wait nahin kiyaa jaataa.* (I simply can't bear waiting this long!)"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Mujhse itnii thand bardaasht nahin hotii.*"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Usse chalaa nahin jaataa.* (He/she is unable to walk.)"
+        }
+      ]
+    },
+    {
+      "title": "🎭 Dialogue Example",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "**Shivani:** *\"Maine sunaa ki tumhaare office mein kuch team restructure kiyaa gayaa?\"*"
+        },
+        {
+          "type": "paragraph",
+          "text": "**You:** *\"Haan, do naye AI projects launch kiye gaye hain, isliye tasks redistribute kiye gaye.\"*"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Shivani:** *\"Arre baap re! Mujhse itnaa frequent change handle nahin hotaa!\"*"
+        },
+        {
+          "type": "paragraph",
+          "text": "**You:** *\"Haha, sahi baat hai, par jab sab automate kiyaa jaataa hai, toh pressure kam ho jaataa hai.\"*"
+        }
+      ]
+    },
+    {
+      "title": "❓Quiz",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "Concept & Grammar Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "numbered",
+          "text": "**Active voice 'Maine email bheji' aur Passive voice 'Email bhej dii gayii' mein focus aur subject marker mein kyaa farq hai?**",
+          "children": [
+            "**Answer:** Active mein subject *Maine* agent hai aur focus sender par hai; Passive mein agent background ho jaata hai aur target noun *Email* subject position mein aakar verb agreement control karta hai (*gayii*)."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**'Mujhse spicy food nahin khaayaa jaataa' structure kyaa communicate kartaa hai?**",
+          "children": [
+            "**Answer:** Yeh conscious choice ya refusal nahin, balki physical / involuntary incapacity express karta hai (\"I cannot tolerate / handle eating spicy food\")."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Translation Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "numbered",
+          "text": "**The project documentation has already been updated. (formal/work)**",
+          "children": [
+            "**Answer:** `Project documentation pehle hi update kar dii gayii hai.` — प्रोजेक्ट डॉक्यूमेंटेशन पहले ही अपडेट कर दी गई है।",
+            "[Project documentation + pehle hi + update kar dii gayii hai]."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**I can't bear sitting in front of a screen for ten hours straight. (informal, m)**",
+          "children": [
+            "**Answer:** `Mujhse continuous das ghante screen ke saamne nahin baithaa jaataa.` — मुझसे कंटीन्यूअस दस घंटे स्क्रीन के सामने नहीं बैठा जाता।",
+            "[Mujhse + continuous das ghante + screen ke saamne + nahin baithaa jaataa]."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**Why was the meeting postponed at the last moment? (polite)**",
+          "children": [
+            "**Answer:** `Aakhiri moment par meeting postpone kyun kii gayii?` — आखिरी मोमेंट पर मीटिंग पोस्टपोन क्यों की गई?",
+            "[Aakhiri moment par + meeting + postpone kyun kii gayii?]."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**In Norwich, local heritage is very carefully preserved. (general)**",
+          "children": [
+            "**Answer:** `Norwich mein local heritage bohot dhyan se preserve kiyaa jaataa hai.` — नॉर्विच में लोकल हेरिटेज बहुत ध्यान से प्रिजर्व किया जाता है।",
+            "[Norwich mein + local heritage + bohot dhyan se + preserve kiyaa jaataa hai]."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**These tickets were reserved two weeks in advance. (informal)**",
+          "children": [
+            "**Answer:** `Yeh tickets do hafte pehle hi reserve kar liye gaye the.` — यह टिकट्स दो हफ्ते पहले ही रिज़र्व कर लिए गए थे।",
+            "[Yeh tickets + do hafte pehle hi + reserve kar liye gaye the]."
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": "# Lesson B1-01: The Passive Voice & Impersonal Constructions\n\n# 🌟Summary\n\nSwagat hai Level B1 ke pehle milestone par! Spoken Hindi mein Passive Voice sirf formal news ke liye nahin hotaa, balki daily office updates (*'Meeting cancel kii gayii'*) aur physical incapacity (*'Mujhse wait nahin kiyaa jaataa'*) express karne ka universal tool hai.\n\n### 🧠 Polyglot Structural Anchors\n\n* **Romance Passive vs Reflexive:**\nFrench (*Ça se fait*) aur Spanish (*Se canceló la reunión*) passive constructions Hindi ke *'Aisaa kiyaa jaataa hai'* aur *'Cancel kiyaa gayaa'* se identical hain.\n\n* **Tamil Impersonal Negatives:**\nTamil *-a mudiyaadhu* (jaise *Ennaala kaathirukka mudiyaadhu*) Hindi ke *'Mujhse intezaar nahin kiyaa jaataa'* ke exact dative/instrumental match hai.\n\n### 📐 Core Mathematical Formulas\n\n$$\\text{Completed Past Passive}: \\text{Past Participle} + \\text{Jaanaa (past inflected)} \\quad (\\text{kiyaa gayaa, bhejaa gayaa})$$\n\n$$\\text{Habitual / General Passive}: \\text{Past Participle} + \\text{Jaataa hai / Jaatii hai} \\quad (\\text{likhaa jaataa hai})$$\n\n$$\\text{Impersonal Incapacity}: \\text{Subject} + \\text{se} + \\text{Verb Stem} + \\text{nahin jaataa} \\quad (\\text{mujhse saha nahin jaataa})$$\n\n---\n\n# 📘Lesson\n\n## 💼 1. Completed Passive Actions in Tech & Work\n\n* *Email bhej dii gayii hai.* (The email has been dispatched.)\n\n* *Code review complete kiyaa gayaa.* (The code review was completed.)\n\n* *Tickets book kar liye gaye.* (The tickets have been booked.)\n\n## 🏛️ 2. General Rules & Conventional Practices\n\n* *Yahaan parking allow nahin kii jaatii.* (Parking is not permitted here.)\n\n* *Improv mein 'Yes, and' rule follow kiyaa jaataa hai.*\n\n* *Aisaa kyun kahaa jaataa hai?* (Why is it said like this?)\n\n## 😫 3. Impersonal Incapacity (Inability / Overwhelmed)\n\nJab insaan physically ya mentally kisi cheez ko tolerate ya perform nahin kar paataa:\n\n* *Mujhse itnaa wait nahin kiyaa jaataa.* (I simply can't bear waiting this long!)\n\n* *Mujhse itnii thand bardaasht nahin hotii.*\n\n* *Usse chalaa nahin jaataa.* (He/she is unable to walk.)\n\n---\n\n## 🎭 Dialogue Example\n\n* **Shivani:** *\"Maine sunaa ki tumhaare office mein kuch team restructure kiyaa gayaa?\"*\n* **You:** *\"Haan, do naye AI projects launch kiye gaye hain, isliye tasks redistribute kiye gaye.\"*\n* **Shivani:** *\"Arre baap re! Mujhse itnaa frequent change handle nahin hotaa!\"*\n* **You:** *\"Haha, sahi baat hai, par jab sab automate kiyaa jaataa hai, toh pressure kam ho jaataa hai.\"*\n\n---\n\n# ❓Quiz\n\n### Concept & Grammar Questions\n\n1. **Active voice 'Maine email bheji' aur Passive voice 'Email bhej dii gayii' mein focus aur subject marker mein kyaa farq hai?**\n    * **Answer:** Active mein subject *Maine* agent hai aur focus sender par hai; Passive mein agent background ho jaata hai aur target noun *Email* subject position mein aakar verb agreement control karta hai (*gayii*).\n1. **'Mujhse spicy food nahin khaayaa jaataa' structure kyaa communicate kartaa hai?**\n    * **Answer:** Yeh conscious choice ya refusal nahin, balki physical / involuntary incapacity express karta hai (\"I cannot tolerate / handle eating spicy food\").\n\n---\n\n### Translation Questions\n\n1. **The project documentation has already been updated. (formal/work)**\n    * **Answer:** `Project documentation pehle hi update kar dii gayii hai.` — प्रोजेक्ट डॉक्यूमेंटेशन पहले ही अपडेट कर दी गई है।\n    * [Project documentation + pehle hi + update kar dii gayii hai].\n1. **I can't bear sitting in front of a screen for ten hours straight. (informal, m)**\n    * **Answer:** `Mujhse continuous das ghante screen ke saamne nahin baithaa jaataa.` — मुझसे कंटीन्यूअस दस घंटे स्क्रीन के सामने नहीं बैठा जाता।\n    * [Mujhse + continuous das ghante + screen ke saamne + nahin baithaa jaataa].\n1. **Why was the meeting postponed at the last moment? (polite)**\n    * **Answer:** `Aakhiri moment par meeting postpone kyun kii gayii?` — आखिरी मोमेंट पर मीटिंग पोस्टपोन क्यों की गई?\n    * [Aakhiri moment par + meeting + postpone kyun kii gayii?].\n1. **In Norwich, local heritage is very carefully preserved. (general)**\n    * **Answer:** `Norwich mein local heritage bohot dhyan se preserve kiyaa jaataa hai.` — नॉर्विच में लोकल हेरिटेज बहुत ध्यान से प्रिजर्व किया जाता है।\n    * [Norwich mein + local heritage + bohot dhyan se + preserve kiyaa jaataa hai].\n1. **These tickets were reserved two weeks in advance. (informal)**\n    * **Answer:** `Yeh tickets do hafte pehle hi reserve kar liye gaye the.` — यह टिकट्स दो हफ्ते पहले ही रिज़र्व कर लिए गए थे।\n    * [Yeh tickets + do hafte pehle hi + reserve kar liye gaye the]."
+}

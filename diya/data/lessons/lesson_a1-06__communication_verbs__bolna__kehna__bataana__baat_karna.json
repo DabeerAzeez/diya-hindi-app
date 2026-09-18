@@ -1,0 +1,40 @@
+{
+  "id": "3cf85bc1-d962-8060-9a2d-d06f15b2b3a4",
+  "code": "A1-06",
+  "title": "Lesson A1-06: Communication Verbs (Bolna, Kehna, Bataana, Baat Karna)",
+  "slug": "lesson_a1-06__communication_verbs__bolna__kehna__bataana__baat_karna",
+  "sections": [
+    {
+      "title": "Communication Verbs (Bolna, Kehna, Bataana, Baat Karna)",
+      "type": "heading_1",
+      "content": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "**Hindi Verb**",
+              "**English Infinitive Verbs**"
+            ],
+            [
+              "**Bolna**",
+              "To speak, to talk (one-way)"
+            ],
+            [
+              "**Kehna**",
+              "To say, to state"
+            ],
+            [
+              "**Bataana**",
+              "To tell, to inform"
+            ],
+            [
+              "**Baat karna**",
+              "To talk (two-way), to converse, to chat"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": "| **Hindi Verb** | **English Infinitive Verbs** |\n| --- | --- |\n| **Bolna** | To speak, to talk (one-way) |\n| **Kehna** | To say, to state |\n| **Bataana** | To tell, to inform |\n| **Baat karna** | To talk (two-way), to converse, to chat |\n"
+}

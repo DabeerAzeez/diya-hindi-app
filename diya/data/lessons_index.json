@@ -1,0 +1,247 @@
+[
+  {
+    "id": "3ca85bc1-d962-806b-ba4b-c1abdfd5f710",
+    "code": "A0-00",
+    "title": "Lesson A0-00: Pronunciation & Hindi Phonetics",
+    "slug": "lesson_a0-00__pronunciation___hindi_phonetics",
+    "filename": "lesson_a0-00__pronunciation___hindi_phonetics.json"
+  },
+  {
+    "id": "3af85bc1-d962-80a3-8645-e0fa15f0c876",
+    "code": "A0-01",
+    "title": "Lesson A0-01: Pronouns, 'To Be' Verbs & Hinglish Foundations",
+    "slug": "lesson_a0-01__pronouns___to_be__verbs___hinglish_foundations",
+    "filename": "lesson_a0-01__pronouns___to_be__verbs___hinglish_foundations.json"
+  },
+  {
+    "id": "3af85bc1-d962-80eb-8de8-de1fce68ed1b",
+    "code": "A0-02",
+    "title": "Lesson A0-02: Present Continuous & Present Habitual (Doing vs. Does)",
+    "slug": "lesson_a0-02__present_continuous___present_habitual__doing_vs__does",
+    "filename": "lesson_a0-02__present_continuous___present_habitual__doing_vs__does.json"
+  },
+  {
+    "id": "3af85bc1-d962-80b0-ba6f-f923bbe8c4dc",
+    "code": "A0-03",
+    "title": "Lesson A0-03: Basic Connectors & Postpositions",
+    "slug": "lesson_a0-03__basic_connectors___postpositions",
+    "filename": "lesson_a0-03__basic_connectors___postpositions.json"
+  },
+  {
+    "id": "3b085bc1-d962-802a-9feb-d8629ef11a2a",
+    "code": "A0-04",
+    "title": "Lesson A0-04: Can and Want",
+    "slug": "lesson_a0-04__can_and_want",
+    "filename": "lesson_a0-04__can_and_want.json"
+  },
+  {
+    "id": "3b085bc1-d962-806f-b9cc-d8321d6c55e9",
+    "code": "A0-05",
+    "title": "Lesson A0-05: The Oblique Shift & Core Postpositions",
+    "slug": "lesson_a0-05__the_oblique_shift___core_postpositions",
+    "filename": "lesson_a0-05__the_oblique_shift___core_postpositions.json"
+  },
+  {
+    "id": "3b685bc1-d962-808f-aac4-f8f51b6ecab0",
+    "code": "A0-06",
+    "title": "Lesson A0-06: Simple Past Tense & Completed Actions",
+    "slug": "lesson_a0-06__simple_past_tense___completed_actions",
+    "filename": "lesson_a0-06__simple_past_tense___completed_actions.json"
+  },
+  {
+    "id": "3b785bc1-d962-80c0-9028-d6ef60e0acf7",
+    "code": "A0-07",
+    "title": "Lesson A0-07: Gender Suffixes & Agreement Rules",
+    "slug": "lesson_a0-07__gender_suffixes___agreement_rules",
+    "filename": "lesson_a0-07__gender_suffixes___agreement_rules.json"
+  },
+  {
+    "id": "3b785bc1-d962-80b2-bf0a-dcb649a3332e",
+    "code": "A0-08",
+    "title": "Lesson A0-08: Simple Future Tense & Expressing Plans",
+    "slug": "lesson_a0-08__simple_future_tense___expressing_plans",
+    "filename": "lesson_a0-08__simple_future_tense___expressing_plans.json"
+  },
+  {
+    "id": "3c785bc1-d962-8024-8061-d4efb89ee749",
+    "code": "A1-01",
+    "title": "Lesson A1-01: Imperatives & Giving Directions",
+    "slug": "lesson_a1-01__imperatives___giving_directions",
+    "filename": "lesson_a1-01__imperatives___giving_directions.json"
+  },
+  {
+    "id": "3c885bc1-d962-800c-a986-d6bdc91db0ee",
+    "code": "A1-02",
+    "title": "Lesson A1-02: Possessives, Relationships & Family",
+    "slug": "lesson_a1-02__possessives__relationships___family",
+    "filename": "lesson_a1-02__possessives__relationships___family.json"
+  },
+  {
+    "id": "3c885bc1-d962-8025-95d8-e70281942b0b",
+    "code": "A1-04",
+    "title": "Lesson A1-04: Obligation, Compulsion & Permission",
+    "slug": "lesson_a1-04__obligation__compulsion___permission",
+    "filename": "lesson_a1-04__obligation__compulsion___permission.json"
+  },
+  {
+    "id": "3ca85bc1-d962-80a8-960f-f048dfd78b35",
+    "code": "A1-03",
+    "title": "Lesson A1-03: Multiple Uses of 'Ki' vs. 'Kaa/Ke/Kee'",
+    "slug": "lesson_a1-03__multiple_uses_of__ki__vs___kaa_ke_kee",
+    "filename": "lesson_a1-03__multiple_uses_of__ki__vs___kaa_ke_kee.json"
+  },
+  {
+    "id": "3ce85bc1-d962-80c5-9e08-eb0d882b1bbe",
+    "code": "A1-04.5",
+    "title": "Lesson A1-04.5: Postpositions & Oblique Case Consolidation",
+    "slug": "lesson_a1-04_5__postpositions___oblique_case_consolidation",
+    "filename": "lesson_a1-04_5__postpositions___oblique_case_consolidation.json"
+  },
+  {
+    "id": "3ce85bc1-d962-8073-9c24-e3884295683c",
+    "code": "A1-05",
+    "title": "Lesson A1-05: Habitual Past Tense & Past Continuous Tense",
+    "slug": "lesson_a1-05__habitual_past_tense___past_continuous_tense",
+    "filename": "lesson_a1-05__habitual_past_tense___past_continuous_tense.json"
+  },
+  {
+    "id": "3cf85bc1-d962-8060-9a2d-d06f15b2b3a4",
+    "code": "A1-06",
+    "title": "Lesson A1-06: Communication Verbs (Bolna, Kehna, Bataana, Baat Karna)",
+    "slug": "lesson_a1-06__communication_verbs__bolna__kehna__bataana__baat_karna",
+    "filename": "lesson_a1-06__communication_verbs__bolna__kehna__bataana__baat_karna.json"
+  },
+  {
+    "id": "3d685bc1-d962-8150-9cea-d70973fc581f",
+    "code": "A1-07",
+    "title": "Lesson A1-07: Quantifiers, Numbers, Shopping & Bargaining",
+    "slug": "lesson_a1-07__quantifiers__numbers__shopping___bargaining",
+    "filename": "lesson_a1-07__quantifiers__numbers__shopping___bargaining.json"
+  },
+  {
+    "id": "3d785bc1-d962-81bf-a754-ff7968180756",
+    "code": "A1-08",
+    "title": "Lesson A1-08: Transitive Verbs & Ergative Case Marker (Ne)",
+    "slug": "lesson_a1-08__transitive_verbs___ergative_case_marker__ne",
+    "filename": "lesson_a1-08__transitive_verbs___ergative_case_marker__ne.json"
+  },
+  {
+    "id": "3d885bc1-d962-811e-879e-f4a254322193",
+    "code": "A1-09",
+    "title": "Lesson A1-09: Conversational Connectors, Discourse Markers & Improv Fillers",
+    "slug": "lesson_a1-09__conversational_connectors__discourse_markers___improv_fillers",
+    "filename": "lesson_a1-09__conversational_connectors__discourse_markers___improv_fillers.json"
+  },
+  {
+    "id": "3dc85bc1-d962-8174-ad0e-f95717ea00e1",
+    "code": "A1-10",
+    "title": "Lesson A1-10: Expressing Opinions, Impressions & Mental States",
+    "slug": "lesson_a1-10__expressing_opinions__impressions___mental_states",
+    "filename": "lesson_a1-10__expressing_opinions__impressions___mental_states.json"
+  },
+  {
+    "id": "535c3ec8-3ef5-4ed0-91b9-609cd3668f2d",
+    "code": "A2-01",
+    "title": "Lesson A2-01: Compound Verbs & Aspectual Nuances",
+    "slug": "lesson_a2-01__compound_verbs_aspectual_nuances",
+    "filename": "lesson_a2-01__compound_verbs_aspectual_nuances.json"
+  },
+  {
+    "id": "44243dd0-0e18-48d8-ae0b-936dfa07aac8",
+    "code": "A2-02",
+    "title": "Lesson A2-02: Complex Sentence Structures & Correlatives",
+    "slug": "lesson_a2-02__complex_sentence_structures_correlatives",
+    "filename": "lesson_a2-02__complex_sentence_structures_correlatives.json"
+  },
+  {
+    "id": "aa659a71-ace5-4345-b172-028fc4f96534",
+    "code": "A2-03",
+    "title": "Lesson A2-03: Core Descriptive Adjectives, Sensory Qualities & Polar Opposites 🏷️ (Vocabulary Anchor 1)",
+    "slug": "lesson_a2-03__core_descriptive_adjectives_sensory_qualities_polar_opposites_vocabulary_anchor_1",
+    "filename": "lesson_a2-03__core_descriptive_adjectives_sensory_qualities_polar_opposites_vocabulary_anchor_1.json"
+  },
+  {
+    "id": "a82ffb95-09bb-41db-9264-19f338153afb",
+    "code": "A2-04",
+    "title": "Lesson A2-04: Dative Experiencer Frameworks (Lagnaa, Aanaa, Pataa, Yaad)",
+    "slug": "lesson_a2-04__dative_experiencer_frameworks_lagnaa_aanaa_pataa_yaad",
+    "filename": "lesson_a2-04__dative_experiencer_frameworks_lagnaa_aanaa_pataa_yaad.json"
+  },
+  {
+    "id": "f0eddb60-3054-42df-bfc8-e6406e26e1a2",
+    "code": "A2-05",
+    "title": "Lesson A2-05: The Hinglish Code-Switching Architecture & English Backup Strategies",
+    "slug": "lesson_a2-05__the_hinglish_code_switching_architecture_english_backup_strategies",
+    "filename": "lesson_a2-05__the_hinglish_code_switching_architecture_english_backup_strategies.json"
+  },
+  {
+    "id": "670d9844-2ea8-45a4-b2ad-eebc651b0d64",
+    "code": "A2-06",
+    "title": "Lesson A2-06: High-Yield Spoken Action Verbs & Practical Movement 🏷️ (Vocabulary Anchor 2)",
+    "slug": "lesson_a2-06__high_yield_spoken_action_verbs_practical_movement_vocabulary_anchor_2",
+    "filename": "lesson_a2-06__high_yield_spoken_action_verbs_practical_movement_vocabulary_anchor_2.json"
+  },
+  {
+    "id": "6acc6328-af29-42ee-b0f1-39998b1b2fd1",
+    "code": "A2-07",
+    "title": "Lesson A2-07: The Subjunctive Mood, Permissions & Hypothetical Situations",
+    "slug": "lesson_a2-07__the_subjunctive_mood_permissions_hypothetical_situations",
+    "filename": "lesson_a2-07__the_subjunctive_mood_permissions_hypothetical_situations.json"
+  },
+  {
+    "id": "2c1b318e-6e6e-4fe6-ba83-0ad41eed531b",
+    "code": "A2-08",
+    "title": "Lesson A2-08: Core Emotional Descriptors, Mental States & Relational Nuances 🏷️ (Vocabulary Anchor 3)",
+    "slug": "lesson_a2-08__core_emotional_descriptors_mental_states_relational_nuances_vocabulary_anchor_3",
+    "filename": "lesson_a2-08__core_emotional_descriptors_mental_states_relational_nuances_vocabulary_anchor_3.json"
+  },
+  {
+    "id": "6b6089da-5651-42cc-ad2a-50975e2a08c6",
+    "code": "B1-01",
+    "title": "Lesson B1-01: The Passive Voice & Impersonal Constructions",
+    "slug": "lesson_b1-01__the_passive_voice_impersonal_constructions",
+    "filename": "lesson_b1-01__the_passive_voice_impersonal_constructions.json"
+  },
+  {
+    "id": "141e785a-2562-4183-9362-5c07b97e81d5",
+    "code": "B1-02",
+    "title": "Lesson B1-02: Causative Verbs & Secondary Agency (Karnaa → Karaanaa → Karvaanaa)",
+    "slug": "lesson_b1-02__causative_verbs_secondary_agency_karnaa_karaanaa_karvaanaa",
+    "filename": "lesson_b1-02__causative_verbs_secondary_agency_karnaa_karaanaa_karvaanaa.json"
+  },
+  {
+    "id": "b58fcea2-4e39-4b0d-b7da-c27d7a359fe6",
+    "code": "B1-03",
+    "title": "Lesson B1-03: High-Yield Abstract Concepts, Trust & Relational Vocabulary 🏷️ (Vocabulary Anchor 4)",
+    "slug": "lesson_b1-03__high_yield_abstract_concepts_trust_relational_vocabulary_vocabulary_anchor_4",
+    "filename": "lesson_b1-03__high_yield_abstract_concepts_trust_relational_vocabulary_vocabulary_anchor_4.json"
+  },
+  {
+    "id": "80889a4b-77f7-4a43-baa1-654fdd24e8ab",
+    "code": "B1-04",
+    "title": "Lesson B1-04: Adverbial Participles & Complex Clause Modifiers",
+    "slug": "lesson_b1-04__adverbial_participles_complex_clause_modifiers",
+    "filename": "lesson_b1-04__adverbial_participles_complex_clause_modifiers.json"
+  },
+  {
+    "id": "fe07f255-28bb-477b-8c4a-2e4f5f456fdd",
+    "code": "B1-05",
+    "title": "Lesson B1-05: Conversational Idioms, Expressive Phrasal Formulas & Colloquial Discourse 🏷️ (Vocabulary Anchor 5)",
+    "slug": "lesson_b1-05__conversational_idioms_expressive_phrasal_formulas_colloquial_discourse_vocabulary_anchor_5",
+    "filename": "lesson_b1-05__conversational_idioms_expressive_phrasal_formulas_colloquial_discourse_vocabulary_anchor_5.json"
+  },
+  {
+    "id": "e1851e1e-d6cf-44a1-b719-ffb2a10a9e70",
+    "code": "B1-06",
+    "title": "Lesson B1-06: Presumptive Mood, Deductions & Speculative Future (Hogaa / Kar Rahaa Hogaa)",
+    "slug": "lesson_b1-06__presumptive_mood_deductions_speculative_future_hogaa_kar_rahaa_hogaa",
+    "filename": "lesson_b1-06__presumptive_mood_deductions_speculative_future_hogaa_kar_rahaa_hogaa.json"
+  },
+  {
+    "id": "92607705-c649-488d-9c7c-bca098f195d8",
+    "code": "B1-07",
+    "title": "Lesson B1-07: Comprehensive B1 Synthesis & Spontaneous Conversational Fluency",
+    "slug": "lesson_b1-07__comprehensive_b1_synthesis_spontaneous_conversational_fluency",
+    "filename": "lesson_b1-07__comprehensive_b1_synthesis_spontaneous_conversational_fluency.json"
+  }
+]

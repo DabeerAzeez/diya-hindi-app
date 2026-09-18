@@ -1,0 +1,287 @@
+{
+  "id": "3ce85bc1-d962-80c5-9e08-eb0d882b1bbe",
+  "code": "A1-04.5",
+  "title": "Lesson A1-04.5: Postpositions & Oblique Case Consolidation",
+  "slug": "lesson_a1-04_5__postpositions___oblique_case_consolidation",
+  "sections": [
+    {
+      "title": "🌟Summary",
+      "type": "heading_1",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Is lesson mein hum postpositions ke real impact ko master karenge: **Oblique Case**, aur daily conversation ka sabse essential structure: **\"Chahiye\"** (want / need)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tamil grammar ki tarah jahan case markers root noun ko modify karte hain (jaise *vīṭṭil* ya *enakku vēṇḍum*), Hindi mein jab bhi koi postposition (*ko*, *me*, *par*, *se*, *ka/ki/ke*) aata hai, toh usse pehle aane wala pronoun ya masculine noun direct form se **oblique form** mein shift ho jaata hai."
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Subject} + \\text{ko} + \\text{Object} + \\text{chahiye}$$"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "**Pronoun (Direct)**",
+              "**Pronoun + Postposition (ko)**",
+              "**Oblique Meaning**"
+            ],
+            [
+              "**Main** (I)",
+              "**Mujhe** / *Mujhko*",
+              "To me (I need/want)"
+            ],
+            [
+              "**Aap** (You - formal)",
+              "**Aapko**",
+              "To you"
+            ],
+            [
+              "**Tum** (You - informal)",
+              "**Tumhe** / *Tumko*",
+              "To you"
+            ],
+            [
+              "**Yeh** (This / He / She)",
+              "**Isko** / *Ise*",
+              "To this / him / her"
+            ],
+            [
+              "**Woh** (That / He / She)",
+              "**Usko** / *Use*",
+              "To that / him / her"
+            ],
+            [
+              "**Hum** (We)",
+              "**Hamein** / *Humko*",
+              "To us"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "📘Lesson",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "📌 1. The Oblique Rule & Core Postpositions",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Jab bhi kisi noun ya pronoun ke baad postposition lagta hai, use Oblique Case kehte hain."
+        },
+        {
+          "type": "bullet",
+          "text": "**Masculine Singular ****`aa`**** endings change to ****`e`****:**",
+          "children": [
+            "*Kamra* (room) + *me* $\\longrightarrow$ **Kamre me** (in the room)",
+            "*Rasta* (road) + *par* $\\longrightarrow$ **Raste par** (on the road)",
+            "*Ladka* (boy) + *ko* $\\longrightarrow$ **Ladke ko** (to the boy)"
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**Feminine nouns & non-****`aa`**** masculine nouns do not change in singular:**",
+          "children": [
+            "*Gadi* (car) + *me* $\\longrightarrow$ **Gadi me**",
+            "*Office* + *me* $\\longrightarrow$ **Office me**"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Noun (-aa)} + \\text{Postposition} \\longrightarrow \\text{Noun (-e)} + \\text{Postposition}$$"
+        }
+      ]
+    },
+    {
+      "title": "🎯 2. Expressing Needs & Desires: \"Chahiye\" Structure",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Hindi mein \"I want X\" bolne ke liye direct subject use nahi hota; Tamil ke *enakku vendum* structure ki tarah Dative Subject (*Mujhe*) use hota hai."
+        },
+        {
+          "type": "bullet",
+          "text": "**Formula:**",
+          "children": [
+            "$$\\text{Person} + \\text{ko} + \\text{Item} + \\text{chahiye}$$"
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**Examples:**",
+          "children": [
+            "Mujhe chai **chahiye**. (I want tea.)",
+            "Aapko kya **chahiye**? (What do you want / need?)",
+            "Dabeer ko thoda rest **chahiye**. (Dabeer needs some rest.)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "⚡ 3. Wanting to Do an Action (Verb + Chahiye)",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Jab aapko koi kaam karna chahiye (should do) ya karna hai, tab verb ki root ke saath `-na` (infinitive) laga kar `chahiye` use karte hain."
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Subject} + \\text{ko} + \\text{Verb (Infinitive: -na)} + \\text{chahiye}$$"
+        },
+        {
+          "type": "bullet",
+          "text": "Mujhe abhi nikal**na** **chahiye**. (I should leave now.)",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "Hamein daily Hindi practice kar**na** **chahiye**. (We should practice Hindi daily.)",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "Aapko commute time par start kar**na** **chahiye**. (You should start your commute on time.)",
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "❓Quiz",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "Concept & Grammar Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "numbered",
+          "text": "Explain what happens to the masculine noun ending in `aa` when a postposition is added.",
+          "children": [
+            "**Answer:** The singular masculine `aa` ending changes to `e` (Direct: *kamra* $\\rightarrow$ Oblique: *kamre me*)."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "Why is it incorrect to say *\"Main chai chahiye\"*?",
+          "children": [
+            "**Answer:** *Chahiye* requires the dative subject marker (*ko*). The correct form is *\"Mujhe chai chahiye\"* (To me, tea is needed)."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "How is the Hindi *\"Mujhe chahiye\"* similar to Tamil grammar?",
+          "children": [
+            "**Answer:** In Tamil, you use the dative case *enakku vēṇḍum* (to-me is-wanted) rather than the nominative *nān*; Hindi mirrors this exact structure with *Mujhe* (*Main + ko*) *chahiye*."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "What form does a verb take when used with *chahiye* to mean \"should do\"?",
+          "children": [
+            "**Answer:** The verb stays in its full infinitive form ending in `na` (e.g., *karna chahiye*, *dekhna chahiye*)."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "What is the oblique pronoun form of *Yeh* with *ko*?",
+          "children": [
+            "**Answer:** *Isko* (or *Ise*)."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Translation Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "numbered",
+          "text": "**I need some water.**",
+          "children": [
+            "**Answer:** `Mujhe thoda paani chahiye.`",
+            "Mujhe (To me) | thoda (some/a little) | paani (water) | chahiye (needed/wanted)"
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**What do you want? (formal)**",
+          "children": [
+            "**Answer:** `Aapko kya chahiye?`",
+            "Aapko (To you) | kya (what) | chahiye (wanted)"
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**We should leave for the office now.**",
+          "children": [
+            "**Answer:** `Hamein abhi office ke liye nikalna chahiye.`",
+            "Hamein (To us) | abhi (now) | office ke liye (for office) | nikalna chahiye (should leave)"
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**He wants a new acoustic guitar.**",
+          "children": [
+            "**Answer:** `Usko ek naya acoustic guitar chahiye.`",
+            "Usko (To him) | ek (a/one) | naya (new) | acoustic guitar | chahiye (wanted)"
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**The boy is sitting in the room.**",
+          "children": [
+            "**Answer:** `Ladka kamre me baitha hai.`",
+            "Ladka (Boy - direct subject) | kamre me (in the room - oblique) | baitha hai (is seated)"
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**You should speak slowly. (informal, m)**",
+          "children": [
+            "**Answer:** `Tumhe aaram se bolna chahiye.`",
+            "Tumhe (To you) | aaram se (slowly/calmly) | bolna chahiye (should speak)"
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**Do you need help with this script? (formal)**",
+          "children": [
+            "**Answer:** `Kya aapko is script me help chahiye?`",
+            "Kya (Question marker) | aapko (to you) | is script me (in this script - oblique) | help chahiye (need help)"
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**Mujhe thoda time chahiye.**",
+          "children": [
+            "**Answer:** I need some time."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**Aapko daily exercise karna chahiye.**",
+          "children": [
+            "**Answer:** You should exercise daily."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**Use yeh rasta maloom hai.**",
+          "children": [
+            "**Answer:** He/She knows this route."
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": "\n# 🌟Summary\n\nIs lesson mein hum postpositions ke real impact ko master karenge: **Oblique Case**, aur daily conversation ka sabse essential structure: **\"Chahiye\"** (want / need).\n\nTamil grammar ki tarah jahan case markers root noun ko modify karte hain (jaise *vīṭṭil* ya *enakku vēṇḍum*), Hindi mein jab bhi koi postposition (*ko*, *me*, *par*, *se*, *ka/ki/ke*) aata hai, toh usse pehle aane wala pronoun ya masculine noun direct form se **oblique form** mein shift ho jaata hai.\n\n$$\\text{Subject} + \\text{ko} + \\text{Object} + \\text{chahiye}$$\n\n| **Pronoun (Direct)** | **Pronoun + Postposition (ko)** | **Oblique Meaning** |\n| --- | --- | --- |\n| **Main** (I) | **Mujhe** / *Mujhko* | To me (I need/want) |\n| **Aap** (You - formal) | **Aapko** | To you |\n| **Tum** (You - informal) | **Tumhe** / *Tumko* | To you |\n| **Yeh** (This / He / She) | **Isko** / *Ise* | To this / him / her |\n| **Woh** (That / He / She) | **Usko** / *Use* | To that / him / her |\n| **Hum** (We) | **Hamein** / *Humko* | To us |\n\n\n# 📘Lesson\n\n\n## 📌 1. The Oblique Rule & Core Postpositions\n\nJab bhi kisi noun ya pronoun ke baad postposition lagta hai, use Oblique Case kehte hain.\n\n* **Masculine Singular ****`aa`**** endings change to ****`e`****:**\n    * *Kamra* (room) + *me* $\\longrightarrow$ **Kamre me** (in the room)\n    * *Rasta* (road) + *par* $\\longrightarrow$ **Raste par** (on the road)\n    * *Ladka* (boy) + *ko* $\\longrightarrow$ **Ladke ko** (to the boy)\n* **Feminine nouns & non-****`aa`**** masculine nouns do not change in singular:**\n    * *Gadi* (car) + *me* $\\longrightarrow$ **Gadi me**\n    * *Office* + *me* $\\longrightarrow$ **Office me**\n$$\\text{Noun (-aa)} + \\text{Postposition} \\longrightarrow \\text{Noun (-e)} + \\text{Postposition}$$\n\n\n## 🎯 2. Expressing Needs & Desires: \"Chahiye\" Structure\n\nHindi mein \"I want X\" bolne ke liye direct subject use nahi hota; Tamil ke *enakku vendum* structure ki tarah Dative Subject (*Mujhe*) use hota hai.\n\n* **Formula:**\n    * $$\\text{Person} + \\text{ko} + \\text{Item} + \\text{chahiye}$$\n* **Examples:**\n    * Mujhe chai **chahiye**. (I want tea.)\n    * Aapko kya **chahiye**? (What do you want / need?)\n    * Dabeer ko thoda rest **chahiye**. (Dabeer needs some rest.)\n\n## ⚡ 3. Wanting to Do an Action (Verb + Chahiye)\n\nJab aapko koi kaam karna chahiye (should do) ya karna hai, tab verb ki root ke saath `-na` (infinitive) laga kar `chahiye` use karte hain.\n\n$$\\text{Subject} + \\text{ko} + \\text{Verb (Infinitive: -na)} + \\text{chahiye}$$\n\n* Mujhe abhi nikal**na** **chahiye**. (I should leave now.)\n* Hamein daily Hindi practice kar**na** **chahiye**. (We should practice Hindi daily.)\n* Aapko commute time par start kar**na** **chahiye**. (You should start your commute on time.)\n\n# ❓Quiz\n\n\n### Concept & Grammar Questions\n\n1. Explain what happens to the masculine noun ending in `aa` when a postposition is added.\n    * **Answer:** The singular masculine `aa` ending changes to `e` (Direct: *kamra* $\\rightarrow$ Oblique: *kamre me*).\n1. Why is it incorrect to say *\"Main chai chahiye\"*?\n    * **Answer:** *Chahiye* requires the dative subject marker (*ko*). The correct form is *\"Mujhe chai chahiye\"* (To me, tea is needed).\n1. How is the Hindi *\"Mujhe chahiye\"* similar to Tamil grammar?\n    * **Answer:** In Tamil, you use the dative case *enakku vēṇḍum* (to-me is-wanted) rather than the nominative *nān*; Hindi mirrors this exact structure with *Mujhe* (*Main + ko*) *chahiye*.\n1. What form does a verb take when used with *chahiye* to mean \"should do\"?\n    * **Answer:** The verb stays in its full infinitive form ending in `na` (e.g., *karna chahiye*, *dekhna chahiye*).\n1. What is the oblique pronoun form of *Yeh* with *ko*?\n    * **Answer:** *Isko* (or *Ise*).\n\n### Translation Questions\n\n1. **I need some water.**\n    * **Answer:** `Mujhe thoda paani chahiye.`\n    * Mujhe (To me) | thoda (some/a little) | paani (water) | chahiye (needed/wanted)\n1. **What do you want? (formal)**\n    * **Answer:** `Aapko kya chahiye?`\n    * Aapko (To you) | kya (what) | chahiye (wanted)\n1. **We should leave for the office now.**\n    * **Answer:** `Hamein abhi office ke liye nikalna chahiye.`\n    * Hamein (To us) | abhi (now) | office ke liye (for office) | nikalna chahiye (should leave)\n1. **He wants a new acoustic guitar.**\n    * **Answer:** `Usko ek naya acoustic guitar chahiye.`\n    * Usko (To him) | ek (a/one) | naya (new) | acoustic guitar | chahiye (wanted)\n1. **The boy is sitting in the room.**\n    * **Answer:** `Ladka kamre me baitha hai.`\n    * Ladka (Boy - direct subject) | kamre me (in the room - oblique) | baitha hai (is seated)\n1. **You should speak slowly. (informal, m)**\n    * **Answer:** `Tumhe aaram se bolna chahiye.`\n    * Tumhe (To you) | aaram se (slowly/calmly) | bolna chahiye (should speak)\n1. **Do you need help with this script? (formal)**\n    * **Answer:** `Kya aapko is script me help chahiye?`\n    * Kya (Question marker) | aapko (to you) | is script me (in this script - oblique) | help chahiye (need help)\n1. **Mujhe thoda time chahiye.**\n    * **Answer:** I need some time.\n1. **Aapko daily exercise karna chahiye.**\n    * **Answer:** You should exercise daily.\n1. **Use yeh rasta maloom hai.**\n    * **Answer:** He/She knows this route."
+}

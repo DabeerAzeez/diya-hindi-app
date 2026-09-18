@@ -1,0 +1,329 @@
+{
+  "id": "3ca85bc1-d962-806b-ba4b-c1abdfd5f710",
+  "code": "A0-00",
+  "title": "Lesson A0-00: Pronunciation & Hindi Phonetics",
+  "slug": "lesson_a0-00__pronunciation___hindi_phonetics",
+  "sections": [
+    {
+      "title": "🌟 Summary",
+      "type": "heading_1",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Hindi sound system mein aise kayi sounds hain jo English mein exist nahi karte. Polyglot background (Tamil, French, Spanish) hone ki wajah se aapke paas already in sounds ke liye solid mouth-mechanics aur physical intuition maujood hai."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hindi phonetics ko master karne ke liye 4 primary dimensions hain:"
+        },
+        {
+          "type": "numbered",
+          "text": "**Dental vs. Retroflex:** English \"T/D\" ke beech mein do distinct Hindi sounds bante hain (Dental flat teeth par, Retroflex tongue curl karke roof par).",
+          "children": []
+        },
+        {
+          "type": "numbered",
+          "text": "**Unaspirated vs. Aspirated:** Har consonant pair mein air-burst ka difference hota hai (Spanish/French crisp sound vs. heavy puff of air).",
+          "children": []
+        },
+        {
+          "type": "numbered",
+          "text": "**Flaps / Retroflex Flaps:** Tongue ka rapid flick (jaise Spanish rolled 'r' ya unique curled sound).",
+          "children": []
+        },
+        {
+          "type": "numbered",
+          "text": "**Loan/Perso-Arabic Sounds & Nasalization:** Throat fricatives aur nasalized vowels.",
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "📘 Lesson",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "👅 1. Dental Sounds (*Dantya*)",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "English consonants \"T\" aur \"D\" alveolar ridge (teeth ke peeche waali gum) par bante hain. Hindi **Dentals** mein tongue ki tip upper front teeth ke inner surface ko flat touch karti hai—bilkul Tamil (த/ந), Spanish (*t/d*), ya French ki tarah."
+        },
+        {
+          "type": "bullet",
+          "text": "**`t`**** (Unaspirated Dental):** Tongue tip touch karegi upper teeth ko, bilkul zero air puff ke saath.",
+          "children": [
+            "*Polyglot Anchor:* Spanish **t** (*tiempo*), French **t** (*tu*), Tamil **த**.",
+            "*Hindi Examples:* **tum** (you), **teen** (three), **raat** (night)."
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**`th`**** (Aspirated Dental):** Same dental tongue position, lekin heavy puff of air (exhalation) ke saath release karna hai.",
+          "children": [
+            "*Difference from English:* English \"th\" (*think/this*) ek fricative hai jahan air leak hoti hai; Hindi `th` ek stop consonant hai jahan tongue teeth par block karke sudden air release karti hai.",
+            "*Hindi Examples:* **thaa** (was), **thodaa** (a little), **saath** (together)."
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**`d`**** (Unaspirated Dental):** Voiced sound jahan tongue teeth ko touch karti hai.",
+          "children": [
+            "*Polyglot Anchor:* Spanish **d** (*donde*), French **d** (*dans*).",
+            "*Hindi Examples:* **do** (two), **din** (day), **dost** (friend)."
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**`dh`**** (Aspirated Dental):** Voiced dental sound jisme breathy voiced air blast release hota hai.",
+          "children": [
+            "*Hindi Examples:* **dhanyavaad** (thank you), **dheere** (slowly), **dhyan** (attention)."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "🌀 2. Retroflex Sounds (*Mūrdhanya*)",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "In sounds ke liye tongue ki tip ko peeche hard palate (chhat) ki taraf curl (fold) karna hota hai aur underside/edge se tap karna hota hai. Tamil speakers ke liye ye bilkul natural mechanics hain (டா/ண/ழ)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Retroflex sound dekhnaa ke liye, ek dot underneath use karte haim (jaise **`ṭ`**** )**"
+        },
+        {
+          "type": "bullet",
+          "text": "**`ṭ`**** / ****`T`**** (Unaspirated Retroflex):** Tongue curled back against the hard palate, clean stop with no puff of air.",
+          "children": [
+            "*Polyglot Anchor:* Tamil **ட**.",
+            "*Hindi Examples:* **tamāṭar** (tomato), **ṭikiṭ** (ticket), **chhoṭaa** (small)."
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**`ṭh`**** / ****`Th`**** (Aspirated Retroflex):** Same curled retroflex position, but released with a strong explosive puff of air.",
+          "children": [
+            "*Hindi Examples:* **ṭheek** (fine/okay), **uṭhnaa** (to get up), **meeṭhaa** (sweet)."
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**`ḍ`**** / ****`D`**** (Unaspirated Retroflex):** Voiced retroflex sound (deep resonant D).",
+          "children": [
+            "*Hindi Examples:* **ḍar** (fear), **ḍabbaa** (box), **ḍaakṭar** (doctor)."
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**`ḍh`**** / ****`Dh`**** (Aspirated Retroflex):** Deep retroflex position + heavy voiced puff of air.",
+          "children": [
+            "*Hindi Examples:* **ḍhol** (drum), **ḍhakkān** (lid)."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "⚡ 3. The Flaps & Retroflex Flaps (`r`, `ṛ`, `ṛh`)",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "English mein \"R\" sound smooth glide hota hai (tongue roof ko touch nahi karti). Hindi mein tongue physical tap karti hai."
+        },
+        {
+          "type": "bullet",
+          "text": "**`r`**** (Alveolar Tap):** Single tap against the alveolar ridge.",
+          "children": [
+            "*Polyglot Anchor:* Spanish single **r** (*pero*), Tamil **ர**.",
+            "*Hindi Examples:* **raastaa** (way), **ghar** (home), **garmi** (heat)."
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**`ṛ`**** / ****`R`**** (Retroflex Flap):** Tongue hard palate par curl hoti hai aur aage aate waqt roof ko forcefully \"slap/flick\" karti hai. Ye sound kabhi word ke start mein nahi aata.",
+          "children": [
+            "*Polyglot Anchor:* Close to Tamil **ள / ற** acoustic curl.",
+            "*Hindi Examples:* **badaa** / **baṛaa** (big), **laṛkaa** (boy), **gaaṛii** (car/train)."
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**`ṛh`**** / ****`Rh`**** (Aspirated Retroflex Flap):** Same flapping curl motion + breathy air release.",
+          "children": [
+            "*Hindi Examples:* **paṛhnaa** (to study/read), **chaṛhnaa** (to climb)."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "💨 4. Consonant Aspiration Matrix",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "English speakers aksar aspirated aur unaspirated sounds ka difference notice nahi karte, jabki Hindi mein ye complete word meanings change kar deta hai (e.g., *kaal* = era vs. *khaal* = skin)."
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "**Sound Family**",
+              "**Unaspirated (Crisp, No Air Puff)**",
+              "**Aspirated (Explosive Breath Puff)**"
+            ],
+            [
+              "**Velar (Throat)**",
+              "`k` (*kaam*, *kal*)",
+              "`kh` (*khaanaa*, *khush*)"
+            ],
+            [
+              "**Palatal**",
+              "`ch` (*chaay*, *chaar*)",
+              "`chh` (*chhoṭaa*, *achhaa*)"
+            ],
+            [
+              "**Dental**",
+              "`t` (*tum*, *teen*)",
+              "`th` (*thaa*, *saath*)"
+            ],
+            [
+              "**Retroflex**",
+              "`ṭ` (*ṭamāṭar*)",
+              "`ṭh` (*ṭheek*)"
+            ],
+            [
+              "**Labial (Lips)**",
+              "`p` (*paas*, *paani*)",
+              "`ph` (*phal*, *phir*)"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "*Formula Reference:*"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Consonant Sound} + \\text{Controlled Air Burst} \\longrightarrow \\text{Aspirated Phoneme}$$"
+        }
+      ]
+    },
+    {
+      "title": "🌊 5. Perso-Arabic Fricatives & Nasals",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "bullet",
+          "text": "**`kh`**** / ****`x`**** (ख़):** Voiceless velar/uvular fricative (gargling/friction sound back of the throat).",
+          "children": [
+            "*Polyglot Anchor:* Spanish **j** (*jamón*, *José*), French **r**.",
+            "*Hindi Examples:* **kharaab** (bad/spoiled), **khaas** (special), **khyaal** (care/thought)."
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**`gh`**** / ****`ɣ`**** (ग़}):** Voiced uvular fricative.",
+          "children": [
+            "*Polyglot Anchor:* French standard **r** (*Paris*), Spanish soft intervocalic **g** (*amigo*).",
+            "*Hindi Examples:* **ghalat** (wrong), **ghazal**."
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**`q`**** / ****`qaf`**** (क़):** Deep throat 'k' produced at the uvula.",
+          "children": [
+            "*Hindi Examples:* **waqt** (time), **qareeb** (near)."
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**Nasalization (****`ṁ`**** / ****`n`**** - *****Anusvāra / Chandrabindu*****):** Vowel ke sound ko direct nose ke through release karna.",
+          "children": [
+            "*Polyglot Anchor:* French nasal vowels (*bon*, *sans*, *vin*).",
+            "*Hindi Examples:* **main** / **maim** (I), **haan** (yes), **kahaan** (where), **nahin** (no)."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "❓ Quiz",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "Concept & Grammar Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "numbered",
+          "text": "Dental `t/d` aur Retroflex `ṭ/ḍ` ke tongue placement mein kya biological difference hota hai?",
+          "children": [
+            "**Answer:** Dental sounds mein tongue tip flat hokar upper front teeth ko touch karti hai, jabki Retroflex sounds mein tongue tip peeche fold/curl hokar hard palate (roof of the mouth) ko tap karti hai."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "English speaker ke `p/t/k` aur Hindi ke unaspirated `p/t/k` mein air-release ka kya difference hai?",
+          "children": [
+            "**Answer:** English ke word-initial `p/t/k` natural puff of air ke saath release hote hain, jabki Hindi ke unaspirated `p/t/k` bilkul crisp aur zero air exhalation ke saath pronounce kiye jaate hain (jaise Spanish ya French mein)."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "`r` aur `ṛ` pronounce karte waqt tongue motion kaise vary karta hai?",
+          "children": [
+            "**Answer:** `r` ek simple alveolar front tap hai (Spanish single 'r'), jabki `ṛ` ek retroflex flap hai jahan tongue pehle roof par curl hoti hai aur fir forcefully aage flick/slap karti hai."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Translation Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "numbered",
+          "text": "**I am at home and studying.**",
+          "children": [
+            "**Answer:** `Main ghar par hoon aur padh rahaa hoon.`"
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**Is everything okay with your friend?**",
+          "children": [
+            "**Answer:** `Kyaa dost ke saath sab theek hai?`"
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**Yeh khana bahut teekha aur meethaa hai.**",
+          "children": [
+            "**Answer:** This food is very spicy and sweet."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**Tonight with me**",
+          "children": [
+            "Aaj raat mere saath",
+            "“raat” unaspirated; “saath” aspirated"
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**Thanks for the two days!**",
+          "children": [
+            "Do din ke liye dhanyavad!"
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": "\n# 🌟 Summary\n\nHindi sound system mein aise kayi sounds hain jo English mein exist nahi karte. Polyglot background (Tamil, French, Spanish) hone ki wajah se aapke paas already in sounds ke liye solid mouth-mechanics aur physical intuition maujood hai.\n\nHindi phonetics ko master karne ke liye 4 primary dimensions hain:\n\n1. **Dental vs. Retroflex:** English \"T/D\" ke beech mein do distinct Hindi sounds bante hain (Dental flat teeth par, Retroflex tongue curl karke roof par).\n1. **Unaspirated vs. Aspirated:** Har consonant pair mein air-burst ka difference hota hai (Spanish/French crisp sound vs. heavy puff of air).\n1. **Flaps / Retroflex Flaps:** Tongue ka rapid flick (jaise Spanish rolled 'r' ya unique curled sound).\n1. **Loan/Perso-Arabic Sounds & Nasalization:** Throat fricatives aur nasalized vowels.\n\n# 📘 Lesson\n\n\n## 👅 1. Dental Sounds (*Dantya*)\n\nEnglish consonants \"T\" aur \"D\" alveolar ridge (teeth ke peeche waali gum) par bante hain. Hindi **Dentals** mein tongue ki tip upper front teeth ke inner surface ko flat touch karti hai—bilkul Tamil (த/ந), Spanish (*t/d*), ya French ki tarah.\n\n* **`t`**** (Unaspirated Dental):** Tongue tip touch karegi upper teeth ko, bilkul zero air puff ke saath.\n    * *Polyglot Anchor:* Spanish **t** (*tiempo*), French **t** (*tu*), Tamil **த**.\n    * *Hindi Examples:* **tum** (you), **teen** (three), **raat** (night).\n* **`th`**** (Aspirated Dental):** Same dental tongue position, lekin heavy puff of air (exhalation) ke saath release karna hai.\n    * *Difference from English:* English \"th\" (*think/this*) ek fricative hai jahan air leak hoti hai; Hindi `th` ek stop consonant hai jahan tongue teeth par block karke sudden air release karti hai.\n    * *Hindi Examples:* **thaa** (was), **thodaa** (a little), **saath** (together).\n* **`d`**** (Unaspirated Dental):** Voiced sound jahan tongue teeth ko touch karti hai.\n    * *Polyglot Anchor:* Spanish **d** (*donde*), French **d** (*dans*).\n    * *Hindi Examples:* **do** (two), **din** (day), **dost** (friend).\n* **`dh`**** (Aspirated Dental):** Voiced dental sound jisme breathy voiced air blast release hota hai.\n    * *Hindi Examples:* **dhanyavaad** (thank you), **dheere** (slowly), **dhyan** (attention).\n\n## 🌀 2. Retroflex Sounds (*Mūrdhanya*)\n\nIn sounds ke liye tongue ki tip ko peeche hard palate (chhat) ki taraf curl (fold) karna hota hai aur underside/edge se tap karna hota hai. Tamil speakers ke liye ye bilkul natural mechanics hain (டா/ண/ழ).\n\nRetroflex sound dekhnaa ke liye, ek dot underneath use karte haim (jaise **`ṭ`**** )**\n\n* **`ṭ`**** / ****`T`**** (Unaspirated Retroflex):** Tongue curled back against the hard palate, clean stop with no puff of air.\n    * *Polyglot Anchor:* Tamil **ட**.\n    * *Hindi Examples:* **tamāṭar** (tomato), **ṭikiṭ** (ticket), **chhoṭaa** (small).\n* **`ṭh`**** / ****`Th`**** (Aspirated Retroflex):** Same curled retroflex position, but released with a strong explosive puff of air.\n    * *Hindi Examples:* **ṭheek** (fine/okay), **uṭhnaa** (to get up), **meeṭhaa** (sweet).\n* **`ḍ`**** / ****`D`**** (Unaspirated Retroflex):** Voiced retroflex sound (deep resonant D).\n    * *Hindi Examples:* **ḍar** (fear), **ḍabbaa** (box), **ḍaakṭar** (doctor).\n* **`ḍh`**** / ****`Dh`**** (Aspirated Retroflex):** Deep retroflex position + heavy voiced puff of air.\n    * *Hindi Examples:* **ḍhol** (drum), **ḍhakkān** (lid).\n\n## ⚡ 3. The Flaps & Retroflex Flaps (`r`, `ṛ`, `ṛh`)\n\nEnglish mein \"R\" sound smooth glide hota hai (tongue roof ko touch nahi karti). Hindi mein tongue physical tap karti hai.\n\n* **`r`**** (Alveolar Tap):** Single tap against the alveolar ridge.\n    * *Polyglot Anchor:* Spanish single **r** (*pero*), Tamil **ர**.\n    * *Hindi Examples:* **raastaa** (way), **ghar** (home), **garmi** (heat).\n* **`ṛ`**** / ****`R`**** (Retroflex Flap):** Tongue hard palate par curl hoti hai aur aage aate waqt roof ko forcefully \"slap/flick\" karti hai. Ye sound kabhi word ke start mein nahi aata.\n    * *Polyglot Anchor:* Close to Tamil **ள / ற** acoustic curl.\n    * *Hindi Examples:* **badaa** / **baṛaa** (big), **laṛkaa** (boy), **gaaṛii** (car/train).\n* **`ṛh`**** / ****`Rh`**** (Aspirated Retroflex Flap):** Same flapping curl motion + breathy air release.\n    * *Hindi Examples:* **paṛhnaa** (to study/read), **chaṛhnaa** (to climb).\n\n## 💨 4. Consonant Aspiration Matrix\n\nEnglish speakers aksar aspirated aur unaspirated sounds ka difference notice nahi karte, jabki Hindi mein ye complete word meanings change kar deta hai (e.g., *kaal* = era vs. *khaal* = skin).\n\n| **Sound Family** | **Unaspirated (Crisp, No Air Puff)** | **Aspirated (Explosive Breath Puff)** |\n| --- | --- | --- |\n| **Velar (Throat)** | `k` (*kaam*, *kal*) | `kh` (*khaanaa*, *khush*) |\n| **Palatal** | `ch` (*chaay*, *chaar*) | `chh` (*chhoṭaa*, *achhaa*) |\n| **Dental** | `t` (*tum*, *teen*) | `th` (*thaa*, *saath*) |\n| **Retroflex** | `ṭ` (*ṭamāṭar*) | `ṭh` (*ṭheek*) |\n| **Labial (Lips)** | `p` (*paas*, *paani*) | `ph` (*phal*, *phir*) |\n\n*Formula Reference:*\n\n$$\\text{Consonant Sound} + \\text{Controlled Air Burst} \\longrightarrow \\text{Aspirated Phoneme}$$\n\n\n## 🌊 5. Perso-Arabic Fricatives & Nasals\n\n* **`kh`**** / ****`x`**** (ख़):** Voiceless velar/uvular fricative (gargling/friction sound back of the throat).\n    * *Polyglot Anchor:* Spanish **j** (*jamón*, *José*), French **r**.\n    * *Hindi Examples:* **kharaab** (bad/spoiled), **khaas** (special), **khyaal** (care/thought).\n* **`gh`**** / ****`ɣ`**** (ग़}):** Voiced uvular fricative.\n    * *Polyglot Anchor:* French standard **r** (*Paris*), Spanish soft intervocalic **g** (*amigo*).\n    * *Hindi Examples:* **ghalat** (wrong), **ghazal**.\n* **`q`**** / ****`qaf`**** (क़):** Deep throat 'k' produced at the uvula.\n    * *Hindi Examples:* **waqt** (time), **qareeb** (near).\n* **Nasalization (****`ṁ`**** / ****`n`**** - *****Anusvāra / Chandrabindu*****):** Vowel ke sound ko direct nose ke through release karna.\n    * *Polyglot Anchor:* French nasal vowels (*bon*, *sans*, *vin*).\n    * *Hindi Examples:* **main** / **maim** (I), **haan** (yes), **kahaan** (where), **nahin** (no).\n\n# ❓ Quiz\n\n\n### Concept & Grammar Questions\n\n1. Dental `t/d` aur Retroflex `ṭ/ḍ` ke tongue placement mein kya biological difference hota hai?\n    * **Answer:** Dental sounds mein tongue tip flat hokar upper front teeth ko touch karti hai, jabki Retroflex sounds mein tongue tip peeche fold/curl hokar hard palate (roof of the mouth) ko tap karti hai.\n1. English speaker ke `p/t/k` aur Hindi ke unaspirated `p/t/k` mein air-release ka kya difference hai?\n    * **Answer:** English ke word-initial `p/t/k` natural puff of air ke saath release hote hain, jabki Hindi ke unaspirated `p/t/k` bilkul crisp aur zero air exhalation ke saath pronounce kiye jaate hain (jaise Spanish ya French mein).\n1. `r` aur `ṛ` pronounce karte waqt tongue motion kaise vary karta hai?\n    * **Answer:** `r` ek simple alveolar front tap hai (Spanish single 'r'), jabki `ṛ` ek retroflex flap hai jahan tongue pehle roof par curl hoti hai aur fir forcefully aage flick/slap karti hai.\n\n### Translation Questions\n\n1. **I am at home and studying.**\n    * **Answer:** `Main ghar par hoon aur padh rahaa hoon.`\n1. **Is everything okay with your friend?**\n    * **Answer:** `Kyaa dost ke saath sab theek hai?`\n1. **Yeh khana bahut teekha aur meethaa hai.**\n    * **Answer:** This food is very spicy and sweet.\n1. **Tonight with me**\n    * Aaj raat mere saath\n    * “raat” unaspirated; “saath” aspirated\n1. **Thanks for the two days!**\n    * Do din ke liye dhanyavad!"
+}

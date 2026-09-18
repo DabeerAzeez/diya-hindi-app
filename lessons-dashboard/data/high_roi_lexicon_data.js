@@ -1,0 +1,1363 @@
+window.HIGH_ROI_LEXICON = {
+  "summary": "High-ROI B1 Hinglish Lexicon (Core 200 Anchor List)",
+  "verbs_count": 50,
+  "nouns_count": 100,
+  "adjectives_count": 50,
+  "total_anchors": 200,
+  "verbs": [
+    {
+      "id": 1,
+      "word": "karnaa",
+      "diacritics": "karnā",
+      "meaning": "to do",
+      "sample": "Ye kaam karo / Call karnaa"
+    },
+    {
+      "id": 2,
+      "word": "honaa",
+      "diacritics": "honā",
+      "meaning": "to be / happen",
+      "sample": "Kyaa huaa? / Start ho gayaa"
+    },
+    {
+      "id": 3,
+      "word": "jaanaa",
+      "diacritics": "jānā",
+      "meaning": "to go / complete",
+      "sample": "Ghar jaanaa / Ho gayaa"
+    },
+    {
+      "id": 4,
+      "word": "aanaa",
+      "diacritics": "ānā",
+      "meaning": "to come / arrive",
+      "sample": "Andar aao / Yaad aanaa"
+    },
+    {
+      "id": 5,
+      "word": "lenaa",
+      "diacritics": "lenā",
+      "meaning": "to take / receive",
+      "sample": "Coffee le lo / Samajh lenaa"
+    },
+    {
+      "id": 6,
+      "word": "denaa",
+      "diacritics": "denā",
+      "meaning": "to give",
+      "sample": "Mujhe bataa do / Dheyaan denaa"
+    },
+    {
+      "id": 7,
+      "word": "bolnaa",
+      "diacritics": "bolnā",
+      "meaning": "to speak",
+      "sample": "Dheere bolo / Phir se bolnaa"
+    },
+    {
+      "id": 8,
+      "word": "kehnaa",
+      "diacritics": "kehnā",
+      "meaning": "to say / state",
+      "sample": "Usne kahaa ki... / Alvida kehnaa"
+    },
+    {
+      "id": 9,
+      "word": "bataanaa",
+      "diacritics": "batānā",
+      "meaning": "to tell / explain",
+      "sample": "Mujhe sach bataao"
+    },
+    {
+      "id": 10,
+      "word": "baat karnaa",
+      "diacritics": "bāt karnā",
+      "meaning": "to converse / talk",
+      "sample": "Shivani se baat karnaa"
+    },
+    {
+      "id": 11,
+      "word": "dekhnaa",
+      "diacritics": "dekhnā",
+      "meaning": "to see / look / watch",
+      "sample": "Movie dekhnaa / Dekh lo"
+    },
+    {
+      "id": 12,
+      "word": "sunnaa",
+      "diacritics": "sunnā",
+      "meaning": "to hear / listen",
+      "sample": "Meri baat suno / Gaanaa sunnaa"
+    },
+    {
+      "id": 13,
+      "word": "samajhnaa",
+      "diacritics": "samajhnā",
+      "meaning": "to understand",
+      "sample": "Main samajh gayaa"
+    },
+    {
+      "id": 14,
+      "word": "sochnaa",
+      "diacritics": "sochnā",
+      "meaning": "to think / ponder",
+      "sample": "Maine sochaa thaa ki..."
+    },
+    {
+      "id": 15,
+      "word": "jaannaa",
+      "diacritics": "jānnā",
+      "meaning": "to know",
+      "sample": "Main use jaantaa hoon"
+    },
+    {
+      "id": 16,
+      "word": "pataa honaa",
+      "diacritics": "patā honā",
+      "meaning": "to know (a fact)",
+      "sample": "Mujhe pataa hai"
+    },
+    {
+      "id": 17,
+      "word": "rakhnaa",
+      "diacritics": "rakhnā",
+      "meaning": "to put / keep / maintain",
+      "sample": "Phone table par rakh do"
+    },
+    {
+      "id": 18,
+      "word": "chhodnaa",
+      "diacritics": "choṛnā",
+      "meaning": "to leave / drop off / quit",
+      "sample": "Mujhe station par chhod do"
+    },
+    {
+      "id": 19,
+      "word": "uthaanaa",
+      "diacritics": "uṭhānā",
+      "meaning": "to lift / pick up / wake",
+      "sample": "Call uthaao / Bag uthaanaa"
+    },
+    {
+      "id": 20,
+      "word": "pakadnaa",
+      "diacritics": "pakaṛnā",
+      "meaning": "to catch / hold",
+      "sample": "Bus pakadnaa / Ye pakdo"
+    },
+    {
+      "id": 21,
+      "word": "pahunchnaa",
+      "diacritics": "pahuñchnā",
+      "meaning": "to reach / arrive",
+      "sample": "Main 10 min mein pahunchūngaa"
+    },
+    {
+      "id": 22,
+      "word": "nikalnaa",
+      "diacritics": "nikalnā",
+      "meaning": "to head out / leave",
+      "sample": "Ghar se nikalte hain"
+    },
+    {
+      "id": 23,
+      "word": "ruknaa",
+      "diacritics": "ruknā",
+      "meaning": "to stop / stay / wait",
+      "sample": "Thodaa ruko / Tab tak ruknaa"
+    },
+    {
+      "id": 24,
+      "word": "roknaa",
+      "diacritics": "roknā",
+      "meaning": "to stop someone/something",
+      "sample": "Usko roko"
+    },
+    {
+      "id": 25,
+      "word": "chalnaa",
+      "diacritics": "chalnā",
+      "meaning": "to walk / run / work",
+      "sample": "Kaam kaisaa chal rahaa hai?"
+    },
+    {
+      "id": 26,
+      "word": "chalaanaa",
+      "diacritics": "chalānā",
+      "meaning": "to drive / operate / run",
+      "sample": "Car chalaanaa / Company chalaanaa"
+    },
+    {
+      "id": 27,
+      "word": "baithnaa",
+      "diacritics": "baiṭhnā",
+      "meaning": "to sit",
+      "sample": "Yahaan baitho"
+    },
+    {
+      "id": 28,
+      "word": "khadaa honaa",
+      "diacritics": "khaṛā honā",
+      "meaning": "to stand",
+      "sample": "Line mein khade honaa"
+    },
+    {
+      "id": 29,
+      "word": "milnaa",
+      "diacritics": "milnā",
+      "meaning": "to meet / to be available",
+      "sample": "Kal milte hain / Ticket mil gayaa"
+    },
+    {
+      "id": 30,
+      "word": "dhoondhnaa",
+      "diacritics": "ḍhūṇḍhnā",
+      "meaning": "to search / look for",
+      "sample": "Keys dhoondh rahaa hoon"
+    },
+    {
+      "id": 31,
+      "word": "bhejnaa",
+      "diacritics": "bhejnā",
+      "meaning": "to send",
+      "sample": "Message bhej diyaa"
+    },
+    {
+      "id": 32,
+      "word": "laanaa",
+      "diacritics": "lānā",
+      "meaning": "to bring",
+      "sample": "Mere liye coffee laanaa"
+    },
+    {
+      "id": 33,
+      "word": "le jaanaa",
+      "diacritics": "le jānā",
+      "meaning": "to take away / carry",
+      "sample": "Ye box le jaao"
+    },
+    {
+      "id": 34,
+      "word": "khaanaa",
+      "diacritics": "khānā",
+      "meaning": "to eat",
+      "sample": "Khaanaa khaanaa"
+    },
+    {
+      "id": 35,
+      "word": "peenaa",
+      "diacritics": "pīnā",
+      "meaning": "to drink",
+      "sample": "Paani / beer peenaa"
+    },
+    {
+      "id": 36,
+      "word": "sonaa",
+      "diacritics": "sonā",
+      "meaning": "to sleep",
+      "sample": "Main sone jaa rahaa hoon"
+    },
+    {
+      "id": 37,
+      "word": "uthnaa",
+      "diacritics": "uṭhnā",
+      "meaning": "to wake up / get up",
+      "sample": "Subah jaldi uthnaa"
+    },
+    {
+      "id": 38,
+      "word": "hansnaa",
+      "diacritics": "hañsnā",
+      "meaning": "to laugh",
+      "sample": "Mazaak par hansnaa"
+    },
+    {
+      "id": 39,
+      "word": "ronaa",
+      "diacritics": "ronā",
+      "meaning": "to cry",
+      "sample": "Ronaa band karo"
+    },
+    {
+      "id": 40,
+      "word": "bhoolnaa",
+      "diacritics": "bhūlnā",
+      "meaning": "to forget",
+      "sample": "Main naam bhool gayaa"
+    },
+    {
+      "id": 41,
+      "word": "yaad aanaa",
+      "diacritics": "yād ānā",
+      "meaning": "to miss / recall",
+      "sample": "Norwich ke din yaad aate hain"
+    },
+    {
+      "id": 42,
+      "word": "maangnaa",
+      "diacritics": "māṅgnā",
+      "meaning": "to ask for / request",
+      "sample": "Help maangnaa"
+    },
+    {
+      "id": 43,
+      "word": "khelnaa",
+      "diacritics": "khelnā",
+      "meaning": "to play",
+      "sample": "Games khelnaa"
+    },
+    {
+      "id": 44,
+      "word": "bajaanaa",
+      "diacritics": "bajānā",
+      "meaning": "to play instrument",
+      "sample": "Guitar / piano bajanaa"
+    },
+    {
+      "id": 45,
+      "word": "seekhnaa",
+      "diacritics": "sīkhnā",
+      "meaning": "to learn",
+      "sample": "Hindi seekhnaa"
+    },
+    {
+      "id": 46,
+      "word": "sikhaanaa",
+      "diacritics": "sikhānā",
+      "meaning": "to teach",
+      "sample": "Mujhe ye sikhaao"
+    },
+    {
+      "id": 47,
+      "word": "sambhaalnaa",
+      "diacritics": "sambhālnā",
+      "meaning": "to handle / manage / care",
+      "sample": "Situation sambhaal lenaa"
+    },
+    {
+      "id": 48,
+      "word": "bachnaa",
+      "diacritics": "bachnā",
+      "meaning": "to survive / be spared",
+      "sample": "Traffic se bach gayaa"
+    },
+    {
+      "id": 49,
+      "word": "girnaa",
+      "diacritics": "girnā",
+      "meaning": "to fall / to drop",
+      "sample": "Phone gir gayaa"
+    },
+    {
+      "id": 50,
+      "word": "lagnaa",
+      "diacritics": "lagnā",
+      "meaning": "to feel / seem / take time",
+      "sample": "Bhookh lagnaa / Time lagnaa"
+    }
+  ],
+  "nouns": [
+    {
+      "id": 1,
+      "word": "waqt / samay",
+      "diacritics": "waqt / samay",
+      "meaning": "time",
+      "category": "time"
+    },
+    {
+      "id": 2,
+      "word": "din",
+      "diacritics": "din",
+      "meaning": "day",
+      "category": "time"
+    },
+    {
+      "id": 3,
+      "word": "raat",
+      "diacritics": "rāt",
+      "meaning": "night",
+      "category": "time"
+    },
+    {
+      "id": 4,
+      "word": "subah",
+      "diacritics": "subah",
+      "meaning": "morning",
+      "category": "time"
+    },
+    {
+      "id": 5,
+      "word": "shaam",
+      "diacritics": "shām",
+      "meaning": "evening",
+      "category": "time"
+    },
+    {
+      "id": 6,
+      "word": "dopahar",
+      "diacritics": "dopahar",
+      "meaning": "afternoon",
+      "category": "time"
+    },
+    {
+      "id": 7,
+      "word": "kal",
+      "diacritics": "kal",
+      "meaning": "tomorrow / yesterday",
+      "category": "time"
+    },
+    {
+      "id": 8,
+      "word": "aaj",
+      "diacritics": "āj",
+      "meaning": "today",
+      "category": "time"
+    },
+    {
+      "id": 9,
+      "word": "parson",
+      "diacritics": "parsoṁ",
+      "meaning": "day after / day before",
+      "category": "time"
+    },
+    {
+      "id": 10,
+      "word": "saal",
+      "diacritics": "sāl",
+      "meaning": "year",
+      "category": "time"
+    },
+    {
+      "id": 11,
+      "word": "mahina",
+      "diacritics": "mahīnā",
+      "meaning": "month",
+      "category": "time"
+    },
+    {
+      "id": 12,
+      "word": "hafta",
+      "diacritics": "haftā",
+      "meaning": "week",
+      "category": "time"
+    },
+    {
+      "id": 13,
+      "word": "ghanta",
+      "diacritics": "ghaṇṭā",
+      "meaning": "hour",
+      "category": "time"
+    },
+    {
+      "id": 14,
+      "word": "der",
+      "diacritics": "der",
+      "meaning": "delay / lateness",
+      "category": "time"
+    },
+    {
+      "id": 15,
+      "word": "baar",
+      "diacritics": "bār",
+      "meaning": "time / occurrence",
+      "category": "time"
+    },
+    {
+      "id": 16,
+      "word": "zamaanaa",
+      "diacritics": "zamānā",
+      "meaning": "ages / long time",
+      "category": "time"
+    },
+    {
+      "id": 17,
+      "word": "shuruwaat",
+      "diacritics": "shuruāt",
+      "meaning": "start / beginning",
+      "category": "time"
+    },
+    {
+      "id": 18,
+      "word": "aakhir",
+      "diacritics": "ākhir",
+      "meaning": "end / conclusion",
+      "category": "time"
+    },
+    {
+      "id": 19,
+      "word": "jagah",
+      "diacritics": "jagah",
+      "meaning": "place / spot",
+      "category": "space"
+    },
+    {
+      "id": 20,
+      "word": "rastaa",
+      "diacritics": "rāstā",
+      "meaning": "way / road / route",
+      "category": "space"
+    },
+    {
+      "id": 21,
+      "word": "ghar",
+      "diacritics": "ghar",
+      "meaning": "home / house",
+      "category": "space"
+    },
+    {
+      "id": 22,
+      "word": "kamraa",
+      "diacritics": "kamrā",
+      "meaning": "room",
+      "category": "space"
+    },
+    {
+      "id": 23,
+      "word": "shehar",
+      "diacritics": "shehar",
+      "meaning": "city",
+      "category": "space"
+    },
+    {
+      "id": 24,
+      "word": "taraf",
+      "diacritics": "taraf",
+      "meaning": "direction / side",
+      "category": "space"
+    },
+    {
+      "id": 25,
+      "word": "door",
+      "diacritics": "dūr",
+      "meaning": "distance / far",
+      "category": "space"
+    },
+    {
+      "id": 26,
+      "word": "paas",
+      "diacritics": "pās",
+      "meaning": "near / vicinity",
+      "category": "space"
+    },
+    {
+      "id": 27,
+      "word": "aage",
+      "diacritics": "āge",
+      "meaning": "front / forward",
+      "category": "space"
+    },
+    {
+      "id": 28,
+      "word": "peeche",
+      "diacritics": "pīche",
+      "meaning": "back / behind",
+      "category": "space"
+    },
+    {
+      "id": 29,
+      "word": "upar",
+      "diacritics": "ūpar",
+      "meaning": "up / upstairs",
+      "category": "space"
+    },
+    {
+      "id": 30,
+      "word": "neeche",
+      "diacritics": "nīche",
+      "meaning": "down / downstairs",
+      "category": "space"
+    },
+    {
+      "id": 31,
+      "word": "baahar",
+      "diacritics": "bāhar",
+      "meaning": "outside",
+      "category": "space"
+    },
+    {
+      "id": 32,
+      "word": "andar",
+      "diacritics": "andar",
+      "meaning": "inside",
+      "category": "space"
+    },
+    {
+      "id": 33,
+      "word": "baat",
+      "diacritics": "bāt",
+      "meaning": "matter / point / conversation",
+      "category": "abstract"
+    },
+    {
+      "id": 34,
+      "word": "cheez",
+      "diacritics": "chīz",
+      "meaning": "thing / item",
+      "category": "abstract"
+    },
+    {
+      "id": 35,
+      "word": "kaam",
+      "diacritics": "kām",
+      "meaning": "work / chore / task",
+      "category": "abstract"
+    },
+    {
+      "id": 36,
+      "word": "matlab",
+      "diacritics": "matlab",
+      "meaning": "meaning / intention",
+      "category": "abstract"
+    },
+    {
+      "id": 37,
+      "word": "sach",
+      "diacritics": "sach",
+      "meaning": "truth",
+      "category": "abstract"
+    },
+    {
+      "id": 38,
+      "word": "jhooth",
+      "diacritics": "jhūṭh",
+      "meaning": "lie",
+      "category": "abstract"
+    },
+    {
+      "id": 39,
+      "word": "faisla",
+      "diacritics": "faislā",
+      "meaning": "decision",
+      "category": "abstract"
+    },
+    {
+      "id": 40,
+      "word": "umeed",
+      "diacritics": "umīd",
+      "meaning": "hope / expectation",
+      "category": "abstract"
+    },
+    {
+      "id": 41,
+      "word": "bharosa",
+      "diacritics": "bharosā",
+      "meaning": "trust / faith",
+      "category": "abstract"
+    },
+    {
+      "id": 42,
+      "word": "galti",
+      "diacritics": "galtī",
+      "meaning": "mistake",
+      "category": "abstract"
+    },
+    {
+      "id": 43,
+      "word": "zaroorat",
+      "diacritics": "zarūrat",
+      "meaning": "need / necessity",
+      "category": "abstract"
+    },
+    {
+      "id": 44,
+      "word": "farq",
+      "diacritics": "farq",
+      "meaning": "difference",
+      "category": "abstract"
+    },
+    {
+      "id": 45,
+      "word": "faaydaa",
+      "diacritics": "fāydā",
+      "meaning": "benefit / advantage",
+      "category": "abstract"
+    },
+    {
+      "id": 46,
+      "word": "nuqsaan",
+      "diacritics": "nuqsān",
+      "meaning": "loss / harm",
+      "category": "abstract"
+    },
+    {
+      "id": 47,
+      "word": "vajah",
+      "diacritics": "vajah",
+      "meaning": "reason / cause",
+      "category": "abstract"
+    },
+    {
+      "id": 48,
+      "word": "khayaal",
+      "diacritics": "khayāl",
+      "meaning": "thought / care",
+      "category": "abstract"
+    },
+    {
+      "id": 49,
+      "word": "aadat",
+      "diacritics": "ādat",
+      "meaning": "habit",
+      "category": "abstract"
+    },
+    {
+      "id": 50,
+      "word": "koshish",
+      "diacritics": "koshish",
+      "meaning": "effort / attempt",
+      "category": "abstract"
+    },
+    {
+      "id": 51,
+      "word": "log",
+      "diacritics": "log",
+      "meaning": "people",
+      "category": "people"
+    },
+    {
+      "id": 52,
+      "word": "dost",
+      "diacritics": "dost",
+      "meaning": "friend",
+      "category": "people"
+    },
+    {
+      "id": 53,
+      "word": "dosti",
+      "diacritics": "dostī",
+      "meaning": "friendship",
+      "category": "people"
+    },
+    {
+      "id": 54,
+      "word": "banda",
+      "diacritics": "bandā",
+      "meaning": "guy / fellow",
+      "category": "people"
+    },
+    {
+      "id": 55,
+      "word": "bandi",
+      "diacritics": "bandī",
+      "meaning": "girl / woman",
+      "category": "people"
+    },
+    {
+      "id": 56,
+      "word": "bhai",
+      "diacritics": "bhāī",
+      "meaning": "brother / bro",
+      "category": "people"
+    },
+    {
+      "id": 57,
+      "word": "behen",
+      "diacritics": "behen",
+      "meaning": "sister",
+      "category": "people"
+    },
+    {
+      "id": 58,
+      "word": "parivaar",
+      "diacritics": "parivār",
+      "meaning": "family",
+      "category": "people"
+    },
+    {
+      "id": 59,
+      "word": "rishtaa",
+      "diacritics": "rishtā",
+      "meaning": "relationship / bond",
+      "category": "people"
+    },
+    {
+      "id": 60,
+      "word": "padosi",
+      "diacritics": "paṛosī",
+      "meaning": "neighbour",
+      "category": "people"
+    },
+    {
+      "id": 61,
+      "word": "mehmaan",
+      "diacritics": "mehmān",
+      "meaning": "guest",
+      "category": "people"
+    },
+    {
+      "id": 62,
+      "word": "naam",
+      "diacritics": "nām",
+      "meaning": "name",
+      "category": "people"
+    },
+    {
+      "id": 63,
+      "word": "umar",
+      "diacritics": "umar",
+      "meaning": "age",
+      "category": "people"
+    },
+    {
+      "id": 64,
+      "word": "zindagi",
+      "diacritics": "zindagī",
+      "meaning": "life",
+      "category": "people"
+    },
+    {
+      "id": 65,
+      "word": "duniya",
+      "diacritics": "duniyā",
+      "meaning": "world",
+      "category": "people"
+    },
+    {
+      "id": 66,
+      "word": "dimaag",
+      "diacritics": "dimāg",
+      "meaning": "brain / mind",
+      "category": "body_mind"
+    },
+    {
+      "id": 67,
+      "word": "dil",
+      "diacritics": "dil",
+      "meaning": "heart",
+      "category": "body_mind"
+    },
+    {
+      "id": 68,
+      "word": "aawaaz",
+      "diacritics": "āvāz",
+      "meaning": "voice / sound",
+      "category": "body_mind"
+    },
+    {
+      "id": 69,
+      "word": "nazar",
+      "diacritics": "nazar",
+      "meaning": "sight / glance",
+      "category": "body_mind"
+    },
+    {
+      "id": 70,
+      "word": "bhookh",
+      "diacritics": "bhūkh",
+      "meaning": "hunger",
+      "category": "body_mind"
+    },
+    {
+      "id": 71,
+      "word": "pyaas",
+      "diacritics": "pyās",
+      "meaning": "thirst",
+      "category": "body_mind"
+    },
+    {
+      "id": 72,
+      "word": "neend",
+      "diacritics": "nīnd",
+      "meaning": "sleep",
+      "category": "body_mind"
+    },
+    {
+      "id": 73,
+      "word": "dard",
+      "diacritics": "dard",
+      "meaning": "pain / ache",
+      "category": "body_mind"
+    },
+    {
+      "id": 74,
+      "word": "gussa",
+      "diacritics": "gussā",
+      "meaning": "anger",
+      "category": "body_mind"
+    },
+    {
+      "id": 75,
+      "word": "khushi",
+      "diacritics": "khushī",
+      "meaning": "joy / happiness",
+      "category": "body_mind"
+    },
+    {
+      "id": 76,
+      "word": "pareshaani",
+      "diacritics": "pareshānī",
+      "meaning": "trouble / problem",
+      "category": "body_mind"
+    },
+    {
+      "id": 77,
+      "word": "mazaak",
+      "diacritics": "mazāk",
+      "meaning": "joke / teasing",
+      "category": "body_mind"
+    },
+    {
+      "id": 78,
+      "word": "shak",
+      "diacritics": "shak",
+      "meaning": "doubt / suspicion",
+      "category": "body_mind"
+    },
+    {
+      "id": 79,
+      "word": "haath",
+      "diacritics": "hāth",
+      "meaning": "hand",
+      "category": "body_mind"
+    },
+    {
+      "id": 80,
+      "word": "pair",
+      "diacritics": "pair",
+      "meaning": "leg / foot",
+      "category": "body_mind"
+    },
+    {
+      "id": 81,
+      "word": "aankhein",
+      "diacritics": "āṅkheiṅ",
+      "meaning": "eyes",
+      "category": "body_mind"
+    },
+    {
+      "id": 82,
+      "word": "chehra",
+      "diacritics": "chehrā",
+      "meaning": "face",
+      "category": "body_mind"
+    },
+    {
+      "id": 83,
+      "word": "jaan",
+      "diacritics": "jān",
+      "meaning": "life / soul / energy",
+      "category": "body_mind"
+    },
+    {
+      "id": 84,
+      "word": "paani",
+      "diacritics": "pānī",
+      "meaning": "water",
+      "category": "essentials"
+    },
+    {
+      "id": 85,
+      "word": "khaanaa",
+      "diacritics": "khānā",
+      "meaning": "food / dinner",
+      "category": "essentials"
+    },
+    {
+      "id": 86,
+      "word": "chaay",
+      "diacritics": "chāy",
+      "meaning": "tea",
+      "category": "essentials"
+    },
+    {
+      "id": 87,
+      "word": "doodh",
+      "diacritics": "dūdh",
+      "meaning": "milk",
+      "category": "essentials"
+    },
+    {
+      "id": 88,
+      "word": "paise",
+      "diacritics": "paise",
+      "meaning": "money / cash",
+      "category": "essentials"
+    },
+    {
+      "id": 89,
+      "word": "hawaa",
+      "diacritics": "havā",
+      "meaning": "air / wind",
+      "category": "essentials"
+    },
+    {
+      "id": 90,
+      "word": "dhoop",
+      "diacritics": "dhūp",
+      "meaning": "sunlight / sun",
+      "category": "essentials"
+    },
+    {
+      "id": 91,
+      "word": "baarish",
+      "diacritics": "bārish",
+      "meaning": "rain",
+      "category": "essentials"
+    },
+    {
+      "id": 92,
+      "word": "thand",
+      "diacritics": "ṭhaṇḍ",
+      "meaning": "cold / winter",
+      "category": "essentials"
+    },
+    {
+      "id": 93,
+      "word": "garmi",
+      "diacritics": "garmī",
+      "meaning": "heat / warmth",
+      "category": "essentials"
+    },
+    {
+      "id": 94,
+      "word": "aag",
+      "diacritics": "āg",
+      "meaning": "fire",
+      "category": "essentials"
+    },
+    {
+      "id": 95,
+      "word": "kapde",
+      "diacritics": "kapṛe",
+      "meaning": "clothes",
+      "category": "essentials"
+    },
+    {
+      "id": 96,
+      "word": "chaabi",
+      "diacritics": "chābī",
+      "meaning": "key",
+      "category": "essentials"
+    },
+    {
+      "id": 97,
+      "word": "joote",
+      "diacritics": "jūte",
+      "meaning": "shoes",
+      "category": "essentials"
+    },
+    {
+      "id": 98,
+      "word": "botal",
+      "diacritics": "botal",
+      "meaning": "bottle",
+      "category": "essentials"
+    },
+    {
+      "id": 99,
+      "word": "dawaai",
+      "diacritics": "davāī",
+      "meaning": "medicine",
+      "category": "essentials"
+    },
+    {
+      "id": 100,
+      "word": "khabar",
+      "diacritics": "khabar",
+      "meaning": "news / update",
+      "category": "essentials"
+    }
+  ],
+  "adjectives": [
+    {
+      "id": 1,
+      "word": "garam",
+      "meaning": "hot / warm",
+      "pair": "thandaa"
+    },
+    {
+      "id": 2,
+      "word": "thandaa",
+      "meaning": "cold",
+      "pair": "garam"
+    },
+    {
+      "id": 3,
+      "word": "badaa",
+      "meaning": "big / large",
+      "pair": "chhotaa"
+    },
+    {
+      "id": 4,
+      "word": "chhotaa",
+      "meaning": "small",
+      "pair": "badaa"
+    },
+    {
+      "id": 5,
+      "word": "nayaa",
+      "meaning": "new",
+      "pair": "puraanaa"
+    },
+    {
+      "id": 6,
+      "word": "puraanaa",
+      "meaning": "old",
+      "pair": "nayaa"
+    },
+    {
+      "id": 7,
+      "word": "achhaa",
+      "meaning": "good / fine",
+      "pair": "buraa/kharaab"
+    },
+    {
+      "id": 8,
+      "word": "buraa / kharaab",
+      "meaning": "bad / spoiled",
+      "pair": "achhaa"
+    },
+    {
+      "id": 9,
+      "word": "saaf",
+      "meaning": "clean / clear",
+      "pair": "gandaa"
+    },
+    {
+      "id": 10,
+      "word": "gandaa",
+      "meaning": "dirty",
+      "pair": "saaf"
+    },
+    {
+      "id": 11,
+      "word": "mehengaa",
+      "meaning": "expensive",
+      "pair": "sastaa"
+    },
+    {
+      "id": 12,
+      "word": "sastaa",
+      "meaning": "cheap",
+      "pair": "mehengaa"
+    },
+    {
+      "id": 13,
+      "word": "bhaari",
+      "meaning": "heavy",
+      "pair": "halkaa"
+    },
+    {
+      "id": 14,
+      "word": "halkaa",
+      "meaning": "lightweight / mild",
+      "pair": "bhaari"
+    },
+    {
+      "id": 15,
+      "word": "tez",
+      "meaning": "fast / sharp / spicy",
+      "pair": "dheere"
+    },
+    {
+      "id": 16,
+      "word": "dheere",
+      "meaning": "slow",
+      "pair": "tez"
+    },
+    {
+      "id": 17,
+      "word": "aasaan",
+      "meaning": "easy / simple",
+      "category": "evaluative"
+    },
+    {
+      "id": 18,
+      "word": "mushkil",
+      "meaning": "difficult / tough",
+      "category": "evaluative"
+    },
+    {
+      "id": 19,
+      "word": "sahi",
+      "meaning": "correct / right",
+      "category": "evaluative"
+    },
+    {
+      "id": 20,
+      "word": "galat",
+      "meaning": "wrong / incorrect",
+      "category": "evaluative"
+    },
+    {
+      "id": 21,
+      "word": "zaroori",
+      "meaning": "important / necessary",
+      "category": "evaluative"
+    },
+    {
+      "id": 22,
+      "word": "khaas",
+      "meaning": "special / particular",
+      "category": "evaluative"
+    },
+    {
+      "id": 23,
+      "word": "ajeeb",
+      "meaning": "weird / strange",
+      "category": "evaluative"
+    },
+    {
+      "id": 24,
+      "word": "seedhaa",
+      "meaning": "straight / direct",
+      "category": "evaluative"
+    },
+    {
+      "id": 25,
+      "word": "ultaa",
+      "meaning": "inverted / opposite",
+      "category": "evaluative"
+    },
+    {
+      "id": 26,
+      "word": "sachaa",
+      "meaning": "honest / truthful",
+      "category": "evaluative"
+    },
+    {
+      "id": 27,
+      "word": "jhoothaa",
+      "meaning": "false / deceptive",
+      "category": "evaluative"
+    },
+    {
+      "id": 28,
+      "word": "pakkaa",
+      "meaning": "confirmed / solid",
+      "category": "evaluative"
+    },
+    {
+      "id": 29,
+      "word": "kachhaa",
+      "meaning": "tentative / raw",
+      "category": "evaluative"
+    },
+    {
+      "id": 30,
+      "word": "tayyaar",
+      "meaning": "ready / prepared",
+      "category": "evaluative"
+    },
+    {
+      "id": 31,
+      "word": "khush",
+      "meaning": "happy",
+      "category": "state"
+    },
+    {
+      "id": 32,
+      "word": "udaas",
+      "meaning": "sad / down",
+      "category": "state"
+    },
+    {
+      "id": 33,
+      "word": "pareshaan",
+      "meaning": "stressed / troubled",
+      "category": "state"
+    },
+    {
+      "id": 34,
+      "word": "thakaa",
+      "meaning": "tired",
+      "category": "state"
+    },
+    {
+      "id": 35,
+      "word": "hairaan",
+      "meaning": "surprised / shocked",
+      "category": "state"
+    },
+    {
+      "id": 36,
+      "word": "shaant",
+      "meaning": "calm / quiet",
+      "category": "state"
+    },
+    {
+      "id": 37,
+      "word": "gusse mein",
+      "meaning": "angry",
+      "category": "state"
+    },
+    {
+      "id": 38,
+      "word": "khaali",
+      "meaning": "empty / free",
+      "category": "state"
+    },
+    {
+      "id": 39,
+      "word": "bharaa",
+      "meaning": "full / packed",
+      "category": "state"
+    },
+    {
+      "id": 40,
+      "word": "akelaa",
+      "meaning": "alone / solo",
+      "category": "state"
+    },
+    {
+      "id": 41,
+      "word": "poora",
+      "meaning": "complete / whole",
+      "category": "quantity"
+    },
+    {
+      "id": 42,
+      "word": "aadha",
+      "meaning": "half",
+      "category": "quantity"
+    },
+    {
+      "id": 43,
+      "word": "zyaada",
+      "meaning": "more / excessive",
+      "category": "quantity"
+    },
+    {
+      "id": 44,
+      "word": "kam",
+      "meaning": "less / insufficient",
+      "category": "quantity"
+    },
+    {
+      "id": 45,
+      "word": "kaafi",
+      "meaning": "enough / quite / fairly",
+      "category": "quantity"
+    },
+    {
+      "id": 46,
+      "word": "thodaa",
+      "meaning": "a little / some",
+      "category": "quantity"
+    },
+    {
+      "id": 47,
+      "word": "sab",
+      "meaning": "all / everyone",
+      "category": "quantity"
+    },
+    {
+      "id": 48,
+      "word": "pehla",
+      "meaning": "first",
+      "category": "quantity"
+    },
+    {
+      "id": 49,
+      "word": "aakhiri",
+      "meaning": "last / final",
+      "category": "quantity"
+    },
+    {
+      "id": 50,
+      "word": "alag",
+      "meaning": "different / separate",
+      "category": "quantity"
+    }
+  ]
+};

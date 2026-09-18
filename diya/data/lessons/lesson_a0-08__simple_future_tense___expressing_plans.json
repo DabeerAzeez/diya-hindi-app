@@ -1,0 +1,365 @@
+{
+  "id": "3b785bc1-d962-80b2-bf0a-dcb649a3332e",
+  "code": "A0-08",
+  "title": "Lesson A0-08: Simple Future Tense & Expressing Plans",
+  "slug": "lesson_a0-08__simple_future_tense___expressing_plans",
+  "sections": [
+    {
+      "title": "🌟 Summary",
+      "type": "heading_1",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Lesson 5 covers the **Future Tense** in Hindi, focusing on how to express **Life Plans**, **Upcoming Events**, and **Future Intentions** (*\"will do\", \"will meet\", \"will go\"*)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Since Hindi is an SOV language like Tamil, future tense sentences follow the structure: **Subject + [Object/Place/Time] + Future Verb Stem + Ending**."
+        }
+      ]
+    },
+    {
+      "title": "Key Takeaways",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "numbered",
+          "text": "**Future Verb Endings (Male Speaker Perspective):**",
+          "children": [
+            "**`Main`**** (I):** Stem + **`\\bar{u}\\dot{n}gaa`** (e.g., *Main call karūṅgaa* = I will call)",
+            "**`Tum`**** (You - casual):** Stem + **`oge`** (e.g., *Tum kyaa karoge?* = What will you do?)",
+            "**`Aap`**** (You - formal):** Stem + **`enge`** (e.g., *Aap kab aayenge?* = When will you come?)",
+            "**`Hum`**** (We):** Stem + **`enge`** (e.g., *Hum milenge* = We will meet)",
+            "**`Vo / Ye`**** (He/She/They):** Stem + **`egaa`** (Singular) / **`enge`** (Plural/Formal)"
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**Key Irregular Future Shifts:**",
+          "children": [
+            "**To Go (****`jaana`****):** `jaa-` + ending $\\rightarrow$ **`jaaūṅgaa`** (I will go)",
+            "**To Take (****`lena`****):** `le-` $\\rightarrow$ **`lūṅgaa`** (I will take)",
+            "**To Give (****`dena`****):** `de-` $\\rightarrow$ **`dūṅgaa`** (I will give)",
+            "**To Be/Happen (****`hona`****):** `ho-` $\\rightarrow$ **`hogaa`** (It will happen / It will be)"
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**Impersonal Future Expressions (****`Lagegaa`****):**",
+          "children": [
+            "Expressing time or cost taking place in the future uses **`Thoḍaa time lagegaa`** (*It will take some time*)."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**Polyglot & Tamil Alignment:**",
+          "children": [
+            "Hindi `Main karūṅgaa` maps directly to Tamil *Naan pannuvaen*.",
+            "Hindi `Hum milenge` maps to Tamil *Naam sandhippom*.",
+            "Hindi `Time lagegaa` maps to Tamil *Time aagum / aagum*."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "📘 Lesson",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "1. Future Tense Conjugation Rules",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "To form the future tense in Hindi, take the **verb stem** (drop the `-naa` from the infinitive) and attach the subject-specific suffix. For a **male speaker/subject**, the endings are:"
+        },
+        {
+          "type": "paragraph",
+          "text": "MATH: \\text{Verb Stem} + \\text{Future Suffix (Masculine)} \\longrightarrow \\text{Future Verb}"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "**Pronoun**",
+              "**Suffix**",
+              "**Example Verb: karna (To do)**",
+              "**Translation**",
+              "**Tamil Equivalent**"
+            ],
+            [
+              "**Main** (I)",
+              "**`-\\bar{u}\\dot{n}gaa`**",
+              "`Main karūṅgaa`",
+              "I will do",
+              "*Naan pannuvaen*"
+            ],
+            [
+              "**Tum** (You - casual)",
+              "**`-oge`**",
+              "`Tum karoge`",
+              "You will do",
+              "*Nee pannuva*"
+            ],
+            [
+              "**Aap** (You - formal)",
+              "**`-enge`**",
+              "`Aap karenge`",
+              "You will do",
+              "*Neengal pannuveengal*"
+            ],
+            [
+              "**Ye / Vo** (He/She/This/That)",
+              "**`-egaa`**",
+              "`Vo karegaa`",
+              "He will do",
+              "*Avar pannuvaar*"
+            ],
+            [
+              "**Hum** (We)",
+              "**`-enge`**",
+              "`Hum karenge`",
+              "We will do",
+              "*Naangal pannuvom*"
+            ],
+            [
+              "**Vo / Ye** (They)",
+              "**`-enge`**",
+              "`Vo karenge`",
+              "They will do",
+              "*Avargal pannuvaargal*"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2. Expressing Future Plans & Intentions",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Here is how you apply future tense endings in everyday conversational Hinglish:"
+        },
+        {
+          "type": "bullet",
+          "text": "**Main kal aapko call karūṅgaa.** — मैं कल आपको call करूँगा।\nMain (I) | kal (tomorrow) | aapko (to you - formal) | call karūṅgaa (will call - male)",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Weekend par kyaa karoge?** — Weekend पर क्या करोगे?\nWeekend par (on weekend) | kyaa (what) | karoge (will do - casual male)",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Hum jaldi milenge.** — हम जल्दी मिलेंगे।\nHum (We) | jaldi (soon) | milenge (will meet)",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Main try karūṅgaa.** — मैं try करूँगा।\nMain (I) | try karūṅgaa (will try - male)",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Main 10 mins me pahuñchūṅgaa.** — मैं 10 mins में पहुँचूँगा।\nMain (I) | 10 mins me (in 10 minutes) | pahuñchūṅgaa (will reach - male)",
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "3. Impersonal Future: Time & Cost (`Lagegaa`)",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "When talking about how long something will take or cost in the future, Hindi uses the verb **`lagna`** (to take/feel) in its neutral future form **`lagegaa`**:"
+        },
+        {
+          "type": "paragraph",
+          "text": "MATH: \\text{Time / Detail} + \\text{Lagegaa}"
+        },
+        {
+          "type": "bullet",
+          "text": "**Thoḍaa time lagegaa.** — थोड़ा time लगेगा।\nThoḍaa (Some) | time (time) | lagegaa (will take)",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Kitna time lagegaa?** — कितना time लगेगा?",
+          "children": [
+            "Kitna (How much) | time (time) | lagegaa (will take)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4. Conjugation Comparison Table Across Core Verbs",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Comparing common verbs for a male subject (`Main` / `Tum` / `Aap` / `Hum`):"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "**Infinitive Verb**",
+              "**Main (I)  MD**",
+              "**Tum (You)  MD**",
+              "**Aap (You - formal)  MD**",
+              "**Hum (We)  MD**"
+            ],
+            [
+              "**Jaana** (To go)",
+              "`Main jaaūṅgaa`",
+              "`Tum jaaoge`",
+              "`Aap jaayenge`",
+              "`Hum jaayenge`"
+            ],
+            [
+              "**Aana** (To come)",
+              "`Main aaūṅgaa`",
+              "`Tum aaaoge`",
+              "`Aap aayenge`",
+              "`Hum aayenge`"
+            ],
+            [
+              "**Milna** (To meet)",
+              "`Main milūṅgaa`",
+              "`Tum miloge`",
+              "`Aap milenge`",
+              "`Hum milenge`"
+            ],
+            [
+              "**Dekhna** (To see/watch)",
+              "`Main dekhūṅgaa`",
+              "`Tum dekhoge`",
+              "`Aap dekhenge`",
+              "`Hum dekhenge`"
+            ],
+            [
+              "**Khaana** (To eat)",
+              "`Main khaaūṅgaa`",
+              "`Tum khaaoge`",
+              "`Aap khaayenge`",
+              "`Hum khaayenge`"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "❓ Quiz",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "Concept & Grammar Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "numbered",
+          "text": "**What is the future tense ending for ****`Main`**** (I) when spoken by a male speaker?**",
+          "children": [
+            "**Answer:** **`\\bar{u}\\dot{n}gaa`** (e.g., *Main karūṅgaa*)."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**How do the verb endings differ between ****`Tum`**** (casual) and ****`Aap`**** (formal) in the future tense?**",
+          "children": [
+            "**Answer:** `Tum` takes **`oge`** (e.g., *Tum karoge*), while `Aap` takes **`enge`** (e.g., *Aap karenge*)."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**How do you express \"It will take some time\" in Hindi? What verb is used?**",
+          "children": [
+            "**Answer:** `Thoḍaa time lagegaa.` The verb stem used is from `lagna` $\\rightarrow$ `lagegaa`."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Translation Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "toggle",
+          "title": "**I will call you tomorrow.**",
+          "children": [
+            "**Answer:** `Main kal aapko call karūṅgaa.` — मैं कल आपको call करूँगा।\nMain (I) | kal (tomorrow) | aapko (to you) | call karūṅgaa (will call - male)"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**What will you do on the weekend?**",
+          "children": [
+            "**Answer:** `Weekend par kyaa karoge?` — Weekend पर क्या करोगे?\nWeekend par (on weekend) | kyaa (what) | karoge (will do - casual male)"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**We will meet soon.**",
+          "children": [
+            "**Answer:** `Hum jaldi milenge.` — हम जल्दी मिलेंगे।\nHum (We) | jaldi (soon) | milenge (will meet)"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**I will try.**",
+          "children": [
+            "**Answer:** `Main try karūṅgaa.` — मैं try करूँगा।\nMain (I) | try karūṅgaa (will try - male)"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**I will reach in 10 minutes.**",
+          "children": [
+            "**Answer:** `Main 10 mins me pahuñchūṅgaa.` — मैं 10 mins में पहुँचूँगा।\nMain (I) | 10 mins me (in 10 mins) | pahuñchūṅgaa (will reach - male)"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**It will take some time.**",
+          "children": [
+            "**Answer:** `Thoḍaa time lagegaa.` — थोड़ा time लगेगा।\nThoḍaa (Some) | time (time) | lagegaa (will take)"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**I will visit Norwich in October.**",
+          "children": [
+            "**Answer:** `Main October me Norwich jaaūṅgaa.` — मैं October में Norwich जाऊँगा।\nMain (I) | October me (in October) | Norwich (Norwich) | jaaūṅgaa (will go - male)"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**When will you come? (Addressing a friend / casual context)**",
+          "children": [
+            "**Answer:** `Tum kab aaoge?` — तुम कब आओगे?\nTum (You - casual) | kab (when) | aaoge (will come - male)"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**`Main kal Shivani se milūṅgaa.`**",
+          "children": [
+            "**Answer:** I will meet Shivani tomorrow. (Male speaker)"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**`Kitna time lagegaa?`**",
+          "children": [
+            "**Answer:** How much time will it take?"
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": "\n# 🌟 Summary\n\nLesson 5 covers the **Future Tense** in Hindi, focusing on how to express **Life Plans**, **Upcoming Events**, and **Future Intentions** (*\"will do\", \"will meet\", \"will go\"*).\n\nSince Hindi is an SOV language like Tamil, future tense sentences follow the structure: **Subject + [Object/Place/Time] + Future Verb Stem + Ending**.\n\n\n### Key Takeaways\n\n1. **Future Verb Endings (Male Speaker Perspective):**\n    * **`Main`**** (I):** Stem + **`\\bar{u}\\dot{n}gaa`** (e.g., *Main call karūṅgaa* = I will call)\n    * **`Tum`**** (You - casual):** Stem + **`oge`** (e.g., *Tum kyaa karoge?* = What will you do?)\n    * **`Aap`**** (You - formal):** Stem + **`enge`** (e.g., *Aap kab aayenge?* = When will you come?)\n    * **`Hum`**** (We):** Stem + **`enge`** (e.g., *Hum milenge* = We will meet)\n    * **`Vo / Ye`**** (He/She/They):** Stem + **`egaa`** (Singular) / **`enge`** (Plural/Formal)\n1. **Key Irregular Future Shifts:**\n    * **To Go (****`jaana`****):** `jaa-` + ending $\\rightarrow$ **`jaaūṅgaa`** (I will go)\n    * **To Take (****`lena`****):** `le-` $\\rightarrow$ **`lūṅgaa`** (I will take)\n    * **To Give (****`dena`****):** `de-` $\\rightarrow$ **`dūṅgaa`** (I will give)\n    * **To Be/Happen (****`hona`****):** `ho-` $\\rightarrow$ **`hogaa`** (It will happen / It will be)\n1. **Impersonal Future Expressions (****`Lagegaa`****):**\n    * Expressing time or cost taking place in the future uses **`Thoḍaa time lagegaa`** (*It will take some time*).\n1. **Polyglot & Tamil Alignment:**\n    * Hindi `Main karūṅgaa` maps directly to Tamil *Naan pannuvaen*.\n    * Hindi `Hum milenge` maps to Tamil *Naam sandhippom*.\n    * Hindi `Time lagegaa` maps to Tamil *Time aagum / aagum*.\n\n# 📘 Lesson\n\n\n## 1. Future Tense Conjugation Rules\n\nTo form the future tense in Hindi, take the **verb stem** (drop the `-naa` from the infinitive) and attach the subject-specific suffix. For a **male speaker/subject**, the endings are:\n\nMATH: \\text{Verb Stem} + \\text{Future Suffix (Masculine)} \\longrightarrow \\text{Future Verb}\n\n| **Pronoun** | **Suffix** | **Example Verb: karna (To do)** | **Translation** | **Tamil Equivalent** |\n| --- | --- | --- | --- | --- |\n| **Main** (I) | **`-\\bar{u}\\dot{n}gaa`** | `Main karūṅgaa` | I will do | *Naan pannuvaen* |\n| **Tum** (You - casual) | **`-oge`** | `Tum karoge` | You will do | *Nee pannuva* |\n| **Aap** (You - formal) | **`-enge`** | `Aap karenge` | You will do | *Neengal pannuveengal* |\n| **Ye / Vo** (He/She/This/That) | **`-egaa`** | `Vo karegaa` | He will do | *Avar pannuvaar* |\n| **Hum** (We) | **`-enge`** | `Hum karenge` | We will do | *Naangal pannuvom* |\n| **Vo / Ye** (They) | **`-enge`** | `Vo karenge` | They will do | *Avargal pannuvaargal* |\n\n\n## 2. Expressing Future Plans & Intentions\n\nHere is how you apply future tense endings in everyday conversational Hinglish:\n\n* **Main kal aapko call karūṅgaa.** — मैं कल आपको call करूँगा।\nMain (I) | kal (tomorrow) | aapko (to you - formal) | call karūṅgaa (will call - male)\n* **Weekend par kyaa karoge?** — Weekend पर क्या करोगे?\nWeekend par (on weekend) | kyaa (what) | karoge (will do - casual male)\n* **Hum jaldi milenge.** — हम जल्दी मिलेंगे।\nHum (We) | jaldi (soon) | milenge (will meet)\n* **Main try karūṅgaa.** — मैं try करूँगा।\nMain (I) | try karūṅgaa (will try - male)\n* **Main 10 mins me pahuñchūṅgaa.** — मैं 10 mins में पहुँचूँगा।\nMain (I) | 10 mins me (in 10 minutes) | pahuñchūṅgaa (will reach - male)\n\n## 3. Impersonal Future: Time & Cost (`Lagegaa`)\n\nWhen talking about how long something will take or cost in the future, Hindi uses the verb **`lagna`** (to take/feel) in its neutral future form **`lagegaa`**:\n\nMATH: \\text{Time / Detail} + \\text{Lagegaa}\n\n* **Thoḍaa time lagegaa.** — थोड़ा time लगेगा।\nThoḍaa (Some) | time (time) | lagegaa (will take)\n* **Kitna time lagegaa?** — कितना time लगेगा?\n    * Kitna (How much) | time (time) | lagegaa (will take)\n\n## 4. Conjugation Comparison Table Across Core Verbs\n\nComparing common verbs for a male subject (`Main` / `Tum` / `Aap` / `Hum`):\n\n| **Infinitive Verb** | **Main (I)  MD** | **Tum (You)  MD** | **Aap (You - formal)  MD** | **Hum (We)  MD** |\n| --- | --- | --- | --- | --- |\n| **Jaana** (To go) | `Main jaaūṅgaa` | `Tum jaaoge` | `Aap jaayenge` | `Hum jaayenge` |\n| **Aana** (To come) | `Main aaūṅgaa` | `Tum aaaoge` | `Aap aayenge` | `Hum aayenge` |\n| **Milna** (To meet) | `Main milūṅgaa` | `Tum miloge` | `Aap milenge` | `Hum milenge` |\n| **Dekhna** (To see/watch) | `Main dekhūṅgaa` | `Tum dekhoge` | `Aap dekhenge` | `Hum dekhenge` |\n| **Khaana** (To eat) | `Main khaaūṅgaa` | `Tum khaaoge` | `Aap khaayenge` | `Hum khaayenge` |\n\n\n# ❓ Quiz\n\n\n### Concept & Grammar Questions\n\n1. **What is the future tense ending for ****`Main`**** (I) when spoken by a male speaker?**\n    * **Answer:** **`\\bar{u}\\dot{n}gaa`** (e.g., *Main karūṅgaa*).\n1. **How do the verb endings differ between ****`Tum`**** (casual) and ****`Aap`**** (formal) in the future tense?**\n    * **Answer:** `Tum` takes **`oge`** (e.g., *Tum karoge*), while `Aap` takes **`enge`** (e.g., *Aap karenge*).\n1. **How do you express \"It will take some time\" in Hindi? What verb is used?**\n    * **Answer:** `Thoḍaa time lagegaa.` The verb stem used is from `lagna` $\\rightarrow$ `lagegaa`.\n\n### Translation Questions\n\n<details><summary>**I will call you tomorrow.**</summary>\n\n* **Answer:** `Main kal aapko call karūṅgaa.` — मैं कल आपको call करूँगा।\nMain (I) | kal (tomorrow) | aapko (to you) | call karūṅgaa (will call - male)\n</details>\n\n<details><summary>**What will you do on the weekend?**</summary>\n\n* **Answer:** `Weekend par kyaa karoge?` — Weekend पर क्या करोगे?\nWeekend par (on weekend) | kyaa (what) | karoge (will do - casual male)\n</details>\n\n<details><summary>**We will meet soon.**</summary>\n\n* **Answer:** `Hum jaldi milenge.` — हम जल्दी मिलेंगे।\nHum (We) | jaldi (soon) | milenge (will meet)\n</details>\n\n<details><summary>**I will try.**</summary>\n\n* **Answer:** `Main try karūṅgaa.` — मैं try करूँगा।\nMain (I) | try karūṅgaa (will try - male)\n</details>\n\n<details><summary>**I will reach in 10 minutes.**</summary>\n\n* **Answer:** `Main 10 mins me pahuñchūṅgaa.` — मैं 10 mins में पहुँचूँगा।\nMain (I) | 10 mins me (in 10 mins) | pahuñchūṅgaa (will reach - male)\n</details>\n\n<details><summary>**It will take some time.**</summary>\n\n* **Answer:** `Thoḍaa time lagegaa.` — थोड़ा time लगेगा।\nThoḍaa (Some) | time (time) | lagegaa (will take)\n</details>\n\n<details><summary>**I will visit Norwich in October.**</summary>\n\n* **Answer:** `Main October me Norwich jaaūṅgaa.` — मैं October में Norwich जाऊँगा।\nMain (I) | October me (in October) | Norwich (Norwich) | jaaūṅgaa (will go - male)\n</details>\n\n<details><summary>**When will you come? (Addressing a friend / casual context)**</summary>\n\n* **Answer:** `Tum kab aaoge?` — तुम कब आओगे?\nTum (You - casual) | kab (when) | aaoge (will come - male)\n</details>\n\n<details><summary>**`Main kal Shivani se milūṅgaa.`**</summary>\n\n* **Answer:** I will meet Shivani tomorrow. (Male speaker)\n</details>\n\n<details><summary>**`Kitna time lagegaa?`**</summary>\n\n* **Answer:** How much time will it take?\n</details>\n"
+}

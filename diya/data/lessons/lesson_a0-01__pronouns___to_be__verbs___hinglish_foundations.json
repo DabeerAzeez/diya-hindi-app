@@ -1,0 +1,236 @@
+{
+  "id": "3af85bc1-d962-80a3-8645-e0fa15f0c876",
+  "code": "A0-01",
+  "title": "Lesson A0-01: Pronouns, 'To Be' Verbs & Hinglish Foundations",
+  "slug": "lesson_a0-01__pronouns___to_be__verbs___hinglish_foundations",
+  "sections": [
+    {
+      "title": "🌟Summary",
+      "type": "heading_1",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Lesson 1 focuses on building the core foundation of spoken Hinglish by establishing the Subject-Verb agreement rules for the verb \"To Be\" (Am, Is, Are) and learning basic social greetings, locations, and state descriptions. It establishes the foundational Subject-Object-Verb (SOV) structure that aligns directly with Tamil sentence mechanics, making it effortless to construct natural, everyday sentences."
+        }
+      ]
+    },
+    {
+      "title": "📘Lesson: Lesson 1 — Pronouns, \"To Be\" Verbs & Hinglish Foundations",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "Key Grammar Formulas & Rules",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "bullet",
+          "text": "**Pronoun-Verb Pairing:**\n$\\text{Subject} + \\text{Complement/Location} + \\text{\"To Be\" Verb}$",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Core Rule:** In present tense sentences, the verb \"To Be\" comes at the very end of the sentence and must agree with the subject pronoun.",
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "📌 Core Pronouns & \"To Be\" Conjugation Table",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Pronoun",
+              "Hindi",
+              "Tamil Parallel",
+              "\"To Be\" Ending",
+              "Example (Hinglish)"
+            ],
+            [
+              "**I**",
+              "*Main*",
+              "*Naan*",
+              "**... hoon**",
+              "*Main Toronto me hoon.*"
+            ],
+            [
+              "**You** *(Casual)*",
+              "*Tum*",
+              "*Nee*",
+              "**... ho**",
+              "*Tum ready ho?*"
+            ],
+            [
+              "**You** *(Formal/Respect)*",
+              "*Aap*",
+              "*Neengal*",
+              "**... haim**",
+              "*Aap busy haim.*"
+            ],
+            [
+              "**He / She / This**",
+              "*Ye / Vo*",
+              "*Ivar / Avar*",
+              "**... hai**",
+              "*Vo mera friend hai.*"
+            ],
+            [
+              "**We / They**",
+              "*Hum / Vo*",
+              "*Naangal / Avargal*",
+              "**... haim**",
+              "*Hum ready haim.*"
+            ]
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**1. The Core Rule: Nearby vs. Far Away**\n• **`Ye`**** (यह / ये)** = **This / This person** (Close to you physically, or close in conversation).  \n    ◦ **Tamil Equivalent:** **`Ivar`**** / ****`Idhu`**** / ****`Ivan`**** / ****`Ival`**\n• **`Vo`**** (वह / वो)** = **That / That person** (Far from you, or not physically present).  \n    ◦ **Tamil Equivalent:** **`Avar`**** / ****`Adhu`**** / ****`Avan`**** / ****`Aval`**",
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "Polyglot Anchors & Hinglish Mechanics",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "bullet",
+          "text": "**Tamil Alignment:** Sentences follow standard SOV order, matching Tamil's subject-location/complement-verb sequence (e.g., *Naan Toronto-la irukken* $\\rightarrow$ *Main Toronto me hoon*).",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Hinglish Integration:** Essential English nouns and adjectives (e.g., *busy*, *ready*, *friend*, *office*) slot directly into the complement position without needing complex translation.",
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "Real-World Applications & Catch-Up Scenarios",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "bullet",
+          "text": "**Greeting Friends:** Everyday casual check-ins with friends in Toronto or planning the October reunion with Shivani.",
+          "children": [
+            "**Example:** `Aaj main busy hoon, lekin kal main free hoon. — आज मैं busy हूँ, लेकिन कल मैं free हूँ.`\n<small>Aaj (Today) | main (I) | busy (busy) | hoon (am) | lekin (but) | kal (tomorrow) | main (I) | free (free) | hoon (am)</small>"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "❓Quiz",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "Concept & Grammar Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "toggle",
+          "title": "**How does Hindi's word order differ from English, and how does it map to Tamil?**",
+          "children": [
+            "**Answer:** English uses Subject-Verb-Object (SVO), whereas Hindi uses Subject-Object-Verb (SOV). This aligns 1:1 with Tamil sentence structure (e.g., \"I in Toronto am\" / *Naan Toronto-la irukken*)."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Which \"To Be\" verb ending pairs with the pronoun ****`Main`**** vs ****`Tum`**** vs ****`Aap`****?**",
+          "children": [
+            "**Answer:** `Main` pairs with `hoon`, `Tum` pairs with `ho`, and `Aap` pairs with `haim`."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Translation Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "toggle",
+          "title": "**Hello! How are you (formal)?**",
+          "children": [
+            "**Answer:** `Namaste! Aap kaise haim? — नमस्ते! आप कैसे हैं?`\n<small>Namaste (Hello) | Aap (You - formal) | kaise (how - male) | haim (are)</small>"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**I am in Toronto right now.**",
+          "children": [
+            "**Answer:** `Main abhi Toronto me hoon. — मैं अभी Toronto में हूँ.`\n<small>Main (I) | abhi (right now) | Toronto (Toronto) | me (in) | hoon (am)</small>"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**What's up? Everything is fine.**",
+          "children": [
+            "**Answer:** `Kya chal rahaa hai? Sab badhiyaa hai. — क्या चल रहा है? सब बढ़िया है.`\n<small>Kya (What) | chal rahaa hai (is running/going on) | Sab (everything) | badhiyaa (fine/great) | hai (is)</small>"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**He is my friend.**",
+          "children": [
+            "**Answer:** `Vo mera friend hai. — वो मेरा friend है.`\n<small>Vo (He/That person) | mera (my - male) | friend (friend) | hai (is)</small>"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Today I am busy, but tomorrow I am free.**",
+          "children": [
+            "**Answer:** `Aaj main busy hoon, lekin kal main free hoon. — आज मैं busy हूँ, लेकिन कल मैं free हूँ.`\n<small>Aaj (Today) | main (I) | busy (busy) | hoon (am) | lekin (but) | kal (tomorrow) | main (I) | free (free) | hoon (am)</small>"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Are you ready for the trip?**",
+          "children": [
+            "**Answer:** `Kya tum trip ke liye ready ho? — क्या तुम trip के लिए ready हो?`\n<small>Kya (Question marker) | tum (you) | trip (trip) | ke liye (for) | ready (ready) | ho (are)</small>"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Main office me hoon.**",
+          "children": [
+            "**Answer:** I am in the office."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Vaise, aap kahaan haim?**",
+          "children": [
+            "**Answer:** By the way, where are you?"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Hum Toronto me haim.**",
+          "children": [
+            "**Answer:** We are in Toronto."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Vo Norwich me hai.**",
+          "children": [
+            "**Answer:** She is in Norwich."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": ""
+        },
+        {
+          "type": "paragraph",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "markdown": "\n# 🌟Summary\n\nLesson 1 focuses on building the core foundation of spoken Hinglish by establishing the Subject-Verb agreement rules for the verb \"To Be\" (Am, Is, Are) and learning basic social greetings, locations, and state descriptions. It establishes the foundational Subject-Object-Verb (SOV) structure that aligns directly with Tamil sentence mechanics, making it effortless to construct natural, everyday sentences.\n\n\n# 📘Lesson: Lesson 1 — Pronouns, \"To Be\" Verbs & Hinglish Foundations\n\n\n## Key Grammar Formulas & Rules\n\n* **Pronoun-Verb Pairing:**\n$\\text{Subject} + \\text{Complement/Location} + \\text{\"To Be\" Verb}$\n* **Core Rule:** In present tense sentences, the verb \"To Be\" comes at the very end of the sentence and must agree with the subject pronoun.\n\n## 📌 Core Pronouns & \"To Be\" Conjugation Table\n\n| Pronoun | Hindi | Tamil Parallel | \"To Be\" Ending | Example (Hinglish) |\n| --- | --- | --- | --- | --- |\n| **I** | *Main* | *Naan* | **... hoon** | *Main Toronto me hoon.* |\n| **You** *(Casual)* | *Tum* | *Nee* | **... ho** | *Tum ready ho?* |\n| **You** *(Formal/Respect)* | *Aap* | *Neengal* | **... haim** | *Aap busy haim.* |\n| **He / She / This** | *Ye / Vo* | *Ivar / Avar* | **... hai** | *Vo mera friend hai.* |\n| **We / They** | *Hum / Vo* | *Naangal / Avargal* | **... haim** | *Hum ready haim.* |\n\n* **1. The Core Rule: Nearby vs. Far Away**\n• **`Ye`**** (यह / ये)** = **This / This person** (Close to you physically, or close in conversation).  \n    ◦ **Tamil Equivalent:** **`Ivar`**** / ****`Idhu`**** / ****`Ivan`**** / ****`Ival`**\n• **`Vo`**** (वह / वो)** = **That / That person** (Far from you, or not physically present).  \n    ◦ **Tamil Equivalent:** **`Avar`**** / ****`Adhu`**** / ****`Avan`**** / ****`Aval`**\n\n## Polyglot Anchors & Hinglish Mechanics\n\n* **Tamil Alignment:** Sentences follow standard SOV order, matching Tamil's subject-location/complement-verb sequence (e.g., *Naan Toronto-la irukken* $\\rightarrow$ *Main Toronto me hoon*).\n* **Hinglish Integration:** Essential English nouns and adjectives (e.g., *busy*, *ready*, *friend*, *office*) slot directly into the complement position without needing complex translation.\n\n## Real-World Applications & Catch-Up Scenarios\n\n* **Greeting Friends:** Everyday casual check-ins with friends in Toronto or planning the October reunion with Shivani.\n    * **Example:** `Aaj main busy hoon, lekin kal main free hoon. — आज मैं busy हूँ, लेकिन कल मैं free हूँ.`\n<small>Aaj (Today) | main (I) | busy (busy) | hoon (am) | lekin (but) | kal (tomorrow) | main (I) | free (free) | hoon (am)</small>\n\n# ❓Quiz\n\n\n### Concept & Grammar Questions\n\n<details><summary>**How does Hindi's word order differ from English, and how does it map to Tamil?**</summary>\n\n* **Answer:** English uses Subject-Verb-Object (SVO), whereas Hindi uses Subject-Object-Verb (SOV). This aligns 1:1 with Tamil sentence structure (e.g., \"I in Toronto am\" / *Naan Toronto-la irukken*).\n</details>\n\n<details><summary>**Which \"To Be\" verb ending pairs with the pronoun ****`Main`**** vs ****`Tum`**** vs ****`Aap`****?**</summary>\n\n* **Answer:** `Main` pairs with `hoon`, `Tum` pairs with `ho`, and `Aap` pairs with `haim`.\n</details>\n\n\n### Translation Questions\n\n<details><summary>**Hello! How are you (formal)?**</summary>\n\n* **Answer:** `Namaste! Aap kaise haim? — नमस्ते! आप कैसे हैं?`\n<small>Namaste (Hello) | Aap (You - formal) | kaise (how - male) | haim (are)</small>\n</details>\n\n<details><summary>**I am in Toronto right now.**</summary>\n\n* **Answer:** `Main abhi Toronto me hoon. — मैं अभी Toronto में हूँ.`\n<small>Main (I) | abhi (right now) | Toronto (Toronto) | me (in) | hoon (am)</small>\n</details>\n\n<details><summary>**What's up? Everything is fine.**</summary>\n\n* **Answer:** `Kya chal rahaa hai? Sab badhiyaa hai. — क्या चल रहा है? सब बढ़िया है.`\n<small>Kya (What) | chal rahaa hai (is running/going on) | Sab (everything) | badhiyaa (fine/great) | hai (is)</small>\n</details>\n\n<details><summary>**He is my friend.**</summary>\n\n* **Answer:** `Vo mera friend hai. — वो मेरा friend है.`\n<small>Vo (He/That person) | mera (my - male) | friend (friend) | hai (is)</small>\n</details>\n\n<details><summary>**Today I am busy, but tomorrow I am free.**</summary>\n\n* **Answer:** `Aaj main busy hoon, lekin kal main free hoon. — आज मैं busy हूँ, लेकिन कल मैं free हूँ.`\n<small>Aaj (Today) | main (I) | busy (busy) | hoon (am) | lekin (but) | kal (tomorrow) | main (I) | free (free) | hoon (am)</small>\n</details>\n\n<details><summary>**Are you ready for the trip?**</summary>\n\n* **Answer:** `Kya tum trip ke liye ready ho? — क्या तुम trip के लिए ready हो?`\n<small>Kya (Question marker) | tum (you) | trip (trip) | ke liye (for) | ready (ready) | ho (are)</small>\n</details>\n\n<details><summary>**Main office me hoon.**</summary>\n\n* **Answer:** I am in the office.\n</details>\n\n<details><summary>**Vaise, aap kahaan haim?**</summary>\n\n* **Answer:** By the way, where are you?\n</details>\n\n<details><summary>**Hum Toronto me haim.**</summary>\n\n* **Answer:** We are in Toronto.\n</details>\n\n<details><summary>**Vo Norwich me hai.**</summary>\n\n* **Answer:** She is in Norwich.\n</details>\n\n\n\n\n"
+}

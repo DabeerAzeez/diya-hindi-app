@@ -1,0 +1,290 @@
+{
+  "id": "3c885bc1-d962-8025-95d8-e70281942b0b",
+  "code": "A1-04",
+  "title": "Lesson A1-04: Obligation, Compulsion & Permission",
+  "slug": "lesson_a1-04__obligation__compulsion___permission",
+  "sections": [
+    {
+      "title": "🌟Summary",
+      "type": "heading_1",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Is lesson mein hum teen important concepts seekhenge: **Obligation & Habitual Compulsion (*****Padtaa hai*****)**, **Strong Necessity / Personal Obligation (*****Infinitive + Hai / Padegaa*****)**, aur **Permission / Prohibition (*****Saknaa***** / *****Manaa hai*****)**. Tamil ke `-a vendum` ya `-a vendiyirukku` pattern ki tarah, Hindi mein bhi jab external compulsion ya daily routine obligation express karna hota hai, toh subject dative pronoun (`Mujhe`, `Aapko`, etc.) leta hai aur verb frame change ho jaata hai."
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "**Structure**",
+              "**Grammar Frame**",
+              "**Usage / Context**",
+              "**Tamil / Polyglot Anchor**"
+            ],
+            [
+              "**Internal Obligation / Plan**",
+              "`Subject(Dative) + Verb(Inf) + Hai`",
+              "Simple \"have to / must\" (personal choice/plan)",
+              "Tamil: *Enakku poga vendum*"
+            ],
+            [
+              "**Habitual / External Compulsion**",
+              "`Subject(Dative) + Verb(Inf) + Padtaa hai`",
+              "Daily forced chore / \"no choice but to\"",
+              "Tamil: *Enakku poga vendiyirukku*"
+            ],
+            [
+              "**Future Compulsion**",
+              "`Subject(Dative) + Verb(Inf) + Padegaa`",
+              "\"Will have to\" (future obligation)",
+              "Tamil: *Poga vendiyirukkum*"
+            ],
+            [
+              "**Permission (Can / May)**",
+              "`Subject + Verb(Stem) + Saktaa hoon / Sakte hain`",
+              "Asking for / giving permission",
+              "\"May I / Can I\""
+            ],
+            [
+              "**Prohibition**",
+              "`Verb(Inf) + Manaa hai`",
+              "Strict rule / \"Forbidden\"",
+              "Tamil: *Koodaathu* / Strict \"Not allowed\""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "📘Lesson",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "📌 1. Internal Obligation: `Mujhe [Verb]-naa Hai`",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Jab aapko koi kaam simply karna hai (aapka plan ya personal obligation hai), toh subject hamesha dative pronoun (`Mujhe`, `Tumhe`, `Aapko`, `Use`) ban jaata hai."
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Subject (Dative)} + \\text{Infinitive Verb (-naa)} + \\text{Hai}$$"
+        },
+        {
+          "type": "bullet",
+          "text": "**Mujhe jaanaa hai.** (I have to go.)",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Mujhe Shivani se milnaa hai.** (I have to meet Shivani.)",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Aapko kab nikalnaa hai?** (When do you have to leave?)",
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "🔄 2. Habitual & External Compulsion: `Padtaa Hai` vs `Padegaa`",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Agar koi kaam aap apni marzi se nahi, balki routine, rule, ya majboori ki wajah se karte hain, toh `padtaa hai` use hota hai. Future compulsion ke liye `padegaa` use karte hain."
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Subject (Dative)} + \\text{Infinitive Verb (-naa)} + \\text{Padtaa hai / Padegaa}$$"
+        },
+        {
+          "type": "bullet",
+          "text": "**Mujhe daily 9 AM work start karna padtaa hai.** (I have to start work at 9 AM daily.)",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Use daily travel karna padtaa hai.** (He/She has to travel daily.)",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Kal mujhe extra time kaam karna padegaa.** (Tomorrow I will have to work overtime.)",
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "🚪 3. Permission & Polite Requests: `Kya main... saktaa hoon?`",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Permission maangne ke liye hum ability verb `saknaa` ko subjunctive ya polite present form mein use karte hain."
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Kya} + \\text{Subject} + \\text{Verb Stem} + \\text{Saktaa/Saktii hoon?}$$"
+        },
+        {
+          "type": "bullet",
+          "text": "**Kya main andar aa saktaa hoon?** (May / Can I come in?)",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Kya hum yahaan baith sakte hain?** (Can we sit here?)",
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "🚫 4. Prohibition & Rules: `[Verb]-naa Manaa Hai`",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Kahin par koi rule ya strict ban batane ke liye infinitive verb ke saath `manaa hai` lagate hain."
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Infinitive Verb (-naa)} + \\text{Manaa hai}$$"
+        },
+        {
+          "type": "bullet",
+          "text": "**Yahaan photo lenaa manaa hai.** (Taking photos is prohibited here.)",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Andar aanaa manaa hai.** (Entering is not allowed.)",
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "❓Quiz",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "Concept & Grammar Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "toggle",
+          "title": "`Mujhe kaam karna hai` aur `Mujhe kaam karna padtaa hai` mein core difference kya hai?",
+          "children": [
+            "**Answer:** `Mujhe kaam karna hai` ek simple intention/personal obligation show karta hai (\"I have to work\"), jabki `Mujhe kaam karna padtaa hai` ek habitual/external compulsion show karta hai (\"I am forced / required by routine to work\")."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "Jab hum obligation express karte hain (`jaanaa hai` ya `padtaa hai`), toh subject pronoun `Main` se `Mujhe` kyun ban jaata hai?",
+          "children": [
+            "**Answer:** Kyunki obligation structures dative subjects use karte hain, bilkul Tamil ke dative marker (*ukku*, jaise *Enakku vendum*) ki tarah."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "Future compulsion express karne ke liye formula kya hoga?",
+          "children": [
+            "**Answer:** `Subject (Dative) + Infinitive Verb (-naa) + Padegaa` (jaise *Mujhe train pakadna padegaa*)."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "Agar kisi public place par smoking strictly prohibited hai, toh aap Hinglish/Hindi mein rule kaise bolenge?",
+          "children": [
+            "**Answer:** `Yahaan smoking karna manaa hai` (Infinitive verb + `manaa hai`)."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Translation Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "toggle",
+          "title": "**I have to prepare for my UK trip.**",
+          "children": [
+            "**Answer:** `Mujhe meri UK trip ke liye prepare karna hai. — मुझे मेरी यूके ट्रिप के लिए प्रिपेयर करना है।`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Every day I have to attend morning team meetings.**",
+          "children": [
+            "**Answer:** `Mujhe daily morning team meetings attend karna padtaa hai. — मुझे डेली मॉर्निंग टीम मीटिंग्स अटेंड करना पड़ता है।`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Tomorrow we will have to leave early for the station.**",
+          "children": [
+            "**Answer:** `Kal humein station ke liye jaldi nikalna padegaa. — कल हमें स्टेशन के लिए जल्दी निकलना पड़ेगा।`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Can I ask you a question?**",
+          "children": [
+            "**Answer:** `Kya main aapse ek question pooch saktaa hoon? — क्या मैं आपसे एक क्वेश्चन पूछ सकता हूँ?`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Parking is not allowed here.**",
+          "children": [
+            "**Answer:** `Yahaan car park karna manaa hai. — यहाँ कार पार्क करना मना है।`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Shivani has to coordinate daily activities at the care home.**",
+          "children": [
+            "**Answer:** `Shivani ko care home mein daily activities coordinate karna padtaa hai. — शिवानी को केयर होम में डेली एक्टिविटीज़ कोऑर्डिनेट करना पड़ता है।`"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Aapko weekend par kaam karna pasand nahi hai, lekin karna padtaa hai.**",
+          "children": [
+            "**Answer:** You don't like working on weekends, but you have to do it (external compulsion)."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Kya main abhi ghar jaa saktaa hoon?**",
+          "children": [
+            "**Answer:** May / Can I go home right now?"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Humein kal subah jaldi ready hona hai.**",
+          "children": [
+            "**Answer:** We have to get ready early tomorrow morning."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Yahaan loud music play karna manaa hai.**",
+          "children": [
+            "**Answer:** Playing loud music is prohibited here."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "markdown": "\n# 🌟Summary\n\nIs lesson mein hum teen important concepts seekhenge: **Obligation & Habitual Compulsion (*****Padtaa hai*****)**, **Strong Necessity / Personal Obligation (*****Infinitive + Hai / Padegaa*****)**, aur **Permission / Prohibition (*****Saknaa***** / *****Manaa hai*****)**. Tamil ke `-a vendum` ya `-a vendiyirukku` pattern ki tarah, Hindi mein bhi jab external compulsion ya daily routine obligation express karna hota hai, toh subject dative pronoun (`Mujhe`, `Aapko`, etc.) leta hai aur verb frame change ho jaata hai.\n\n| **Structure** | **Grammar Frame** | **Usage / Context** | **Tamil / Polyglot Anchor** |\n| --- | --- | --- | --- |\n| **Internal Obligation / Plan** | `Subject(Dative) + Verb(Inf) + Hai` | Simple \"have to / must\" (personal choice/plan) | Tamil: *Enakku poga vendum* |\n| **Habitual / External Compulsion** | `Subject(Dative) + Verb(Inf) + Padtaa hai` | Daily forced chore / \"no choice but to\" | Tamil: *Enakku poga vendiyirukku* |\n| **Future Compulsion** | `Subject(Dative) + Verb(Inf) + Padegaa` | \"Will have to\" (future obligation) | Tamil: *Poga vendiyirukkum* |\n| **Permission (Can / May)** | `Subject + Verb(Stem) + Saktaa hoon / Sakte hain` | Asking for / giving permission | \"May I / Can I\" |\n| **Prohibition** | `Verb(Inf) + Manaa hai` | Strict rule / \"Forbidden\" | Tamil: *Koodaathu* / Strict \"Not allowed\" |\n\n\n# 📘Lesson\n\n\n## 📌 1. Internal Obligation: `Mujhe [Verb]-naa Hai`\n\nJab aapko koi kaam simply karna hai (aapka plan ya personal obligation hai), toh subject hamesha dative pronoun (`Mujhe`, `Tumhe`, `Aapko`, `Use`) ban jaata hai.\n\n$$\\text{Subject (Dative)} + \\text{Infinitive Verb (-naa)} + \\text{Hai}$$\n\n* **Mujhe jaanaa hai.** (I have to go.)\n* **Mujhe Shivani se milnaa hai.** (I have to meet Shivani.)\n* **Aapko kab nikalnaa hai?** (When do you have to leave?)\n\n## 🔄 2. Habitual & External Compulsion: `Padtaa Hai` vs `Padegaa`\n\nAgar koi kaam aap apni marzi se nahi, balki routine, rule, ya majboori ki wajah se karte hain, toh `padtaa hai` use hota hai. Future compulsion ke liye `padegaa` use karte hain.\n\n$$\\text{Subject (Dative)} + \\text{Infinitive Verb (-naa)} + \\text{Padtaa hai / Padegaa}$$\n\n* **Mujhe daily 9 AM work start karna padtaa hai.** (I have to start work at 9 AM daily.)\n* **Use daily travel karna padtaa hai.** (He/She has to travel daily.)\n* **Kal mujhe extra time kaam karna padegaa.** (Tomorrow I will have to work overtime.)\n\n## 🚪 3. Permission & Polite Requests: `Kya main... saktaa hoon?`\n\nPermission maangne ke liye hum ability verb `saknaa` ko subjunctive ya polite present form mein use karte hain.\n\n$$\\text{Kya} + \\text{Subject} + \\text{Verb Stem} + \\text{Saktaa/Saktii hoon?}$$\n\n* **Kya main andar aa saktaa hoon?** (May / Can I come in?)\n* **Kya hum yahaan baith sakte hain?** (Can we sit here?)\n\n## 🚫 4. Prohibition & Rules: `[Verb]-naa Manaa Hai`\n\nKahin par koi rule ya strict ban batane ke liye infinitive verb ke saath `manaa hai` lagate hain.\n\n$$\\text{Infinitive Verb (-naa)} + \\text{Manaa hai}$$\n\n* **Yahaan photo lenaa manaa hai.** (Taking photos is prohibited here.)\n* **Andar aanaa manaa hai.** (Entering is not allowed.)\n\n# ❓Quiz\n\n\n### Concept & Grammar Questions\n\n<details><summary>`Mujhe kaam karna hai` aur `Mujhe kaam karna padtaa hai` mein core difference kya hai?</summary>\n\n* **Answer:** `Mujhe kaam karna hai` ek simple intention/personal obligation show karta hai (\"I have to work\"), jabki `Mujhe kaam karna padtaa hai` ek habitual/external compulsion show karta hai (\"I am forced / required by routine to work\").\n</details>\n\n<details><summary>Jab hum obligation express karte hain (`jaanaa hai` ya `padtaa hai`), toh subject pronoun `Main` se `Mujhe` kyun ban jaata hai?</summary>\n\n* **Answer:** Kyunki obligation structures dative subjects use karte hain, bilkul Tamil ke dative marker (*ukku*, jaise *Enakku vendum*) ki tarah.\n</details>\n\n<details><summary>Future compulsion express karne ke liye formula kya hoga?</summary>\n\n* **Answer:** `Subject (Dative) + Infinitive Verb (-naa) + Padegaa` (jaise *Mujhe train pakadna padegaa*).\n</details>\n\n<details><summary>Agar kisi public place par smoking strictly prohibited hai, toh aap Hinglish/Hindi mein rule kaise bolenge?</summary>\n\n* **Answer:** `Yahaan smoking karna manaa hai` (Infinitive verb + `manaa hai`).\n</details>\n\n\n### Translation Questions\n\n<details><summary>**I have to prepare for my UK trip.**</summary>\n\n* **Answer:** `Mujhe meri UK trip ke liye prepare karna hai. — मुझे मेरी यूके ट्रिप के लिए प्रिपेयर करना है।`\n</details>\n\n<details><summary>**Every day I have to attend morning team meetings.**</summary>\n\n* **Answer:** `Mujhe daily morning team meetings attend karna padtaa hai. — मुझे डेली मॉर्निंग टीम मीटिंग्स अटेंड करना पड़ता है।`\n</details>\n\n<details><summary>**Tomorrow we will have to leave early for the station.**</summary>\n\n* **Answer:** `Kal humein station ke liye jaldi nikalna padegaa. — कल हमें स्टेशन के लिए जल्दी निकलना पड़ेगा।`\n</details>\n\n<details><summary>**Can I ask you a question?**</summary>\n\n* **Answer:** `Kya main aapse ek question pooch saktaa hoon? — क्या मैं आपसे एक क्वेश्चन पूछ सकता हूँ?`\n</details>\n\n<details><summary>**Parking is not allowed here.**</summary>\n\n* **Answer:** `Yahaan car park karna manaa hai. — यहाँ कार पार्क करना मना है।`\n</details>\n\n<details><summary>**Shivani has to coordinate daily activities at the care home.**</summary>\n\n* **Answer:** `Shivani ko care home mein daily activities coordinate karna padtaa hai. — शिवानी को केयर होम में डेली एक्टिविटीज़ कोऑर्डिनेट करना पड़ता है।`\n</details>\n\n<details><summary>**Aapko weekend par kaam karna pasand nahi hai, lekin karna padtaa hai.**</summary>\n\n* **Answer:** You don't like working on weekends, but you have to do it (external compulsion).\n</details>\n\n<details><summary>**Kya main abhi ghar jaa saktaa hoon?**</summary>\n\n* **Answer:** May / Can I go home right now?\n</details>\n\n<details><summary>**Humein kal subah jaldi ready hona hai.**</summary>\n\n* **Answer:** We have to get ready early tomorrow morning.\n</details>\n\n<details><summary>**Yahaan loud music play karna manaa hai.**</summary>\n\n* **Answer:** Playing loud music is prohibited here.\n</details>\n\n\n"
+}

@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hindi Lessons & Anki Coverage Dashboard</title>
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="header-left">
+        <div class="header-icon">🇮🇳</div>
+        <div class="header-titles">
+          <h1>Hindi Lessons Dashboard</h1>
+          <p>Curriculum Progress, Anki Coverage & Readiness Gating</p>
+        </div>
+      </div>
+      <div class="header-controls">
+        <div class="sync-badge">
+          <span id="sync-dot" class="sync-dot"></span>
+          <span id="sync-label">Checking Anki...</span>
+        </div>
+        <button id="sync-curriculum-btn" class="btn btn-secondary" title="Check progress.json and update unlocked lessons">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+          Sync Lessons
+        </button>
+        <button id="refresh-btn" class="btn btn-secondary">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 4v6h-6M1 20v-6h6M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+          Sync Anki
+        </button>
+      </div>
+    </header>
+
+    <!-- Execution Mode Banner (Live Server vs. Static file://) -->
+    <div id="mode-banner" class="mode-banner live">
+      <div class="mode-banner-content">
+        <span id="mode-banner-icon" class="mode-pulse-dot"></span>
+        <span id="mode-banner-text"><b>Live Server Mode:</b> Connected to Python bridge (<code>run_dashboard.py</code>). Live Anki sync &amp; dynamic lesson tracking active. (Auto-terminates when tab closes).</span>
+      </div>
+      <span class="mode-badge" id="mode-badge-tag">⚡ Live Bridge</span>
+    </div>
+
+    <!-- Top View Navigation Bar -->
+    <nav class="top-nav">
+      <button class="nav-tab active" data-target="overview">
+        <span class="nav-icon">📚</span> Curriculum &amp; Lessons
+      </button>
+      <button class="nav-tab" data-target="lexicon">
+        <span class="nav-icon">🎯</span> High-ROI Lexicon Tracker
+        <span id="nav-lexicon-badge" class="nav-badge">--%</span>
+      </button>
+      <button class="nav-tab" data-target="general">
+        <span class="nav-icon">✨</span> General Phrases &amp; Sneak-Peeks
+      </button>
+    </nav>
+
+    <!-- Global Stats Overview -->
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-title">Total Flashcards</div>
+        <div id="stat-total-cards" class="stat-value">--</div>
+        <div class="stat-desc">Cards in Hindi deck</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-title">🟢 Mastered</div>
+        <div id="stat-mastered" class="stat-value" style="color: var(--status-mastered);">--</div>
+        <div class="stat-desc">Interval &ge; 14 days</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-title">🟡 Learning</div>
+        <div id="stat-learning" class="stat-value" style="color: var(--status-learning);">--</div>
+        <div class="stat-desc">Interval 1–13d or New</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-title">🔴 Struggling</div>
+        <div id="stat-struggling" class="stat-value" style="color: var(--status-struggling);">--</div>
+        <div class="stat-desc">Active lapse &amp; interval &lt; 7d</div>
+      </div>
+      <div class="stat-card stat-clickable" id="stat-card-lexicon" title="Click to view High-ROI Lexicon Tracker">
+        <div class="stat-title">🎯 High-ROI Vocab</div>
+        <div id="stat-lexicon" class="stat-value" style="color: #c084fc;">--</div>
+        <div id="stat-lexicon-desc" class="stat-desc">Core 200 anchors targeted</div>
+      </div>
+    </div>
+
+
+    <!-- VIEW 1: OVERVIEW -->
+    <div id="view-overview" class="view-container active">
+      <!-- Progression & Gating Alert Banner -->
+      <div id="progression-banner" class="progression-banner">
+        <div id="banner-icon" class="banner-icon">⚡</div>
+        <div class="banner-content">
+          <div id="banner-title" class="banner-title">Calculating Readiness...</div>
+          <div id="banner-desc" class="banner-desc">Evaluating prerequisite lessons and Anki card health.</div>
+        </div>
+      </div>
+
+      <!-- High-ROI Lexicon Snapshot Card -->
+      <div class="lexicon-overview-card" id="lexicon-overview-card">
+        <div class="lex-summary-left">
+          <div class="lex-icon">🎯</div>
+          <div>
+            <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+              <h2 style="font-size: 1.12rem; font-weight: 700; color: #fff;">High-ROI B1 Hinglish Lexicon (Core 200 Anchors)</h2>
+              <span id="lex-overview-badge" class="status-pill" style="background: rgba(168, 85, 247, 0.15); border-color: rgba(168, 85, 247, 0.4); color: #c084fc; font-weight: 700;">--% Targeted</span>
+            </div>
+            <p style="font-size: 0.86rem; color: var(--text-muted); margin-top: 4px;">Tracking flashcard coverage across top 50 verbs, 100 nouns, and 50 adjectives from the curriculum.</p>
+          </div>
+        </div>
+        <div class="lex-summary-bars">
+          <div class="lex-bar-item">
+            <div class="lex-bar-header">
+              <span class="lex-bar-title">Verbs</span>
+              <span id="lex-bar-verbs-val" class="lex-bar-count">--/50</span>
+            </div>
+            <div class="lex-progress-track"><div id="lex-bar-verbs" class="lex-progress-fill verbs" style="width: 0%"></div></div>
+          </div>
+          <div class="lex-bar-item">
+            <div class="lex-bar-header">
+              <span class="lex-bar-title">Nouns</span>
+              <span id="lex-bar-nouns-val" class="lex-bar-count">--/100</span>
+            </div>
+            <div class="lex-progress-track"><div id="lex-bar-nouns" class="lex-progress-fill nouns" style="width: 0%"></div></div>
+          </div>
+          <div class="lex-bar-item">
+            <div class="lex-bar-header">
+              <span class="lex-bar-title">Adjectives</span>
+              <span id="lex-bar-adjs-val" class="lex-bar-count">--/50</span>
+            </div>
+            <div class="lex-progress-track"><div id="lex-bar-adjs" class="lex-progress-fill adjs" style="width: 0%"></div></div>
+          </div>
+        </div>
+        <button id="open-lexicon-btn" class="btn btn-primary" style="align-self: center; white-space: nowrap; padding: 8px 16px;">
+          <span>Explore Lexicon Tracker →</span>
+        </button>
+      </div>
+
+      <!-- General & Extra Practice Section (Top Panel) -->
+      <div id="general-card-section" class="general-section">
+        <div class="general-header">
+          <div class="general-title-box">
+            <h2>✨ General & Extra Practice Hub</h2>
+            <p>Conversational phrases, idioms, and upcoming grammar sneak-peeks (Neutral gating)</p>
+          </div>
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <div id="peek-badges-container" class="peek-badges"></div>
+            <span id="general-card-count" class="status-pill" style="background: rgba(6, 182, 212, 0.15); border-color: rgba(6, 182, 212, 0.4); color: var(--accent-cyan); font-weight: 700;">-- cards</span>
+            <span style="color: var(--accent-cyan); font-size: 1.1rem;">→</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Curriculum Lessons List -->
+      <div id="curriculum-container"></div>
+    </div>
+
+    <!-- VIEW 2: LESSON DETAIL VIEW -->
+    <div id="view-lesson-detail" class="view-container">
+      <div class="back-bar">
+        <a href="#overview" class="btn btn-secondary">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          Back to Curriculum Overview
+        </a>
+      </div>
+
+      <div class="detail-header-card">
+        <div class="detail-title-row">
+          <div class="detail-title-left">
+            <span id="detail-code" class="lesson-code-box" style="font-size: 1.1rem; padding: 6px 12px;">--</span>
+            <h1 id="detail-title">--</h1>
+            <span id="detail-status-pill" class="status-pill">--</span>
+          </div>
+          <div style="display: flex; gap: 10px;">
+            <button id="detail-generate-cards-btn" class="btn btn-secondary" title="Generate novel flashcards for this lesson">
+              <span>✨ Generate Cards</span>
+            </button>
+            <a id="detail-notion-btn" href="#" target="_blank" class="btn btn-primary">
+              <span>Open in Notion ↗</span>
+            </a>
+          </div>
+        </div>
+        <div id="detail-level" style="font-size: 0.88rem; color: var(--text-muted); font-weight: 500;">--</div>
+
+        <!-- Executive Summary Box -->
+        <div class="summary-box">
+          <h3>Lesson Summary & Core Rules</h3>
+          <ul id="detail-summary-list"></ul>
+        </div>
+      </div>
+
+      <!-- Filter & Search Bar -->
+      <div class="filter-bar">
+        <div class="filter-tabs">
+          <button class="filter-tab active" data-filter="all">All Cards</button>
+          <button class="filter-tab" data-filter="mastered">🟢 Mastered</button>
+          <button class="filter-tab" data-filter="learning">🟡 Learning</button>
+          <button class="filter-tab" data-filter="struggling">🔴 Struggling</button>
+        </div>
+        <input type="text" class="search-input" placeholder="Search cards in this lesson...">
+      </div>
+
+      <!-- Cards Grid -->
+      <div id="detail-card-grid" class="card-grid"></div>
+    </div>
+
+    <!-- VIEW 3: GENERAL CARDS VIEW -->
+    <div id="view-general" class="view-container">
+      <div class="back-bar">
+        <a href="#overview" class="btn btn-secondary">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          Back to Curriculum Overview
+        </a>
+      </div>
+
+      <div class="detail-header-card">
+        <div class="detail-title-row">
+          <div class="detail-title-left">
+            <span class="lesson-code-box" style="font-size: 1.1rem; padding: 6px 12px; color: var(--accent-cyan);">GENERAL</span>
+            <h1>General Phrases & Sneak-Peeks</h1>
+            <span id="general-total-count" class="status-pill" style="background: rgba(6, 182, 212, 0.15); border-color: rgba(6, 182, 212, 0.4); color: var(--accent-cyan);">-- cards</span>
+          </div>
+        </div>
+        <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 8px;">
+          These cards cover natural conversational Hindi, lifestyle expressions, and preview phrases from future curriculum modules. They do not affect your lesson gating status. Once a future lesson unlocks, its cards automatically move to that lesson's dedicated page!
+        </p>
+      </div>
+
+      <!-- Filter & Search Bar -->
+      <div class="filter-bar">
+        <div class="filter-tabs">
+          <button class="filter-tab active" data-filter="all">All Cards</button>
+          <button class="filter-tab" data-filter="mastered">🟢 Mastered</button>
+          <button class="filter-tab" data-filter="learning">🟡 Learning</button>
+          <button class="filter-tab" data-filter="struggling">🔴 Struggling</button>
+        </div>
+        <input type="text" class="search-input" placeholder="Search general phrases...">
+      </div>
+
+      <!-- General Cards Grid -->
+      <div id="general-card-grid" class="card-grid"></div>
+    </div>
+
+    <!-- VIEW 4: HIGH-ROI LEXICON VIEW -->
+    <div id="view-lexicon" class="view-container">
+      <div class="back-bar">
+        <a href="#overview" class="btn btn-secondary">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          Back to Curriculum Overview
+        </a>
+      </div>
+
+      <div class="detail-header-card">
+        <div class="detail-title-row">
+          <div class="detail-title-left">
+            <span class="lesson-code-box" style="font-size: 1.1rem; padding: 6px 12px; color: #c084fc;">LEXICON</span>
+            <h1>High-ROI B1 Hinglish Lexicon (Core 200 Anchors)</h1>
+            <span id="lexicon-total-count" class="status-pill" style="background: rgba(168, 85, 247, 0.15); border-color: rgba(168, 85, 247, 0.4); color: #c084fc; font-weight: 700;">200 Anchors</span>
+          </div>
+        </div>
+        <p style="font-size: 0.92rem; color: var(--text-muted); margin-top: 8px;">
+          Curated top 50 verbs, 100 nouns, and 50 adjectives from the curriculum. These represent the fundamental words that fluent urban speakers instinctively express in Hindi rather than English loanwords. Click any word or badge to inspect which cards in your deck practice it!
+        </p>
+
+        <!-- Lexicon Metrics Cards -->
+        <div class="lexicon-metrics-grid">
+          <div class="lex-metric-card">
+            <div class="lex-metric-title">Overall Coverage</div>
+            <div id="metric-lex-overall" class="lex-metric-val">--%</div>
+            <div id="metric-lex-overall-sub" class="lex-metric-sub">-- of 200 targeted</div>
+          </div>
+          <div class="lex-metric-card">
+            <div class="lex-metric-title">Top 50 Verbs</div>
+            <div id="metric-lex-verbs" class="lex-metric-val" style="color: var(--accent-cyan);">--%</div>
+            <div id="metric-lex-verbs-sub" class="lex-metric-sub">--/50 targeted</div>
+          </div>
+          <div class="lex-metric-card">
+            <div class="lex-metric-title">Top 100 Nouns</div>
+            <div id="metric-lex-nouns" class="lex-metric-val" style="color: var(--status-learning);">--%</div>
+            <div id="metric-lex-nouns-sub" class="lex-metric-sub">--/100 targeted</div>
+          </div>
+          <div class="lex-metric-card">
+            <div class="lex-metric-title">Top 50 Adjectives</div>
+            <div id="metric-lex-adjs" class="lex-metric-val" style="color: var(--status-mastered);">--%</div>
+            <div id="metric-lex-adjs-sub" class="lex-metric-sub">--/50 targeted</div>
+          </div>
+          <div class="lex-metric-card">
+            <div class="lex-metric-title">Untargeted Queue</div>
+            <div id="metric-lex-untargeted" class="lex-metric-val" style="color: var(--status-struggling);">--</div>
+            <div class="lex-metric-sub">Words with 0 cards</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Filter & Search Bar -->
+      <div class="filter-bar">
+        <div class="filter-tabs" id="lexicon-cat-tabs">
+          <button class="filter-tab active" data-cat="all">All (200)</button>
+          <button class="filter-tab" data-cat="verbs">Verbs (50)</button>
+          <button class="filter-tab" data-cat="nouns">Nouns (100)</button>
+          <button class="filter-tab" data-cat="adjectives">Adjectives (50)</button>
+        </div>
+        <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+          <select id="lexicon-coverage-filter" class="search-input" style="width: auto; padding: 6px 12px; cursor: pointer; background: var(--bg-card);">
+            <option value="all">All Coverage</option>
+            <option value="untargeted">⚪ Untargeted (0 cards)</option>
+            <option value="low">🟡 Low Coverage (1–2 cards)</option>
+            <option value="covered">🟢 Well Covered (3+ cards)</option>
+          </select>
+          <input type="text" id="lexicon-search-input" class="search-input" placeholder="Search Hindi word, diacritics, or English meaning...">
+        </div>
+      </div>
+
+      <!-- Lexicon Table Container -->
+      <div class="lexicon-table-container">
+        <table class="lexicon-table">
+          <thead>
+            <tr>
+              <th style="width: 50px;">#</th>
+              <th style="width: 170px;">Word &amp; Diacritics</th>
+              <th style="width: 100px;">Category</th>
+              <th>English Meaning</th>
+              <th>Collocation / Sample Context</th>
+              <th style="width: 130px; text-align: center;">Deck Coverage</th>
+              <th style="width: 110px; text-align: right;">Action</th>
+            </tr>
+          </thead>
+          <tbody id="lexicon-table-body">
+            <!-- Dynamic rows rendered by JS -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lexicon Matched Cards Modal -->
+  <div id="lexicon-cards-modal" class="modal-backdrop" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-title-group" style="width: 100%;">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; width: 100%; gap: 12px;">
+            <h2 id="lex-modal-title" style="flex: 1; font-size: 1.3rem; font-weight: 700; color: #fff; line-height: 1.3;">Matched Deck Cards</h2>
+            <button id="lex-modal-close-btn" class="modal-close-btn" aria-label="Close modal">&times;</button>
+          </div>
+          <p id="lex-modal-subtitle">Showing all cards in your Anki deck practicing this vocabulary anchor.</p>
+        </div>
+      </div>
+      <div id="lex-modal-card-list" class="modal-card-list">
+        <!-- Dynamically rendered card items -->
+      </div>
+      <div class="modal-footer">
+        <button id="lex-modal-cancel-btn" class="btn btn-secondary">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card Generation & Approval Modal -->
+  <div id="card-gen-modal" class="modal-backdrop" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-title-group" style="width: 100%;">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; width: 100%; gap: 12px;">
+            <h2 id="modal-title" style="flex: 1; font-size: 1.3rem; font-weight: 700; color: #fff; line-height: 1.3;">✨ Generate Anki Cards</h2>
+            <button id="modal-close-btn" class="modal-close-btn" aria-label="Close modal">&times;</button>
+          </div>
+          <p id="modal-subtitle">Review generated cards below. Click 'Add' on individual cards or 'Add All' to push them straight into your Anki queue.</p>
+        </div>
+      </div>
+
+      <div class="modal-toolbar">
+        <div class="modal-stats">
+          <span id="modal-baseline-status" class="modal-baseline-badge">Calculating baseline status...</span>
+          <span class="novelty-tag">✓ 0% Deck Duplicate Collisions</span>
+          <button id="modal-gemini-config-btn" type="button" class="ai-badge" style="cursor: pointer; background: rgba(168, 85, 247, 0.15); border: 1px solid rgba(168, 85, 247, 0.4); color: #c084fc; font-size: 0.78rem; font-weight: 600; padding: 4px 10px; border-radius: 9999px; display: inline-flex; align-items: center; gap: 4px;" title="Click to view or update Gemini API Key">⚡ Gemini AI Active</button>
+        </div>
+        <div class="modal-bulk-actions">
+          <button id="modal-add-all-btn" class="btn btn-sm btn-primary">➕ Add All to Anki</button>
+          <button id="modal-regen-all-btn" class="btn btn-sm btn-secondary">↻ Regenerate All</button>
+        </div>
+      </div>
+
+      <div id="modal-card-list" class="modal-card-list">
+        <!-- Dynamically rendered candidate cards -->
+      </div>
+
+      <div class="modal-footer">
+        <button id="modal-cancel-btn" class="btn btn-secondary">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast">Action completed</div>
+
+  <!-- Static Data Scripts for instant offline / file:/// support -->
+  <script src="data/curriculum_data.js"></script>
+  <script src="data/snapshot_data.js"></script>
+  <script src="data/high_roi_lexicon_data.js"></script>
+  <script src="data/generated_card_candidates.js"></script>
+
+  <!-- Dashboard Application Script (Classic, CORS-free) -->
+  <script src="js/dashboard.js"></script>
+</body>
+</html>

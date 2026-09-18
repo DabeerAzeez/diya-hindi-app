@@ -1,0 +1,217 @@
+{
+  "id": "6acc6328-af29-42ee-b0f1-39998b1b2fd1",
+  "code": "A2-07",
+  "title": "Lesson A2-07: The Subjunctive Mood, Permissions & Hypothetical Situations",
+  "slug": "lesson_a2-07__the_subjunctive_mood_permissions_hypothetical_situations",
+  "sections": [
+    {
+      "title": "🌟Summary",
+      "type": "heading_1",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Subjunctive mood language mein uncertainty, suggestions, polite offers, aur hypothetical wishes express karne ke liye use hotaa hai. Is lesson mein hum *'Main bolūn?'*, *'Kyaa hum chalein?'* se lekar *'Kaash aisaa hotaa!'* tak master karenge."
+        }
+      ]
+    },
+    {
+      "title": "🧠 Polyglot Structural Anchors",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "bullet",
+          "text": "**Romance Subjunctive Roots:**",
+          "children": []
+        },
+        {
+          "type": "paragraph",
+          "text": "French (*Que je parle / Qu'on aille*) aur Spanish (*Que hablemos / Ojalá*) subjunctive Hindi optative suffixes (*-oon, -e, -ein*) se exact match karte hain."
+        },
+        {
+          "type": "bullet",
+          "text": "**Tamil Suggestive Suffixes:**",
+          "children": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Tamil *-laamaa* (jaise *Polaamaa?* = Shall we go?) Hindi subjunctive *Chalein?* ke identical hai."
+        }
+      ]
+    },
+    {
+      "title": "📐 Core Mathematical Formulas",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Suggestive Question}: \\text{Main / Hum} + \\text{Verb Stem} + [-\\bar{u}\\text{n} / -\\text{ein}]?$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Hypothetical / Wish}: \\text{Kaash} + \\text{Subject} + \\text{Verb Stem} + \\text{taa / te / tii}$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Unreal Condition}: \\text{Agar} + [\\text{Past Habitual}] \\dots \\text{Toh} + [\\text{Past Habitual}]$$"
+        }
+      ]
+    },
+    {
+      "title": "📘Lesson",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "🙋 1. Polite Offers & Suggestive Questions",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Future endings *-ūngaa / -enge* se assertive commitment banta hai, lekin subjunctive *-oon / -ein* se polite collaborative suggestion banta hai:"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Main order karūn?* (Shall I order? / Should I place the order?)"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Kyaa hum chalein?* (Shall we leave now?)"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Main Shivani ko phone lagaoon?* (Should I call Shivani?)"
+        }
+      ]
+    },
+    {
+      "title": "🌟 2. Wishes & Regrets with 'Kaash'",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Jab aap wish karte hain ki situation different hotii, toh **Kaash** + past habitual stem lagta hai:"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Kaash hum har weekend mil sakte!* (I wish we could meet every weekend!)"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Kaash mere paas thodaa aur time hotaa.* (I wish I had a bit more time.)"
+        }
+      ]
+    },
+    {
+      "title": "💭 3. Counterfactual Unreal Conditionals",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Agar past hypothetical situation discuss karni ho:"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Agar main Norwich mein hotaa, toh hum weekly jam sessions karte.* (If I were in Norwich, we would do weekly jam sessions.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Agar weather achhaa hotaa, toh hum garden mein baithte.*"
+        }
+      ]
+    },
+    {
+      "title": "🎭 Dialogue Example",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "**Shivani:** *\"Table ready hai! Kyaa main dono ke liye drinks order karūn?\"*"
+        },
+        {
+          "type": "paragraph",
+          "text": "**You:** *\"Haan zaroor! Aur agar pub food achhaa ho, toh kuch snacks bhi mangwaa lete hain.\"*"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Shivani:** *\"Kaash humaare baaki university friends bhi yahaan aa sakte!\"*"
+        },
+        {
+          "type": "paragraph",
+          "text": "**You:** *\"Sahi baat hai yaar! Agar vo sab yahaan hote, toh poora improv troupe recreate ho jaataa.\"*"
+        }
+      ]
+    },
+    {
+      "title": "❓Quiz",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "Concept & Grammar Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "numbered",
+          "text": "**'Kyaa hum chalenge?' aur 'Kyaa hum chalein?' mein tone kaa kyaa difference hai?**",
+          "children": [
+            "**Answer:** *'Kyaa hum chalenge?'* future tense mein factual inquiry hai (\"Will we be going?\"), jabki *'Kyaa hum chalein?'* subjunctive mood mein polite, collaborative invitation hai (\"Shall we head out now?\")."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**'Kaash' clauses mein verb ka kaun sa aspect use hota hai?**",
+          "children": [
+            "**Answer:** *Kaash* clauses mein tense auxiliary (*thaa/thee*) drop ho jaati hai aur verb bare habitual participle (*-taa, -tee, -te*) par end hotii hai (*Kaash main vahaan hotaa*)."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Translation Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "numbered",
+          "text": "**Shall I book our return train tickets now? (informal, m)**",
+          "children": [
+            "**Answer:** `Kyaa main abhi humaari return train tickets book karoon?` — क्या मैं अभी हमारी रिटर्न ट्रेन टिकट्स बुक करूँ?",
+            "[Kyaa main + abhi (now) + humaari return train tickets + book karoon (shall I book [subjunctive])?]."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**I wish I had more free time for piano practice this month. (informal, m)**",
+          "children": [
+            "**Answer:** `Kaash is maheene mere paas piano practice ke liye thodaa aur time hotaa.` — काश इस महीने मेरे पास पियानो प्रैक्टिस के लिए थोड़ा और टाइम होता।",
+            "[Kaash + is maheene (this month) + mere paas + piano practice ke liye + thodaa aur time hotaa]."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**If you lived in Toronto, we would attend live improv shows together. (casual)**",
+          "children": [
+            "**Answer:** `Agar tum Toronto mein rahtii, toh hum saath mein live improv shows dekhne jaate.` — अगर तुम टोरंटो में रहती, तो हम साथ में लाइव इम्प्रोव शोज़ देखने जाते।",
+            "[Agar tum Toronto mein rahtii + toh hum saath mein + live improv shows dekhne jaate]."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**Should we wait for ten minutes or leave right away? (polite)**",
+          "children": [
+            "**Answer:** `Kyaa hum das minutes wait karein ya abhi nikal chalein?` — क्या हम दस मिनट्स वेट करें या अभी निकल चलें?",
+            "[Kyaa hum das minutes wait karein + ya abhi nikal chalein?]."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**May you always succeed in your new career path! (blessing/wish)**",
+          "children": [
+            "**Answer:** `Aap apne naye career path mein hamesha successful hon!` — आप अपने नए करियर पाथ में हमेशा सक्सेसफुल हों!",
+            "[Aap apne naye career path mein + hamesha successful hon!]."
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": "# Lesson A2-07: The Subjunctive Mood, Permissions & Hypothetical Situations\n\n# 🌟Summary\n\nSubjunctive mood language mein uncertainty, suggestions, polite offers, aur hypothetical wishes express karne ke liye use hotaa hai. Is lesson mein hum *'Main bolūn?'*, *'Kyaa hum chalein?'* se lekar *'Kaash aisaa hotaa!'* tak master karenge.\n\n### 🧠 Polyglot Structural Anchors\n\n* **Romance Subjunctive Roots:**\nFrench (*Que je parle / Qu'on aille*) aur Spanish (*Que hablemos / Ojalá*) subjunctive Hindi optative suffixes (*-oon, -e, -ein*) se exact match karte hain.\n\n* **Tamil Suggestive Suffixes:**\nTamil *-laamaa* (jaise *Polaamaa?* = Shall we go?) Hindi subjunctive *Chalein?* ke identical hai.\n\n### 📐 Core Mathematical Formulas\n\n$$\\text{Suggestive Question}: \\text{Main / Hum} + \\text{Verb Stem} + [-\\bar{u}\\text{n} / -\\text{ein}]?$$\n\n$$\\text{Hypothetical / Wish}: \\text{Kaash} + \\text{Subject} + \\text{Verb Stem} + \\text{taa / te / tii}$$\n\n$$\\text{Unreal Condition}: \\text{Agar} + [\\text{Past Habitual}] \\dots \\text{Toh} + [\\text{Past Habitual}]$$\n\n---\n\n# 📘Lesson\n\n## 🙋 1. Polite Offers & Suggestive Questions\n\nFuture endings *-ūngaa / -enge* se assertive commitment banta hai, lekin subjunctive *-oon / -ein* se polite collaborative suggestion banta hai:\n\n* *Main order karūn?* (Shall I order? / Should I place the order?)\n\n* *Kyaa hum chalein?* (Shall we leave now?)\n\n* *Main Shivani ko phone lagaoon?* (Should I call Shivani?)\n\n## 🌟 2. Wishes & Regrets with 'Kaash'\n\nJab aap wish karte hain ki situation different hotii, toh **Kaash** + past habitual stem lagta hai:\n\n* *Kaash hum har weekend mil sakte!* (I wish we could meet every weekend!)\n\n* *Kaash mere paas thodaa aur time hotaa.* (I wish I had a bit more time.)\n\n## 💭 3. Counterfactual Unreal Conditionals\n\nAgar past hypothetical situation discuss karni ho:\n\n* *Agar main Norwich mein hotaa, toh hum weekly jam sessions karte.* (If I were in Norwich, we would do weekly jam sessions.)\n\n* *Agar weather achhaa hotaa, toh hum garden mein baithte.*\n\n---\n\n## 🎭 Dialogue Example\n\n* **Shivani:** *\"Table ready hai! Kyaa main dono ke liye drinks order karūn?\"*\n* **You:** *\"Haan zaroor! Aur agar pub food achhaa ho, toh kuch snacks bhi mangwaa lete hain.\"*\n* **Shivani:** *\"Kaash humaare baaki university friends bhi yahaan aa sakte!\"*\n* **You:** *\"Sahi baat hai yaar! Agar vo sab yahaan hote, toh poora improv troupe recreate ho jaataa.\"*\n\n---\n\n# ❓Quiz\n\n### Concept & Grammar Questions\n\n1. **'Kyaa hum chalenge?' aur 'Kyaa hum chalein?' mein tone kaa kyaa difference hai?**\n    * **Answer:** *'Kyaa hum chalenge?'* future tense mein factual inquiry hai (\"Will we be going?\"), jabki *'Kyaa hum chalein?'* subjunctive mood mein polite, collaborative invitation hai (\"Shall we head out now?\").\n1. **'Kaash' clauses mein verb ka kaun sa aspect use hota hai?**\n    * **Answer:** *Kaash* clauses mein tense auxiliary (*thaa/thee*) drop ho jaati hai aur verb bare habitual participle (*-taa, -tee, -te*) par end hotii hai (*Kaash main vahaan hotaa*).\n\n---\n\n### Translation Questions\n\n1. **Shall I book our return train tickets now? (informal, m)**\n    * **Answer:** `Kyaa main abhi humaari return train tickets book karoon?` — क्या मैं अभी हमारी रिटर्न ट्रेन टिकट्स बुक करूँ?\n    * [Kyaa main + abhi (now) + humaari return train tickets + book karoon (shall I book [subjunctive])?].\n1. **I wish I had more free time for piano practice this month. (informal, m)**\n    * **Answer:** `Kaash is maheene mere paas piano practice ke liye thodaa aur time hotaa.` — काश इस महीने मेरे पास पियानो प्रैक्टिस के लिए थोड़ा और टाइम होता।\n    * [Kaash + is maheene (this month) + mere paas + piano practice ke liye + thodaa aur time hotaa].\n1. **If you lived in Toronto, we would attend live improv shows together. (casual)**\n    * **Answer:** `Agar tum Toronto mein rahtii, toh hum saath mein live improv shows dekhne jaate.` — अगर तुम टोरंटो में रहती, तो हम साथ में लाइव इम्प्रोव शोज़ देखने जाते।\n    * [Agar tum Toronto mein rahtii + toh hum saath mein + live improv shows dekhne jaate].\n1. **Should we wait for ten minutes or leave right away? (polite)**\n    * **Answer:** `Kyaa hum das minutes wait karein ya abhi nikal chalein?` — क्या हम दस मिनट्स वेट करें या अभी निकल चलें?\n    * [Kyaa hum das minutes wait karein + ya abhi nikal chalein?].\n1. **May you always succeed in your new career path! (blessing/wish)**\n    * **Answer:** `Aap apne naye career path mein hamesha successful hon!` — आप अपने नए करियर पाथ में हमेशा सक्सेसफुल हों!\n    * [Aap apne naye career path mein + hamesha successful hon!]."
+}

@@ -1,0 +1,3690 @@
+[
+  {
+    "cardId": 1785379515772,
+    "noteId": 1785379515772,
+    "front": "Hello! How are you doing today? ( formal, m )",
+    "hindi": "Namaste! Aaj aap kaise hain?",
+    "lesson": "A0-01",
+    "all_matched": [
+      "A0-01"
+    ],
+    "target_focus": "Foundational 'To Be' verb (hoon/hai/ho/hain)",
+    "tags": [
+      "lesson::A0-01"
+    ],
+    "interval": 21,
+    "reps": 9,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2600
+  },
+  {
+    "cardId": 1785379515773,
+    "noteId": 1785379515773,
+    "front": "Everything is going great on my side.",
+    "hindi": "Mere side par sab badhiya hai.",
+    "lesson": "A1-02",
+    "all_matched": [
+      "A1-02",
+      "A0-01"
+    ],
+    "target_focus": "Possessive pronouns & relationships (meraa, aapkaa, etc.)",
+    "tags": [
+      "lesson::A1-02"
+    ],
+    "interval": 71,
+    "reps": 7,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2800
+  },
+  {
+    "cardId": 1785379515774,
+    "noteId": 1785379515774,
+    "front": "I live in Toronto right now.",
+    "hindi": "(Main) abhi Toronto me rahta hoon.",
+    "lesson": "A0-02",
+    "all_matched": [
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Present Continuous (-rahaa hoon) or Present Habitual (-taa hoon)",
+    "tags": [
+      "lesson::A0-02"
+    ],
+    "interval": 50,
+    "reps": 5,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2650
+  },
+  {
+    "cardId": 1785454571707,
+    "noteId": 1785454571707,
+    "front": "No. I don't understand English. ( m)",
+    "hindi": "Ji nahi, main angrezi nahi samajhta hoon.",
+    "lesson": "A0-02",
+    "all_matched": [
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Present Continuous (-rahaa hoon) or Present Habitual (-taa hoon)",
+    "tags": [
+      "lesson::A0-02"
+    ],
+    "interval": 59,
+    "reps": 8,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2650
+  },
+  {
+    "cardId": 1785454571708,
+    "noteId": 1785454571708,
+    "front": "I understand a little Hindi.",
+    "hindi": "Main thodi thodi hindi samajhta hoon.",
+    "lesson": "A0-02",
+    "all_matched": [
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Present Continuous (-rahaa hoon) or Present Habitual (-taa hoon)",
+    "tags": [
+      "lesson::A0-02"
+    ],
+    "interval": 27,
+    "reps": 4,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1785454571709,
+    "noteId": 1785454571709,
+    "front": "Are you American?",
+    "hindi": "Kya aap amriki hain?",
+    "lesson": "A0-01",
+    "all_matched": [
+      "A0-01"
+    ],
+    "target_focus": "Foundational 'To Be' verb (hoon/hai/ho/hain)",
+    "tags": [
+      "lesson::A0-01"
+    ],
+    "interval": 33,
+    "reps": 4,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2800
+  },
+  {
+    "cardId": 1785454571710,
+    "noteId": 1785454571710,
+    "front": "Yes.",
+    "hindi": "Ji haan.",
+    "lesson": "general",
+    "all_matched": [
+      "general"
+    ],
+    "target_focus": "General conversational phrase or idiom",
+    "tags": [
+      "lesson::general"
+    ],
+    "interval": 94,
+    "reps": 5,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2800
+  },
+  {
+    "cardId": 1785455281065,
+    "noteId": 1785455281065,
+    "front": "Today I am a bit busy with work.",
+    "hindi": "Aaj main work ke saath thoda busy hoon.",
+    "lesson": "A0-03",
+    "all_matched": [
+      "A0-03",
+      "A0-01"
+    ],
+    "target_focus": "Relational postpositions & connectors (ke saath, ke paas, ke liye, isliye)",
+    "tags": [
+      "lesson::A0-03"
+    ],
+    "interval": 53,
+    "reps": 6,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2650
+  },
+  {
+    "cardId": 1785455281066,
+    "noteId": 1785455281066,
+    "front": "By the way, what are you up to? (informal, f)",
+    "hindi": "Vaise, tum kya kar rahi ho?",
+    "lesson": "A0-03",
+    "all_matched": [
+      "A0-03",
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Relational postpositions & connectors (ke saath, ke paas, ke liye, isliye)",
+    "tags": [
+      "lesson::A0-03"
+    ],
+    "interval": 63,
+    "reps": 13,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2750
+  },
+  {
+    "cardId": 1785455281067,
+    "noteId": 1785455281067,
+    "front": "I am working at my office desk right now.",
+    "hindi": "Main abhi apne office desk par kaam kar raha hoon.",
+    "lesson": "A0-05",
+    "all_matched": [
+      "A0-05",
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "The Oblique Shift (infinitive + postposition: -ne ke liye / baad)",
+    "tags": [
+      "lesson::A0-05"
+    ],
+    "interval": 64,
+    "reps": 12,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2600
+  },
+  {
+    "cardId": 1785455281068,
+    "noteId": 1785455281068,
+    "front": "I work in the AI field.",
+    "hindi": "Main AI field me kaam karta hoon.",
+    "lesson": "A0-02",
+    "all_matched": [
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Present Continuous (-rahaa hoon) or Present Habitual (-taa hoon)",
+    "tags": [
+      "lesson::A0-02"
+    ],
+    "interval": 35,
+    "reps": 10,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2350
+  },
+  {
+    "cardId": 1785455281069,
+    "noteId": 1785455281069,
+    "front": "Are you free this weekend? (casual)",
+    "hindi": "Kya tum is weekend free ho?",
+    "lesson": "A0-01",
+    "all_matched": [
+      "A0-01"
+    ],
+    "target_focus": "Foundational 'To Be' verb (hoon/hai/ho/hain)",
+    "tags": [
+      "lesson::A0-01"
+    ],
+    "interval": 42,
+    "reps": 8,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2650
+  },
+  {
+    "cardId": 1785455281070,
+    "noteId": 1785455281070,
+    "front": "Actually, I am ready to leave.",
+    "hindi": "Vaise, main nikalne ke liye ready hoon.",
+    "lesson": "A0-05",
+    "all_matched": [
+      "A0-05",
+      "A0-03",
+      "A0-01"
+    ],
+    "target_focus": "The Oblique Shift (infinitive + postposition: -ne ke liye / baad)",
+    "tags": [
+      "lesson::A0-05"
+    ],
+    "interval": 35,
+    "reps": 10,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1785455281071,
+    "noteId": 1785455281071,
+    "front": "No worries, everything will be fine.",
+    "hindi": "Tension mat lo, sab theek ho jayega.",
+    "lesson": "A1-01",
+    "all_matched": [
+      "A1-01",
+      "A0-08",
+      "A0-01"
+    ],
+    "target_focus": "Imperatives & Giving directions (kijiye/karo/mat/directions)",
+    "tags": [
+      "lesson::A1-01"
+    ],
+    "interval": 25,
+    "reps": 7,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2450
+  },
+  {
+    "cardId": 1785455281072,
+    "noteId": 1785455281072,
+    "front": "I practice playing the guitar every evening.",
+    "hindi": "Main har evening guitar practice karta hoon.",
+    "lesson": "A0-02",
+    "all_matched": [
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Present Continuous (-rahaa hoon) or Present Habitual (-taa hoon)",
+    "tags": [
+      "lesson::A0-02"
+    ],
+    "interval": 51,
+    "reps": 10,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1785455281073,
+    "noteId": 1785455281073,
+    "front": "I am learning a new song on the piano right now.",
+    "hindi": "Main abhi piano par ek naya song seekh raha hoon.",
+    "lesson": "A0-02",
+    "all_matched": [
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Present Continuous (-rahaa hoon) or Present Habitual (-taa hoon)",
+    "tags": [
+      "lesson::A0-02"
+    ],
+    "interval": 43,
+    "reps": 9,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2650
+  },
+  {
+    "cardId": 1785455281074,
+    "noteId": 1785455281074,
+    "front": "I play video games with friends on weekends.",
+    "hindi": "Main weekends par friends ke saath video games khelta hoon.",
+    "lesson": "A0-03",
+    "all_matched": [
+      "A0-03",
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Relational postpositions & connectors (ke saath, ke paas, ke liye, isliye)",
+    "tags": [
+      "lesson::A0-03"
+    ],
+    "interval": 55,
+    "reps": 8,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2650
+  },
+  {
+    "cardId": 1785455281075,
+    "noteId": 1785455281075,
+    "front": "What kind of music do you listen to? ( informal )",
+    "hindi": "Tum kis type ka music sunte ho?",
+    "lesson": "A0-02",
+    "all_matched": [
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Present Continuous (-rahaa hoon) or Present Habitual (-taa hoon)",
+    "tags": [
+      "lesson::A0-02"
+    ],
+    "interval": 51,
+    "reps": 10,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2650
+  },
+  {
+    "cardId": 1785455281076,
+    "noteId": 1785455281076,
+    "front": "I like spending time outdoors in Toronto.",
+    "hindi": "Mujhe Toronto me bahar time spend karna pasand hai.",
+    "lesson": "A0-04",
+    "all_matched": [
+      "A0-04",
+      "A0-01"
+    ],
+    "target_focus": "Can & Want (saktaa, chaahtaa, chaahiye, pasand)",
+    "tags": [
+      "lesson::A0-04"
+    ],
+    "interval": 35,
+    "reps": 15,
+    "lapses": 2,
+    "queue": 2,
+    "factor": 2100
+  },
+  {
+    "cardId": 1785455281077,
+    "noteId": 1785455281077,
+    "front": "I am working on a software coding project.",
+    "hindi": "Main ek software coding project par kaam kar raha hoon.",
+    "lesson": "A0-02",
+    "all_matched": [
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Present Continuous (-rahaa hoon) or Present Habitual (-taa hoon)",
+    "tags": [
+      "lesson::A0-02"
+    ],
+    "interval": 48,
+    "reps": 6,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2650
+  },
+  {
+    "cardId": 1785455281078,
+    "noteId": 1785455281078,
+    "front": "I usually get free from work around (1-10) PM.",
+    "hindi": "Main usually (ek/do/teen/char/panch/cheh/saat/aath/nau/das) PM ke paas work se free hota hoon.",
+    "lesson": "A0-03",
+    "all_matched": [
+      "A0-03",
+      "A0-01"
+    ],
+    "target_focus": "Relational postpositions & connectors (ke saath, ke paas, ke liye, isliye)",
+    "tags": [
+      "lesson::A0-03"
+    ],
+    "interval": 30,
+    "reps": 14,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2150
+  },
+  {
+    "cardId": 1785455281079,
+    "noteId": 1785455281079,
+    "front": "Are you watching any good show these days? (informal, m)",
+    "hindi": "Kya tum aajkal koi accha show dekh rahe ho?",
+    "lesson": "A0-02",
+    "all_matched": [
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Present Continuous (-rahaa hoon) or Present Habitual (-taa hoon)",
+    "tags": [
+      "lesson::A0-02"
+    ],
+    "interval": 27,
+    "reps": 10,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1785455281080,
+    "noteId": 1785455281080,
+    "front": "I am learning Hindi because I want to chat with my friends.",
+    "hindi": "Main Hindi seekh raha hoon kyunki main apne friends ke saath chat karna chahta hoon.",
+    "lesson": "A0-05",
+    "all_matched": [
+      "A0-05",
+      "A0-04",
+      "A0-03",
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "The Oblique Shift (infinitive + postposition: -ne ke liye / baad)",
+    "tags": [
+      "lesson::A0-05"
+    ],
+    "interval": 16,
+    "reps": 14,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1785455281081,
+    "noteId": 1785455281081,
+    "front": "That sounds like a great plan!",
+    "hindi": "Ye toh bahut achha plan lag raha hai!",
+    "lesson": "A0-02",
+    "all_matched": [
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Present Continuous (-rahaa hoon) or Present Habitual (-taa hoon)",
+    "tags": [
+      "lesson::A0-02"
+    ],
+    "interval": 32,
+    "reps": 10,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2650
+  },
+  {
+    "cardId": 1785455281082,
+    "noteId": 1785455281082,
+    "front": "I want to visit Norwich this October.",
+    "hindi": "Main is October Norwich visit karna chahta hoon.",
+    "lesson": "A0-04",
+    "all_matched": [
+      "A0-04",
+      "A0-01"
+    ],
+    "target_focus": "Can & Want (saktaa, chaahtaa, chaahiye, pasand)",
+    "tags": [
+      "lesson::A0-04"
+    ],
+    "interval": 35,
+    "reps": 7,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2450
+  },
+  {
+    "cardId": 1785455281083,
+    "noteId": 1785455281083,
+    "front": "I need some coffee before starting work.",
+    "hindi": "Mujhe work start karne se pehle thodi coffee chahiye.",
+    "lesson": "A0-05",
+    "all_matched": [
+      "A0-05",
+      "A0-04"
+    ],
+    "target_focus": "The Oblique Shift (infinitive + postposition: -ne ke liye / baad)",
+    "tags": [
+      "lesson::A0-05"
+    ],
+    "interval": 15,
+    "reps": 11,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1785455281084,
+    "noteId": 1785455281084,
+    "front": "Can you help me with this task?",
+    "hindi": "Kya tum meri is task me help kar sakte ho?",
+    "lesson": "A1-02",
+    "all_matched": [
+      "A1-02",
+      "A0-04",
+      "A0-01"
+    ],
+    "target_focus": "Possessive pronouns & relationships (meraa, aapkaa, etc.)",
+    "tags": [
+      "lesson::A1-02"
+    ],
+    "interval": 37,
+    "reps": 12,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2600
+  },
+  {
+    "cardId": 1785455281085,
+    "noteId": 1785455281085,
+    "front": "I can speak a little bit of Hindi now.",
+    "hindi": "Main ab thodi si Hindi bol sakta hoon.",
+    "lesson": "A0-04",
+    "all_matched": [
+      "A0-04",
+      "A0-01"
+    ],
+    "target_focus": "Can & Want (saktaa, chaahtaa, chaahiye, pasand)",
+    "tags": [
+      "lesson::A0-04"
+    ],
+    "interval": 23,
+    "reps": 8,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1785455281086,
+    "noteId": 1785455281086,
+    "front": "I really like this cocktail.",
+    "hindi": "Mujhe ye cocktail bahut pasand hai.",
+    "lesson": "A0-04",
+    "all_matched": [
+      "A0-04",
+      "A0-01"
+    ],
+    "target_focus": "Can & Want (saktaa, chaahtaa, chaahiye, pasand)",
+    "tags": [
+      "lesson::A0-04"
+    ],
+    "interval": 40,
+    "reps": 5,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2650
+  },
+  {
+    "cardId": 1785455281087,
+    "noteId": 1785455281087,
+    "front": "I don't know about that topic.",
+    "hindi": "Mujhe us topic ke baare me nahi pata.",
+    "lesson": "A0-03",
+    "all_matched": [
+      "A0-03"
+    ],
+    "target_focus": "Relational postpositions & connectors (ke saath, ke paas, ke liye, isliye)",
+    "tags": [
+      "lesson::A0-03"
+    ],
+    "interval": 13,
+    "reps": 14,
+    "lapses": 3,
+    "queue": 2,
+    "factor": 1900
+  },
+  {
+    "cardId": 1785455281088,
+    "noteId": 1785455281088,
+    "front": "Do you want to grab a beer with me tonight? ( informal, m )",
+    "hindi": "Kya tum aaj raat mere saath beer peena chahte ho?",
+    "lesson": "A1-02",
+    "all_matched": [
+      "A1-02",
+      "A0-04",
+      "A0-01"
+    ],
+    "target_focus": "Possessive pronouns & relationships (meraa, aapkaa, etc.)",
+    "tags": [
+      "lesson::A1-02"
+    ],
+    "interval": 10,
+    "reps": 12,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1785455281089,
+    "noteId": 1785455281089,
+    "front": "I need to transition into a new career role soon.",
+    "hindi": "Mujhe jaldi ek naye career role me transition karna hai.",
+    "lesson": "A1-04",
+    "all_matched": [
+      "A1-04",
+      "A0-01"
+    ],
+    "target_focus": "Obligation & compulsion (padtaa hai / infinitive+hai)",
+    "tags": [
+      "lesson::A1-04"
+    ],
+    "interval": 19,
+    "reps": 16,
+    "lapses": 2,
+    "queue": 2,
+    "factor": 2100
+  },
+  {
+    "cardId": 1785455281090,
+    "noteId": 1785455281090,
+    "front": "I can play both guitar and piano.",
+    "hindi": "Main guitar aur piano dono bajaa sakta hoon.",
+    "lesson": "A0-04",
+    "all_matched": [
+      "A0-04",
+      "A0-01"
+    ],
+    "target_focus": "Can & Want (saktaa, chaahtaa, chaahiye, pasand)",
+    "tags": [
+      "lesson::A0-04"
+    ],
+    "interval": 1,
+    "reps": 8,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1785455281091,
+    "noteId": 1785455281091,
+    "front": "I want to catch up with Shivani after a long time.",
+    "hindi": "Main bahut time (ke) baad Shivani se catch up karna chahta hoon.",
+    "lesson": "A0-04",
+    "all_matched": [
+      "A0-04",
+      "A0-01"
+    ],
+    "target_focus": "Can & Want (saktaa, chaahtaa, chaahiye, pasand)",
+    "tags": [
+      "lesson::A0-04"
+    ],
+    "interval": 29,
+    "reps": 9,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2150
+  },
+  {
+    "cardId": 1785455281092,
+    "noteId": 1785455281092,
+    "front": "Yesterday was a very productive day at work.",
+    "hindi": "Kal work par bahut productive day tha.",
+    "lesson": "A0-06",
+    "all_matched": [
+      "A0-06"
+    ],
+    "target_focus": "Simple past tense & completed actions (gayaa, thaa, kiyaa)",
+    "tags": [
+      "lesson::A0-06"
+    ],
+    "interval": 46,
+    "reps": 7,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1785455281094,
+    "noteId": 1785455281094,
+    "front": "How was your day in Norwich today? (informal, m)",
+    "hindi": "Aaj Norwich me tumhara din kaisa tha?",
+    "lesson": "A1-02",
+    "all_matched": [
+      "A1-02",
+      "A0-06"
+    ],
+    "target_focus": "Possessive pronouns & relationships (meraa, aapkaa, etc.)",
+    "tags": [
+      "lesson::A1-02"
+    ],
+    "interval": 15,
+    "reps": 16,
+    "lapses": 2,
+    "queue": 2,
+    "factor": 2100
+  },
+  {
+    "cardId": 1785455281095,
+    "noteId": 1785455281095,
+    "front": "I understood what you explained.",
+    "hindi": "Main samajh gaya jo tumne explain kiya.",
+    "lesson": "A2-01",
+    "all_matched": [
+      "A2-01",
+      "A0-06"
+    ],
+    "target_focus": "Ergative case marker 'ne' with past transitive verb",
+    "tags": [
+      "lesson::general",
+      "lesson::A2-01"
+    ],
+    "interval": 24,
+    "reps": 15,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2150
+  },
+  {
+    "cardId": 1785455281096,
+    "noteId": 1785455281096,
+    "front": "I didn't understand that sentence properly.",
+    "hindi": "Main wo sentence sahi se nahi samjha.",
+    "lesson": "general",
+    "all_matched": [
+      "general"
+    ],
+    "target_focus": "General conversational phrase or idiom",
+    "tags": [
+      "lesson::general"
+    ],
+    "interval": 33,
+    "reps": 7,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2650
+  },
+  {
+    "cardId": 1785455281097,
+    "noteId": 1785455281097,
+    "front": "When did you leave your software job at Ford? (informal)",
+    "hindi": "(Tumne) Ford me software job kab chhodi?",
+    "lesson": "A2-01",
+    "all_matched": [
+      "A2-01"
+    ],
+    "target_focus": "Ergative case marker 'ne' with past transitive verb",
+    "tags": [
+      "lesson::general",
+      "lesson::A2-01"
+    ],
+    "interval": 1,
+    "reps": 14,
+    "lapses": 3,
+    "queue": 2,
+    "factor": 1900
+  },
+  {
+    "cardId": 1785455281098,
+    "noteId": 1785455281098,
+    "front": "Where did you go for dinner yesterday? (Informal, m)",
+    "hindi": "Tum kal dinner ke liye kahan gaye?",
+    "lesson": "A0-06",
+    "all_matched": [
+      "A0-06",
+      "A0-03"
+    ],
+    "target_focus": "Simple past tense & completed actions (gayaa, thaa, kiyaa)",
+    "tags": [
+      "lesson::A0-06"
+    ],
+    "interval": 45,
+    "reps": 7,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2350
+  },
+  {
+    "cardId": 1785455281099,
+    "noteId": 1785455281099,
+    "front": "I worked on my new coding project yesterday evening.",
+    "hindi": "Maine kal evening apne naye coding project par kaam kiya.",
+    "lesson": "A2-01",
+    "all_matched": [
+      "A2-01",
+      "A0-06",
+      "A0-05"
+    ],
+    "target_focus": "Ergative case marker 'ne' with past transitive verb",
+    "tags": [
+      "lesson::general",
+      "lesson::A2-01"
+    ],
+    "interval": 26,
+    "reps": 8,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2350
+  },
+  {
+    "cardId": 1785455281100,
+    "noteId": 1785455281100,
+    "front": "We had so much fun during our university days!",
+    "hindi": "Hamare university days me humne bahut maza kiya!",
+    "lesson": "A2-01",
+    "all_matched": [
+      "A2-01",
+      "A0-06"
+    ],
+    "target_focus": "Ergative case marker 'ne' with past transitive verb",
+    "tags": [
+      "lesson::general",
+      "lesson::A2-01"
+    ],
+    "interval": 26,
+    "reps": 6,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1785455281101,
+    "noteId": 1785455281101,
+    "front": "What happened at the care home today?",
+    "hindi": "Aaj care home me kya hua?",
+    "lesson": "general",
+    "all_matched": [
+      "general"
+    ],
+    "target_focus": "General conversational phrase or idiom",
+    "tags": [
+      "lesson::general"
+    ],
+    "interval": 23,
+    "reps": 4,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2650
+  },
+  {
+    "cardId": 1785455281102,
+    "noteId": 1785455281102,
+    "front": "I will call you tomorrow evening.",
+    "hindi": "Main kal evening tumko call karunga.",
+    "lesson": "general",
+    "all_matched": [
+      "general"
+    ],
+    "target_focus": "General conversational phrase or idiom",
+    "tags": [
+      "lesson::general"
+    ],
+    "interval": 12,
+    "reps": 9,
+    "lapses": 2,
+    "queue": 2,
+    "factor": 2100
+  },
+  {
+    "cardId": 1785455281103,
+    "noteId": 1785455281103,
+    "front": "We will meet in Norwich this October!",
+    "hindi": "Hum is October Norwich me milenge!",
+    "lesson": "A0-08",
+    "all_matched": [
+      "A0-08"
+    ],
+    "target_focus": "Simple future tense (-ūngaa, -enge, -egaa)",
+    "tags": [
+      "lesson::A0-08"
+    ],
+    "interval": 46,
+    "reps": 5,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1785455281104,
+    "noteId": 1785455281104,
+    "front": "I will reach the coffee shop in 10 minutes.",
+    "hindi": "Main 10 minutes me coffee shop pahunchunga.",
+    "lesson": "general",
+    "all_matched": [
+      "general"
+    ],
+    "target_focus": "General conversational phrase or idiom",
+    "tags": [
+      "lesson::general"
+    ],
+    "interval": 38,
+    "reps": 6,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1785455281105,
+    "noteId": 1785455281105,
+    "front": "How is your job as a lifestyle coordinator going? (Informal, f)",
+    "hindi": "Tumhari lifestyle coordinator ki job kaisi chal rahi hai?",
+    "lesson": "A1-02",
+    "all_matched": [
+      "A1-02",
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Possessive pronouns & relationships (meraa, aapkaa, etc.)",
+    "tags": [
+      "lesson::A1-02"
+    ],
+    "interval": 20,
+    "reps": 8,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2350
+  },
+  {
+    "cardId": 1785455281106,
+    "noteId": 1785455281106,
+    "front": "I will try my best to learn fluent Hinglish before October.",
+    "hindi": "Main October se pehle fluent Hinglish seekhne ki poori try karunga.",
+    "lesson": "general",
+    "all_matched": [
+      "general"
+    ],
+    "target_focus": "General conversational phrase or idiom",
+    "tags": [
+      "lesson::general"
+    ],
+    "interval": 13,
+    "reps": 11,
+    "lapses": 2,
+    "queue": 2,
+    "factor": 2100
+  },
+  {
+    "cardId": 1785455281107,
+    "noteId": 1785455281107,
+    "front": "Tell me everything about your new life in the UK!&nbsp; (informal, f)",
+    "hindi": "Mujhe UK me tumhari nayi life ke baare me sab batao!",
+    "lesson": "A1-02",
+    "all_matched": [
+      "A1-02",
+      "A0-03"
+    ],
+    "target_focus": "Possessive pronouns & relationships (meraa, aapkaa, etc.)",
+    "tags": [
+      "lesson::A1-02"
+    ],
+    "interval": 8,
+    "reps": 9,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1785455281109,
+    "noteId": 1785455281109,
+    "front": "I am very excited to visit you in October.",
+    "hindi": "Main October me tumse visit ke liye bahut excited hoon.",
+    "lesson": "A0-03",
+    "all_matched": [
+      "A0-03",
+      "A0-01"
+    ],
+    "target_focus": "Relational postpositions & connectors (ke saath, ke paas, ke liye, isliye)",
+    "tags": [
+      "lesson::A0-03"
+    ],
+    "interval": 13,
+    "reps": 13,
+    "lapses": 3,
+    "queue": 2,
+    "factor": 1900
+  },
+  {
+    "cardId": 1785455281110,
+    "noteId": 1785455281110,
+    "front": "We will definitely grab a drink together when I arrive.",
+    "hindi": "Jab main aaunga, hum zaroor saath me ek drink peeyenge.",
+    "lesson": "A0-08",
+    "all_matched": [
+      "A0-08"
+    ],
+    "target_focus": "Simple future tense (-ūngaa, -enge, -egaa)",
+    "tags": [
+      "lesson::A0-08"
+    ],
+    "interval": 9,
+    "reps": 11,
+    "lapses": 2,
+    "queue": 2,
+    "factor": 2100
+  },
+  {
+    "cardId": 1785455281111,
+    "noteId": 1785455281111,
+    "front": "It will take some time, but it will be great!",
+    "hindi": "Thoda time lagega, lekin bahut achha hoga!",
+    "lesson": "A0-08",
+    "all_matched": [
+      "A0-08",
+      "A0-03"
+    ],
+    "target_focus": "Simple future tense (-ūngaa, -enge, -egaa)",
+    "tags": [
+      "lesson::A0-08"
+    ],
+    "interval": 15,
+    "reps": 9,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1785499662368,
+    "noteId": 1785499662368,
+    "front": "Are you free tomorrow for a drink?",
+    "hindi": "Kya kal tum drink ke liye free ho?",
+    "lesson": "A0-03",
+    "all_matched": [
+      "A0-03",
+      "A0-01"
+    ],
+    "target_focus": "Relational postpositions & connectors (ke saath, ke paas, ke liye, isliye)",
+    "tags": [
+      "lesson::A0-03"
+    ],
+    "interval": 22,
+    "reps": 8,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1785796879117,
+    "noteId": 1785796879115,
+    "front": "What's up? Everything is fine.&nbsp; (chal)",
+    "hindi": "Kya chal raha hai? Sab badhiya hai.",
+    "lesson": "A0-02",
+    "all_matched": [
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Present Continuous (-rahaa hoon) or Present Habitual (-taa hoon)",
+    "tags": [
+      "lesson::A0-02"
+    ],
+    "interval": 12,
+    "reps": 6,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1786072496402,
+    "noteId": 1786072496402,
+    "front": "Excuse me, how are you? I'm fine, but I don't understand Hindi very well.",
+    "hindi": "Suniye, aap kaise hain? Main achha hoon, magar main Hindi bahut achha nahi samajhta hoon.",
+    "lesson": "A1-01",
+    "all_matched": [
+      "A1-01",
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Imperatives & Giving directions (kijiye/karo/mat/directions)",
+    "tags": [
+      "lesson::A1-01"
+    ],
+    "interval": 54,
+    "reps": 4,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1786072496403,
+    "noteId": 1786072496403,
+    "front": "Where is the restaurant? It's not here, it's over there on Main Street.",
+    "hindi": "Restaurant kidhar hai? Vo idhar nahi hai, vo udhar Main Street par hai.",
+    "lesson": "A1-01",
+    "all_matched": [
+      "A1-01",
+      "A0-01"
+    ],
+    "target_focus": "Imperatives & Giving directions (kijiye/karo/mat/directions)",
+    "tags": [
+      "lesson::A1-01"
+    ],
+    "interval": 7,
+    "reps": 11,
+    "lapses": 2,
+    "queue": 2,
+    "factor": 2100
+  },
+  {
+    "cardId": 1786072496404,
+    "noteId": 1786072496404,
+    "front": "Do you want to eat lunch now, or do you want to eat later?&nbsp; (informal, f)",
+    "hindi": "Kya tum abhi lunch khaana chaahti ho, ya baad me khaana chaahti ho?",
+    "lesson": "A0-04",
+    "all_matched": [
+      "A0-04",
+      "A0-01"
+    ],
+    "target_focus": "Can & Want (saktaa, chaahtaa, chaahiye, pasand)",
+    "tags": [
+      "lesson::A0-04"
+    ],
+    "interval": 35,
+    "reps": 6,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1786072496405,
+    "noteId": 1786072496405,
+    "front": "Do you want to drink some coffee with me? (informal, f)",
+    "hindi": "Kya tum mere saath kuch coffee peena chaahti ho?",
+    "lesson": "A1-02",
+    "all_matched": [
+      "A1-02",
+      "A0-04",
+      "A0-01"
+    ],
+    "target_focus": "Possessive pronouns & relationships (meraa, aapkaa, etc.)",
+    "tags": [
+      "lesson::A1-02"
+    ],
+    "interval": 27,
+    "reps": 5,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1786072496406,
+    "noteId": 1786072496406,
+    "front": "I also wanted to buy something.",
+    "hindi": "Main bhi kuch khareedna chaahta tha.",
+    "lesson": "A0-06",
+    "all_matched": [
+      "A0-06",
+      "A0-04"
+    ],
+    "target_focus": "Simple past tense & completed actions (gayaa, thaa, kiyaa)",
+    "tags": [
+      "lesson::A0-06"
+    ],
+    "interval": 23,
+    "reps": 10,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1786072632269,
+    "noteId": 1786072632269,
+    "front": "What time is the meetup? / We will meet at 4 PM.",
+    "hindi": "Meetup kitne baje hai? / Hum 4 baje milenge.",
+    "lesson": "A1-10",
+    "all_matched": [
+      "A1-10",
+      "A0-08",
+      "A0-01"
+    ],
+    "target_focus": "Clock time & routine numbers (baje, saadhe, etc.)",
+    "tags": [
+      "lesson::general",
+      "lesson::A1-10"
+    ],
+    "interval": 43,
+    "reps": 8,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2450
+  },
+  {
+    "cardId": 1786154412088,
+    "noteId": 1786154412087,
+    "front": "Ivargal / Avargal",
+    "hindi": "Ye log / vo log",
+    "lesson": "general",
+    "all_matched": [
+      "general"
+    ],
+    "target_focus": "General conversational phrase or idiom",
+    "tags": [
+      "lesson::general"
+    ],
+    "interval": 1,
+    "reps": 6,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1786206309049,
+    "noteId": 1786206309047,
+    "front": "Yesterday I came to see you but you weren't here. So today I came to see you again.",
+    "hindi": "Kal main tumse milne (ke liye) aaya lekin tum yahaan nahi the. Isliye aaj main fir se tumse milne aaya.",
+    "lesson": "A0-06",
+    "all_matched": [
+      "A0-06",
+      "A0-03"
+    ],
+    "target_focus": "Simple past tense & completed actions (gayaa, thaa, kiyaa)",
+    "tags": [
+      "lesson::A0-06"
+    ],
+    "interval": 18,
+    "reps": 12,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1786206766110,
+    "noteId": 1786206766110,
+    "front": "I eat. I am eating. I ate. I will eat.",
+    "hindi": "I eat: Main khaata hoon. I am eating: Main khaa raha hoon. I ate: Maine khaaya. I will eat: Main khaaunga.",
+    "lesson": "A2-01",
+    "all_matched": [
+      "A2-01",
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Ergative case marker 'ne' with past transitive verb",
+    "tags": [
+      "lesson::general",
+      "lesson::A2-01"
+    ],
+    "interval": 23,
+    "reps": 7,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1786207151648,
+    "noteId": 1786207151648,
+    "front": "(all pronouns) need coffee",
+    "hindi": "(Mujhe, Tujhe/Tujhko, Tumhe/Tumko, Aapko, Ise/Isko, Use/Usko, Humein/Humko, Unhein/Unko) coffee chahiye.",
+    "lesson": "A0-04",
+    "all_matched": [
+      "A0-04"
+    ],
+    "target_focus": "Can & Want (saktaa, chaahtaa, chaahiye, pasand)",
+    "tags": [
+      "lesson::A0-04"
+    ],
+    "interval": 12,
+    "reps": 11,
+    "lapses": 2,
+    "queue": 2,
+    "factor": 2100
+  },
+  {
+    "cardId": 1786231940108,
+    "noteId": 1786231940108,
+    "front": "Making a new song tonight will be fun.",
+    "hindi": "Aaj raat naya gaana banaana fun hoga.",
+    "lesson": "A0-08",
+    "all_matched": [
+      "A0-08"
+    ],
+    "target_focus": "Simple future tense (-ūngaa, -enge, -egaa)",
+    "tags": [
+      "lesson::A0-08"
+    ],
+    "interval": 7,
+    "reps": 9,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1786232844753,
+    "noteId": 1786232844753,
+    "front": "What nonsense is happening? I'm coming home now!",
+    "hindi": "Kya bakwaas ho rahi hai? Main abhi ghar aa raha hoon!",
+    "lesson": "A0-02",
+    "all_matched": [
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Present Continuous (-rahaa hoon) or Present Habitual (-taa hoon)",
+    "tags": [
+      "lesson::A0-02"
+    ],
+    "interval": 27,
+    "reps": 13,
+    "lapses": 2,
+    "queue": 2,
+    "factor": 2100
+  },
+  {
+    "cardId": 1786236329275,
+    "noteId": 1786236329275,
+    "front": "I taught my friend a guitar chord I am teaching my friend a guitar chord I will teach my friend a guitar chord",
+    "hindi": "Maine apne friend ko guitar chord sikhaya (past) Main apne friend ko guitar chord sikha raha hoon (present) Main apne friend ko guitar chord sikhaunga (future)",
+    "lesson": "A2-01",
+    "all_matched": [
+      "A2-01",
+      "A0-05",
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Ergative case marker 'ne' with past transitive verb",
+    "tags": [
+      "lesson::general",
+      "lesson::A2-01"
+    ],
+    "interval": 29,
+    "reps": 8,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1786236329276,
+    "noteId": 1786236329276,
+    "front": "I forgot my house keys I am forgetting my house keys I will forget my house keys",
+    "hindi": "Main ghar ki keys bhool gaya (past) Main ghar ki keys bhool raha hoon (present) Main ghar ki keys bhool jaunga (future)",
+    "lesson": "A1-02",
+    "all_matched": [
+      "A1-02",
+      "A0-06",
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Possessive pronouns & relationships (meraa, aapkaa, etc.)",
+    "tags": [
+      "lesson::A1-02"
+    ],
+    "interval": 24,
+    "reps": 11,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1786236329277,
+    "noteId": 1786236329277,
+    "front": "I made a delicious cocktail I am making a delicious cocktail I will make a delicious cocktail",
+    "hindi": "Maine ek delicious cocktail banaya (past) Main ek delicious cocktail bana raha hoon (present) Main ek delicious cocktail banaunga (future)",
+    "lesson": "A2-01",
+    "all_matched": [
+      "A2-01",
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Ergative case marker 'ne' with past transitive verb",
+    "tags": [
+      "lesson::general",
+      "lesson::A2-01"
+    ],
+    "interval": 25,
+    "reps": 7,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1786236329278,
+    "noteId": 1786236329278,
+    "front": "I showed my new AI coding project I am showing my new AI coding project I will show my new AI coding project",
+    "hindi": "Maine apna naya AI coding project dikhaya (past) Main apna naya AI coding project dikha raha hoon (present) Main apna naya AI coding project dikhaunga (future)",
+    "lesson": "A2-01",
+    "all_matched": [
+      "A2-01",
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Ergative case marker 'ne' with past transitive verb",
+    "tags": [
+      "lesson::general",
+      "lesson::A2-01"
+    ],
+    "interval": 20,
+    "reps": 11,
+    "lapses": 2,
+    "queue": 2,
+    "factor": 2100
+  },
+  {
+    "cardId": 1786236329279,
+    "noteId": 1786236329279,
+    "front": "I ordered a cold beer I am ordering a cold beer I will order a cold beer",
+    "hindi": "Maine cold beer order ki (past) Main cold beer order kar raha hoon (present) Main cold beer order karunga (future)",
+    "lesson": "A2-01",
+    "all_matched": [
+      "A2-01",
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Ergative case marker 'ne' with past transitive verb",
+    "tags": [
+      "lesson::general",
+      "lesson::A2-01"
+    ],
+    "interval": 18,
+    "reps": 5,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1786236329280,
+    "noteId": 1786236329280,
+    "front": "I listened to an awesome new song I am listening to an awesome new song I will listen to an awesome new song",
+    "hindi": "Maine ek awesome naya song suna (past) Main ek awesome naya song sun raha hoon (present) Main ek awesome naya song sununga (future)",
+    "lesson": "A2-01",
+    "all_matched": [
+      "A2-01",
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Ergative case marker 'ne' with past transitive verb",
+    "tags": [
+      "lesson::general",
+      "lesson::A2-01"
+    ],
+    "interval": 24,
+    "reps": 11,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1786236329281,
+    "noteId": 1786236329281,
+    "front": "I thought about our university improv days I am thinking about our university improv days I will think about our university improv days",
+    "hindi": "Maine hamare university improv days ke baare me socha (past) Main hamare university improv days ke baare me soch raha hoon (present) Main hamare university improv days ke baare me sochunga (future)",
+    "lesson": "A2-01",
+    "all_matched": [
+      "A2-01",
+      "A0-03",
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Ergative case marker 'ne' with past transitive verb",
+    "tags": [
+      "lesson::general",
+      "lesson::A2-01"
+    ],
+    "interval": 34,
+    "reps": 8,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1786236329282,
+    "noteId": 1786236329282,
+    "front": "I told a funny story I am telling a funny story I will tell a funny story",
+    "hindi": "Maine ek funny story batayi (past) Main ek funny story bata raha hoon (present) Main ek funny story bataunga (future)",
+    "lesson": "A2-01",
+    "all_matched": [
+      "A2-01",
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Ergative case marker 'ne' with past transitive verb",
+    "tags": [
+      "lesson::general",
+      "lesson::A2-01"
+    ],
+    "interval": 21,
+    "reps": 9,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1786236329283,
+    "noteId": 1786236329283,
+    "front": "I played a riff on the guitar I am playing a riff on the guitar I will play a riff on the guitar",
+    "hindi": "Maine guitar par ek riff bajaya (past) Main guitar par ek riff baja raha hoon (present) Main guitar par ek riff bajaunga (future)",
+    "lesson": "A2-01",
+    "all_matched": [
+      "A2-01",
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Ergative case marker 'ne' with past transitive verb",
+    "tags": [
+      "lesson::general",
+      "lesson::A2-01"
+    ],
+    "interval": 33,
+    "reps": 8,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1786236329284,
+    "noteId": 1786236329284,
+    "front": "I bought a train ticket to Norwich I am buying a train ticket to Norwich I will buy a train ticket to Norwich",
+    "hindi": "Maine Norwich ki train ticket khareedi (past) Main Norwich ki train ticket khareed raha hoon (present) Main Norwich ki train ticket khareedunga (future)",
+    "lesson": "A2-01",
+    "all_matched": [
+      "A2-01",
+      "A1-02",
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Ergative case marker 'ne' with past transitive verb",
+    "tags": [
+      "lesson::general",
+      "lesson::A2-01"
+    ],
+    "interval": 32,
+    "reps": 5,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1786236329285,
+    "noteId": 1786236329285,
+    "front": "I ate a banana I am eating a banana I will eat a banana",
+    "hindi": "Maine banana khaaya (past) Main banana khaa raha hoon (present) Main banana khaunga (future)",
+    "lesson": "A2-01",
+    "all_matched": [
+      "A2-01",
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Ergative case marker 'ne' with past transitive verb",
+    "tags": [
+      "lesson::general",
+      "lesson::A2-01"
+    ],
+    "interval": 37,
+    "reps": 3,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1786236329286,
+    "noteId": 1786236329286,
+    "front": "I gave a gift to Shivani I am giving a gift to Shivani I will give a gift to Shivani",
+    "hindi": "Maine Shivani ko gift diya (past) Main Shivani ko gift de raha hoon (present) Main Shivani ko gift doonga (future)",
+    "lesson": "A2-01",
+    "all_matched": [
+      "A2-01",
+      "A0-08",
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Ergative case marker 'ne' with past transitive verb",
+    "tags": [
+      "lesson::general",
+      "lesson::A2-01"
+    ],
+    "interval": 1,
+    "reps": 8,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1786236329287,
+    "noteId": 1786236329287,
+    "front": "I took some eggs from the fridge I am taking some eggs from the fridge I will take some eggs from the fridge",
+    "hindi": "Maine fridge se kuch eggs liye (past) Main fridge se kuch eggs le raha hoon (present) Main fridge se kuch eggs loonga (future)",
+    "lesson": "A2-01",
+    "all_matched": [
+      "A2-01",
+      "A0-08",
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Ergative case marker 'ne' with past transitive verb",
+    "tags": [
+      "lesson::general",
+      "lesson::A2-01"
+    ],
+    "interval": 16,
+    "reps": 7,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1786304566158,
+    "noteId": 1786304566156,
+    "front": "The princess said that she wanted Arjun to make her painting.",
+    "hindi": "Princess ne Arjun ko kaha ki uski painting banani thi",
+    "lesson": "A1-06",
+    "all_matched": [
+      "A1-06",
+      "A1-03",
+      "A1-02",
+      "A0-06"
+    ],
+    "target_focus": "Communication verbs (bolna, kehna, bataana, baat karna)",
+    "tags": [
+      "lesson::A1-06"
+    ],
+    "interval": 14,
+    "reps": 11,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1786304566159,
+    "noteId": 1786304566159,
+    "front": "The princess told that she was tired of palace life and wanted freedom.",
+    "hindi": "Princess ne bataya ki wo palace ki life se tired thi aur freedom chahti thi",
+    "lesson": "A1-03",
+    "all_matched": [
+      "A1-03",
+      "A0-06",
+      "A0-04"
+    ],
+    "target_focus": "Subordinating conjunction 'ki' (linking clauses)",
+    "tags": [
+      "lesson::A1-03"
+    ],
+    "interval": 8,
+    "reps": 12,
+    "lapses": 2,
+    "queue": 2,
+    "factor": 1950
+  },
+  {
+    "cardId": 1786304566160,
+    "noteId": 1786304566160,
+    "front": "There is no gravity in space, so everything and every person floats.",
+    "hindi": "Space me gravity nahi hoti (hai), isliye har cheez aur har insaan float karta hai",
+    "lesson": "A0-03",
+    "all_matched": [
+      "A0-03",
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Relational postpositions & connectors (ke saath, ke paas, ke liye, isliye)",
+    "tags": [
+      "lesson::A0-03"
+    ],
+    "interval": 22,
+    "reps": 10,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1786304566161,
+    "noteId": 1786304566161,
+    "front": "On the space station, there is a strict schedule every day.",
+    "hindi": "Space station par har din ek strict schedule hota hai",
+    "lesson": "A0-01",
+    "all_matched": [
+      "A0-01"
+    ],
+    "target_focus": "Foundational 'To Be' verb (hoon/hai/ho/hain)",
+    "tags": [
+      "lesson::A0-01"
+    ],
+    "interval": 20,
+    "reps": 6,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1786304566162,
+    "noteId": 1786304566162,
+    "front": "To prevent body muscle loss, they have to exercise for at least two hours daily.",
+    "hindi": "Body muscle loss ko prevent karne (rokne) ke liye unhe daily kam se kam do ghante exercise karna padta hai",
+    "lesson": "A1-04",
+    "all_matched": [
+      "A1-04",
+      "A0-03",
+      "A0-01"
+    ],
+    "target_focus": "Obligation & compulsion (padtaa hai / infinitive+hai)",
+    "tags": [
+      "lesson::A1-04"
+    ],
+    "interval": 3,
+    "reps": 14,
+    "lapses": 2,
+    "queue": 2,
+    "factor": 2100
+  },
+  {
+    "cardId": 1786304566163,
+    "noteId": 1786304566163,
+    "front": "To sleep at night, astronauts use sleeping bags that are tied to walls.",
+    "hindi": "Raat ko sone ke liye, astronauts sleeping bags use karte hain jo walls se tied hote hain",
+    "lesson": "A0-05",
+    "all_matched": [
+      "A0-05",
+      "A0-03",
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "The Oblique Shift (infinitive + postposition: -ne ke liye / baad)",
+    "tags": [
+      "lesson::A0-05"
+    ],
+    "interval": 23,
+    "reps": 9,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1786501564701,
+    "noteId": 1786501564700,
+    "front": "I have a banana. You have an apple. We have a bomb.",
+    "hindi": "Mere paas ek kela hai. Tumhare paas ek seb hai. Humare paas ek bomb hai.",
+    "lesson": "A0-03",
+    "all_matched": [
+      "A0-03",
+      "A0-01"
+    ],
+    "target_focus": "Relational postpositions & connectors (ke saath, ke paas, ke liye, isliye)",
+    "tags": [
+      "lesson::A0-03"
+    ],
+    "interval": 34,
+    "reps": 7,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1786501677201,
+    "noteId": 1786501677201,
+    "front": "My brother is here, my sister is there, and these are my books.",
+    "hindi": "Mera bhai yahaan hai, meri behen wahaan hai, aur ye mere books hain.",
+    "lesson": "A1-02",
+    "all_matched": [
+      "A1-02",
+      "A0-01"
+    ],
+    "target_focus": "Possessive pronouns & relationships (meraa, aapkaa, etc.)",
+    "tags": [
+      "lesson::A1-02"
+    ],
+    "interval": 24,
+    "reps": 8,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1786501861612,
+    "noteId": 1786501861612,
+    "front": "Do you have time for a beer today?&nbsp; (informal)",
+    "hindi": "Kya aaj tumhare paas beer ke liye time hai?",
+    "lesson": "A0-03",
+    "all_matched": [
+      "A0-03",
+      "A0-01"
+    ],
+    "target_focus": "Relational postpositions & connectors (ke saath, ke paas, ke liye, isliye)",
+    "tags": [
+      "lesson::A0-03"
+    ],
+    "interval": 17,
+    "reps": 9,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1786502092780,
+    "noteId": 1786502092780,
+    "front": "She is sitting on the chair.",
+    "hindi": "Vo chair par baithi hai.",
+    "lesson": "A0-01",
+    "all_matched": [
+      "A0-01"
+    ],
+    "target_focus": "Foundational 'To Be' verb (hoon/hai/ho/hain)",
+    "tags": [
+      "lesson::A0-01"
+    ],
+    "interval": 5,
+    "reps": 12,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1786502230637,
+    "noteId": 1786502230637,
+    "front": "I am coming from home.",
+    "hindi": "Main ghar se aa raha hoon.",
+    "lesson": "A0-02",
+    "all_matched": [
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Present Continuous (-rahaa hoon) or Present Habitual (-taa hoon)",
+    "tags": [
+      "lesson::A0-02"
+    ],
+    "interval": 5,
+    "reps": 5,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1786502795778,
+    "noteId": 1786502795778,
+    "front": "I read ( past tense) &nbsp;a lot, that's why I passed.",
+    "hindi": "Main bahut padha, isliye pass ho gaya.",
+    "lesson": "A0-06",
+    "all_matched": [
+      "A0-06",
+      "A0-03",
+      "A0-01"
+    ],
+    "target_focus": "Simple past tense & completed actions (gayaa, thaa, kiyaa)",
+    "tags": [
+      "lesson::A0-06"
+    ],
+    "interval": 3,
+    "reps": 14,
+    "lapses": 4,
+    "queue": 2,
+    "factor": 1700
+  },
+  {
+    "cardId": 1786502859730,
+    "noteId": 1786502859730,
+    "front": "I want to play guitar, but I don't have time.",
+    "hindi": "Main guitar bajaana chahta hoon, lekin mere paas time nahi hai.",
+    "lesson": "A0-04",
+    "all_matched": [
+      "A0-04",
+      "A0-03",
+      "A0-01"
+    ],
+    "target_focus": "Can & Want (saktaa, chaahtaa, chaahiye, pasand)",
+    "tags": [
+      "lesson::A0-04"
+    ],
+    "interval": 5,
+    "reps": 6,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1786503091815,
+    "noteId": 1786503091815,
+    "front": "I can jump; I could jump; I will be able to jump.",
+    "hindi": "Main kood sakta hoon; main kood sakta tha; main kood sakoonga.",
+    "lesson": "A0-08",
+    "all_matched": [
+      "A0-08",
+      "A0-04",
+      "A0-01"
+    ],
+    "target_focus": "Simple future tense (-ūngaa, -enge, -egaa)",
+    "tags": [
+      "lesson::A0-08"
+    ],
+    "interval": 12,
+    "reps": 8,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1786503349039,
+    "noteId": 1786503349038,
+    "front": "I needed a little time.",
+    "hindi": "Mujhe thoda time chahiye tha.",
+    "lesson": "A0-04",
+    "all_matched": [
+      "A0-04"
+    ],
+    "target_focus": "Can & Want (saktaa, chaahtaa, chaahiye, pasand)",
+    "tags": [
+      "lesson::A0-04"
+    ],
+    "interval": 19,
+    "reps": 6,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1786503349040,
+    "noteId": 1786503349039,
+    "front": "You needed my help.&nbsp; (informal)",
+    "hindi": "Tumko meri help chahiye thi.",
+    "lesson": "A1-02",
+    "all_matched": [
+      "A1-02",
+      "A0-04"
+    ],
+    "target_focus": "Possessive pronouns & relationships (meraa, aapkaa, etc.)",
+    "tags": [
+      "lesson::A1-02"
+    ],
+    "interval": 3,
+    "reps": 12,
+    "lapses": 3,
+    "queue": 2,
+    "factor": 1900
+  },
+  {
+    "cardId": 1786503349041,
+    "noteId": 1786503349040,
+    "front": "J'aimais cette chanson / Cette chanson m'a plu.",
+    "hindi": "Mujhe vo song pasand tha/aaya.",
+    "lesson": "A0-06",
+    "all_matched": [
+      "A0-06",
+      "A0-04"
+    ],
+    "target_focus": "Simple past tense & completed actions (gayaa, thaa, kiyaa)",
+    "tags": [
+      "lesson::A0-06"
+    ],
+    "interval": 12,
+    "reps": 8,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1786503349042,
+    "noteId": 1786503349041,
+    "front": "I think I will like Norwich.",
+    "hindi": "Mujhe lagta hai mujhe Norwich pasand aayega.",
+    "lesson": "A0-08",
+    "all_matched": [
+      "A0-08",
+      "A0-04",
+      "A0-01"
+    ],
+    "target_focus": "Simple future tense (-ūngaa, -enge, -egaa)",
+    "tags": [
+      "lesson::A0-08"
+    ],
+    "interval": 19,
+    "reps": 11,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1786671710318,
+    "noteId": 1786671710318,
+    "front": "I know that you are busy today. (informal, w/ \"pata\")",
+    "hindi": "Mujhe pata hai ki tum aaj busy ho.",
+    "lesson": "A1-03",
+    "all_matched": [
+      "A1-03",
+      "A0-01"
+    ],
+    "target_focus": "Subordinating conjunction 'ki' (linking clauses)",
+    "tags": [
+      "lesson::A1-03"
+    ],
+    "interval": 22,
+    "reps": 10,
+    "lapses": 2,
+    "queue": 2,
+    "factor": 2100
+  },
+  {
+    "cardId": 1786671810315,
+    "noteId": 1786671810315,
+    "front": "This is Shivani's guitar now, therefore I don't have a guitar anymore.",
+    "hindi": "Ab ye Shivani ki guitar hai, isliye mere paas ab guitar nahi hai.",
+    "lesson": "A0-03",
+    "all_matched": [
+      "A0-03",
+      "A0-01"
+    ],
+    "target_focus": "Relational postpositions & connectors (ke saath, ke paas, ke liye, isliye)",
+    "tags": [
+      "lesson::A0-03"
+    ],
+    "interval": 14,
+    "reps": 9,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1786673551920,
+    "noteId": 1786673551920,
+    "front": "I always say the truth, I said the truth yesterday, and I will say the truth tomorrow too.",
+    "hindi": "Main hamesha sach bolta hoon, maine kal sach bola, aur main kal bhi sach boloonga.",
+    "lesson": "A2-01",
+    "all_matched": [
+      "A2-01",
+      "A1-06",
+      "A0-08",
+      "A0-06",
+      "A0-01"
+    ],
+    "target_focus": "Ergative case marker 'ne' with past transitive verb",
+    "tags": [
+      "lesson::general",
+      "lesson::A2-01"
+    ],
+    "interval": 1,
+    "reps": 11,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1787013851224,
+    "noteId": 1787013851223,
+    "front": "To speak (2 forms, infinitive verbs)",
+    "hindi": "Bolna / Kahna",
+    "lesson": "A1-06",
+    "all_matched": [
+      "A1-06"
+    ],
+    "target_focus": "Communication verbs (bolna, kehna, bataana, baat karna)",
+    "tags": [
+      "lesson::A1-06"
+    ],
+    "interval": 22,
+    "reps": 5,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1787020643392,
+    "noteId": 1787020643391,
+    "front": "Before going to the UK, I practice guitar.",
+    "hindi": "UK jaane se pehle, main guitar practice karta hoon.",
+    "lesson": "A0-05",
+    "all_matched": [
+      "A0-05",
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "The Oblique Shift (infinitive + postposition: -ne ke liye / baad)",
+    "tags": [
+      "lesson::A0-05"
+    ],
+    "interval": 25,
+    "reps": 5,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1787020643393,
+    "noteId": 1787020643392,
+    "front": "After finishing work, I play video games.",
+    "hindi": "Work khatam karne ke baad, main video games khelta hoon.",
+    "lesson": "A0-05",
+    "all_matched": [
+      "A0-05",
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "The Oblique Shift (infinitive + postposition: -ne ke liye / baad)",
+    "tags": [
+      "lesson::A0-05"
+    ],
+    "interval": 10,
+    "reps": 11,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1787020643394,
+    "noteId": 1787020643393,
+    "front": "Do you want to talk about that? (formal)",
+    "hindi": "Kya aap us ke baare me baat karna chaahte hain?",
+    "lesson": "A1-06",
+    "all_matched": [
+      "A1-06",
+      "A0-04",
+      "A0-03",
+      "A0-01"
+    ],
+    "target_focus": "Communication verbs (bolna, kehna, bataana, baat karna)",
+    "tags": [
+      "lesson::A1-06"
+    ],
+    "interval": 3,
+    "reps": 12,
+    "lapses": 3,
+    "queue": 2,
+    "factor": 1900
+  },
+  {
+    "cardId": 1787020643395,
+    "noteId": 1787020643394,
+    "front": "I need some time for this project.",
+    "hindi": "Mujhe is project ke liye thoda time chahiye.",
+    "lesson": "A0-04",
+    "all_matched": [
+      "A0-04",
+      "A0-03"
+    ],
+    "target_focus": "Can & Want (saktaa, chaahtaa, chaahiye, pasand)",
+    "tags": [
+      "lesson::A0-04"
+    ],
+    "interval": 4,
+    "reps": 10,
+    "lapses": 2,
+    "queue": 2,
+    "factor": 2100
+  },
+  {
+    "cardId": 1787020643396,
+    "noteId": 1787020643395,
+    "front": "Do you want to know about this? (informal, m)",
+    "hindi": "Kya tum is ke baare me jaanna chaahte ho?",
+    "lesson": "A0-04",
+    "all_matched": [
+      "A0-04",
+      "A0-03",
+      "A0-01"
+    ],
+    "target_focus": "Can & Want (saktaa, chaahtaa, chaahiye, pasand)",
+    "tags": [
+      "lesson::A0-04"
+    ],
+    "interval": 3,
+    "reps": 11,
+    "lapses": 2,
+    "queue": 2,
+    "factor": 1950
+  },
+  {
+    "cardId": 1787020643397,
+    "noteId": 1787020643396,
+    "front": "I am ready to go to Norwich in October.",
+    "hindi": "Main October me Norwich jaane ke liye ready hoon.",
+    "lesson": "A0-05",
+    "all_matched": [
+      "A0-05",
+      "A0-03",
+      "A0-01"
+    ],
+    "target_focus": "The Oblique Shift (infinitive + postposition: -ne ke liye / baad)",
+    "tags": [
+      "lesson::A0-05"
+    ],
+    "interval": 1,
+    "reps": 13,
+    "lapses": 2,
+    "queue": 2,
+    "factor": 2100
+  },
+  {
+    "cardId": 1787021167986,
+    "noteId": 1787021167985,
+    "front": "This work will be done by this evening.",
+    "hindi": "Yeh kaam aaj shaam tak ho jaayega.",
+    "lesson": "A0-08",
+    "all_matched": [
+      "A0-08",
+      "A0-01"
+    ],
+    "target_focus": "Simple future tense (-ūngaa, -enge, -egaa)",
+    "tags": [
+      "lesson::A0-08"
+    ],
+    "interval": 1,
+    "reps": 13,
+    "lapses": 3,
+    "queue": 2,
+    "factor": 1900
+  },
+  {
+    "cardId": 1787021167987,
+    "noteId": 1787021167986,
+    "front": "What is happening there?",
+    "hindi": "Wahaan kya ho raha hai?",
+    "lesson": "A0-02",
+    "all_matched": [
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Present Continuous (-rahaa hoon) or Present Habitual (-taa hoon)",
+    "tags": [
+      "lesson::A0-02"
+    ],
+    "interval": 26,
+    "reps": 6,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1787021167988,
+    "noteId": 1787021167987,
+    "front": "My phone turned off / got switched off.",
+    "hindi": "Mera phone off ho gaya.",
+    "lesson": "A1-02",
+    "all_matched": [
+      "A1-02",
+      "A0-06",
+      "A0-01"
+    ],
+    "target_focus": "Possessive pronouns & relationships (meraa, aapkaa, etc.)",
+    "tags": [
+      "lesson::A1-02"
+    ],
+    "interval": 14,
+    "reps": 5,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1787021167989,
+    "noteId": 1787021167988,
+    "front": "Everything should happen on time.",
+    "hindi": "Har cheez time par honi chahiye.",
+    "lesson": "A0-04",
+    "all_matched": [
+      "A0-04"
+    ],
+    "target_focus": "Can & Want (saktaa, chaahtaa, chaahiye, pasand)",
+    "tags": [
+      "lesson::A0-04"
+    ],
+    "interval": 20,
+    "reps": 12,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1787021167990,
+    "noteId": 1787021167989,
+    "front": "It is possible that they are busy.",
+    "hindi": "Ho sakta hai ki vo busy ho.",
+    "lesson": "A1-03",
+    "all_matched": [
+      "A1-03",
+      "A0-04",
+      "A0-01"
+    ],
+    "target_focus": "Subordinating conjunction 'ki' (linking clauses)",
+    "tags": [
+      "lesson::A1-03"
+    ],
+    "interval": 9,
+    "reps": 12,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1787021167991,
+    "noteId": 1787021167990,
+    "front": "You don't need to be worried. (formal)",
+    "hindi": "Aapko pareshaan hone ki zaroorat nahi hai.",
+    "lesson": "A0-04",
+    "all_matched": [
+      "A0-04",
+      "A0-01"
+    ],
+    "target_focus": "Can & Want (saktaa, chaahtaa, chaahiye, pasand)",
+    "tags": [
+      "lesson::A0-04"
+    ],
+    "interval": 1,
+    "reps": 18,
+    "lapses": 2,
+    "queue": 2,
+    "factor": 2100
+  },
+  {
+    "cardId": 1787021167992,
+    "noteId": 1787021167991,
+    "front": "Yesterday our meeting ran late / got late.",
+    "hindi": "Kal humaari meeting late ho gayi.",
+    "lesson": "A1-02",
+    "all_matched": [
+      "A1-02",
+      "A0-06",
+      "A0-01"
+    ],
+    "target_focus": "Possessive pronouns & relationships (meraa, aapkaa, etc.)",
+    "tags": [
+      "lesson::A1-02"
+    ],
+    "interval": 13,
+    "reps": 3,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1787188611474,
+    "noteId": 1787188611474,
+    "front": "If you were free this weekend, then meeting up in Norwich would be great.",
+    "hindi": "Agar tum is weekend free hote, toh Norwich me milna accha hota.",
+    "lesson": "general",
+    "all_matched": [
+      "general"
+    ],
+    "target_focus": "General conversational phrase or idiom",
+    "tags": [
+      "lesson::general"
+    ],
+    "interval": 10,
+    "reps": 16,
+    "lapses": 3,
+    "queue": 2,
+    "factor": 1900
+  },
+  {
+    "cardId": 1787191036533,
+    "noteId": 1787191036532,
+    "front": "Finish your homework by 12 o’clock, or I’m going to slap you at 1 o’clock!",
+    "hindi": "12 baje tak apna homework khatam karo, varna main tumhe 1 baje ek thappad maarunga!",
+    "lesson": "A1-10",
+    "all_matched": [
+      "A1-10",
+      "A1-01"
+    ],
+    "target_focus": "Clock time & routine numbers (baje, saadhe, etc.)",
+    "tags": [
+      "lesson::general",
+      "lesson::A1-10"
+    ],
+    "interval": 11,
+    "reps": 14,
+    "lapses": 2,
+    "queue": 2,
+    "factor": 2100
+  },
+  {
+    "cardId": 1787191036534,
+    "noteId": 1787191036533,
+    "front": "She knows I’m a liar (2 forms: jaanna & pataa hona)",
+    "hindi": "1. Vo jaanti hai ki main jhootha hoon.",
+    "lesson": "A1-03",
+    "all_matched": [
+      "A1-03",
+      "A0-01"
+    ],
+    "target_focus": "Subordinating conjunction 'ki' (linking clauses)",
+    "tags": [
+      "lesson::A1-03"
+    ],
+    "interval": 15,
+    "reps": 10,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1787191036535,
+    "noteId": 1787191036534,
+    "front": "I don't like too much sugar in my coffee.",
+    "hindi": "Mujhe coffee me zyaada cheeni pasand nahi hai.",
+    "lesson": "A1-07",
+    "all_matched": [
+      "A1-07",
+      "A0-04",
+      "A0-01"
+    ],
+    "target_focus": "Shopping, bargaining & quantifiers (kitne kaa, mehenga, sasta)",
+    "tags": [
+      "lesson::A1-07"
+    ],
+    "interval": 8,
+    "reps": 8,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1787191036536,
+    "noteId": 1787191036535,
+    "front": "What time is it? (2 conversational ways)",
+    "hindi": "Kitne baje hain? / Time kya hua hai?",
+    "lesson": "A1-10",
+    "all_matched": [
+      "A1-10",
+      "A0-01"
+    ],
+    "target_focus": "Clock time & routine numbers (baje, saadhe, etc.)",
+    "tags": [
+      "lesson::general",
+      "lesson::A1-10"
+    ],
+    "interval": 20,
+    "reps": 12,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1787191036537,
+    "noteId": 1787191036536,
+    "front": "Please sit here. (Formal / Aap)",
+    "hindi": "Aap yahaan baithiye.",
+    "lesson": "A1-01",
+    "all_matched": [
+      "A1-01"
+    ],
+    "target_focus": "Imperatives & Giving directions (kijiye/karo/mat/directions)",
+    "tags": [
+      "lesson::A1-01"
+    ],
+    "interval": 23,
+    "reps": 9,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1787191036538,
+    "noteId": 1787191036537,
+    "front": "Close the door. (Casual / Tum)",
+    "hindi": "Tum door band karo.",
+    "lesson": "A1-01",
+    "all_matched": [
+      "A1-01"
+    ],
+    "target_focus": "Imperatives & Giving directions (kijiye/karo/mat/directions)",
+    "tags": [
+      "lesson::A1-01"
+    ],
+    "interval": 18,
+    "reps": 6,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1787191036540,
+    "noteId": 1787191036539,
+    "front": "Come on, get ready quickly.",
+    "hindi": "Chalo, jaldi ready ho jaao.",
+    "lesson": "A1-01",
+    "all_matched": [
+      "A1-01",
+      "A0-01"
+    ],
+    "target_focus": "Imperatives & Giving directions (kijiye/karo/mat/directions)",
+    "tags": [
+      "lesson::A1-01"
+    ],
+    "interval": 12,
+    "reps": 14,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1787191036541,
+    "noteId": 1787191036540,
+    "front": "Please give me that water bottle. (Polite / Dijiye)",
+    "hindi": "Mujhe vo water bottle dijiye.",
+    "lesson": "general",
+    "all_matched": [
+      "general"
+    ],
+    "target_focus": "General conversational phrase or idiom",
+    "tags": [
+      "lesson::general"
+    ],
+    "interval": 13,
+    "reps": 6,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2350
+  },
+  {
+    "cardId": 1787191036542,
+    "noteId": 1787191036541,
+    "front": "Numbers 10–20 in Hindi",
+    "hindi": "10 - Das | 11 - Gyaarah | 12 - Baarah | 13 - Terah | 14 - Chaudah | 15 - Pandraha | 16 - Solah | 17 - Satrah | 18 - Athaarah | 19 - Unnees | 20 - Bees",
+    "lesson": "general",
+    "all_matched": [
+      "general"
+    ],
+    "target_focus": "General conversational phrase or idiom",
+    "tags": [
+      "lesson::general"
+    ],
+    "interval": 10,
+    "reps": 8,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1787191036543,
+    "noteId": 1787191036542,
+    "front": "Numbers 20–30 in Hindi",
+    "hindi": "20 - Bees | 21 - Ikkees | 22 - Baaees | 23 - Te-ees | 24 - Chaubees | 25 - Pachchees | 26 - Chhabbees | 27 - Sattaaees | 28 - Atthaaees | 29 - Untees | 30 - Tees",
+    "lesson": "general",
+    "all_matched": [
+      "general"
+    ],
+    "target_focus": "General conversational phrase or idiom",
+    "tags": [
+      "lesson::general"
+    ],
+    "interval": 1,
+    "reps": 8,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1787191036544,
+    "noteId": 1787191036543,
+    "front": "This cat is (all possessive pronouns)",
+    "hindi": "Mine: Ye billi meri hai. Yours (tum): Ye billi tumhari hai. Yours (aap): Ye billi aapki hai. His/Hers (near): Ye billi iski hai. His/Hers (far): Ye billi uski hai. Ours: Ye billi hamaari hai. Theirs: Ye billi unki hai.",
+    "lesson": "A1-02",
+    "all_matched": [
+      "A1-02",
+      "A0-01"
+    ],
+    "target_focus": "Possessive pronouns (mine, yours, his, ours)",
+    "tags": [
+      "lesson::A1-02"
+    ],
+    "interval": 27,
+    "reps": 6,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1787191036545,
+    "noteId": 1787191036544,
+    "front": "I take a little rest after lunch.",
+    "hindi": "Main lunch ke baad thoda rest karta hoon.",
+    "lesson": "A0-02",
+    "all_matched": [
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Present Continuous (-rahaa hoon) or Present Habitual (-taa hoon)",
+    "tags": [
+      "lesson::A0-02"
+    ],
+    "interval": 1,
+    "reps": 11,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1787191036546,
+    "noteId": 1787191036545,
+    "front": "You can do it! (Aap, Tum, Tu forms)",
+    "hindi": "Aap (Formal): Aap ye kar sakte hain! Tum (Casual): Tum ye kar sakte ho! Tu (Intimate): Tu ye kar sakta hai!",
+    "lesson": "A0-04",
+    "all_matched": [
+      "A0-04",
+      "A0-01"
+    ],
+    "target_focus": "Can & Want (saktaa, chaahtaa, chaahiye, pasand)",
+    "tags": [
+      "lesson::A0-04"
+    ],
+    "interval": 20,
+    "reps": 6,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1787191036547,
+    "noteId": 1787191036546,
+    "front": "He is going away from me.",
+    "hindi": "Vo mujhse door jaa raha hai.",
+    "lesson": "A0-02",
+    "all_matched": [
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Present Continuous (-rahaa hoon) or Present Habitual (-taa hoon)",
+    "tags": [
+      "lesson::A0-02"
+    ],
+    "interval": 23,
+    "reps": 6,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1787191036548,
+    "noteId": 1787191036547,
+    "front": "I liked that idea&nbsp; (habitual) .",
+    "hindi": "Mujhe vo idea pasand tha.",
+    "lesson": "A0-06",
+    "all_matched": [
+      "A0-06",
+      "A0-04"
+    ],
+    "target_focus": "Simple past tense & completed actions (gayaa, thaa, kiyaa)",
+    "tags": [
+      "lesson::A0-06"
+    ],
+    "interval": 31,
+    "reps": 6,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1787191036549,
+    "noteId": 1787191036548,
+    "front": "I will meet with you tomorrow.&nbsp; (informal, m)",
+    "hindi": "Main kal tumse milunga.",
+    "lesson": "general",
+    "all_matched": [
+      "general"
+    ],
+    "target_focus": "General conversational phrase or idiom",
+    "tags": [
+      "lesson::general"
+    ],
+    "interval": 13,
+    "reps": 10,
+    "lapses": 2,
+    "queue": 2,
+    "factor": 2250
+  },
+  {
+    "cardId": 1787191036550,
+    "noteId": 1787191036549,
+    "front": "Don't talk to/with him/her.",
+    "hindi": "Usse baat mat karo.",
+    "lesson": "A1-01",
+    "all_matched": [
+      "A1-01"
+    ],
+    "target_focus": "Imperatives & Giving directions (kijiye/karo/mat/directions)",
+    "tags": [
+      "lesson::A1-01"
+    ],
+    "interval": 30,
+    "reps": 6,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1787191036551,
+    "noteId": 1787191036550,
+    "front": "We take guidance from them.",
+    "hindi": "Hum unse guidance lete hain.",
+    "lesson": "A0-02",
+    "all_matched": [
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Present Continuous (-rahaa hoon) or Present Habitual (-taa hoon)",
+    "tags": [
+      "lesson::A0-02"
+    ],
+    "interval": 12,
+    "reps": 8,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1787191036552,
+    "noteId": 1787191036551,
+    "front": "With whom are you going to the concert? (informal)",
+    "hindi": "Tum kis ke saath concert jaa rahe ho?",
+    "lesson": "A0-03",
+    "all_matched": [
+      "A0-03",
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Relational postpositions & connectors (ke saath, ke paas, ke liye, isliye)",
+    "tags": [
+      "lesson::A0-03"
+    ],
+    "interval": 14,
+    "reps": 5,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1787191036553,
+    "noteId": 1787191036552,
+    "front": "For whom are you buying this gift? (formal)",
+    "hindi": "Aap ye gift kis ke liye khareed rahe hain?",
+    "lesson": "A0-03",
+    "all_matched": [
+      "A0-03",
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Relational postpositions & connectors (ke saath, ke paas, ke liye, isliye)",
+    "tags": [
+      "lesson::A0-03"
+    ],
+    "interval": 10,
+    "reps": 5,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1787191036554,
+    "noteId": 1787191036553,
+    "front": "Who were you talking to? (informal)",
+    "hindi": "Tum kis se baat kar rahe the?",
+    "lesson": "A1-06",
+    "all_matched": [
+      "A1-06",
+      "A1-05"
+    ],
+    "target_focus": "Communication verbs (bolna, kehna, bataana, baat karna)",
+    "tags": [
+      "lesson::A1-06"
+    ],
+    "interval": 14,
+    "reps": 12,
+    "lapses": 2,
+    "queue": 2,
+    "factor": 2100
+  },
+  {
+    "cardId": 1787191036555,
+    "noteId": 1787191036554,
+    "front": "In which project are you busy?&nbsp; (formal)",
+    "hindi": "Aap (kis/kaun se) project me busy hain?",
+    "lesson": "A0-01",
+    "all_matched": [
+      "A0-01"
+    ],
+    "target_focus": "Foundational 'To Be' verb (hoon/hai/ho/hain)",
+    "tags": [
+      "lesson::A0-01"
+    ],
+    "interval": 23,
+    "reps": 5,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1787191036556,
+    "noteId": 1787191036555,
+    "front": "What type of video games do you like? (informal)",
+    "hindi": "Tumhe kis type ke video games pasand hain?",
+    "lesson": "A0-04",
+    "all_matched": [
+      "A0-04",
+      "A0-01"
+    ],
+    "target_focus": "Can & Want (saktaa, chaahtaa, chaahiye, pasand)",
+    "tags": [
+      "lesson::A0-04"
+    ],
+    "interval": 11,
+    "reps": 4,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1787191036557,
+    "noteId": 1787191036556,
+    "front": "On what topic is he speaking?",
+    "hindi": "Vo kis topic par bol raha hai?",
+    "lesson": "A0-02",
+    "all_matched": [
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Present Continuous (-rahaa hoon) or Present Habitual (-taa hoon)",
+    "tags": [
+      "lesson::A0-02"
+    ],
+    "interval": 12,
+    "reps": 12,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1787432648146,
+    "noteId": 1787432648146,
+    "front": "Your wife was with my husband.",
+    "hindi": "Aapki patni mere pati ke saath theen.",
+    "lesson": "A1-02",
+    "all_matched": [
+      "A1-02",
+      "A0-03"
+    ],
+    "target_focus": "Possessive pronouns & relationships (meraa, aapkaa, etc.)",
+    "tags": [
+      "lesson::A1-02"
+    ],
+    "interval": 9,
+    "reps": 11,
+    "lapses": 3,
+    "queue": 2,
+    "factor": 1900
+  },
+  {
+    "cardId": 1787432648147,
+    "noteId": 1787432648147,
+    "front": "This cocktail is very expensive.",
+    "hindi": "Ye cocktail bahut mehanga hai.",
+    "lesson": "A1-07",
+    "all_matched": [
+      "A1-07",
+      "A0-01"
+    ],
+    "target_focus": "Shopping, bargaining & quantifiers (kitne kaa, mehenga, sasta)",
+    "tags": [
+      "lesson::A1-07"
+    ],
+    "interval": 15,
+    "reps": 4,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1787432648148,
+    "noteId": 1787432648148,
+    "front": "I am relaxing at my own place with my friends.",
+    "hindi": "Main apne ghar par mere doston ke saath relax kar raha hoon.",
+    "lesson": "A1-02",
+    "all_matched": [
+      "A1-02",
+      "A0-05",
+      "A0-03",
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Possessive pronouns & relationships (meraa, aapkaa, etc.)",
+    "tags": [
+      "lesson::A1-02"
+    ],
+    "interval": 13,
+    "reps": 11,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1787432648149,
+    "noteId": 1787432648149,
+    "front": "Do you need to meet with your friend? (formal)",
+    "hindi": "Kya aapko aapke dost se milna hai?",
+    "lesson": "A1-04",
+    "all_matched": [
+      "A1-04",
+      "A1-02",
+      "A0-01"
+    ],
+    "target_focus": "Obligation & compulsion (padtaa hai / infinitive+hai)",
+    "tags": [
+      "lesson::A1-04"
+    ],
+    "interval": 11,
+    "reps": 8,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1787432648151,
+    "noteId": 1787432648151,
+    "front": "His husband speaks French very well. (respectful)",
+    "hindi": "Unke pati bahut achhi French bolte hain.",
+    "lesson": "A1-06",
+    "all_matched": [
+      "A1-06",
+      "A1-02",
+      "A0-01"
+    ],
+    "target_focus": "Communication verbs (bolna, kehna, bataana, baat karna)",
+    "tags": [
+      "lesson::A1-06"
+    ],
+    "interval": 3,
+    "reps": 11,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1787626564469,
+    "noteId": 1787626564468,
+    "front": "When will you reach Norwich, and what will we do there? (informal, m)",
+    "hindi": "Tum Norwich kab pahunchoge, aur hum vahaan kya karenge?",
+    "lesson": "A0-08",
+    "all_matched": [
+      "A0-08"
+    ],
+    "target_focus": "Simple future tense (-ūngaa, -enge, -egaa)",
+    "tags": [
+      "lesson::A0-08"
+    ],
+    "interval": 9,
+    "reps": 8,
+    "lapses": 2,
+    "queue": 2,
+    "factor": 2100
+  },
+  {
+    "cardId": 1787626856130,
+    "noteId": 1787626856130,
+    "front": "Yesterday I went to the store, and then I went to work. (m)",
+    "hindi": "Kal main store gaya, aur phir main kaam par gaya.",
+    "lesson": "A0-06",
+    "all_matched": [
+      "A0-06"
+    ],
+    "target_focus": "Simple past tense & completed actions (gayaa, thaa, kiyaa)",
+    "tags": [
+      "lesson::A0-06"
+    ],
+    "interval": 16,
+    "reps": 5,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1787627116660,
+    "noteId": 1787627116660,
+    "front": "She didn't eat the tofu, and I didn't understand why. (m)",
+    "hindi": "Usne tofu nahi khaaya, aur main nahi samjha ki kyun.",
+    "lesson": "A2-01",
+    "all_matched": [
+      "A2-01"
+    ],
+    "target_focus": "Ergative case marker 'ne' with past transitive verb",
+    "tags": [
+      "lesson::general",
+      "lesson::A2-01"
+    ],
+    "interval": 7,
+    "reps": 8,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1787627217027,
+    "noteId": 1787627217027,
+    "front": "What happened yesterday, and what will happen tomorrow?",
+    "hindi": "Kal kya hua, aur kal kya hoga?",
+    "lesson": "A0-08",
+    "all_matched": [
+      "A0-08"
+    ],
+    "target_focus": "Simple future tense (-ūngaa, -enge, -egaa)",
+    "tags": [
+      "lesson::A0-08"
+    ],
+    "interval": 16,
+    "reps": 3,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1787627270230,
+    "noteId": 1787627270230,
+    "front": "I drank coffee with Shivani.",
+    "hindi": "Maine Shivani ke saath coffee pee.",
+    "lesson": "A2-01",
+    "all_matched": [
+      "A2-01",
+      "A0-03"
+    ],
+    "target_focus": "Ergative case marker 'ne' with past transitive verb",
+    "tags": [
+      "lesson::general",
+      "lesson::A2-01"
+    ],
+    "interval": 11,
+    "reps": 6,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1787627434971,
+    "noteId": 1787627434971,
+    "front": "When will you come and bring the guitar? (informal, f)",
+    "hindi": "Tum kab aaogi aur guitar laaogi?",
+    "lesson": "general",
+    "all_matched": [
+      "general"
+    ],
+    "target_focus": "General conversational phrase or idiom",
+    "tags": [
+      "lesson::general"
+    ],
+    "interval": 1,
+    "reps": 10,
+    "lapses": 3,
+    "queue": 2,
+    "factor": 1900
+  },
+  {
+    "cardId": 1787711943318,
+    "noteId": 1787711943316,
+    "front": "Turn right in front of the station, please. (polite, formal)",
+    "hindi": "Station ke saamne daayein mudiye.",
+    "lesson": "A1-01",
+    "all_matched": [
+      "A1-01"
+    ],
+    "target_focus": "Imperatives & Giving directions (kijiye/karo/mat/directions)",
+    "tags": [
+      "lesson::A1-01"
+    ],
+    "interval": 13,
+    "reps": 5,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1787711943319,
+    "noteId": 1787711943319,
+    "front": "Go straight and then take the bus. (informal, tum)",
+    "hindi": "Seedha jaao aur phir bus lo.",
+    "lesson": "A1-01",
+    "all_matched": [
+      "A1-01"
+    ],
+    "target_focus": "Imperatives & Giving directions (kijiye/karo/mat/directions)",
+    "tags": [
+      "lesson::A1-01"
+    ],
+    "interval": 1,
+    "reps": 9,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1787711943320,
+    "noteId": 1787711943320,
+    "front": "Turn left near the care home, please. (polite, formal)",
+    "hindi": "Care home ke paas baayein mudiye.",
+    "lesson": "A1-01",
+    "all_matched": [
+      "A1-01",
+      "A0-03"
+    ],
+    "target_focus": "Imperatives & Giving directions (kijiye/karo/mat/directions)",
+    "tags": [
+      "lesson::A1-01"
+    ],
+    "interval": 13,
+    "reps": 4,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1787711943321,
+    "noteId": 1787711943321,
+    "front": "Go ahead and wait outside. (informal, tum)",
+    "hindi": "Aage jaao aur baahar ruko.",
+    "lesson": "A1-01",
+    "all_matched": [
+      "A1-01"
+    ],
+    "target_focus": "Imperatives & Giving directions (kijiye/karo/mat/directions)",
+    "tags": [
+      "lesson::A1-01"
+    ],
+    "interval": 10,
+    "reps": 3,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1787711943322,
+    "noteId": 1787711943322,
+    "front": "Please tell me the address of the cafe. (polite, formal)",
+    "hindi": "Mujhe cafe ka address bataiye.",
+    "lesson": "general",
+    "all_matched": [
+      "general"
+    ],
+    "target_focus": "General conversational phrase or idiom",
+    "tags": [
+      "lesson::general"
+    ],
+    "interval": 1,
+    "reps": 7,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1787711943323,
+    "noteId": 1787711943323,
+    "front": "Drink this fresh juice! (informal, tum)",
+    "hindi": "Ye fresh juice piyo!",
+    "lesson": "general",
+    "all_matched": [
+      "general"
+    ],
+    "target_focus": "General conversational phrase or idiom",
+    "tags": [
+      "lesson::general"
+    ],
+    "interval": 10,
+    "reps": 4,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1787711943324,
+    "noteId": 1787711943324,
+    "front": "Please do this work inside the room. (polite, formal)",
+    "hindi": "Kamre ke andar ye kaam kijiye.",
+    "lesson": "A1-01",
+    "all_matched": [
+      "A1-01"
+    ],
+    "target_focus": "Imperatives & Giving directions (kijiye/karo/mat/directions)",
+    "tags": [
+      "lesson::A1-01"
+    ],
+    "interval": 15,
+    "reps": 5,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1787711943325,
+    "noteId": 1787711943325,
+    "front": "Put the guitar behind the amplifier. (informal, tum)",
+    "hindi": "Guitar amplifier ke peeche rakho.",
+    "lesson": "A1-01",
+    "all_matched": [
+      "A1-01"
+    ],
+    "target_focus": "Imperatives & Giving directions (kijiye/karo/mat/directions)",
+    "tags": [
+      "lesson::A1-01"
+    ],
+    "interval": 5,
+    "reps": 9,
+    "lapses": 2,
+    "queue": 2,
+    "factor": 2100
+  },
+  {
+    "cardId": 1787711943326,
+    "noteId": 1787711943326,
+    "front": "Please sit inside near the window. (polite, formal)",
+    "hindi": "Khidkee ke paas andar baithiye.",
+    "lesson": "A1-01",
+    "all_matched": [
+      "A1-01",
+      "A0-03"
+    ],
+    "target_focus": "Imperatives & Giving directions (kijiye/karo/mat/directions)",
+    "tags": [
+      "lesson::A1-01"
+    ],
+    "interval": 1,
+    "reps": 6,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1787711943327,
+    "noteId": 1787711943327,
+    "front": "Walk forward slowly. (informal, tum)",
+    "hindi": "Aage aahista chalo.",
+    "lesson": "A1-01",
+    "all_matched": [
+      "A1-01"
+    ],
+    "target_focus": "Imperatives & Giving directions (kijiye/karo/mat/directions)",
+    "tags": [
+      "lesson::A1-01"
+    ],
+    "interval": 5,
+    "reps": 8,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1787712432711,
+    "noteId": 1787712432711,
+    "front": "Did anyone talk to you at the office today? (informal, m)",
+    "hindi": "Kya aaj office me kisi ne tumse baat ki?",
+    "lesson": "general",
+    "all_matched": [
+      "general"
+    ],
+    "target_focus": "General conversational phrase or idiom",
+    "tags": [
+      "lesson::general"
+    ],
+    "interval": 6,
+    "reps": 9,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2350
+  },
+  {
+    "cardId": 1787712827679,
+    "noteId": 1787712827679,
+    "front": "That song goes something like \"badum dum dum\".",
+    "hindi": "Vo gaana kuch \"badum dum dum\" jaisa bajta hai.",
+    "lesson": "A0-01",
+    "all_matched": [
+      "A0-01"
+    ],
+    "target_focus": "Foundational 'To Be' verb (hoon/hai/ho/hain)",
+    "tags": [
+      "lesson::A0-01"
+    ],
+    "interval": 1,
+    "reps": 9,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1787712956481,
+    "noteId": 1787712956481,
+    "front": "Siemens pays according to old budgets, not according to GenAI experts' talent!",
+    "hindi": "Siemens puraane budget ke hisaab se pay karta hai, na ki GenAI experts ke talent ke hisaab se!",
+    "lesson": "A0-02",
+    "all_matched": [
+      "A0-02",
+      "A0-01"
+    ],
+    "target_focus": "Present Continuous (-rahaa hoon) or Present Habitual (-taa hoon)",
+    "tags": [
+      "lesson::A0-02"
+    ],
+    "interval": 14,
+    "reps": 8,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1787713431626,
+    "noteId": 1787713431626,
+    "front": "I am 25 years old. (informal, m)",
+    "hindi": "Meri umar 25 saal hai.",
+    "lesson": "A1-02",
+    "all_matched": [
+      "A1-02",
+      "A0-01"
+    ],
+    "target_focus": "Possessive pronouns & relationships (meraa, aapkaa, etc.)",
+    "tags": [
+      "lesson::A1-02"
+    ],
+    "interval": 15,
+    "reps": 6,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1787713559505,
+    "noteId": 1787713559505,
+    "front": "My son is 4 years old and I am 6 months 2 weeks pregnant. (f)",
+    "hindi": "Mere bete ki umar 4 saal hai aur main 6 maheene 2 hafte pregnant hoon.",
+    "lesson": "A1-02",
+    "all_matched": [
+      "A1-02",
+      "A0-01"
+    ],
+    "target_focus": "Possessive pronouns & relationships (meraa, aapkaa, etc.)",
+    "tags": [
+      "lesson::A1-02"
+    ],
+    "interval": 1,
+    "reps": 9,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1787713821435,
+    "noteId": 1787713821434,
+    "front": "This is my brother's new car.",
+    "hindi": "Ye mere bhai ki nayi gaadi hai.",
+    "lesson": "A1-02",
+    "all_matched": [
+      "A1-02",
+      "A0-01"
+    ],
+    "target_focus": "Possessive pronouns & relationships (meraa, aapkaa, etc.)",
+    "tags": [
+      "lesson::A1-02"
+    ],
+    "interval": 4,
+    "reps": 8,
+    "lapses": 2,
+    "queue": 2,
+    "factor": 2100
+  },
+  {
+    "cardId": 1787713821436,
+    "noteId": 1787713821435,
+    "front": "How is Josh's job at Revolut?",
+    "hindi": "Revolut me Josh ki job kaisi hai?",
+    "lesson": "A1-02",
+    "all_matched": [
+      "A1-02",
+      "A0-01"
+    ],
+    "target_focus": "Possessive pronouns & relationships (meraa, aapkaa, etc.)",
+    "tags": [
+      "lesson::A1-02"
+    ],
+    "interval": 1,
+    "reps": 3,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1787713821437,
+    "noteId": 1787713821436,
+    "front": "Is that your acoustic guitar? (polite, formal, f)",
+    "hindi": "Kya vo aapki acoustic guitar hai?",
+    "lesson": "A1-02",
+    "all_matched": [
+      "A1-02",
+      "A0-01"
+    ],
+    "target_focus": "Possessive pronoun agreement (aapki guitar)",
+    "tags": [
+      "lesson::A1-02"
+    ],
+    "interval": 6,
+    "reps": 4,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1788231227741,
+    "noteId": 1788231227741,
+    "front": "When do you have to leave? (formal)",
+    "hindi": "Aapko kab nikalnaa hai?",
+    "lesson": "A1-04",
+    "all_matched": [
+      "A1-04",
+      "A0-01"
+    ],
+    "target_focus": "Obligation & compulsion (padtaa hai / infinitive+hai)",
+    "tags": [
+      "lesson::A1-04"
+    ],
+    "interval": 1,
+    "reps": 9,
+    "lapses": 2,
+    "queue": 2,
+    "factor": 2100
+  },
+  {
+    "cardId": 1788231227742,
+    "noteId": 1788231227742,
+    "front": "Tomorrow I will have to catch the train. (m)",
+    "hindi": "Kal mujhe train pakadna padegaa.",
+    "lesson": "A0-08",
+    "all_matched": [
+      "A0-08"
+    ],
+    "target_focus": "Simple future tense (-ūngaa, -enge, -egaa)",
+    "tags": [
+      "lesson::A0-08"
+    ],
+    "interval": 6,
+    "reps": 6,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1788231227743,
+    "noteId": 1788231227743,
+    "front": "Can I come inside? (polite, m)",
+    "hindi": "Kya main andar aa saktaa hoon?",
+    "lesson": "A0-04",
+    "all_matched": [
+      "A0-04",
+      "A0-01"
+    ],
+    "target_focus": "Can & Want (saktaa, chaahtaa, chaahiye, pasand)",
+    "tags": [
+      "lesson::A0-04"
+    ],
+    "interval": 5,
+    "reps": 3,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1788231227744,
+    "noteId": 1788231227744,
+    "front": "Taking photos here is forbidden.",
+    "hindi": "Yahaan photo lenaa manaa hai.",
+    "lesson": "A1-01",
+    "all_matched": [
+      "A1-01",
+      "A0-01"
+    ],
+    "target_focus": "Prohibitive instruction (manaa hai - forbidden)",
+    "tags": [
+      "lesson::A1-01"
+    ],
+    "interval": 12,
+    "reps": 2,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1788231227745,
+    "noteId": 1788231227745,
+    "front": "Coming inside is prohibited.",
+    "hindi": "Andar aanaa manaa hai.",
+    "lesson": "A1-01",
+    "all_matched": [
+      "A1-01",
+      "A0-01"
+    ],
+    "target_focus": "Prohibitive instruction (manaa hai - forbidden)",
+    "tags": [
+      "lesson::A1-01"
+    ],
+    "interval": 6,
+    "reps": 3,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1788231227746,
+    "noteId": 1788231227746,
+    "front": "I have to attend daily morning team meetings. (habitual, m)",
+    "hindi": "Mujhe daily morning team meetings attend karna padtaa hai.",
+    "lesson": "A1-04",
+    "all_matched": [
+      "A1-04",
+      "A0-01"
+    ],
+    "target_focus": "Obligation & compulsion (padtaa hai / infinitive+hai)",
+    "tags": [
+      "lesson::A1-04"
+    ],
+    "interval": 14,
+    "reps": 2,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1788231227747,
+    "noteId": 1788231227747,
+    "front": "Tomorrow we will have to leave early for the station.",
+    "hindi": "Kal humein station ke liye jaldi nikalna padegaa.",
+    "lesson": "A0-08",
+    "all_matched": [
+      "A0-08",
+      "A0-03"
+    ],
+    "target_focus": "Simple future tense (-ūngaa, -enge, -egaa)",
+    "tags": [
+      "lesson::A0-08"
+    ],
+    "interval": 1,
+    "reps": 6,
+    "lapses": 1,
+    "queue": 2,
+    "factor": 2300
+  },
+  {
+    "cardId": 1788231227748,
+    "noteId": 1788231227748,
+    "front": "Can I ask you a question? (formal, m)",
+    "hindi": "Kya main aapse ek question pooch saktaa hoon?",
+    "lesson": "A0-04",
+    "all_matched": [
+      "A0-04",
+      "A0-01"
+    ],
+    "target_focus": "Can & Want (saktaa, chaahtaa, chaahiye, pasand)",
+    "tags": [
+      "lesson::A0-04"
+    ],
+    "interval": 4,
+    "reps": 5,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1788231227749,
+    "noteId": 1788231227749,
+    "front": "My mom has to cook food for our family every day.",
+    "hindi": "Meri mummy ko humare pariwar ke liye har din khana banaana padtaa hai.",
+    "lesson": "A1-04",
+    "all_matched": [
+      "A1-04",
+      "A1-02",
+      "A0-03",
+      "A0-01"
+    ],
+    "target_focus": "Obligation & compulsion (padtaa hai / infinitive+hai)",
+    "tags": [
+      "lesson::A1-04"
+    ],
+    "interval": 1,
+    "reps": 8,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1788231227750,
+    "noteId": 1788231227750,
+    "front": "We have to get ready early tomorrow morning.",
+    "hindi": "Humein kal subah jaldi ready hona hai.",
+    "lesson": "A1-04",
+    "all_matched": [
+      "A1-04",
+      "A0-01"
+    ],
+    "target_focus": "Obligation & compulsion (padtaa hai / infinitive+hai)",
+    "tags": [
+      "lesson::A1-04"
+    ],
+    "interval": 1,
+    "reps": 9,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1788232411036,
+    "noteId": 1788232411036,
+    "front": "I am about to start the new AI script. (speaker m)",
+    "hindi": "Main naya AI script start karne wala hoon.",
+    "lesson": "A2-02",
+    "all_matched": [
+      "A2-02",
+      "A0-01"
+    ],
+    "target_focus": "Agentive/Aspectual marker -vaalaa ('about to' / 'the one that is')",
+    "tags": [
+      "lesson::general",
+      "lesson::A2-02"
+    ],
+    "interval": 1,
+    "reps": 5,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1788232411037,
+    "noteId": 1788232411037,
+    "front": "The GO train to Port Credit is about to arrive.",
+    "hindi": "Port Credit wali GO train aane wali hai.",
+    "lesson": "A2-02",
+    "all_matched": [
+      "A2-02",
+      "A0-01"
+    ],
+    "target_focus": "Agentive/Aspectual marker -vaalaa ('about to' / 'the one that is')",
+    "tags": [
+      "lesson::general",
+      "lesson::A2-02"
+    ],
+    "interval": 1,
+    "reps": 5,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1788232411038,
+    "noteId": 1788232411038,
+    "front": "I need that electric guitar, not this one. (speaker m)",
+    "hindi": "Mujhe woh electric guitar wala chahiye, yeh wala nahi.",
+    "lesson": "A2-02",
+    "all_matched": [
+      "A2-02",
+      "A0-04"
+    ],
+    "target_focus": "Agentive/Aspectual marker -vaalaa ('about to' / 'the one that is')",
+    "tags": [
+      "lesson::general",
+      "lesson::A2-02"
+    ],
+    "interval": 1,
+    "reps": 5,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  },
+  {
+    "cardId": 1788232411039,
+    "noteId": 1788232411039,
+    "front": "Which track is the acoustic one?",
+    "hindi": "Kaun sa track acoustic wala hai?",
+    "lesson": "A2-02",
+    "all_matched": [
+      "A2-02",
+      "A0-01"
+    ],
+    "target_focus": "Agentive/Aspectual marker -vaalaa ('about to' / 'the one that is')",
+    "tags": [
+      "lesson::general",
+      "lesson::A2-02"
+    ],
+    "interval": 1,
+    "reps": 3,
+    "lapses": 0,
+    "queue": 2,
+    "factor": 2500
+  }
+]

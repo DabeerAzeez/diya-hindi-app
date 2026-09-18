@@ -1,0 +1,545 @@
+{
+  "id": "3b685bc1-d962-808f-aac4-f8f51b6ecab0",
+  "code": "A0-06",
+  "title": "Lesson A0-06: Simple Past Tense & Completed Actions",
+  "slug": "lesson_a0-06__simple_past_tense___completed_actions",
+  "sections": [
+    {
+      "title": "🌟 Summary",
+      "type": "heading_1",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Lesson 4 covers the **Simple Past Tense** in Hindi, focusing on **Past States** (*\"was/were\"*), **Intransitive Actions** (*\"went\", \"came\", \"happened\"*), and **Transitive Completed Actions** (*\"ate\", \"drank\", \"saw\", \"did\"*)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Since Hindi is an SOV language like Tamil, simple past sentences follow the structure: **Subject + [Object/Place/Detail] + Past Verb**."
+        }
+      ]
+    },
+    {
+      "title": "Key Takeaways",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "numbered",
+          "text": "**Past \"To Be\" (Was / Were):**",
+          "children": [
+            "**`Thaa`** — Masculine Singular (e.g., *Main ready thaa* = I was ready)",
+            "**`The`** — Masculine Plural / Formal Respect (e.g., *Aap kahaan the?* = Where were you?)",
+            "**`Thee`** — Feminine Singular"
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**Intransitive / Motion Actions (Subject-Agreeing Past Verbs):**",
+          "children": [
+            "**Went:** `Gayaa`",
+            "**Came:** `Aayaa`",
+            "**Happened:** `Huaa`",
+            "**Understood:** `Samajh gayaa`"
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**Transitive Actions (****`ne`**** Ergative Shift & Object Agreement):**",
+          "children": [
+            "Transitive verbs (verbs acting on an object like *eat*, *drink*, *see*, *do*, *buy*) require adding the postposition **`ne`** to the subject (`Maine`, `Tumne`, `Aapne`, `Usne`).",
+            "The verb agrees with the **object** (or stays neutral masculine `aa` for Hinglish nouns)."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**Polyglot & Tamil Alignment:**",
+          "children": [
+            "Hindi `thaa` maps directly to Tamil *irundhen* / *irundhadhu*.",
+            "Hindi `gayaa` maps to Tamil *poanaen* (*poayittaen*).",
+            "Hindi `samajh gayaa` maps to Tamil *purinjiduchu*."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "📘 Lesson",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "1. Past States: Was & Were (`Thaa` / `The`)",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "When describing where you were, how a day was, or a state in the past, use `thaa` for masculine singular subjects (I / he / it) and `the` for formal address (*Aap*) or plural subjects."
+        },
+        {
+          "type": "paragraph",
+          "text": "MATH: \\text{Subject} + \\text{Place / Adjective} + \\text{Thaa / The}"
+        },
+        {
+          "type": "bullet",
+          "text": "**Main busy thaa.** — मैं busy था।",
+          "children": [
+            "Main (I) | busy (busy) | thaa (was - male)"
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**Kal bahut busy din thaa.** — कल बहुत busy दिन था।",
+          "children": [
+            "Kal (Yesterday) | bahut (very) | busy (busy) | din (day) | thaa (was)"
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**Aap kahaan the?** — आप कहाँ थे?",
+          "children": [
+            "Aap (You - formal) | kahaan (where) | the (were - formal)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2. Completed Intransitive Actions (Motion & State Verbs)",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "For basic movement and common intransitive verbs in the past, the verb agrees directly with the subject. For a male speaker, attach masculine endings (`-aa` / `-yaa`):"
+        },
+        {
+          "type": "paragraph",
+          "text": "MATH: \\text{Subject} + \\text{Destination / Detail} + \\text{Past Verb}"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "**English Action**",
+              "**Present Form**",
+              "**Past Form (Male Speaker)**",
+              "**Tamil Equivalent**"
+            ],
+            [
+              "**To Go**",
+              "`jaana`",
+              "**`Gayaa`**",
+              "*Poanaen*"
+            ],
+            [
+              "**To Come**",
+              "`aana`",
+              "**`Aayaa`**",
+              "*Vandhaen*"
+            ],
+            [
+              "**To Happen**",
+              "`hona`",
+              "**`Huaa`**",
+              "*Aachu / Nadandhadhu*"
+            ],
+            [
+              "**To Understand**",
+              "`samjhna`",
+              "**`Samajh gayaa`**",
+              "*Purinjiduchu*"
+            ]
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**Main kaam par gayaa.** — मैं काम पर गया।",
+          "children": [
+            "Main (I) | kaam (work) | par (at/to) | gayaa (went - male)"
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**Main samajh gayaa.** — मैं समझ गया।",
+          "children": [
+            "Main (I) | samajh gayaa (understood / completely got it - male)"
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**Main nahi samjha.** — मैं नहीं समझा।",
+          "children": [
+            "Main (I) | nahi (not) | samjha (understood - male)"
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**Kyaa huaa?** — क्या हुआ?",
+          "children": [
+            "Kyaa (What) | huaa (happened)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3. Intransitive Past Tense",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Because `jaana` is irregular in the past tense (`jaataa` → `gayaa`),  but more importantly since it’s an intransitive verb, the past participle agrees with the *subject. *Note below we’re assuming the subjects are all male, but if they were female they would all be “-i” (singular/informal) / “-in” (formal/plural) endings."
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "**Pronoun**",
+              "**Present Habitual (Goes / Go)**",
+              "**Simple Past (Went)**",
+              "**Tamil Equivalent (Past)**"
+            ],
+            [
+              "**Main** (I)",
+              "`Main jaataa hoon`",
+              "**`Main gayaa`**",
+              "*Naan poanaen*"
+            ],
+            [
+              "**Tum** (You - casual)",
+              "`Tum jaate ho`",
+              "**`Tum gaye`**",
+              "*Nee poana*"
+            ],
+            [
+              "**Aap** (You - formal)",
+              "`Aap jaate haim`",
+              "**`Aap gaye`**",
+              "*Neengal poaneengal*"
+            ],
+            [
+              "**Ye / Vo** (He / This / That)",
+              "`Ye/Vo jaataa hai`",
+              "**`Ye/Vo gayaa`**",
+              "*Ivar/Avar poanaar*"
+            ],
+            [
+              "**Hum** (We)",
+              "`Hum jaate haim`",
+              "**`Hum gaye`**",
+              "*Naangal poanoam*"
+            ],
+            [
+              "**Vo / Ye** (They)",
+              "`Vo/Ye jaate haim`",
+              "**`Vo/Ye gaye`**",
+              "*Avargal poanaargal*"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4. Transitive Past Tense: `ne` Ergative Shift & Object Agreement",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Verbs that take a direct object (e.g., *eat*, *drink*, *see/watch*, *do*, *buy*, *order*) trigger a special rule in Hindi past tense: the **Ergative Postposition ****`-ne`**."
+        }
+      ]
+    },
+    {
+      "title": "Rule A: Pronoun + `ne` Shift",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "MATH: \\text{Subject Pronoun} + \\text{ne} \\longrightarrow \\text{Ergative Subject Form}"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "**Pronoun**",
+              "**+ ne**",
+              "**Ergative Past Form**",
+              "**Tamil Equivalent**"
+            ],
+            [
+              "**Main** (I)",
+              "`Main + ne`",
+              "**`Maine`**",
+              "*Naan... (transitive past)*"
+            ],
+            [
+              "**Tum** (You - casual)",
+              "`Tum + ne`",
+              "**`Tumne`**",
+              "*Nee...*"
+            ],
+            [
+              "**Aap** (You - formal)",
+              "`Aap + ne`",
+              "**`Aapne`**",
+              "*Neengal...*"
+            ],
+            [
+              "**Ye** (He / She / This)",
+              "`Is + ne`",
+              "**`Isne`**",
+              "*Ivar / Idhu...*"
+            ],
+            [
+              "**Vo** (He / She / That)",
+              "`Us + ne`",
+              "**`Usne`**",
+              "*Avar / Adhu...*"
+            ],
+            [
+              "**Hum** (We)",
+              "`Hum + ne`",
+              "**`Humne`**",
+              "*Naangal...*"
+            ],
+            [
+              "**Vo / Ye** (They)",
+              "`Unhone / Inhone`",
+              "**`Unhone`**",
+              "*Avargal...*"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Now for `dekhnaa` — note that the past participle is the same throughout. That’s because this is a *transitive *verb, so the ending depends on the *object*, not the subject. Here we’re assuming a male object [that you are `dekhnaa`-ing]."
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "**Pronoun**",
+              "**Present Habitual (Sees / See)**",
+              "**Simple Past (Saw)**"
+            ],
+            [
+              "**Main** (I)",
+              "Main dekhtaa hoon",
+              "Main ne dekhaa"
+            ],
+            [
+              "**Tum** (You - casual)",
+              "Tum dekhte ho",
+              "Tum ne dekhaa"
+            ],
+            [
+              "**Aap** (You - formal)",
+              "Aap dekhte hain",
+              "Aap ne dekhaa"
+            ],
+            [
+              "**Ye / Vo** (He / This / That)",
+              "Ye / Vo dekhtaa hai",
+              "Is ne / Us ne dekhaa"
+            ],
+            [
+              "**Hum** (We)",
+              "Hum dekhte hain",
+              "Hum ne dekhaa"
+            ],
+            [
+              "**Vo / Ye** (They / These / Those)",
+              "Vo / Ye dekhte hain",
+              "Unhon ne / Inhon ne dekhaa"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Rule B: Object Agreement",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Once you attach `-ne`, the subject loses control of the verb! The verb now agrees with the **object**, or defaults to a neutral masculine form (`-aa`) when using English Hinglish nouns:"
+        },
+        {
+          "type": "paragraph",
+          "text": "MATH: \\text{Ergative Subject (Maine / Tumne / Usne)} + \\text{Object} + \\text{Past Verb}"
+        },
+        {
+          "type": "bullet",
+          "text": "**Maine coffee peeyi.** — मैंने coffee पी।",
+          "children": [
+            "Maine (By me) | coffee (coffee - feminine) | peeyi (drank - feminine ending)"
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**Tumne kyaa kiyaa?** — तुमने क्या किया?",
+          "children": [
+            "Tumne (You - casual) | kyaa (what) | kiyaa (did - neutral male ending)"
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**Aapne show dekha?** — आपने show देखा?",
+          "children": [
+            "Aapne (You - formal) | show (show - male) | dekha (watched - male ending)"
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**Usne cocktail order kiyaa.** — उसने cocktail order किया।",
+          "children": [
+            "Usne (He/She) | cocktail (cocktail) | order kiyaa (ordered - neutral male ending)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Verb Types",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Hindi past tense me main rule simple hai:\n• **Consonant-ending roots:**\nJab verb ka root consonant par khatam hota hai, tab hum sirf **-aa** add karte hain (*-yaa* nahi!).\n    ◦ Root: **soch-** (from *sochnaa*) $\\rightarrow$ `soch + aa = socha` [sochaa — सोचा]\n    ◦ Root: **dekh-** (from *dekhnaa*) $\\rightarrow$ `dekh + aa = dekha` [dekhaa — देखा]\n    ◦ Root: **bol-** (from *bolnaa*) $\\rightarrow$ `bol + aa = bola` [bolaa — बोला]"
+        },
+        {
+          "type": "paragraph",
+          "text": "\n• **Vowel-ending roots:**\nJab verb root vowel par khatam hota hai, tab smooth pronunciation ke liye **-yaa** lagta hai.\n    ◦ Root: **khaa-** (from *khaanaa*) $\\rightarrow$ `khaa + yaa = khaayaa` [khaayaa — खाया]\n    ◦ Root: **banaa-** (from *banaanaa*) $\\rightarrow$ `banaa + yaa = banaayaa` [banaayaa — बनाया]\n    ◦ Root: **laa-** (from *laanaa*) $\\rightarrow$ `laa + yaa = laayaa` [laayaa — लाया]"
+        },
+        {
+          "type": "paragraph",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "title": "❓ Quiz",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "Concept & Grammar Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "numbered",
+          "text": "**Explain when you use ****`thaa`**** versus ****`the`**** in spoken Hindi.**",
+          "children": [
+            "**Answer:** `Thaa` is used for masculine singular subjects (I / he / it). `The` is used for formal respect (*Aap*) or masculine plural subjects (we / they)."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**What is the difference between intransitive verbs (like ****`jaana`****) and transitive verbs (like ****`khaana`****) in the past tense?**",
+          "children": [
+            "**Answer:** Intransitive verbs agree directly with the subject (e.g., `Main gayaa`). Transitive verbs require attaching `ne` to the subject (e.g., `Maine`), and the verb agrees with the *object* rather than the speaker."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**What happens to the pronouns ****`Main`****, ****`Tum`****, ****`Aap`****, and ****`Vo`**** when you use them in the transitive past tense?**",
+          "children": [
+            "**Answer:** They shift to their ergative forms: `Maine`, `Tumne`, `Aapne`, and `Usne`."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**How do you say \"What happened?\" versus \"What did you do?\" in Hindi?**",
+          "children": [
+            "**Answer:** \"What happened?\" is `Kyaa huaa?` (intransitive). \"What did you do?\" is `Tumne kyaa kiyaa?` (transitive with `ne`)."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Translation Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "toggle",
+          "title": "**How was your day?**",
+          "children": [
+            "**Answer:** `Aapka din kaisa thaa?` — आपका दिन कैसा था?"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Yesterday was a very busy day.**",
+          "children": [
+            "**Answer:** `Kal bahut busy din thaa.` — कल बहुत busy दिन था।"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**I went to work.**",
+          "children": [
+            "**Answer:** `Main kaam par gayaa.` — मैं काम पर गया।"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**Where did you go? (Addressing a friend / casual context)**",
+          "children": [
+            "**Answer:** `Tum kahaan gaye?` — तुम कहाँ गए?"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**I understood everything.**",
+          "children": [
+            "**Answer:** `Main sab samajh gayaa.` — मैं सब समझ गया।"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**I didn't understand.**",
+          "children": [
+            "**Answer:** `Main nahi samjha.` — मैं नहीं समझा।"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**What happened yesterday?**",
+          "children": [
+            "**Answer:** `Kal kyaa huaa?` — कल क्या हुआ?"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**I was in Toronto yesterday.**",
+          "children": [
+            "**Answer:** `Main kal Toronto me thaa.` — मैं कल Toronto में था।"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**I drank coffee with Shivani.**",
+          "children": [
+            "**Answer:** `Maine Shivani ke saath coffee peeyi.` — मैंने Shivani के साथ coffee पी।"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**What did you eat yesterday? (Casual)**",
+          "children": [
+            "**Answer:** `Tumne kal kyaa khaayaa?` — तुमने कल क्या खाया?"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**`Aap kahaan the?`**",
+          "children": [
+            "**Answer:** Where were you? (Formal)"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "**`Main kal Shivani se milne gayaa thaa.`**",
+          "children": [
+            "**Answer:** I had gone to meet Shivani yesterday. (Male speaker)"
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": "\n# 🌟 Summary\n\nLesson 4 covers the **Simple Past Tense** in Hindi, focusing on **Past States** (*\"was/were\"*), **Intransitive Actions** (*\"went\", \"came\", \"happened\"*), and **Transitive Completed Actions** (*\"ate\", \"drank\", \"saw\", \"did\"*).\n\nSince Hindi is an SOV language like Tamil, simple past sentences follow the structure: **Subject + [Object/Place/Detail] + Past Verb**.\n\n\n### Key Takeaways\n\n1. **Past \"To Be\" (Was / Were):**\n    * **`Thaa`** — Masculine Singular (e.g., *Main ready thaa* = I was ready)\n    * **`The`** — Masculine Plural / Formal Respect (e.g., *Aap kahaan the?* = Where were you?)\n    * **`Thee`** — Feminine Singular\n1. **Intransitive / Motion Actions (Subject-Agreeing Past Verbs):**\n    * **Went:** `Gayaa`\n    * **Came:** `Aayaa`\n    * **Happened:** `Huaa`\n    * **Understood:** `Samajh gayaa`\n1. **Transitive Actions (****`ne`**** Ergative Shift & Object Agreement):**\n    * Transitive verbs (verbs acting on an object like *eat*, *drink*, *see*, *do*, *buy*) require adding the postposition **`ne`** to the subject (`Maine`, `Tumne`, `Aapne`, `Usne`).\n    * The verb agrees with the **object** (or stays neutral masculine `aa` for Hinglish nouns).\n1. **Polyglot & Tamil Alignment:**\n    * Hindi `thaa` maps directly to Tamil *irundhen* / *irundhadhu*.\n    * Hindi `gayaa` maps to Tamil *poanaen* (*poayittaen*).\n    * Hindi `samajh gayaa` maps to Tamil *purinjiduchu*.\n\n# 📘 Lesson\n\n\n## 1. Past States: Was & Were (`Thaa` / `The`)\n\nWhen describing where you were, how a day was, or a state in the past, use `thaa` for masculine singular subjects (I / he / it) and `the` for formal address (*Aap*) or plural subjects.\n\nMATH: \\text{Subject} + \\text{Place / Adjective} + \\text{Thaa / The}\n\n* **Main busy thaa.** — मैं busy था।\n    * Main (I) | busy (busy) | thaa (was - male)\n* **Kal bahut busy din thaa.** — कल बहुत busy दिन था।\n    * Kal (Yesterday) | bahut (very) | busy (busy) | din (day) | thaa (was)\n* **Aap kahaan the?** — आप कहाँ थे?\n    * Aap (You - formal) | kahaan (where) | the (were - formal)\n\n## 2. Completed Intransitive Actions (Motion & State Verbs)\n\nFor basic movement and common intransitive verbs in the past, the verb agrees directly with the subject. For a male speaker, attach masculine endings (`-aa` / `-yaa`):\n\nMATH: \\text{Subject} + \\text{Destination / Detail} + \\text{Past Verb}\n\n| **English Action** | **Present Form** | **Past Form (Male Speaker)** | **Tamil Equivalent** |\n| --- | --- | --- | --- |\n| **To Go** | `jaana` | **`Gayaa`** | *Poanaen* |\n| **To Come** | `aana` | **`Aayaa`** | *Vandhaen* |\n| **To Happen** | `hona` | **`Huaa`** | *Aachu / Nadandhadhu* |\n| **To Understand** | `samjhna` | **`Samajh gayaa`** | *Purinjiduchu* |\n\n* **Main kaam par gayaa.** — मैं काम पर गया।\n    * Main (I) | kaam (work) | par (at/to) | gayaa (went - male)\n* **Main samajh gayaa.** — मैं समझ गया।\n    * Main (I) | samajh gayaa (understood / completely got it - male)\n* **Main nahi samjha.** — मैं नहीं समझा।\n    * Main (I) | nahi (not) | samjha (understood - male)\n* **Kyaa huaa?** — क्या हुआ?\n    * Kyaa (What) | huaa (happened)\n\n## 3. Intransitive Past Tense\n\nBecause `jaana` is irregular in the past tense (`jaataa` → `gayaa`),  but more importantly since it’s an intransitive verb, the past participle agrees with the *subject. *Note below we’re assuming the subjects are all male, but if they were female they would all be “-i” (singular/informal) / “-in” (formal/plural) endings.\n\n| **Pronoun** | **Present Habitual (Goes / Go)** | **Simple Past (Went)** | **Tamil Equivalent (Past)** |\n| --- | --- | --- | --- |\n| **Main** (I) | `Main jaataa hoon` | **`Main gayaa`** | *Naan poanaen* |\n| **Tum** (You - casual) | `Tum jaate ho` | **`Tum gaye`** | *Nee poana* |\n| **Aap** (You - formal) | `Aap jaate haim` | **`Aap gaye`** | *Neengal poaneengal* |\n| **Ye / Vo** (He / This / That) | `Ye/Vo jaataa hai` | **`Ye/Vo gayaa`** | *Ivar/Avar poanaar* |\n| **Hum** (We) | `Hum jaate haim` | **`Hum gaye`** | *Naangal poanoam* |\n| **Vo / Ye** (They) | `Vo/Ye jaate haim` | **`Vo/Ye gaye`** | *Avargal poanaargal* |\n\n\n## 4. Transitive Past Tense: `ne` Ergative Shift & Object Agreement\n\nVerbs that take a direct object (e.g., *eat*, *drink*, *see/watch*, *do*, *buy*, *order*) trigger a special rule in Hindi past tense: the **Ergative Postposition ****`-ne`**.\n\n\n### Rule A: Pronoun + `ne` Shift\n\nMATH: \\text{Subject Pronoun} + \\text{ne} \\longrightarrow \\text{Ergative Subject Form}\n\n| **Pronoun** | **+ ne** | **Ergative Past Form** | **Tamil Equivalent** |\n| --- | --- | --- | --- |\n| **Main** (I) | `Main + ne` | **`Maine`** | *Naan... (transitive past)* |\n| **Tum** (You - casual) | `Tum + ne` | **`Tumne`** | *Nee...* |\n| **Aap** (You - formal) | `Aap + ne` | **`Aapne`** | *Neengal...* |\n| **Ye** (He / She / This) | `Is + ne` | **`Isne`** | *Ivar / Idhu...* |\n| **Vo** (He / She / That) | `Us + ne` | **`Usne`** | *Avar / Adhu...* |\n| **Hum** (We) | `Hum + ne` | **`Humne`** | *Naangal...* |\n| **Vo / Ye** (They) | `Unhone / Inhone` | **`Unhone`** | *Avargal...* |\n\nNow for `dekhnaa` — note that the past participle is the same throughout. That’s because this is a *transitive *verb, so the ending depends on the *object*, not the subject. Here we’re assuming a male object [that you are `dekhnaa`-ing].\n\n| **Pronoun** | **Present Habitual (Sees / See)** | **Simple Past (Saw)** |\n| --- | --- | --- |\n| **Main** (I) | Main dekhtaa hoon | Main ne dekhaa |\n| **Tum** (You - casual) | Tum dekhte ho | Tum ne dekhaa |\n| **Aap** (You - formal) | Aap dekhte hain | Aap ne dekhaa |\n| **Ye / Vo** (He / This / That) | Ye / Vo dekhtaa hai | Is ne / Us ne dekhaa |\n| **Hum** (We) | Hum dekhte hain | Hum ne dekhaa |\n| **Vo / Ye** (They / These / Those) | Vo / Ye dekhte hain | Unhon ne / Inhon ne dekhaa |\n\n\n### Rule B: Object Agreement\n\nOnce you attach `-ne`, the subject loses control of the verb! The verb now agrees with the **object**, or defaults to a neutral masculine form (`-aa`) when using English Hinglish nouns:\n\nMATH: \\text{Ergative Subject (Maine / Tumne / Usne)} + \\text{Object} + \\text{Past Verb}\n\n* **Maine coffee peeyi.** — मैंने coffee पी।\n    * Maine (By me) | coffee (coffee - feminine) | peeyi (drank - feminine ending)\n* **Tumne kyaa kiyaa?** — तुमने क्या किया?\n    * Tumne (You - casual) | kyaa (what) | kiyaa (did - neutral male ending)\n* **Aapne show dekha?** — आपने show देखा?\n    * Aapne (You - formal) | show (show - male) | dekha (watched - male ending)\n* **Usne cocktail order kiyaa.** — उसने cocktail order किया।\n    * Usne (He/She) | cocktail (cocktail) | order kiyaa (ordered - neutral male ending)\n\n## Verb Types\n\nHindi past tense me main rule simple hai:\n• **Consonant-ending roots:**\nJab verb ka root consonant par khatam hota hai, tab hum sirf **-aa** add karte hain (*-yaa* nahi!).\n    ◦ Root: **soch-** (from *sochnaa*) $\\rightarrow$ `soch + aa = socha` [sochaa — सोचा]\n    ◦ Root: **dekh-** (from *dekhnaa*) $\\rightarrow$ `dekh + aa = dekha` [dekhaa — देखा]\n    ◦ Root: **bol-** (from *bolnaa*) $\\rightarrow$ `bol + aa = bola` [bolaa — बोला]\n\n\n• **Vowel-ending roots:**\nJab verb root vowel par khatam hota hai, tab smooth pronunciation ke liye **-yaa** lagta hai.\n    ◦ Root: **khaa-** (from *khaanaa*) $\\rightarrow$ `khaa + yaa = khaayaa` [khaayaa — खाया]\n    ◦ Root: **banaa-** (from *banaanaa*) $\\rightarrow$ `banaa + yaa = banaayaa` [banaayaa — बनाया]\n    ◦ Root: **laa-** (from *laanaa*) $\\rightarrow$ `laa + yaa = laayaa` [laayaa — लाया]\n\n\n\n\n# ❓ Quiz\n\n\n### Concept & Grammar Questions\n\n1. **Explain when you use ****`thaa`**** versus ****`the`**** in spoken Hindi.**\n    * **Answer:** `Thaa` is used for masculine singular subjects (I / he / it). `The` is used for formal respect (*Aap*) or masculine plural subjects (we / they).\n1. **What is the difference between intransitive verbs (like ****`jaana`****) and transitive verbs (like ****`khaana`****) in the past tense?**\n    * **Answer:** Intransitive verbs agree directly with the subject (e.g., `Main gayaa`). Transitive verbs require attaching `ne` to the subject (e.g., `Maine`), and the verb agrees with the *object* rather than the speaker.\n1. **What happens to the pronouns ****`Main`****, ****`Tum`****, ****`Aap`****, and ****`Vo`**** when you use them in the transitive past tense?**\n    * **Answer:** They shift to their ergative forms: `Maine`, `Tumne`, `Aapne`, and `Usne`.\n1. **How do you say \"What happened?\" versus \"What did you do?\" in Hindi?**\n    * **Answer:** \"What happened?\" is `Kyaa huaa?` (intransitive). \"What did you do?\" is `Tumne kyaa kiyaa?` (transitive with `ne`).\n\n### Translation Questions\n\n<details><summary>**How was your day?**</summary>\n\n* **Answer:** `Aapka din kaisa thaa?` — आपका दिन कैसा था?\n</details>\n\n<details><summary>**Yesterday was a very busy day.**</summary>\n\n* **Answer:** `Kal bahut busy din thaa.` — कल बहुत busy दिन था।\n</details>\n\n<details><summary>**I went to work.**</summary>\n\n* **Answer:** `Main kaam par gayaa.` — मैं काम पर गया।\n</details>\n\n<details><summary>**Where did you go? (Addressing a friend / casual context)**</summary>\n\n* **Answer:** `Tum kahaan gaye?` — तुम कहाँ गए?\n</details>\n\n<details><summary>**I understood everything.**</summary>\n\n* **Answer:** `Main sab samajh gayaa.` — मैं सब समझ गया।\n</details>\n\n<details><summary>**I didn't understand.**</summary>\n\n* **Answer:** `Main nahi samjha.` — मैं नहीं समझा।\n</details>\n\n<details><summary>**What happened yesterday?**</summary>\n\n* **Answer:** `Kal kyaa huaa?` — कल क्या हुआ?\n</details>\n\n<details><summary>**I was in Toronto yesterday.**</summary>\n\n* **Answer:** `Main kal Toronto me thaa.` — मैं कल Toronto में था।\n</details>\n\n<details><summary>**I drank coffee with Shivani.**</summary>\n\n* **Answer:** `Maine Shivani ke saath coffee peeyi.` — मैंने Shivani के साथ coffee पी।\n</details>\n\n<details><summary>**What did you eat yesterday? (Casual)**</summary>\n\n* **Answer:** `Tumne kal kyaa khaayaa?` — तुमने कल क्या खाया?\n</details>\n\n<details><summary>**`Aap kahaan the?`**</summary>\n\n* **Answer:** Where were you? (Formal)\n</details>\n\n<details><summary>**`Main kal Shivani se milne gayaa thaa.`**</summary>\n\n* **Answer:** I had gone to meet Shivani yesterday. (Male speaker)\n</details>\n"
+}

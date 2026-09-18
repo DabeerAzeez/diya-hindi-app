@@ -1,0 +1,225 @@
+{
+  "id": "a82ffb95-09bb-41db-9264-19f338153afb",
+  "code": "A2-04",
+  "title": "Lesson A2-04: Dative Experiencer Frameworks (Lagnaa, Aanaa, Pataa, Yaad)",
+  "slug": "lesson_a2-04__dative_experiencer_frameworks_lagnaa_aanaa_pataa_yaad",
+  "sections": [
+    {
+      "title": "🌟Summary",
+      "type": "heading_1",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Hindi grammar ka sabse powerful aur distinctive pillar hai **Dative Experiencer Framework**. In structures mein insaan action ka 'doer' (agent) nahin hotaa, balki sensation, skill ya memory ka 'recipient' (experiencer) ban jaataa hai. Isliye subject hamesha **Ko / Mujhe** leta hai."
+        }
+      ]
+    },
+    {
+      "title": "🧠 Polyglot Structural Anchors",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "bullet",
+          "text": "**Tamil Enakku Mirror:**",
+          "children": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Tamil mein *Enakku theriyum* (I know), *Enakku theriyadhu* (I don't know), *Enakku nyabagam irukku* (I remember) Hindi ke *Mujhe pataa hai, Mujhe yaad hai* se 1-to-1 correspond karte hain."
+        },
+        {
+          "type": "bullet",
+          "text": "**Romance Indirect Experiencers:**",
+          "children": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Spanish (*Me gusta / Me parece / Me duele*) aur French (*Il me faut*) exact dative experiencer alignment follow karte hain."
+        }
+      ]
+    },
+    {
+      "title": "📐 Core Mathematical Formulas",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Experiencer} + \\text{ko} + \\text{Sensations/State} + \\text{Lagnaa} \\quad (\\text{bhookh, pyaas, thand, achhaa})$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Experiencer} + \\text{ko} + \\text{Skill/Language} + \\text{Aanaa} \\quad (\\text{French aatii hai, coding aataa hai})$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Experiencer} + \\text{ko} + \\text{Fact/Info} + \\text{Pataa honaa} \\quad (\\text{Mujhe pataa hai ki\\dots})$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Experiencer} + \\text{ko} + \\text{Memory} + \\text{Yaad aanaa} \\quad (\\text{Mujhe university ke din yaad aate hain})$$"
+        }
+      ]
+    },
+    {
+      "title": "📘Lesson",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "🍽️ 1. Bodily & Emotional Sensations with Lagnaa",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "* *Mujhe bhookh lag rahii hai.* (I am feeling hungry.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Mujhe pyaas lagii hai.* (I feel thirsty.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Mujhe thand lag rahii hai.* (I am feeling cold.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Mujhe buraa lagaa.* (I felt bad about it.)"
+        }
+      ]
+    },
+    {
+      "title": "🎸 2. Skills & Languages with Aanaa",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Hindi mein skills aapse belong karte hain: 'Skill comes to me':"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Mujhe guitar bajanaa aataa hai.* (I know how to play guitar.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Mujhe French aur Spanish aatii hain.* (I know French and Spanish - languages take feminine agreement)."
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Kyaa aapko coding aatii hai?* (Do you know coding?)"
+        }
+      ]
+    },
+    {
+      "title": "💭 3. Knowledge & Memories (Pataa vs Yaad)",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "* **Pataa honaa:** *Mujhe pataa hai ki Shivani Norwich mein hai.* (I know that...)"
+        },
+        {
+          "type": "paragraph",
+          "text": "* **Yaad aanaa:** *Mujhe Toronto ke snow storms yaad aate hain.* (I remember / miss Toronto snow storms.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "* *Mujhe aapka naam yaad hai.* (I remember your name.)"
+        }
+      ]
+    },
+    {
+      "title": "🎭 Dialogue Example",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "**Shivani:** *\"Tumhe bhookh lag rahii hai kyaa? Paas mein ek bohot achhaa Thai restaurant hai.\"*"
+        },
+        {
+          "type": "paragraph",
+          "text": "**You:** *\"Haan yaar, mujhe kaafi bhookh lagii hai! Vaise, kyaa tumhe spicy food pasand hai?\"*"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Shivani:** *\"Bohot! Aur mujhe pataa hai ki tumhe teekhaa khaanaa bohot achhaa lagtaa hai.\"*"
+        },
+        {
+          "type": "paragraph",
+          "text": "**You:** *\"Sahi baat hai! University days yaad aa rahe hain jab hum midnight ko noodles banaate the.\"*"
+        }
+      ]
+    },
+    {
+      "title": "❓Quiz",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "Concept & Grammar Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "numbered",
+          "text": "**Language skills express karte waqt verb agreement kiske hisaab se hoti hai? (e.g. 'Mujhe French aatii hai')**",
+          "children": [
+            "**Answer:** Verb language ke grammatical gender se agree karti hai. Hindi mein saari languages feminine maani jaati hain (*French, Hindi, English, Tamil*), isliye verb hamesha feminine singular *-tii hai* ya plural *-tii hain* hotii hai."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**'Mujhe yaad hai' aur 'Mujhe yaad aayaa' mein kyaa aspectual difference hai?**",
+          "children": [
+            "**Answer:** *\"Mujhe yaad hai\"* ek continuous state of knowledge hai (\"I remember / I have it in memory\"), jabki *\"Mujhe yaad aayaa\"* ek sudden moment of recall denote karta hai (\"It just came to my mind / I just remembered!\")."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Translation Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "numbered",
+          "text": "**I know how to play the piano and guitar. (informal, m)**",
+          "children": [
+            "**Answer:** `Mujhe piano aur guitar bajanaa aataa hai.` — मुझे पियानो और गिटार बजाना आता है।",
+            "[Mujhe (to me) + piano aur guitar + bajanaa (to play) + aataa hai (comes)]."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**Do you remember our university improv rehearsals? (casual, to Shivani)**",
+          "children": [
+            "**Answer:** `Kyaa tumhe humaare university improv rehearsals yaad hain?` — क्या तुम्हें हमारे यूनिवर्सिटी इम्प्रोव रिहर्सल्स याद हैं?",
+            "[Kyaa + tumhe (to you casual) + humaare university improv rehearsals + yaad hain (are remembered)]."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**I feel cold here, please close the window. (polite)**",
+          "children": [
+            "**Answer:** `Mujhe yahaan thand lag rahii hai, kripya khidkii band kar dijiye.` — मुझे यहाँ ठंड लग रही है, कृपया खिड़की बंद कर दीजिए।",
+            "[Mujhe yahaan + thand lag rahii hai (cold is feeling) + kripya + khidkii band kar dijiye]."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**We don't know what time the pub closes. (informal)**",
+          "children": [
+            "**Answer:** `Humein nahin pataa ki pub kitne baje band hotaa hai.` — हमें नहीं पता कि पब कितने बजे बंद होता है।",
+            "[Humein (to us) + nahin pataa (not known) + ki + pub kitne baje band hotaa hai]."
+          ]
+        },
+        {
+          "type": "numbered",
+          "text": "**She knows four different languages fluently. (respectful/female peer)**",
+          "children": [
+            "**Answer:** `Unhein chaar alag-alag languages fluently aatii hain.` — उन्हें चार अलग-अलग लैंग्वेजेस फ़्लूएंसी से आती हैं।",
+            "[Unhein (to her respectful) + chaar alag-alag languages + fluently aatii hain]."
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": "# Lesson A2-04: Dative Experiencer Frameworks (Lagnaa, Aanaa, Pataa, Yaad)\n\n# 🌟Summary\n\nHindi grammar ka sabse powerful aur distinctive pillar hai **Dative Experiencer Framework**. In structures mein insaan action ka 'doer' (agent) nahin hotaa, balki sensation, skill ya memory ka 'recipient' (experiencer) ban jaataa hai. Isliye subject hamesha **Ko / Mujhe** leta hai.\n\n### 🧠 Polyglot Structural Anchors\n\n* **Tamil Enakku Mirror:**\nTamil mein *Enakku theriyum* (I know), *Enakku theriyadhu* (I don't know), *Enakku nyabagam irukku* (I remember) Hindi ke *Mujhe pataa hai, Mujhe yaad hai* se 1-to-1 correspond karte hain.\n\n* **Romance Indirect Experiencers:**\nSpanish (*Me gusta / Me parece / Me duele*) aur French (*Il me faut*) exact dative experiencer alignment follow karte hain.\n\n### 📐 Core Mathematical Formulas\n\n$$\\text{Experiencer} + \\text{ko} + \\text{Sensations/State} + \\text{Lagnaa} \\quad (\\text{bhookh, pyaas, thand, achhaa})$$\n\n$$\\text{Experiencer} + \\text{ko} + \\text{Skill/Language} + \\text{Aanaa} \\quad (\\text{French aatii hai, coding aataa hai})$$\n\n$$\\text{Experiencer} + \\text{ko} + \\text{Fact/Info} + \\text{Pataa honaa} \\quad (\\text{Mujhe pataa hai ki\\dots})$$\n\n$$\\text{Experiencer} + \\text{ko} + \\text{Memory} + \\text{Yaad aanaa} \\quad (\\text{Mujhe university ke din yaad aate hain})$$\n\n---\n\n# 📘Lesson\n\n## 🍽️ 1. Bodily & Emotional Sensations with Lagnaa\n\n* *Mujhe bhookh lag rahii hai.* (I am feeling hungry.)\n\n* *Mujhe pyaas lagii hai.* (I feel thirsty.)\n\n* *Mujhe thand lag rahii hai.* (I am feeling cold.)\n\n* *Mujhe buraa lagaa.* (I felt bad about it.)\n\n## 🎸 2. Skills & Languages with Aanaa\n\nHindi mein skills aapse belong karte hain: 'Skill comes to me':\n\n* *Mujhe guitar bajanaa aataa hai.* (I know how to play guitar.)\n\n* *Mujhe French aur Spanish aatii hain.* (I know French and Spanish - languages take feminine agreement).\n\n* *Kyaa aapko coding aatii hai?* (Do you know coding?)\n\n## 💭 3. Knowledge & Memories (Pataa vs Yaad)\n\n* **Pataa honaa:** *Mujhe pataa hai ki Shivani Norwich mein hai.* (I know that...)\n\n* **Yaad aanaa:** *Mujhe Toronto ke snow storms yaad aate hain.* (I remember / miss Toronto snow storms.)\n\n* *Mujhe aapka naam yaad hai.* (I remember your name.)\n\n---\n\n## 🎭 Dialogue Example\n\n* **Shivani:** *\"Tumhe bhookh lag rahii hai kyaa? Paas mein ek bohot achhaa Thai restaurant hai.\"*\n* **You:** *\"Haan yaar, mujhe kaafi bhookh lagii hai! Vaise, kyaa tumhe spicy food pasand hai?\"*\n* **Shivani:** *\"Bohot! Aur mujhe pataa hai ki tumhe teekhaa khaanaa bohot achhaa lagtaa hai.\"*\n* **You:** *\"Sahi baat hai! University days yaad aa rahe hain jab hum midnight ko noodles banaate the.\"*\n\n---\n\n# ❓Quiz\n\n### Concept & Grammar Questions\n\n1. **Language skills express karte waqt verb agreement kiske hisaab se hoti hai? (e.g. 'Mujhe French aatii hai')**\n    * **Answer:** Verb language ke grammatical gender se agree karti hai. Hindi mein saari languages feminine maani jaati hain (*French, Hindi, English, Tamil*), isliye verb hamesha feminine singular *-tii hai* ya plural *-tii hain* hotii hai.\n1. **'Mujhe yaad hai' aur 'Mujhe yaad aayaa' mein kyaa aspectual difference hai?**\n    * **Answer:** *\"Mujhe yaad hai\"* ek continuous state of knowledge hai (\"I remember / I have it in memory\"), jabki *\"Mujhe yaad aayaa\"* ek sudden moment of recall denote karta hai (\"It just came to my mind / I just remembered!\").\n\n---\n\n### Translation Questions\n\n1. **I know how to play the piano and guitar. (informal, m)**\n    * **Answer:** `Mujhe piano aur guitar bajanaa aataa hai.` — मुझे पियानो और गिटार बजाना आता है।\n    * [Mujhe (to me) + piano aur guitar + bajanaa (to play) + aataa hai (comes)].\n1. **Do you remember our university improv rehearsals? (casual, to Shivani)**\n    * **Answer:** `Kyaa tumhe humaare university improv rehearsals yaad hain?` — क्या तुम्हें हमारे यूनिवर्सिटी इम्प्रोव रिहर्सल्स याद हैं?\n    * [Kyaa + tumhe (to you casual) + humaare university improv rehearsals + yaad hain (are remembered)].\n1. **I feel cold here, please close the window. (polite)**\n    * **Answer:** `Mujhe yahaan thand lag rahii hai, kripya khidkii band kar dijiye.` — मुझे यहाँ ठंड लग रही है, कृपया खिड़की बंद कर दीजिए।\n    * [Mujhe yahaan + thand lag rahii hai (cold is feeling) + kripya + khidkii band kar dijiye].\n1. **We don't know what time the pub closes. (informal)**\n    * **Answer:** `Humein nahin pataa ki pub kitne baje band hotaa hai.` — हमें नहीं पता कि पब कितने बजे बंद होता है।\n    * [Humein (to us) + nahin pataa (not known) + ki + pub kitne baje band hotaa hai].\n1. **She knows four different languages fluently. (respectful/female peer)**\n    * **Answer:** `Unhein chaar alag-alag languages fluently aatii hain.` — उन्हें चार अलग-अलग लैंग्वेजेस फ़्लूएंसी से आती हैं।\n    * [Unhein (to her respectful) + chaar alag-alag languages + fluently aatii hain]."
+}

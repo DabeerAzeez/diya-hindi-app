@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anki Flashcard Preview</title>
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+</head>
+<body class="bg-transparent text-[var(--foreground)] antialiased p-3 font-sans">
+  <div class="max-w-3xl mx-auto bg-[var(--card)] text-[var(--foreground)] border border-[var(--border)] rounded-2xl p-5 shadow-lg">
+    <!-- Header -->
+    <div class="flex items-center justify-between border-b border-[var(--border)] pb-3 mb-4">
+      <div class="flex items-center space-x-2">
+        <span class="text-xl">🎴</span>
+        <h2 class="font-bold text-base text-[var(--foreground)]">Flashcard Verification Preview</h2>
+        <span class="text-xs px-2 py-0.5 rounded-full bg-blue-500/10 text-blue-400 font-medium border border-blue-500/20">Hindi Deck</span>
+      </div>
+      <div class="flex items-center space-x-3">
+        <div class="text-xs text-[var(--muted-foreground)] font-medium" id="card-counter">Card 1 of 12</div>
+        <button id="view-mode-btn" onclick="toggleViewMode()" class="text-xs px-2.5 py-1 rounded-md border border-[var(--border)] bg-[var(--background)] hover:bg-[var(--accent)] transition font-medium">
+          📋 View All
+        </button>
+      </div>
+    </div>
+
+    <!-- Paged Mode (Default) -->
+    <div id="paged-container">
+      <div id="paged-card-0" style="display: block;">
+        <div class="border border-[var(--border)] rounded-xl bg-[var(--background)] p-4 shadow-sm">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
+            <!-- Front (English Prompt) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-blue-400 mb-2 flex items-center space-x-1">
+                  <span>Front (Prompt)</span>
+                </div>
+                <div class="text-base font-medium text-[var(--foreground)] leading-relaxed">
+                  Oh I see! So you've become a lifestyle coordinator! (<i>to Shivani, polite/formal, f</i>)
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                English scenario & formality target
+              </div>
+            </div>
+
+            <!-- Back (Hinglish Answer & Breakdown) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-emerald-400 mb-2 flex items-center space-x-1">
+                  <span>Back (Answer & Breakdown)</span>
+                </div>
+                <div class="text-sm leading-relaxed text-[var(--foreground)]">
+                  Achhaa! Toh aap lifestyle coordinator ban gayī hain!<br><br><span style="color: #718096;"><i>Achhā! Toh āp lifestyle coordinator ban gayī haiṁ!</i></span><br><br><span style="color: #2b6cb0;"><small>Achhā (Oh I see!) | toh (so) | āp (you) | lifestyle coordinator | ban gayī haiṁ (have become [polite fem])</small></span><br><br><small style="color: #6b46c1;"><b>🎯 Target:</b> [A1-09] Improv Fillers & Reaction Markers (achhaa, toh)</small>
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                Spoken Hindi • Diacritics • Word breakdown
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+<div id="paged-card-1" style="display: none;">
+        <div class="border border-[var(--border)] rounded-xl bg-[var(--background)] p-4 shadow-sm">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
+            <!-- Front (English Prompt) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-blue-400 mb-2 flex items-center space-x-1">
+                  <span>Front (Prompt)</span>
+                </div>
+                <div class="text-base font-medium text-[var(--foreground)] leading-relaxed">
+                  Come on yaar, I really need to practice these conversational fillers! (<i>informal, m</i>)
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                English scenario & formality target
+              </div>
+            </div>
+
+            <!-- Back (Hinglish Answer & Breakdown) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-emerald-400 mb-2 flex items-center space-x-1">
+                  <span>Back (Answer & Breakdown)</span>
+                </div>
+                <div class="text-sm leading-relaxed text-[var(--foreground)]">
+                  Arre yaar, mujhe conversational fillers practice karnaa bahut zaroori hai!<br><br><span style="color: #718096;"><i>Arre yār, mujhe conversational fillers practice karnā bahut zarūrī hai!</i></span><br><br><span style="color: #2b6cb0;"><small>Arre yār (Come on man / friend) | mujhe (to me) | conversational fillers | practice karnā (to practice) | bahut zarūrī hai (is very necessary)</small></span><br><br><small style="color: #6b46c1;"><b>🎯 Target:</b> [A1-09] Expressing Frustration & Discourse Glue (arre yaar, zaroori)</small>
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                Spoken Hindi • Diacritics • Word breakdown
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+<div id="paged-card-2" style="display: none;">
+        <div class="border border-[var(--border)] rounded-xl bg-[var(--background)] p-4 shadow-sm">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
+            <!-- Front (English Prompt) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-blue-400 mb-2 flex items-center space-x-1">
+                  <span>Front (Prompt)</span>
+                </div>
+                <div class="text-base font-medium text-[var(--foreground)] leading-relaxed">
+                  Really? You organized a pub night at the care home? (<i>informal/polite, past</i>)
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                English scenario & formality target
+              </div>
+            </div>
+
+            <!-- Back (Hinglish Answer & Breakdown) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-emerald-400 mb-2 flex items-center space-x-1">
+                  <span>Back (Answer & Breakdown)</span>
+                </div>
+                <div class="text-sm leading-relaxed text-[var(--foreground)]">
+                  Sach mein? Care home mein pub night organize kiyaa?<br><br><span style="color: #718096;"><i>Sach meiṁ? Care home meiṁ pub night organize kiyā?</i></span><br><br><span style="color: #2b6cb0;"><small>Sach meiṁ? (Really? / Seriously?) | care home meiṁ (at the care home) | pub night | organize kiyā? (organized?)</small></span><br><br><small style="color: #6b46c1;"><b>🎯 Target:</b> [A1-09] Reactive Conversational Markers (sach mein?)</small>
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                Spoken Hindi • Diacritics • Word breakdown
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+<div id="paged-card-3" style="display: none;">
+        <div class="border border-[var(--border)] rounded-xl bg-[var(--background)] p-4 shadow-sm">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
+            <!-- Front (English Prompt) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-blue-400 mb-2 flex items-center space-x-1">
+                  <span>Front (Prompt)</span>
+                </div>
+                <div class="text-base font-medium text-[var(--foreground)] leading-relaxed">
+                  First I searched on Google, then on Instagram, after that I asked a local, and finally I found the pub! (<i>informal, m</i>)
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                English scenario & formality target
+              </div>
+            </div>
+
+            <!-- Back (Hinglish Answer & Breakdown) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-emerald-400 mb-2 flex items-center space-x-1">
+                  <span>Back (Answer & Breakdown)</span>
+                </div>
+                <div class="text-sm leading-relaxed text-[var(--foreground)]">
+                  Pehle maine Google par search kiyaa, phir Instagram par dekhaa, uske baad ek local se poochhaa, aur aakhiri mein mujhe pub mil gayaa!<br><br><span style="color: #718096;"><i>Pehle maine Google par search kiyā, phir Instagram par dekhā, uske bād ek local se pūchhā, aur ākhirī meiṁ mujhe pub mil gayā!</i></span><br><br><span style="color: #2b6cb0;"><small>Pehle (first) | maine Google par search kiyā (I searched on Google) | phir (then) | Instagram par dekhā (checked Instagram) | uske bād (after that) | ek local se pūchhā (asked a local) | aur ākhirī meiṁ (and finally) | mujhe pub mil gayā (I found the pub)</small></span><br><br><small style="color: #6b46c1;"><b>🎯 Target:</b> [A1-09] Chronological Sequencers (pehle, phir, uske baad, aakhiri mein)</small>
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                Spoken Hindi • Diacritics • Word breakdown
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+<div id="paged-card-4" style="display: none;">
+        <div class="border border-[var(--border)] rounded-xl bg-[var(--background)] p-4 shadow-sm">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
+            <!-- Front (English Prompt) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-blue-400 mb-2 flex items-center space-x-1">
+                  <span>Front (Prompt)</span>
+                </div>
+                <div class="text-base font-medium text-[var(--foreground)] leading-relaxed">
+                  Book a table, otherwise we won't get a spot in the pub! (<i>informal command, varna = sinon</i>)
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                English scenario & formality target
+              </div>
+            </div>
+
+            <!-- Back (Hinglish Answer & Breakdown) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-emerald-400 mb-2 flex items-center space-x-1">
+                  <span>Back (Answer & Breakdown)</span>
+                </div>
+                <div class="text-sm leading-relaxed text-[var(--foreground)]">
+                  Table book kar lo, varna pub mein jagah nahin milegii.<br><br><span style="color: #718096;"><i>Table book kar lo, varnā pub meiṁ jagah nahīṁ milegī.</i></span><br><br><span style="color: #2b6cb0;"><small>Table book kar lo (book a table [for us]) | varnā (otherwise / sinon) | pub meiṁ (in the pub) | jagah (space / spot [f]) | nahīṁ milegī (won't be obtained / found)</small></span><br><br><small style="color: #6b46c1;"><b>🎯 Target:</b> [A1-09] Alternative Conditionals & Warnings (varna / otherwise)</small>
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                Spoken Hindi • Diacritics • Word breakdown
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+<div id="paged-card-5" style="display: none;">
+        <div class="border border-[var(--border)] rounded-xl bg-[var(--background)] p-4 shadow-sm">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
+            <!-- Front (English Prompt) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-blue-400 mb-2 flex items-center space-x-1">
+                  <span>Front (Prompt)</span>
+                </div>
+                <div class="text-base font-medium text-[var(--foreground)] leading-relaxed">
+                  Really, it has been such a long time! (<i>exclamation of reunion</i>)
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                English scenario & formality target
+              </div>
+            </div>
+
+            <!-- Back (Hinglish Answer & Breakdown) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-emerald-400 mb-2 flex items-center space-x-1">
+                  <span>Back (Answer & Breakdown)</span>
+                </div>
+                <div class="text-sm leading-relaxed text-[var(--foreground)]">
+                  Sach mein, kitnaa lamba time ho gayaa!<br><br><span style="color: #718096;"><i>Sach meiṁ, kitnā lambā time ho gayā!</i></span><br><br><span style="color: #2b6cb0;"><small>Sach meiṁ (really / truly) | kitnā lambā time (such a long time) | ho gayā! (has passed / happened!)</small></span><br><br><small style="color: #6b46c1;"><b>🎯 Target:</b> [A1-09] Improv Validations & Catch-up Markers (sach mein, kitnaa lamba)</small>
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                Spoken Hindi • Diacritics • Word breakdown
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+<div id="paged-card-6" style="display: none;">
+        <div class="border border-[var(--border)] rounded-xl bg-[var(--background)] p-4 shadow-sm">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
+            <!-- Front (English Prompt) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-blue-400 mb-2 flex items-center space-x-1">
+                  <span>Front (Prompt)</span>
+                </div>
+                <div class="text-base font-medium text-[var(--foreground)] leading-relaxed">
+                  By the way, this pub is quite cozy. (<i>conversational pivot</i>)
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                English scenario & formality target
+              </div>
+            </div>
+
+            <!-- Back (Hinglish Answer & Breakdown) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-emerald-400 mb-2 flex items-center space-x-1">
+                  <span>Back (Answer & Breakdown)</span>
+                </div>
+                <div class="text-sm leading-relaxed text-[var(--foreground)]">
+                  Vaise, ye pub kaafi cozy hai.<br><br><span style="color: #718096;"><i>Vaise, yeh pub kāfī cozy hai.</i></span><br><br><span style="color: #2b6cb0;"><small>Vaise (by the way / anyway) | yeh pub (this pub) | kāfī (quite / pretty) | cozy hai (is cozy)</small></span><br><br><small style="color: #6b46c1;"><b>🎯 Target:</b> [A1-09] Topic Shift & Discourse Glue (vaise)</small>
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                Spoken Hindi • Diacritics • Word breakdown
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+<div id="paged-card-7" style="display: none;">
+        <div class="border border-[var(--border)] rounded-xl bg-[var(--background)] p-4 shadow-sm">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
+            <!-- Front (English Prompt) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-blue-400 mb-2 flex items-center space-x-1">
+                  <span>Front (Prompt)</span>
+                </div>
+                <div class="text-base font-medium text-[var(--foreground)] leading-relaxed">
+                  True that yaar, it's definitely quite different from Ford engineering! (<i>informal agreement</i>)
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                English scenario & formality target
+              </div>
+            </div>
+
+            <!-- Back (Hinglish Answer & Breakdown) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-emerald-400 mb-2 flex items-center space-x-1">
+                  <span>Back (Answer & Breakdown)</span>
+                </div>
+                <div class="text-sm leading-relaxed text-[var(--foreground)]">
+                  Sahi baat hai yaar, Ford engineering se toh kaafi different hai!<br><br><span style="color: #718096;"><i>Sahī bāt hai yār, Ford engineering se toh kāfī different hai!</i></span><br><br><span style="color: #2b6cb0;"><small>Sahī bāt hai (that's true / true that) | yār (friend / buddy) | Ford engineering se (from Ford engineering) | toh (emphasis marker) | kāfī different hai (is quite different)</small></span><br><br><small style="color: #6b46c1;"><b>🎯 Target:</b> [A1-09] Active Agreement & Contrast Markers (sahi baat hai, toh)</small>
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                Spoken Hindi • Diacritics • Word breakdown
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+<div id="paged-card-8" style="display: none;">
+        <div class="border border-[var(--border)] rounded-xl bg-[var(--background)] p-4 shadow-sm">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
+            <!-- Front (English Prompt) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-blue-400 mb-2 flex items-center space-x-1">
+                  <span>Front (Prompt)</span>
+                </div>
+                <div class="text-base font-medium text-[var(--foreground)] leading-relaxed">
+                  Oh wonderful! Come on, let's order a round of drinks first! (<i>casual suggestion</i>)
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                English scenario & formality target
+              </div>
+            </div>
+
+            <!-- Back (Hinglish Answer & Breakdown) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-emerald-400 mb-2 flex items-center space-x-1">
+                  <span>Back (Answer & Breakdown)</span>
+                </div>
+                <div class="text-sm leading-relaxed text-[var(--foreground)]">
+                  Arre waah! Chalo pehle ek round drinks mangwaate hain.<br><br><span style="color: #718096;"><i>Arre wāh! Chalo pehle ek round drinks maṅgwāte haiṁ.</i></span><br><br><span style="color: #2b6cb0;"><small>Arre wāh! (Oh wonderful!) | chalo (come on / let's) | pehle (first) | ek round drinks (a round of drinks) | maṅgwāte haiṁ (let's order / call for)</small></span><br><br><small style="color: #6b46c1;"><b>🎯 Target:</b> [A1-09] Celebratory Interjections & Causative Orders (arre waah, mangwaana)</small>
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                Spoken Hindi • Diacritics • Word breakdown
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+<div id="paged-card-9" style="display: none;">
+        <div class="border border-[var(--border)] rounded-xl bg-[var(--background)] p-4 shadow-sm">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
+            <!-- Front (English Prompt) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-blue-400 mb-2 flex items-center space-x-1">
+                  <span>Front (Prompt)</span>
+                </div>
+                <div class="text-base font-medium text-[var(--foreground)] leading-relaxed">
+                  Come on, hurry up, otherwise the pub will close! (<i>urgent reminder</i>)
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                English scenario & formality target
+              </div>
+            </div>
+
+            <!-- Back (Hinglish Answer & Breakdown) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-emerald-400 mb-2 flex items-center space-x-1">
+                  <span>Back (Answer & Breakdown)</span>
+                </div>
+                <div class="text-sm leading-relaxed text-[var(--foreground)]">
+                  Chalo jaldi chalo, varna pub band ho jaayegaa.<br><br><span style="color: #718096;"><i>Chalo jaldī chalo, varnā pub band ho jāyegā.</i></span><br><br><span style="color: #2b6cb0;"><small>Chalo jaldī chalo (come on, hurry up) | varnā (otherwise / sinon) | pub | band ho jāyegā (will close / shut down)</small></span><br><br><small style="color: #6b46c1;"><b>🎯 Target:</b> [A1-09] Urgent Warnings with Compound Future (varna, band ho jaayegaa)</small>
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                Spoken Hindi • Diacritics • Word breakdown
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+<div id="paged-card-10" style="display: none;">
+        <div class="border border-[var(--border)] rounded-xl bg-[var(--background)] p-4 shadow-sm">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
+            <!-- Front (English Prompt) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-blue-400 mb-2 flex items-center space-x-1">
+                  <span>Front (Prompt)</span>
+                </div>
+                <div class="text-base font-medium text-[var(--foreground)] leading-relaxed">
+                  Really? Did he/she really say that? (<i>clarification / disbelief</i>)
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                English scenario & formality target
+              </div>
+            </div>
+
+            <!-- Back (Hinglish Answer & Breakdown) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-emerald-400 mb-2 flex items-center space-x-1">
+                  <span>Back (Answer & Breakdown)</span>
+                </div>
+                <div class="text-sm leading-relaxed text-[var(--foreground)]">
+                  Sach mein? Kyaa usne sach mein ye bolaa?<br><br><span style="color: #718096;"><i>Sach meiṁ? Kyā usne sach meiṁ yeh bolā?</i></span><br><br><span style="color: #2b6cb0;"><small>Sach meiṁ? (Really?) | kyā (question marker) | usne (he/she + ne) | sach meiṁ (really / in truth) | yeh bolā? (said this?)</small></span><br><br><small style="color: #6b46c1;"><b>🎯 Target:</b> [A1-09] Disbelief & Callback Markers (sach mein, kyaa usne...)</small>
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                Spoken Hindi • Diacritics • Word breakdown
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+<div id="paged-card-11" style="display: none;">
+        <div class="border border-[var(--border)] rounded-xl bg-[var(--background)] p-4 shadow-sm">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
+            <!-- Front (English Prompt) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-blue-400 mb-2 flex items-center space-x-1">
+                  <span>Front (Prompt)</span>
+                </div>
+                <div class="text-base font-medium text-[var(--foreground)] leading-relaxed">
+                  True that! Catching up in person after one year is truly the best feeling! (<i>heartfelt agreement</i>)
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                English scenario & formality target
+              </div>
+            </div>
+
+            <!-- Back (Hinglish Answer & Breakdown) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-emerald-400 mb-2 flex items-center space-x-1">
+                  <span>Back (Answer & Breakdown)</span>
+                </div>
+                <div class="text-sm leading-relaxed text-[var(--foreground)]">
+                  Sahi baat hai! Ek saal ke baad milnaa sach mein best feeling hai!<br><br><span style="color: #718096;"><i>Sahī bāt hai! Ek sāl ke bād milnā sach meiṁ best feeling hai!</i></span><br><br><span style="color: #2b6cb0;"><small>Sahī bāt hai! (True that!) | ek sāl ke bād (after one year) | milnā (meeting up / catching up) | sach meiṁ (truly / really) | best feeling hai (is the best feeling)</small></span><br><br><small style="color: #6b46c1;"><b>🎯 Target:</b> [A1-09] Improv Validation & Postposition 'Ke Baad' (sahi baat hai, ke baad)</small>
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                Spoken Hindi • Diacritics • Word breakdown
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- All Cards List Mode (Toggled) -->
+    <div id="all-container" style="display: none;" class="space-y-4 max-h-[550px] overflow-y-auto pr-1">
+      <div class="relative"><div class="text-xs font-semibold text-[var(--muted-foreground)] mb-1">Card #1</div>
+        <div class="border border-[var(--border)] rounded-xl bg-[var(--background)] p-4 shadow-sm">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
+            <!-- Front (English Prompt) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-blue-400 mb-2 flex items-center space-x-1">
+                  <span>Front (Prompt)</span>
+                </div>
+                <div class="text-base font-medium text-[var(--foreground)] leading-relaxed">
+                  Oh I see! So you've become a lifestyle coordinator! (<i>to Shivani, polite/formal, f</i>)
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                English scenario & formality target
+              </div>
+            </div>
+
+            <!-- Back (Hinglish Answer & Breakdown) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-emerald-400 mb-2 flex items-center space-x-1">
+                  <span>Back (Answer & Breakdown)</span>
+                </div>
+                <div class="text-sm leading-relaxed text-[var(--foreground)]">
+                  Achhaa! Toh aap lifestyle coordinator ban gayī hain!<br><br><span style="color: #718096;"><i>Achhā! Toh āp lifestyle coordinator ban gayī haiṁ!</i></span><br><br><span style="color: #2b6cb0;"><small>Achhā (Oh I see!) | toh (so) | āp (you) | lifestyle coordinator | ban gayī haiṁ (have become [polite fem])</small></span><br><br><small style="color: #6b46c1;"><b>🎯 Target:</b> [A1-09] Improv Fillers & Reaction Markers (achhaa, toh)</small>
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                Spoken Hindi • Diacritics • Word breakdown
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+<div class="relative"><div class="text-xs font-semibold text-[var(--muted-foreground)] mb-1">Card #2</div>
+        <div class="border border-[var(--border)] rounded-xl bg-[var(--background)] p-4 shadow-sm">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
+            <!-- Front (English Prompt) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-blue-400 mb-2 flex items-center space-x-1">
+                  <span>Front (Prompt)</span>
+                </div>
+                <div class="text-base font-medium text-[var(--foreground)] leading-relaxed">
+                  Come on yaar, I really need to practice these conversational fillers! (<i>informal, m</i>)
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                English scenario & formality target
+              </div>
+            </div>
+
+            <!-- Back (Hinglish Answer & Breakdown) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-emerald-400 mb-2 flex items-center space-x-1">
+                  <span>Back (Answer & Breakdown)</span>
+                </div>
+                <div class="text-sm leading-relaxed text-[var(--foreground)]">
+                  Arre yaar, mujhe conversational fillers practice karnaa bahut zaroori hai!<br><br><span style="color: #718096;"><i>Arre yār, mujhe conversational fillers practice karnā bahut zarūrī hai!</i></span><br><br><span style="color: #2b6cb0;"><small>Arre yār (Come on man / friend) | mujhe (to me) | conversational fillers | practice karnā (to practice) | bahut zarūrī hai (is very necessary)</small></span><br><br><small style="color: #6b46c1;"><b>🎯 Target:</b> [A1-09] Expressing Frustration & Discourse Glue (arre yaar, zaroori)</small>
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                Spoken Hindi • Diacritics • Word breakdown
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+<div class="relative"><div class="text-xs font-semibold text-[var(--muted-foreground)] mb-1">Card #3</div>
+        <div class="border border-[var(--border)] rounded-xl bg-[var(--background)] p-4 shadow-sm">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
+            <!-- Front (English Prompt) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-blue-400 mb-2 flex items-center space-x-1">
+                  <span>Front (Prompt)</span>
+                </div>
+                <div class="text-base font-medium text-[var(--foreground)] leading-relaxed">
+                  Really? You organized a pub night at the care home? (<i>informal/polite, past</i>)
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                English scenario & formality target
+              </div>
+            </div>
+
+            <!-- Back (Hinglish Answer & Breakdown) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-emerald-400 mb-2 flex items-center space-x-1">
+                  <span>Back (Answer & Breakdown)</span>
+                </div>
+                <div class="text-sm leading-relaxed text-[var(--foreground)]">
+                  Sach mein? Care home mein pub night organize kiyaa?<br><br><span style="color: #718096;"><i>Sach meiṁ? Care home meiṁ pub night organize kiyā?</i></span><br><br><span style="color: #2b6cb0;"><small>Sach meiṁ? (Really? / Seriously?) | care home meiṁ (at the care home) | pub night | organize kiyā? (organized?)</small></span><br><br><small style="color: #6b46c1;"><b>🎯 Target:</b> [A1-09] Reactive Conversational Markers (sach mein?)</small>
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                Spoken Hindi • Diacritics • Word breakdown
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+<div class="relative"><div class="text-xs font-semibold text-[var(--muted-foreground)] mb-1">Card #4</div>
+        <div class="border border-[var(--border)] rounded-xl bg-[var(--background)] p-4 shadow-sm">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
+            <!-- Front (English Prompt) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-blue-400 mb-2 flex items-center space-x-1">
+                  <span>Front (Prompt)</span>
+                </div>
+                <div class="text-base font-medium text-[var(--foreground)] leading-relaxed">
+                  First I searched on Google, then on Instagram, after that I asked a local, and finally I found the pub! (<i>informal, m</i>)
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                English scenario & formality target
+              </div>
+            </div>
+
+            <!-- Back (Hinglish Answer & Breakdown) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-emerald-400 mb-2 flex items-center space-x-1">
+                  <span>Back (Answer & Breakdown)</span>
+                </div>
+                <div class="text-sm leading-relaxed text-[var(--foreground)]">
+                  Pehle maine Google par search kiyaa, phir Instagram par dekhaa, uske baad ek local se poochhaa, aur aakhiri mein mujhe pub mil gayaa!<br><br><span style="color: #718096;"><i>Pehle maine Google par search kiyā, phir Instagram par dekhā, uske bād ek local se pūchhā, aur ākhirī meiṁ mujhe pub mil gayā!</i></span><br><br><span style="color: #2b6cb0;"><small>Pehle (first) | maine Google par search kiyā (I searched on Google) | phir (then) | Instagram par dekhā (checked Instagram) | uske bād (after that) | ek local se pūchhā (asked a local) | aur ākhirī meiṁ (and finally) | mujhe pub mil gayā (I found the pub)</small></span><br><br><small style="color: #6b46c1;"><b>🎯 Target:</b> [A1-09] Chronological Sequencers (pehle, phir, uske baad, aakhiri mein)</small>
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                Spoken Hindi • Diacritics • Word breakdown
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+<div class="relative"><div class="text-xs font-semibold text-[var(--muted-foreground)] mb-1">Card #5</div>
+        <div class="border border-[var(--border)] rounded-xl bg-[var(--background)] p-4 shadow-sm">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
+            <!-- Front (English Prompt) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-blue-400 mb-2 flex items-center space-x-1">
+                  <span>Front (Prompt)</span>
+                </div>
+                <div class="text-base font-medium text-[var(--foreground)] leading-relaxed">
+                  Book a table, otherwise we won't get a spot in the pub! (<i>informal command, varna = sinon</i>)
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                English scenario & formality target
+              </div>
+            </div>
+
+            <!-- Back (Hinglish Answer & Breakdown) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-emerald-400 mb-2 flex items-center space-x-1">
+                  <span>Back (Answer & Breakdown)</span>
+                </div>
+                <div class="text-sm leading-relaxed text-[var(--foreground)]">
+                  Table book kar lo, varna pub mein jagah nahin milegii.<br><br><span style="color: #718096;"><i>Table book kar lo, varnā pub meiṁ jagah nahīṁ milegī.</i></span><br><br><span style="color: #2b6cb0;"><small>Table book kar lo (book a table [for us]) | varnā (otherwise / sinon) | pub meiṁ (in the pub) | jagah (space / spot [f]) | nahīṁ milegī (won't be obtained / found)</small></span><br><br><small style="color: #6b46c1;"><b>🎯 Target:</b> [A1-09] Alternative Conditionals & Warnings (varna / otherwise)</small>
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                Spoken Hindi • Diacritics • Word breakdown
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+<div class="relative"><div class="text-xs font-semibold text-[var(--muted-foreground)] mb-1">Card #6</div>
+        <div class="border border-[var(--border)] rounded-xl bg-[var(--background)] p-4 shadow-sm">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
+            <!-- Front (English Prompt) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-blue-400 mb-2 flex items-center space-x-1">
+                  <span>Front (Prompt)</span>
+                </div>
+                <div class="text-base font-medium text-[var(--foreground)] leading-relaxed">
+                  Really, it has been such a long time! (<i>exclamation of reunion</i>)
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                English scenario & formality target
+              </div>
+            </div>
+
+            <!-- Back (Hinglish Answer & Breakdown) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-emerald-400 mb-2 flex items-center space-x-1">
+                  <span>Back (Answer & Breakdown)</span>
+                </div>
+                <div class="text-sm leading-relaxed text-[var(--foreground)]">
+                  Sach mein, kitnaa lamba time ho gayaa!<br><br><span style="color: #718096;"><i>Sach meiṁ, kitnā lambā time ho gayā!</i></span><br><br><span style="color: #2b6cb0;"><small>Sach meiṁ (really / truly) | kitnā lambā time (such a long time) | ho gayā! (has passed / happened!)</small></span><br><br><small style="color: #6b46c1;"><b>🎯 Target:</b> [A1-09] Improv Validations & Catch-up Markers (sach mein, kitnaa lamba)</small>
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                Spoken Hindi • Diacritics • Word breakdown
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+<div class="relative"><div class="text-xs font-semibold text-[var(--muted-foreground)] mb-1">Card #7</div>
+        <div class="border border-[var(--border)] rounded-xl bg-[var(--background)] p-4 shadow-sm">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
+            <!-- Front (English Prompt) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-blue-400 mb-2 flex items-center space-x-1">
+                  <span>Front (Prompt)</span>
+                </div>
+                <div class="text-base font-medium text-[var(--foreground)] leading-relaxed">
+                  By the way, this pub is quite cozy. (<i>conversational pivot</i>)
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                English scenario & formality target
+              </div>
+            </div>
+
+            <!-- Back (Hinglish Answer & Breakdown) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-emerald-400 mb-2 flex items-center space-x-1">
+                  <span>Back (Answer & Breakdown)</span>
+                </div>
+                <div class="text-sm leading-relaxed text-[var(--foreground)]">
+                  Vaise, ye pub kaafi cozy hai.<br><br><span style="color: #718096;"><i>Vaise, yeh pub kāfī cozy hai.</i></span><br><br><span style="color: #2b6cb0;"><small>Vaise (by the way / anyway) | yeh pub (this pub) | kāfī (quite / pretty) | cozy hai (is cozy)</small></span><br><br><small style="color: #6b46c1;"><b>🎯 Target:</b> [A1-09] Topic Shift & Discourse Glue (vaise)</small>
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                Spoken Hindi • Diacritics • Word breakdown
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+<div class="relative"><div class="text-xs font-semibold text-[var(--muted-foreground)] mb-1">Card #8</div>
+        <div class="border border-[var(--border)] rounded-xl bg-[var(--background)] p-4 shadow-sm">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
+            <!-- Front (English Prompt) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-blue-400 mb-2 flex items-center space-x-1">
+                  <span>Front (Prompt)</span>
+                </div>
+                <div class="text-base font-medium text-[var(--foreground)] leading-relaxed">
+                  True that yaar, it's definitely quite different from Ford engineering! (<i>informal agreement</i>)
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                English scenario & formality target
+              </div>
+            </div>
+
+            <!-- Back (Hinglish Answer & Breakdown) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-emerald-400 mb-2 flex items-center space-x-1">
+                  <span>Back (Answer & Breakdown)</span>
+                </div>
+                <div class="text-sm leading-relaxed text-[var(--foreground)]">
+                  Sahi baat hai yaar, Ford engineering se toh kaafi different hai!<br><br><span style="color: #718096;"><i>Sahī bāt hai yār, Ford engineering se toh kāfī different hai!</i></span><br><br><span style="color: #2b6cb0;"><small>Sahī bāt hai (that's true / true that) | yār (friend / buddy) | Ford engineering se (from Ford engineering) | toh (emphasis marker) | kāfī different hai (is quite different)</small></span><br><br><small style="color: #6b46c1;"><b>🎯 Target:</b> [A1-09] Active Agreement & Contrast Markers (sahi baat hai, toh)</small>
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                Spoken Hindi • Diacritics • Word breakdown
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+<div class="relative"><div class="text-xs font-semibold text-[var(--muted-foreground)] mb-1">Card #9</div>
+        <div class="border border-[var(--border)] rounded-xl bg-[var(--background)] p-4 shadow-sm">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
+            <!-- Front (English Prompt) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-blue-400 mb-2 flex items-center space-x-1">
+                  <span>Front (Prompt)</span>
+                </div>
+                <div class="text-base font-medium text-[var(--foreground)] leading-relaxed">
+                  Oh wonderful! Come on, let's order a round of drinks first! (<i>casual suggestion</i>)
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                English scenario & formality target
+              </div>
+            </div>
+
+            <!-- Back (Hinglish Answer & Breakdown) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-emerald-400 mb-2 flex items-center space-x-1">
+                  <span>Back (Answer & Breakdown)</span>
+                </div>
+                <div class="text-sm leading-relaxed text-[var(--foreground)]">
+                  Arre waah! Chalo pehle ek round drinks mangwaate hain.<br><br><span style="color: #718096;"><i>Arre wāh! Chalo pehle ek round drinks maṅgwāte haiṁ.</i></span><br><br><span style="color: #2b6cb0;"><small>Arre wāh! (Oh wonderful!) | chalo (come on / let's) | pehle (first) | ek round drinks (a round of drinks) | maṅgwāte haiṁ (let's order / call for)</small></span><br><br><small style="color: #6b46c1;"><b>🎯 Target:</b> [A1-09] Celebratory Interjections & Causative Orders (arre waah, mangwaana)</small>
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                Spoken Hindi • Diacritics • Word breakdown
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+<div class="relative"><div class="text-xs font-semibold text-[var(--muted-foreground)] mb-1">Card #10</div>
+        <div class="border border-[var(--border)] rounded-xl bg-[var(--background)] p-4 shadow-sm">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
+            <!-- Front (English Prompt) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-blue-400 mb-2 flex items-center space-x-1">
+                  <span>Front (Prompt)</span>
+                </div>
+                <div class="text-base font-medium text-[var(--foreground)] leading-relaxed">
+                  Come on, hurry up, otherwise the pub will close! (<i>urgent reminder</i>)
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                English scenario & formality target
+              </div>
+            </div>
+
+            <!-- Back (Hinglish Answer & Breakdown) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-emerald-400 mb-2 flex items-center space-x-1">
+                  <span>Back (Answer & Breakdown)</span>
+                </div>
+                <div class="text-sm leading-relaxed text-[var(--foreground)]">
+                  Chalo jaldi chalo, varna pub band ho jaayegaa.<br><br><span style="color: #718096;"><i>Chalo jaldī chalo, varnā pub band ho jāyegā.</i></span><br><br><span style="color: #2b6cb0;"><small>Chalo jaldī chalo (come on, hurry up) | varnā (otherwise / sinon) | pub | band ho jāyegā (will close / shut down)</small></span><br><br><small style="color: #6b46c1;"><b>🎯 Target:</b> [A1-09] Urgent Warnings with Compound Future (varna, band ho jaayegaa)</small>
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                Spoken Hindi • Diacritics • Word breakdown
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+<div class="relative"><div class="text-xs font-semibold text-[var(--muted-foreground)] mb-1">Card #11</div>
+        <div class="border border-[var(--border)] rounded-xl bg-[var(--background)] p-4 shadow-sm">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
+            <!-- Front (English Prompt) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-blue-400 mb-2 flex items-center space-x-1">
+                  <span>Front (Prompt)</span>
+                </div>
+                <div class="text-base font-medium text-[var(--foreground)] leading-relaxed">
+                  Really? Did he/she really say that? (<i>clarification / disbelief</i>)
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                English scenario & formality target
+              </div>
+            </div>
+
+            <!-- Back (Hinglish Answer & Breakdown) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-emerald-400 mb-2 flex items-center space-x-1">
+                  <span>Back (Answer & Breakdown)</span>
+                </div>
+                <div class="text-sm leading-relaxed text-[var(--foreground)]">
+                  Sach mein? Kyaa usne sach mein ye bolaa?<br><br><span style="color: #718096;"><i>Sach meiṁ? Kyā usne sach meiṁ yeh bolā?</i></span><br><br><span style="color: #2b6cb0;"><small>Sach meiṁ? (Really?) | kyā (question marker) | usne (he/she + ne) | sach meiṁ (really / in truth) | yeh bolā? (said this?)</small></span><br><br><small style="color: #6b46c1;"><b>🎯 Target:</b> [A1-09] Disbelief & Callback Markers (sach mein, kyaa usne...)</small>
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                Spoken Hindi • Diacritics • Word breakdown
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+<div class="relative"><div class="text-xs font-semibold text-[var(--muted-foreground)] mb-1">Card #12</div>
+        <div class="border border-[var(--border)] rounded-xl bg-[var(--background)] p-4 shadow-sm">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
+            <!-- Front (English Prompt) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-blue-400 mb-2 flex items-center space-x-1">
+                  <span>Front (Prompt)</span>
+                </div>
+                <div class="text-base font-medium text-[var(--foreground)] leading-relaxed">
+                  True that! Catching up in person after one year is truly the best feeling! (<i>heartfelt agreement</i>)
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                English scenario & formality target
+              </div>
+            </div>
+
+            <!-- Back (Hinglish Answer & Breakdown) -->
+            <div class="flex flex-col justify-between border border-dashed border-[var(--border)] rounded-lg bg-[var(--card)]/50 p-4">
+              <div>
+                <div class="text-[11px] font-semibold tracking-wide uppercase text-emerald-400 mb-2 flex items-center space-x-1">
+                  <span>Back (Answer & Breakdown)</span>
+                </div>
+                <div class="text-sm leading-relaxed text-[var(--foreground)]">
+                  Sahi baat hai! Ek saal ke baad milnaa sach mein best feeling hai!<br><br><span style="color: #718096;"><i>Sahī bāt hai! Ek sāl ke bād milnā sach meiṁ best feeling hai!</i></span><br><br><span style="color: #2b6cb0;"><small>Sahī bāt hai! (True that!) | ek sāl ke bād (after one year) | milnā (meeting up / catching up) | sach meiṁ (truly / really) | best feeling hai (is the best feeling)</small></span><br><br><small style="color: #6b46c1;"><b>🎯 Target:</b> [A1-09] Improv Validation & Postposition 'Ke Baad' (sahi baat hai, ke baad)</small>
+                </div>
+              </div>
+              <div class="text-[10px] text-[var(--muted-foreground)] mt-3 pt-2 border-t border-[var(--border)]/40">
+                Spoken Hindi • Diacritics • Word breakdown
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Navigation & Approval Status Bar -->
+    <div id="nav-bar" class="flex items-center justify-between mt-4 pt-3 border-t border-[var(--border)] text-xs">
+      <div class="flex items-center space-x-2">
+        <button id="prev-btn" onclick="prevCard()" class="px-3 py-1.5 rounded-lg border border-[var(--border)] bg-[var(--background)] hover:bg-[var(--accent)] disabled:opacity-30 transition font-medium">← Previous</button>
+        <button id="next-btn" onclick="nextCard()" class="px-3 py-1.5 rounded-lg border border-[var(--border)] bg-[var(--background)] hover:bg-[var(--accent)] disabled:opacity-30 transition font-medium">Next →</button>
+        <span class="text-[var(--muted-foreground)] text-xs ml-2 italic">Use Left / Right arrow keys to cycle</span>
+      </div>
+      <div class="flex items-center space-x-2 text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-full border border-emerald-500/20 font-medium">
+        <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span>Say "Push" to add to Anki</span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let currentIndex = 0;
+    const totalCards = 12;
+    let isAllView = false;
+
+    function updatePagedView() {
+      for (let i = 0; i < totalCards; i++) {
+        const el = document.getElementById(`paged-card-${i}`);
+        if (el) el.style.display = (i === currentIndex) ? 'block' : 'none';
+      }
+      document.getElementById('card-counter').innerText = `Card ${currentIndex + 1} of ${totalCards}`;
+      document.getElementById('prev-btn').disabled = (currentIndex === 0);
+      document.getElementById('next-btn').disabled = (currentIndex === totalCards - 1);
+    }
+
+    function prevCard() {
+      if (currentIndex > 0) {
+        currentIndex--;
+        updatePagedView();
+      }
+    }
+
+    function nextCard() {
+      if (currentIndex < totalCards - 1) {
+        currentIndex++;
+        updatePagedView();
+      }
+    }
+
+    function toggleViewMode() {
+      isAllView = !isAllView;
+      const pagedCon = document.getElementById('paged-container');
+      const allCon = document.getElementById('all-container');
+      const navBar = document.getElementById('nav-bar');
+      const modeBtn = document.getElementById('view-mode-btn');
+
+      if (isAllView) {
+        pagedCon.style.display = 'none';
+        allCon.style.display = 'block';
+        navBar.querySelector('#prev-btn').style.display = 'none';
+        navBar.querySelector('#next-btn').style.display = 'none';
+        modeBtn.innerText = '📑 Single Card View';
+      } else {
+        pagedCon.style.display = 'block';
+        allCon.style.display = 'none';
+        navBar.querySelector('#prev-btn').style.display = 'inline-block';
+        navBar.querySelector('#next-btn').style.display = 'inline-block';
+        modeBtn.innerText = '📋 View All';
+        updatePagedView();
+      }
+    }
+
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+      if (!isAllView) {
+        if (e.key === 'ArrowLeft') prevCard();
+        if (e.key === 'ArrowRight') nextCard();
+      }
+    });
+
+    updatePagedView();
+  </script>
+</body>
+</html>

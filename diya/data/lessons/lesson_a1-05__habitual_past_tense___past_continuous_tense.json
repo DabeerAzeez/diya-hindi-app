@@ -1,0 +1,255 @@
+{
+  "id": "3ce85bc1-d962-8073-9c24-e3884295683c",
+  "code": "A1-05",
+  "title": "Lesson A1-05: Habitual Past Tense & Past Continuous Tense",
+  "slug": "lesson_a1-05__habitual_past_tense___past_continuous_tense",
+  "sections": [
+    {
+      "title": "🌟Summary",
+      "type": "heading_1",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Is lesson mein hum seekhenge ki past ki habits aur past mein chal rahe actions ko Hindi mein kaise bolte hain."
+        },
+        {
+          "type": "bullet",
+          "text": "**Habitual Past (\"used to do\" / \"karta tha\"):** Jab aap past ki routine ya repeated actions ki baat karte hain.",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Past Continuous (\"was doing\" / \"kar raha tha\"):** Jab past ke kisi specific point par koi action ongoing ya continuous tha.",
+          "children": []
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Habitual Past: Verb Stem} + \\text{-taa / -tee / -te} + \\text{thaa / thee / the}$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\\text{Past Continuous: Verb Stem} + \\text{rahaa / rahee / rahe} + \\text{thaa / thee / the}$$"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "**Tense**",
+              "**Masculine Singular**",
+              "**Feminine Singular**",
+              "**Plural / Respectful**",
+              "**Example (Karna - To do)**"
+            ],
+            [
+              "**Habitual Past**",
+              "Verb + *taa thaa*",
+              "Verb + *tee thee*",
+              "Verb + *te the*",
+              "*Main roz run karta thaa.*"
+            ],
+            [
+              "**Past Continuous**",
+              "Verb + *rahaa thaa*",
+              "Verb + *rahee thee*",
+              "Verb + *rahe the*",
+              "*Main bike chala rahaa thaa.*"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "📘Lesson",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "⏳ 1. Habitual Past Tense (Past Habits & Routines)",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "bullet",
+          "text": "Formula: `[Verb Root] + taa/tee/te + thaa/thee/the`",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "English equivalent: \"used to...\" or \"would always...\"",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Masculine Singular:** *Main bike se commute karta thaa.* (I used to commute by bike.)",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Feminine Singular:** *Main guitar play kartee thee.* (I used to play guitar.)",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Plural / Formal:** *Hum roz coffee peete the.* (We used to drink coffee every day.)",
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "🔄 2. Past Continuous Tense (Ongoing Past Actions)",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "bullet",
+          "text": "Formula: `[Verb Root] + rahaa/rahee/rahe + thaa/thee/the`",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "English equivalent: \"was doing...\", \"were doing...\"",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Masculine Singular:** *Main code likh rahaa thaa.* (I was writing code.)",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Feminine Singular:** *Woh music sun rahee thee.* (She was listening to music.)",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Plural / Formal:** *Aap meeting attend kar rahe the.* (You were attending the meeting.)",
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "🎯 3. Polyglot & Tamil Bridge",
+      "type": "heading_2",
+      "content": [
+        {
+          "type": "bullet",
+          "text": "**SOV Structure:** Dono tenses mein Subject pehle aayega, Object beech mein, aur conjugated Verb end mein.",
+          "children": []
+        },
+        {
+          "type": "bullet",
+          "text": "**Tamil Parallel:**",
+          "children": [
+            "*Habitual Past:* Tamil ke \"-vên / -thên\" habit markers ki tarah Hindi mein verb root ke baad gender ending + past aux (*thaa/thee*) lagta hai.",
+            "*Past Continuous:* Tamil ke \"-kittu irunthen\" structure ki exact copy Hindi ka `[Verb] + rahaa thaa` hai."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "❓Quiz",
+      "type": "heading_1",
+      "content": []
+    },
+    {
+      "title": "Concept & Grammar Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "bullet",
+          "text": "Habitual Past aur Past Continuous mein basic structural difference kya hai?",
+          "children": [
+            "Habitual Past mein imperfective marker (*taa/tee/te*) lagta hai aur Past Continuous mein aspectual marker (*rahaa/rahee/rahe*) lagta hai, dono ke baad past auxiliary (*thaa/thee/the*) aata hai."
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "Agar ek male speaker bol raha hai \"I used to live here\", toh ending kya hogi?",
+          "children": [
+            "*Main yahan rehtaa thaa.* (Verb stem + *taa* + *thaa*)."
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "Past Continuous mein subject \"Hum\" (We) ke liye auxiliary aur aspect kya hoga?",
+          "children": [
+            "Aspect *rahe* aur auxiliary *the* hoga (e.g., *Hum work kar rahe the*)."
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "\"She was making coffee\" ko translate karte waqt feminine markers kaise align honge?",
+          "children": [
+            "Verb ke saath *rahee* aur auxiliary *thee* aayega: *Woh coffee bana rahee thee.*"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Translation Questions",
+      "type": "heading_3",
+      "content": [
+        {
+          "type": "bullet",
+          "text": "**I used to practice guitar every day.** *(speaker: m)*",
+          "children": [
+            "`Main roz guitar practice kartaa thaa.`",
+            "Main (I) + roz (daily) + guitar (guitar) + practice kartaa thaa (used to practice)"
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**I was working on a Python script yesterday.** *(speaker: m)*",
+          "children": [
+            "`Main kal ek Python script par work kar rahaa thaa.`",
+            "Main (I) + kal (yesterday) + ek (a) + Python script par (on Python script) + work kar rahaa thaa (was working)"
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**We were riding our bikes to the station.**",
+          "children": [
+            "`Hum station tak bikes chala rahe the.`",
+            "Hum (We) + station tak (up to station) + bikes (bikes) + chala rahe the (were riding)"
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**She used to speak French very well.**",
+          "children": [
+            "`Woh French bohot achhi boltee thee.`",
+            "Woh (She) + French (French) + bohot achhi (very well) + boltee thee (used to speak)"
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**What were you doing at 8 PM?** *(formal, m)*",
+          "children": [
+            "`Aap raat ko 8 baje kya kar rahe the?`",
+            "Aap (You [formal]) + raat ko 8 baje (at 8 PM) + kya (what) + kar rahe the (were doing)"
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**Hum pehle daily run karte the.**",
+          "children": [
+            "We used to run daily before."
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**Woh office mein music mix kar rahaa thaa.**",
+          "children": [
+            "He was mixing music in the office."
+          ]
+        },
+        {
+          "type": "bullet",
+          "text": "**Tum kal kya study kar rahe the?**",
+          "children": [
+            "What were you studying yesterday?"
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": "\n# 🌟Summary\n\nIs lesson mein hum seekhenge ki past ki habits aur past mein chal rahe actions ko Hindi mein kaise bolte hain.\n\n* **Habitual Past (\"used to do\" / \"karta tha\"):** Jab aap past ki routine ya repeated actions ki baat karte hain.\n* **Past Continuous (\"was doing\" / \"kar raha tha\"):** Jab past ke kisi specific point par koi action ongoing ya continuous tha.\n$$\\text{Habitual Past: Verb Stem} + \\text{-taa / -tee / -te} + \\text{thaa / thee / the}$$\n\n$$\\text{Past Continuous: Verb Stem} + \\text{rahaa / rahee / rahe} + \\text{thaa / thee / the}$$\n\n| **Tense** | **Masculine Singular** | **Feminine Singular** | **Plural / Respectful** | **Example (Karna - To do)** |\n| --- | --- | --- | --- | --- |\n| **Habitual Past** | Verb + *taa thaa* | Verb + *tee thee* | Verb + *te the* | *Main roz run karta thaa.* |\n| **Past Continuous** | Verb + *rahaa thaa* | Verb + *rahee thee* | Verb + *rahe the* | *Main bike chala rahaa thaa.* |\n\n\n# 📘Lesson\n\n\n## ⏳ 1. Habitual Past Tense (Past Habits & Routines)\n\n* Formula: `[Verb Root] + taa/tee/te + thaa/thee/the`\n* English equivalent: \"used to...\" or \"would always...\"\n* **Masculine Singular:** *Main bike se commute karta thaa.* (I used to commute by bike.)\n* **Feminine Singular:** *Main guitar play kartee thee.* (I used to play guitar.)\n* **Plural / Formal:** *Hum roz coffee peete the.* (We used to drink coffee every day.)\n\n## 🔄 2. Past Continuous Tense (Ongoing Past Actions)\n\n* Formula: `[Verb Root] + rahaa/rahee/rahe + thaa/thee/the`\n* English equivalent: \"was doing...\", \"were doing...\"\n* **Masculine Singular:** *Main code likh rahaa thaa.* (I was writing code.)\n* **Feminine Singular:** *Woh music sun rahee thee.* (She was listening to music.)\n* **Plural / Formal:** *Aap meeting attend kar rahe the.* (You were attending the meeting.)\n\n## 🎯 3. Polyglot & Tamil Bridge\n\n* **SOV Structure:** Dono tenses mein Subject pehle aayega, Object beech mein, aur conjugated Verb end mein.\n* **Tamil Parallel:**\n    * *Habitual Past:* Tamil ke \"-vên / -thên\" habit markers ki tarah Hindi mein verb root ke baad gender ending + past aux (*thaa/thee*) lagta hai.\n    * *Past Continuous:* Tamil ke \"-kittu irunthen\" structure ki exact copy Hindi ka `[Verb] + rahaa thaa` hai.\n\n# ❓Quiz\n\n\n### Concept & Grammar Questions\n\n* Habitual Past aur Past Continuous mein basic structural difference kya hai?\n    * Habitual Past mein imperfective marker (*taa/tee/te*) lagta hai aur Past Continuous mein aspectual marker (*rahaa/rahee/rahe*) lagta hai, dono ke baad past auxiliary (*thaa/thee/the*) aata hai.\n* Agar ek male speaker bol raha hai \"I used to live here\", toh ending kya hogi?\n    * *Main yahan rehtaa thaa.* (Verb stem + *taa* + *thaa*).\n* Past Continuous mein subject \"Hum\" (We) ke liye auxiliary aur aspect kya hoga?\n    * Aspect *rahe* aur auxiliary *the* hoga (e.g., *Hum work kar rahe the*).\n* \"She was making coffee\" ko translate karte waqt feminine markers kaise align honge?\n    * Verb ke saath *rahee* aur auxiliary *thee* aayega: *Woh coffee bana rahee thee.*\n\n### Translation Questions\n\n* **I used to practice guitar every day.** *(speaker: m)*\n    * `Main roz guitar practice kartaa thaa.`\n    * Main (I) + roz (daily) + guitar (guitar) + practice kartaa thaa (used to practice)\n* **I was working on a Python script yesterday.** *(speaker: m)*\n    * `Main kal ek Python script par work kar rahaa thaa.`\n    * Main (I) + kal (yesterday) + ek (a) + Python script par (on Python script) + work kar rahaa thaa (was working)\n* **We were riding our bikes to the station.**\n    * `Hum station tak bikes chala rahe the.`\n    * Hum (We) + station tak (up to station) + bikes (bikes) + chala rahe the (were riding)\n* **She used to speak French very well.**\n    * `Woh French bohot achhi boltee thee.`\n    * Woh (She) + French (French) + bohot achhi (very well) + boltee thee (used to speak)\n* **What were you doing at 8 PM?** *(formal, m)*\n    * `Aap raat ko 8 baje kya kar rahe the?`\n    * Aap (You [formal]) + raat ko 8 baje (at 8 PM) + kya (what) + kar rahe the (were doing)\n* **Hum pehle daily run karte the.**\n    * We used to run daily before.\n* **Woh office mein music mix kar rahaa thaa.**\n    * He was mixing music in the office.\n* **Tum kal kya study kar rahe the?**\n    * What were you studying yesterday?"
+}

@@ -1,0 +1,282 @@
+{
+  "id": "3af85bc1-d962-80b0-ba6f-f923bbe8c4dc",
+  "code": "A0-03",
+  "title": "Lesson A0-03: Basic Connectors & Postpositions",
+  "slug": "lesson_a0-03__basic_connectors___postpositions",
+  "sections": [
+    {
+      "title": "Basic Connectors & Postpositions",
+      "type": "heading_1",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Here is a summary table of the core basic connectors and postpositions, mapping them directly from Romanized Hindi to English and Tamil:"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "**Romanized Hindi**",
+              "**English**",
+              "**Tamil Equivalent**",
+              "**Hinglish Example**",
+              "**English Translation**",
+              "**Romanized Tamil Translation**"
+            ],
+            [
+              "**Me**",
+              "In / Inside / At",
+              "**-la / -ulle** (இல் / உள்ள)",
+              "*Main office me hoon.*",
+              "I am in the office.",
+              "*Naan office-la irukken.*"
+            ],
+            [
+              "**Par**",
+              "On / At",
+              "**mela / -la** (மேல)",
+              "*Mera phone table par hai.*",
+              "My phone is on the table.",
+              "*En phone table mela irukku.*"
+            ],
+            [
+              "**Se**",
+              "From / With / By",
+              "**-ilirundhu / -ala** (இருந்து / ஆல)",
+              "*Vo Toronto se hai.*",
+              "She is from Toronto.",
+              "*Ava Toronto-lirundhu irukkaa.*"
+            ],
+            [
+              "**Ke saath**",
+              "With (a person/thing)",
+              "**kooda / -oda** (கூட)",
+              "*Main Shivani ke saath hoon.*",
+              "I am with Shivani.",
+              "*Naan Shivani kooda irukken.*"
+            ],
+            [
+              "**Ke liye**",
+              "For",
+              "**kaaga / -ukku** (காக)",
+              "*Main trip ke liye ready hoon.*",
+              "I am ready for the trip.",
+              "*Naan trip-kkaaga ready-aa irukken.*"
+            ],
+            [
+              "**Ke paas**",
+              "Near / To have",
+              "**kitta** (கிட்ட)",
+              "*Mere paas ek guitar hai.*",
+              "I have a guitar.",
+              "*En kitta oru guitar irukku.*"
+            ],
+            [
+              "**Ke baare me**",
+              "About",
+              "**patthi**",
+              "*Mujhe October reunion ke baare me baat karnaa chahiye*",
+              "I want to talk about the October reunion.",
+              "*Naan October reunion paththi pesa vaendum.*"
+            ],
+            [
+              "**Lekin / Par / **",
+              "But / However",
+              "**Aanaal / Aanaa** (ஆனால்)",
+              "*Main busy hoon, lekin call karunga.*",
+              "I am busy, but I will call.",
+              "*Naan busy-aa irukken, aanaa call panren.*"
+            ],
+            [
+              "**Isliye**",
+              "That's why / So",
+              "**Adhanaala** (அதனால)",
+              "*Main busy thaa, isliye nahi aaya.*",
+              "I was busy, that's why I didn't come.",
+              "*Naan busy-aa irundhen, adhanaala varala.*"
+            ],
+            [
+              "**Kyunki**",
+              "Because",
+              "**Enaa / Yen-naa** (ஏன்னா)",
+              "*Main Hindi sikh rahaa hoon kyunki...*",
+              "I am learning Hindi because...",
+              "*Naan Hindi kathukiren, yen-naa...*"
+            ],
+            [
+              "**Vaise**",
+              "By the way / Actually",
+              "**Aamaa / Vaasthavathula** (ஆமா / உண்மையில்)",
+              "*Vaise, tum kahaan ho?*",
+              "By the way, where are you?",
+              "*Aamaa, nee engae irukka?*"
+            ],
+            [
+              "**Ki (Conjunction)**",
+              "That",
+              "-nnu / endru (என்று / -ன்னு)",
+              "Mujhe pata hai ki tum busy ho.",
+              "I know that you are busy.",
+              "Enakku theriyum nee busy-nnu."
+            ],
+            [
+              "**Kee / Ki (Possessive)**",
+              "Of / 's (Feminine)",
+              "-oda / udaiya (உடைய / -ஓட)",
+              "Ye Shivani ki book hai.",
+              "This is Shivani's book.",
+              "Idhu Shivani-oda book."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Quiz",
+      "type": "heading_1",
+      "content": [
+        {
+          "type": "toggle",
+          "title": "I am in the office. | Naan office-la irukken.",
+          "children": [
+            "Main office me hoon."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "I have a guitar. | En kitta oru guitar irukku.",
+          "children": [
+            "Mere paas ek guitar hai."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "By the way, where are you? | Aamaa, nee engae irukka?",
+          "children": [
+            "Vaise, tum kahaan ho?"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "She is from Toronto. | Ava Toronto-lirundhu irukkaa.",
+          "children": [
+            "Vo Toronto se hai."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "I am ready for the trip. | Naan trip-kkaaga ready-aa irukken.",
+          "children": [
+            "Main trip ke liye ready hoon."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "My phone is on the table. | En phone table mela irukku.",
+          "children": [
+            "Mera phone table par hai."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "I am learning Hindi because... | Naan Hindi kathukiren, yen-naa...",
+          "children": [
+            "Main Hindi sikh rahaa hoon kyunki..."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "I am with Shivani. | Naan Shivani kooda irukken.",
+          "children": [
+            "Main Shivani ke saath hoon."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "I was busy, that's why I didn't come. | Naan busy-aa irundhen, adhanaala varala.",
+          "children": [
+            "Main busy thaa, isliye nahi aaya."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "I am busy, but I will call. | Naan busy-aa irukken, aanaa call panren.",
+          "children": [
+            "Main busy hoon, lekin call karunga."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "Do you have time for a beer today? | Un kitta innikki beer-ukku time irukkaa?",
+          "children": [
+            "Kyaa tumhare paas aaj beer ke liye time hai?"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "She is sitting on the chair. | Ava chair mela ukkaarandhirukkaa.",
+          "children": [
+            "Vo chair par baithi hai."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "By the way, what are you doing today? | Aamaa, nee innikki enna panra?",
+          "children": [
+            "Vaise, tum aaj kyaa kar rahe ho?"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "I am coming from home. | Naan veettulirundhu vareen.",
+          "children": [
+            "Main ghar se aa rahaa hoon."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "This gift is for you. | Indha gift unakku.",
+          "children": [
+            "Ye gift tumhare liye hai."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "Are you coming with me? | Nee en kooda varriyaa?",
+          "children": [
+            "Kyaa tum mere saath aa rahe ho?"
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "I live in Toronto. | Naan Toronto-la irukken.",
+          "children": [
+            "Main Toronto me rahta hoon."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "I am learning Hindi because I want to talk to my friends. | Naan Hindi kathukiren, yen-naa en friends kooda pesa virumburen.",
+          "children": [
+            "Main Hindi sikh rahaa hoon kyunki main apne doston se baat karna chaahtaa hoon."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "I studied a lot, that's why I passed. | Naan nalla padichen, adhanaala pass aagitten.",
+          "children": [
+            "Main bahut padhaa, isliye pass ho gayaa."
+          ]
+        },
+        {
+          "type": "toggle",
+          "title": "I want to play guitar, but I don't have time. | Naan guitar vaasikka aasappadren, aanaa enakku time illa.",
+          "children": [
+            "Main guitar bajaana chaahtaa hoon, lekin mere paas time nahi hai."
+          ]
+        }
+      ]
+    }
+  ],
+  "markdown": "Here is a summary table of the core basic connectors and postpositions, mapping them directly from Romanized Hindi to English and Tamil:\n\n| **Romanized Hindi** | **English** | **Tamil Equivalent** | **Hinglish Example** | **English Translation** | **Romanized Tamil Translation** |\n| --- | --- | --- | --- | --- | --- |\n| **Me** | In / Inside / At | **-la / -ulle** (இல் / உள்ள) | *Main office me hoon.* | I am in the office. | *Naan office-la irukken.* |\n| **Par** | On / At | **mela / -la** (மேல) | *Mera phone table par hai.* | My phone is on the table. | *En phone table mela irukku.* |\n| **Se** | From / With / By | **-ilirundhu / -ala** (இருந்து / ஆல) | *Vo Toronto se hai.* | She is from Toronto. | *Ava Toronto-lirundhu irukkaa.* |\n| **Ke saath** | With (a person/thing) | **kooda / -oda** (கூட) | *Main Shivani ke saath hoon.* | I am with Shivani. | *Naan Shivani kooda irukken.* |\n| **Ke liye** | For | **kaaga / -ukku** (காக) | *Main trip ke liye ready hoon.* | I am ready for the trip. | *Naan trip-kkaaga ready-aa irukken.* |\n| **Ke paas** | Near / To have | **kitta** (கிட்ட) | *Mere paas ek guitar hai.* | I have a guitar. | *En kitta oru guitar irukku.* |\n| **Ke baare me** | About | **patthi** | *Mujhe October reunion ke baare me baat karnaa chahiye* | I want to talk about the October reunion. | *Naan October reunion paththi pesa vaendum.* |\n| **Lekin / Par / ** | But / However | **Aanaal / Aanaa** (ஆனால்) | *Main busy hoon, lekin call karunga.* | I am busy, but I will call. | *Naan busy-aa irukken, aanaa call panren.* |\n| **Isliye** | That's why / So | **Adhanaala** (அதனால) | *Main busy thaa, isliye nahi aaya.* | I was busy, that's why I didn't come. | *Naan busy-aa irundhen, adhanaala varala.* |\n| **Kyunki** | Because | **Enaa / Yen-naa** (ஏன்னா) | *Main Hindi sikh rahaa hoon kyunki...* | I am learning Hindi because... | *Naan Hindi kathukiren, yen-naa...* |\n| **Vaise** | By the way / Actually | **Aamaa / Vaasthavathula** (ஆமா / உண்மையில்) | *Vaise, tum kahaan ho?* | By the way, where are you? | *Aamaa, nee engae irukka?* |\n| **Ki (Conjunction)** | That | -nnu / endru (என்று / -ன்னு) | Mujhe pata hai ki tum busy ho. | I know that you are busy. | Enakku theriyum nee busy-nnu. |\n| **Kee / Ki (Possessive)** | Of / 's (Feminine) | -oda / udaiya (உடைய / -ஓட) | Ye Shivani ki book hai. | This is Shivani's book. | Idhu Shivani-oda book. |\n\n\n# Quiz\n\n<details><summary>I am in the office. | Naan office-la irukken.</summary>\n\n* Main office me hoon.\n</details>\n\n<details><summary>I have a guitar. | En kitta oru guitar irukku.</summary>\n\n* Mere paas ek guitar hai.\n</details>\n\n<details><summary>By the way, where are you? | Aamaa, nee engae irukka?</summary>\n\n* Vaise, tum kahaan ho?\n</details>\n\n<details><summary>She is from Toronto. | Ava Toronto-lirundhu irukkaa.</summary>\n\n* Vo Toronto se hai.\n</details>\n\n<details><summary>I am ready for the trip. | Naan trip-kkaaga ready-aa irukken.</summary>\n\n* Main trip ke liye ready hoon.\n</details>\n\n<details><summary>My phone is on the table. | En phone table mela irukku.</summary>\n\n* Mera phone table par hai.\n</details>\n\n<details><summary>I am learning Hindi because... | Naan Hindi kathukiren, yen-naa...</summary>\n\n* Main Hindi sikh rahaa hoon kyunki...\n</details>\n\n<details><summary>I am with Shivani. | Naan Shivani kooda irukken.</summary>\n\n* Main Shivani ke saath hoon.\n</details>\n\n<details><summary>I was busy, that's why I didn't come. | Naan busy-aa irundhen, adhanaala varala.</summary>\n\n* Main busy thaa, isliye nahi aaya.\n</details>\n\n<details><summary>I am busy, but I will call. | Naan busy-aa irukken, aanaa call panren.</summary>\n\n* Main busy hoon, lekin call karunga.\n</details>\n\n<details><summary>Do you have time for a beer today? | Un kitta innikki beer-ukku time irukkaa?</summary>\n\n* Kyaa tumhare paas aaj beer ke liye time hai?\n</details>\n\n<details><summary>She is sitting on the chair. | Ava chair mela ukkaarandhirukkaa.</summary>\n\n* Vo chair par baithi hai.\n</details>\n\n<details><summary>By the way, what are you doing today? | Aamaa, nee innikki enna panra?</summary>\n\n* Vaise, tum aaj kyaa kar rahe ho?\n</details>\n\n<details><summary>I am coming from home. | Naan veettulirundhu vareen.</summary>\n\n* Main ghar se aa rahaa hoon.\n</details>\n\n<details><summary>This gift is for you. | Indha gift unakku.</summary>\n\n* Ye gift tumhare liye hai.\n</details>\n\n<details><summary>Are you coming with me? | Nee en kooda varriyaa?</summary>\n\n* Kyaa tum mere saath aa rahe ho?\n</details>\n\n<details><summary>I live in Toronto. | Naan Toronto-la irukken.</summary>\n\n* Main Toronto me rahta hoon.\n</details>\n\n<details><summary>I am learning Hindi because I want to talk to my friends. | Naan Hindi kathukiren, yen-naa en friends kooda pesa virumburen.</summary>\n\n* Main Hindi sikh rahaa hoon kyunki main apne doston se baat karna chaahtaa hoon.\n</details>\n\n<details><summary>I studied a lot, that's why I passed. | Naan nalla padichen, adhanaala pass aagitten.</summary>\n\n* Main bahut padhaa, isliye pass ho gayaa.\n</details>\n\n<details><summary>I want to play guitar, but I don't have time. | Naan guitar vaasikka aasappadren, aanaa enakku time illa.</summary>\n\n* Main guitar bajaana chaahtaa hoon, lekin mere paas time nahi hai.\n</details>\n"
+}

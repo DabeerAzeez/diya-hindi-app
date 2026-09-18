@@ -1,0 +1,4419 @@
+{
+  "summary": {
+    "total_anchors": 200,
+    "total_targeted": 102,
+    "total_untargeted": 98,
+    "overall_percentage": 51,
+    "cards_audited": 228
+  },
+  "categories": {
+    "verbs": {
+      "total": 50,
+      "targeted": 38,
+      "percentage": 76,
+      "words": [
+        {
+          "id": 1,
+          "word": "karnaa",
+          "diacritics": "karnā",
+          "meaning": "to do",
+          "collocation": "Ye kaam karo / Call karnaa",
+          "card_count": 46,
+          "matched_cards": [
+            {
+              "cardId": 1785455281066,
+              "front": "By the way, what are you up to? <i>(informal, f)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281067,
+              "front": "I am working at my office desk right now.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281068,
+              "front": "I work in the AI field.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281072,
+              "front": "I practice playing the guitar every evening.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281076,
+              "front": "I like spending time outdoors in Toronto.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281077,
+              "front": "I am working on a software coding project.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281080,
+              "front": "I am learning Hindi because I want to chat with my friends.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281082,
+              "front": "I want to visit Norwich this October.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281083,
+              "front": "I need some coffee before starting work.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281084,
+              "front": "Can you help me with this task?",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281089,
+              "front": "I need to transition into a new career role soon.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281091,
+              "front": "I want to catch up with Shivani after a long time.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281095,
+              "front": "I understood what you explained.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281099,
+              "front": "I worked on my new coding project yesterday evening.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281100,
+              "front": "We had so much fun during our university days!",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281102,
+              "front": "I will call you tomorrow evening.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281106,
+              "front": "I will try my best to learn fluent Hinglish before October.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786236329279,
+              "front": "<ol><li>I ordered a cold beer</li><li>I am ordering a cold beer</li><li>I will order a cold beer</li></ol>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786304566160,
+              "front": "There is no gravity in space, so everything and every person floats.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786304566162,
+              "front": "To prevent body muscle loss, they have to exercise for at least two hours daily.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786304566163,
+              "front": "To sleep at night, astronauts use sleeping bags that are tied to walls.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787020643392,
+              "front": "Before going to the UK, I practice guitar.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787020643393,
+              "front": "After finishing work, I play video games.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787020643394,
+              "front": "Do you want to talk about that? <i>(formal)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036533,
+              "front": "Finish your homework by 12 o’clock, or I’m going to slap you at 1 o’clock!",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036538,
+              "front": "Close the door. (Casual / Tum)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036545,
+              "front": "I take a little rest after lunch.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036546,
+              "front": "You can do it! (Aap, Tum, Tu forms)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036550,
+              "front": "Don't talk to/with him/her.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036554,
+              "front": "Who were you talking to? <i>(informal)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787432648148,
+              "front": "I am relaxing at my own place with my friends.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787626564469,
+              "front": "When will you reach Norwich, and what will we do there? <i>(informal, m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787711943324,
+              "front": "Please do this work inside the room. <i>(polite, formal)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787712956481,
+              "front": "Siemens pays according to old budgets, not according to GenAI experts' talent!",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788231227746,
+              "front": "I have to attend daily morning team meetings. <i>(habitual, m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788232411036,
+              "front": "I am about to start the new AI script. <i>(speaker m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788916040586,
+              "front": "Some people are waiting.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788916040746,
+              "front": "Hey brother, this is a bit expensive, please reduce a bit, won't you?&nbsp;<i>(polite bargaining)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789093222164,
+              "front": "Who did this work?",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789095288790,
+              "front": "We used to wait for each other at the café after rehearsal.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789440348401,
+              "front": "When Shivani is free, then we will call. (<i>informal/friendly, speaking about Shivani</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789440348482,
+              "front": "I am working until 6 PM, will you wait until then? (<i>informal, addressing female peer</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571539,
+              "front": "Come on yaar, I really need to practice these conversational fillers! (<i>informal, m</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571566,
+              "front": "Really? You organized a pub night at the care home? (<i>informal/polite, past</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571604,
+              "front": "First I searched on Google, then on Instagram, after that I asked a local, and finally I found the pub! (<i>informal, m</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571630,
+              "front": "Book a table, otherwise we won't get a spot in the pub! (<i>informal command, varna = sinon</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "word": "honaa",
+          "diacritics": "honā",
+          "meaning": "to be / happen",
+          "collocation": "Kyaa huaa? / Start ho gayaa",
+          "card_count": 96,
+          "matched_cards": [
+            {
+              "cardId": 1785379515772,
+              "front": "Hello! How are you doing today? (<i>formal, m</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785379515774,
+              "front": "I live in Toronto right now.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785454571707,
+              "front": "No. I don't understand English. (<i>m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785454571708,
+              "front": "I understand a little Hindi.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281065,
+              "front": "Today I am a bit busy with work.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281066,
+              "front": "By the way, what are you up to? <i>(informal, f)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281067,
+              "front": "I am working at my office desk right now.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281068,
+              "front": "I work in the AI field.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281069,
+              "front": "Are you free this weekend? (casual)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281070,
+              "front": "Actually, I am ready to leave.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281071,
+              "front": "No worries, everything will be fine.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281072,
+              "front": "I practice playing the guitar every evening.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281073,
+              "front": "I am learning a new song on the piano right now.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281074,
+              "front": "I play video games with friends on weekends.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281075,
+              "front": "What kind of music do you listen to? (<i>informal</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281077,
+              "front": "I am working on a software coding project.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281078,
+              "front": "I usually get free from work around (1-10) PM.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281079,
+              "front": "Are you watching any good show these days?<i> (informal, m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281080,
+              "front": "I am learning Hindi because I want to chat with my friends.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281082,
+              "front": "I want to visit Norwich this October.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281084,
+              "front": "Can you help me with this task?",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281085,
+              "front": "I can speak a little bit of Hindi now.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281088,
+              "front": "Do you want to grab a beer with me tonight? (<i>informal, m</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281090,
+              "front": "I can play both guitar and piano.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281091,
+              "front": "I want to catch up with Shivani after a long time.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281094,
+              "front": "How was your day in Norwich today? <i>(informal, m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281101,
+              "front": "What happened at the care home today?",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281105,
+              "front": "How is your job as a lifestyle coordinator going? <i>(Informal, f)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281109,
+              "front": "I am very excited to visit you in October.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281111,
+              "front": "It will take some time, but it will be great!",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785499662368,
+              "front": "<div style=\"text-align: center; font-family: Arial, sans-serif; font-size: 18px; line-height: 1.6;\">\n  Are you free tomorrow for a drink?\n</div>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786072496402,
+              "front": "Excuse me, how are you? I'm fine, but I don't understand Hindi very well.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786072496404,
+              "front": "Do you want to eat lunch now, or do you want to eat later?&nbsp;<i>(informal, f)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786072496405,
+              "front": "Do you want to drink some coffee with me? <i>(informal, f)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786206766110,
+              "front": "<div>\n  <ul>\n    <li>I eat.</li>\n    <li>I am eating.</li>\n    <li>I ate.</li>\n    <li>I will eat.</li>\n  </ul>\n</div>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786231940108,
+              "front": "Making a new song tonight will be fun.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786232844753,
+              "front": "<div>\n  What nonsense is happening? I'm coming home now!\n</div>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786236329275,
+              "front": "<ol><li>I taught my friend a guitar chord</li><li>I am teaching my friend a guitar chord</li><li>I will teach my friend a guitar chord</li></ol>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786236329276,
+              "front": "<ol><li>I forgot my house keys</li><li>I am forgetting my house keys</li><li>I will forget my house keys</li></ol>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786236329277,
+              "front": "<ol><li>I made a delicious cocktail</li><li>I am making a delicious cocktail</li><li>I will make a delicious cocktail</li></ol>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786236329278,
+              "front": "<ol><li>I showed my new AI coding project</li><li>I am showing my new AI coding project</li><li>I will show my new AI coding project</li></ol>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786236329279,
+              "front": "<ol><li>I ordered a cold beer</li><li>I am ordering a cold beer</li><li>I will order a cold beer</li></ol>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786236329280,
+              "front": "<ol><li>I listened to an awesome new song</li><li>I am listening to an awesome new song</li><li>I will listen to an awesome new song</li></ol>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786236329281,
+              "front": "<ol><li>I thought about our university improv days</li><li>I am thinking about our university improv days</li><li>I will think about our university improv days</li></ol>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786236329282,
+              "front": "<ol><li>I told a funny story</li><li>I am telling a funny story</li><li>I will tell a funny story</li></ol>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786236329283,
+              "front": "<ol><li>I played a riff on the guitar</li><li>I am playing a riff on the guitar</li><li>I will play a riff on the guitar</li></ol>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786236329284,
+              "front": "<ol><li>I bought a train ticket to Norwich</li><li>I am buying a train ticket to Norwich</li><li>I will buy a train ticket to Norwich</li></ol>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786236329285,
+              "front": "<ol><li>I ate a banana</li><li>I am eating a banana</li><li>I will eat a banana</li></ol>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786236329286,
+              "front": "<ol><li>I gave a gift to Shivani</li><li>I am giving a gift to Shivani</li><li>I will give a gift to Shivani</li></ol>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786236329287,
+              "front": "<ol><li>I took some eggs from the fridge</li><li>I am taking some eggs from the fridge</li><li>I will take some eggs from the fridge</li></ol>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786304566160,
+              "front": "There is no gravity in space, so everything and every person floats.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786304566161,
+              "front": "On the space station, there is a strict schedule every day.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786304566162,
+              "front": "To prevent body muscle loss, they have to exercise for at least two hours daily.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786304566163,
+              "front": "To sleep at night, astronauts use sleeping bags that are tied to walls.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786502230637,
+              "front": "I am coming from home.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786502795778,
+              "front": "I read (<i>past tense)</i>&nbsp;a lot, that's why I passed.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786502859730,
+              "front": "I want to play guitar, but I don't have time.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786503091815,
+              "front": "I can jump; I could jump; I will be able to jump.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786671710318,
+              "front": "I know that you are busy today. <i>(informal, w/ \"pata\")</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786673551920,
+              "front": "I always say the truth, I said the truth yesterday, and I will say the truth tomorrow too.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787020643392,
+              "front": "Before going to the UK, I practice guitar.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787020643393,
+              "front": "After finishing work, I play video games.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787020643396,
+              "front": "Do you want to know about this? <i>(informal, m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787020643397,
+              "front": "I am ready to go to Norwich in October.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787021167986,
+              "front": "This work will be done by this evening.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787021167987,
+              "front": "What is happening there?",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787021167988,
+              "front": "My phone turned off / got switched off.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787021167989,
+              "front": "Everything should happen on time.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787021167990,
+              "front": "It is possible that they are busy.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787021167991,
+              "front": "You don't need to be worried. <i>(formal)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787021167992,
+              "front": "Yesterday our meeting ran late / got late.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787188611474,
+              "front": "If you were free this weekend, then meeting up in Norwich would be great.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036533,
+              "front": "Finish your homework by 12 o’clock, or I’m going to slap you at 1 o’clock!",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036534,
+              "front": "She knows I’m a liar (2 forms: jaanna & pataa hona)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036536,
+              "front": "What time is it? (2 conversational ways)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036540,
+              "front": "Come on, get ready quickly.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036545,
+              "front": "I take a little rest after lunch.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036546,
+              "front": "You can do it! (Aap, Tum, Tu forms)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036552,
+              "front": "With whom are you going to the concert? <i>(informal)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787432648148,
+              "front": "I am relaxing at my own place with my friends.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787627217027,
+              "front": "What happened yesterday, and what will happen tomorrow?",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787711943320,
+              "front": "Turn left near the care home, please. <i>(polite, formal)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787713559505,
+              "front": "My son is 4 years old and I am 6 months 2 weeks pregnant. <i>(f)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787713821436,
+              "front": "How is Josh's job at Revolut?",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788231227743,
+              "front": "Can I come inside? <i>(polite, m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788231227748,
+              "front": "Can I ask you a question? <i>(formal, m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788231227750,
+              "front": "We have to get ready early tomorrow morning. <i>(internal obligation)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788232411036,
+              "front": "I am about to start the new AI script. <i>(speaker m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788913926723,
+              "front": "I believe that this local comedy club will be packed tonight.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788913959251,
+              "front": "On a hot afternoon, the cold river water is very refreshing.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788916040774,
+              "front": "How much is this blue one? <i>(asking item price)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789440348401,
+              "front": "When Shivani is free, then we will call. (<i>informal/friendly, speaking about Shivani</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789440348482,
+              "front": "I am working until 6 PM, will you wait until then? (<i>informal, addressing female peer</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571566,
+              "front": "Really? You organized a pub night at the care home? (<i>informal/polite, past</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571659,
+              "front": "Really, it has been such a long time! (<i>exclamation of reunion</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571804,
+              "front": "Come on, hurry up, otherwise the pub will close! (<i>urgent reminder</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "word": "jaanaa",
+          "diacritics": "jānā",
+          "meaning": "to go / complete",
+          "collocation": "Ghar jaanaa / Ho gayaa",
+          "card_count": 22,
+          "matched_cards": [
+            {
+              "cardId": 1785455281095,
+              "front": "I understood what you explained.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281098,
+              "front": "Where did you go for dinner yesterday? (Informal, m)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786236329276,
+              "front": "<ol><li>I forgot my house keys</li><li>I am forgetting my house keys</li><li>I will forget my house keys</li></ol>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786502795778,
+              "front": "I read (<i>past tense)</i>&nbsp;a lot, that's why I passed.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787020643392,
+              "front": "Before going to the UK, I practice guitar.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787020643396,
+              "front": "Do you want to know about this? <i>(informal, m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787020643397,
+              "front": "I am ready to go to Norwich in October.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787021167986,
+              "front": "This work will be done by this evening.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787021167988,
+              "front": "My phone turned off / got switched off.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787021167992,
+              "front": "Yesterday our meeting ran late / got late.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036534,
+              "front": "She knows I’m a liar (2 forms: jaanna & pataa hona)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036540,
+              "front": "Come on, get ready quickly.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036547,
+              "front": "He is going away from me.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036552,
+              "front": "With whom are you going to the concert? <i>(informal)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787626856130,
+              "front": "Yesterday I went to the store, and then I went to work. <i>(m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787711943319,
+              "front": "Go straight and then take the bus. <i>(informal, tum)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787711943321,
+              "front": "Go ahead and wait outside. <i>(informal, tum)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788916040613,
+              "front": "All the friends reached the pub.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789440348454,
+              "front": "I was tired after work, still I went to the pub. (<i>informal, m</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571604,
+              "front": "First I searched on Google, then on Instagram, after that I asked a local, and finally I found the pub! (<i>informal, m</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571659,
+              "front": "Really, it has been such a long time! (<i>exclamation of reunion</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571804,
+              "front": "Come on, hurry up, otherwise the pub will close! (<i>urgent reminder</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "word": "aanaa",
+          "diacritics": "ānā",
+          "meaning": "to come / arrive",
+          "collocation": "Andar aao / Yaad aanaa",
+          "card_count": 10,
+          "matched_cards": [
+            {
+              "cardId": 1785455281078,
+              "front": "I usually get free from work around (1-10) PM.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786206309049,
+              "front": "Yesterday I came to see you but you weren't here. So today I came to see you again.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786503349041,
+              "front": "J'aimais cette chanson / Cette chanson m'a plu.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786503349042,
+              "front": "I think I will like Norwich.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787627434971,
+              "front": "When will you come and bring the guitar? <i>(informal, f)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787711943321,
+              "front": "Go ahead and wait outside. <i>(informal, tum)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787711943327,
+              "front": "Walk forward slowly. <i>(informal, tum)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788231227745,
+              "front": "Coming inside is prohibited.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788232411037,
+              "front": "The GO train to Port Credit is about to arrive.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789095282445,
+              "front": "I was writing some Python scripts when your phone call arrived. (<i>m</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "word": "lenaa",
+          "diacritics": "lenā",
+          "meaning": "to take / receive",
+          "collocation": "Coffee le lo / Samajh lenaa",
+          "card_count": 22,
+          "matched_cards": [
+            {
+              "cardId": 1785455281070,
+              "front": "Actually, I am ready to leave.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281098,
+              "front": "Where did you go for dinner yesterday? (Informal, m)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281109,
+              "front": "I am very excited to visit you in October.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785499662368,
+              "front": "<div style=\"text-align: center; font-family: Arial, sans-serif; font-size: 18px; line-height: 1.6;\">\n  Are you free tomorrow for a drink?\n</div>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786206309049,
+              "front": "Yesterday I came to see you but you weren't here. So today I came to see you again.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786236329287,
+              "front": "<ol><li>I took some eggs from the fridge</li><li>I am taking some eggs from the fridge</li><li>I will take some eggs from the fridge</li></ol>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786304566162,
+              "front": "To prevent body muscle loss, they have to exercise for at least two hours daily.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786304566163,
+              "front": "To sleep at night, astronauts use sleeping bags that are tied to walls.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786501861612,
+              "front": "Do you have time for a beer today?&nbsp;<i>(informal)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787020643395,
+              "front": "I need some time for this project.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787020643397,
+              "front": "I am ready to go to Norwich in October.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036533,
+              "front": "Finish your homework by 12 o’clock, or I’m going to slap you at 1 o’clock!",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036540,
+              "front": "Come on, get ready quickly.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036551,
+              "front": "We take guidance from them.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036553,
+              "front": "For whom are you buying this gift? <i>(formal)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788231227744,
+              "front": "Taking photos here is forbidden.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788231227747,
+              "front": "Tomorrow we will have to leave early for the station.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788231227749,
+              "front": "My mom has to cook food for our family every day.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788916040815,
+              "front": "Give me twenty-five dollars for these audio cables. <i>(casual request)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789093222013,
+              "front": "Did you take the keys? (<i>formal</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789093222070,
+              "front": "I brought pizza for everyone. (<i>m</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571762,
+              "front": "Oh wonderful! Come on, let's order a round of drinks first! (<i>casual suggestion</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "word": "denaa",
+          "diacritics": "denā",
+          "meaning": "to give",
+          "collocation": "Mujhe bataa do / Dheyaan denaa",
+          "card_count": 3,
+          "matched_cards": [
+            {
+              "cardId": 1786236329286,
+              "front": "<ol><li>I gave a gift to Shivani</li><li>I am giving a gift to Shivani</li><li>I will give a gift to Shivani</li></ol>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036541,
+              "front": "Please give me that water bottle. (Polite / Dijiye)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789093222040,
+              "front": "He/She gave me the address.",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "word": "bolnaa",
+          "diacritics": "bolnā",
+          "meaning": "to speak",
+          "collocation": "Dheere bolo / Phir se bolnaa",
+          "card_count": 7,
+          "matched_cards": [
+            {
+              "cardId": 1785455281085,
+              "front": "I can speak a little bit of Hindi now.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786673551920,
+              "front": "I always say the truth, I said the truth yesterday, and I will say the truth tomorrow too.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787013851224,
+              "front": "To speak (2 forms, infinitive verbs)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036557,
+              "front": "On what topic is he speaking?",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787432648151,
+              "front": "His husband speaks French very well. <i>(respectful)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789440348418,
+              "front": "Could you please repeat that? / Say that again? (<i>polite / friendly spoken</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571838,
+              "front": "Really? Did he/she really say that? (<i>clarification / disbelief</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "word": "kehnaa",
+          "diacritics": "kehnā",
+          "meaning": "to say / state",
+          "collocation": "Usne kahaa ki... / Alvida kehnaa",
+          "card_count": 4,
+          "matched_cards": [
+            {
+              "cardId": 1785455281098,
+              "front": "Where did you go for dinner yesterday? (Informal, m)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786304566158,
+              "front": "The princess said that she wanted Arjun to make her painting.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787013851224,
+              "front": "To speak (2 forms, infinitive verbs)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788913959247,
+              "front": "My close female friend tells great stories. (<i>f</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "word": "bataanaa",
+          "diacritics": "batānā",
+          "meaning": "to tell / explain",
+          "collocation": "Mujhe sach bataao",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1789093222132,
+              "front": "Ishita told me about Norwich.",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "word": "baat karnaa",
+          "diacritics": "bāt karnā",
+          "meaning": "to converse / talk",
+          "collocation": "Shivani se baat karnaa",
+          "card_count": 2,
+          "matched_cards": [
+            {
+              "cardId": 1787020643394,
+              "front": "Do you want to talk about that? <i>(formal)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036554,
+              "front": "Who were you talking to? <i>(informal)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "word": "dekhnaa",
+          "diacritics": "dekhnā",
+          "meaning": "to see / look / watch",
+          "collocation": "Movie dekhnaa / Dekh lo",
+          "card_count": 3,
+          "matched_cards": [
+            {
+              "cardId": 1785455281079,
+              "front": "Are you watching any good show these days?<i> (informal, m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789093222195,
+              "front": "Did you see Shivani's message? (<i>informal</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571604,
+              "front": "First I searched on Google, then on Instagram, after that I asked a local, and finally I found the pub! (<i>informal, m</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "word": "sunnaa",
+          "diacritics": "sunnā",
+          "meaning": "to hear / listen",
+          "collocation": "Meri baat suno / Gaanaa sunnaa",
+          "card_count": 4,
+          "matched_cards": [
+            {
+              "cardId": 1785455281075,
+              "front": "What kind of music do you listen to? (<i>informal</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786072496402,
+              "front": "Excuse me, how are you? I'm fine, but I don't understand Hindi very well.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786236329280,
+              "front": "<ol><li>I listened to an awesome new song</li><li>I am listening to an awesome new song</li><li>I will listen to an awesome new song</li></ol>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788913959247,
+              "front": "My close female friend tells great stories. (<i>f</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "word": "samajhnaa",
+          "diacritics": "samajhnā",
+          "meaning": "to understand",
+          "collocation": "Main samajh gayaa",
+          "card_count": 4,
+          "matched_cards": [
+            {
+              "cardId": 1785454571707,
+              "front": "No. I don't understand English. (<i>m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785454571708,
+              "front": "I understand a little Hindi.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281095,
+              "front": "I understood what you explained.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786072496402,
+              "front": "Excuse me, how are you? I'm fine, but I don't understand Hindi very well.",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "word": "sochnaa",
+          "diacritics": "sochnā",
+          "meaning": "to think / ponder",
+          "collocation": "Maine sochaa thaa ki...",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1786236329281,
+              "front": "<ol><li>I thought about our university improv days</li><li>I am thinking about our university improv days</li><li>I will think about our university improv days</li></ol>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "word": "jaannaa",
+          "diacritics": "jānnā",
+          "meaning": "to know",
+          "collocation": "Main use jaantaa hoon",
+          "card_count": 4,
+          "matched_cards": [
+            {
+              "cardId": 1787020643392,
+              "front": "Before going to the UK, I practice guitar.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787020643396,
+              "front": "Do you want to know about this? <i>(informal, m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787020643397,
+              "front": "I am ready to go to Norwich in October.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036534,
+              "front": "She knows I’m a liar (2 forms: jaanna & pataa hona)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "word": "pataa honaa",
+          "diacritics": "patā honā",
+          "meaning": "to know (a fact)",
+          "collocation": "Mujhe pataa hai",
+          "card_count": 3,
+          "matched_cards": [
+            {
+              "cardId": 1785455281087,
+              "front": "I don't know about that topic.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786671710318,
+              "front": "I know that you are busy today. <i>(informal, w/ \"pata\")</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036534,
+              "front": "She knows I’m a liar (2 forms: jaanna & pataa hona)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "word": "rakhnaa",
+          "diacritics": "rakhnā",
+          "meaning": "to put / keep / maintain",
+          "collocation": "Phone table par rakh do",
+          "card_count": 2,
+          "matched_cards": [
+            {
+              "cardId": 1787711943325,
+              "front": "Put the guitar behind the amplifier. <i>(informal, tum)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788916040551,
+              "front": "Keep light ice in this cocktail. <i>(casual instruction / neutral imperative)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "word": "chhodnaa",
+          "diacritics": "choṛnā",
+          "meaning": "to leave / drop off / quit",
+          "collocation": "Mujhe station par chhod do",
+          "card_count": 2,
+          "matched_cards": [
+            {
+              "cardId": 1785455281097,
+              "front": "When did you leave your software job at Ford? (informal)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789064729055,
+              "front": "Forget it, dude, it's no big deal / no worries. (<i>casual/informal</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "word": "uthaanaa",
+          "diacritics": "uṭhānā",
+          "meaning": "to lift / pick up / wake",
+          "collocation": "Call uthaao / Bag uthaanaa",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 20,
+          "word": "pakadnaa",
+          "diacritics": "pakaṛnā",
+          "meaning": "to catch / hold",
+          "collocation": "Bus pakadnaa / Ye pakdo",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1788231227742,
+              "front": "Tomorrow I will have to catch the train. <i>(m)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "word": "pahunchnaa",
+          "diacritics": "pahuñchnā",
+          "meaning": "to reach / arrive",
+          "collocation": "Main 10 min mein pahunchūngaa",
+          "card_count": 3,
+          "matched_cards": [
+            {
+              "cardId": 1785455281104,
+              "front": "I will reach the coffee shop in 10 minutes.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787626564469,
+              "front": "When will you reach Norwich, and what will we do there? <i>(informal, m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788916040613,
+              "front": "All the friends reached the pub.",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "word": "nikalnaa",
+          "diacritics": "nikalnā",
+          "meaning": "to head out / leave",
+          "collocation": "Ghar se nikalte hain",
+          "card_count": 3,
+          "matched_cards": [
+            {
+              "cardId": 1785455281070,
+              "front": "Actually, I am ready to leave.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788231227741,
+              "front": "When do you have to leave? <i>(formal, internal obligation)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788231227747,
+              "front": "Tomorrow we will have to leave early for the station.",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "word": "ruknaa",
+          "diacritics": "ruknā",
+          "meaning": "to stop / stay / wait",
+          "collocation": "Thodaa ruko / Tab tak ruknaa",
+          "card_count": 2,
+          "matched_cards": [
+            {
+              "cardId": 1787711943321,
+              "front": "Go ahead and wait outside. <i>(informal, tum)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789440348482,
+              "front": "I am working until 6 PM, will you wait until then? (<i>informal, addressing female peer</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "word": "roknaa",
+          "diacritics": "roknā",
+          "meaning": "to stop someone/something",
+          "collocation": "Usko roko",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1786304566162,
+              "front": "To prevent body muscle loss, they have to exercise for at least two hours daily.",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "word": "chalnaa",
+          "diacritics": "chalnā",
+          "meaning": "to walk / run / work",
+          "collocation": "Kaam kaisaa chal rahaa hai?",
+          "card_count": 5,
+          "matched_cards": [
+            {
+              "cardId": 1787191036540,
+              "front": "Come on, get ready quickly.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787711943327,
+              "front": "Walk forward slowly. <i>(informal, tum)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788916040655,
+              "front": "Will a card work? / Do you take cards? <i>(colloquial payment question)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571762,
+              "front": "Oh wonderful! Come on, let's order a round of drinks first! (<i>casual suggestion</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571804,
+              "front": "Come on, hurry up, otherwise the pub will close! (<i>urgent reminder</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "word": "chalaanaa",
+          "diacritics": "chalānā",
+          "meaning": "to drive / operate / run",
+          "collocation": "Car chalaanaa / Company chalaanaa",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 27,
+          "word": "baithnaa",
+          "diacritics": "baiṭhnā",
+          "meaning": "to sit",
+          "collocation": "Yahaan baitho",
+          "card_count": 3,
+          "matched_cards": [
+            {
+              "cardId": 1786502092780,
+              "front": "<div class=\"card-front\">\n  She is sitting on the chair.\n</div>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036537,
+              "front": "Please sit here. (Formal / Aap)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787711943326,
+              "front": "Please sit inside near the window. <i>(polite, formal)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "word": "khadaa honaa",
+          "diacritics": "khaṛā honā",
+          "meaning": "to stand",
+          "collocation": "Line mein khade honaa",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 29,
+          "word": "milnaa",
+          "diacritics": "milnā",
+          "meaning": "to meet / to be available",
+          "collocation": "Kal milte hain / Ticket mil gayaa",
+          "card_count": 9,
+          "matched_cards": [
+            {
+              "cardId": 1785455281103,
+              "front": "We will meet in Norwich this October!",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786072632269,
+              "front": "<div>What time is the meetup? / We will meet at 4 PM.</div><div></div>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786206309049,
+              "front": "Yesterday I came to see you but you weren't here. So today I came to see you again.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787188611474,
+              "front": "If you were free this weekend, then meeting up in Norwich would be great.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036549,
+              "front": "I will meet with you tomorrow.&nbsp;<i>(informal, m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787432648149,
+              "front": "Do you need to meet with your friend? <i>(formal)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571604,
+              "front": "First I searched on Google, then on Instagram, after that I asked a local, and finally I found the pub! (<i>informal, m</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571630,
+              "front": "Book a table, otherwise we won't get a spot in the pub! (<i>informal command, varna = sinon</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571861,
+              "front": "True that! Catching up in person after one year is truly the best feeling! (<i>heartfelt agreement</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "word": "dhoondhnaa",
+          "diacritics": "ḍhūṇḍhnā",
+          "meaning": "to search / look for",
+          "collocation": "Keys dhoondh rahaa hoon",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1789095286262,
+              "front": "Shivani was looking for a new cocktail recipe in Norwich. (<i>f</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "word": "bhejnaa",
+          "diacritics": "bhejnā",
+          "meaning": "to send",
+          "collocation": "Message bhej diyaa",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 32,
+          "word": "laanaa",
+          "diacritics": "lānā",
+          "meaning": "to bring",
+          "collocation": "Mere liye coffee laanaa",
+          "card_count": 2,
+          "matched_cards": [
+            {
+              "cardId": 1787627434971,
+              "front": "When will you come and bring the guitar? <i>(informal, f)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789093222070,
+              "front": "I brought pizza for everyone. (<i>m</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "word": "le jaanaa",
+          "diacritics": "le jānā",
+          "meaning": "to take away / carry",
+          "collocation": "Ye box le jaao",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 34,
+          "word": "khaanaa",
+          "diacritics": "khānā",
+          "meaning": "to eat",
+          "collocation": "Khaanaa khaanaa",
+          "card_count": 4,
+          "matched_cards": [
+            {
+              "cardId": 1786072496404,
+              "front": "Do you want to eat lunch now, or do you want to eat later?&nbsp;<i>(informal, f)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786206766110,
+              "front": "<div>\n  <ul>\n    <li>I eat.</li>\n    <li>I am eating.</li>\n    <li>I ate.</li>\n    <li>I will eat.</li>\n  </ul>\n</div>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786236329285,
+              "front": "<ol><li>I ate a banana</li><li>I am eating a banana</li><li>I will eat a banana</li></ol>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787627116660,
+              "front": "She didn't eat the tofu, and I didn't understand why. <i>(m)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "word": "peenaa",
+          "diacritics": "pīnā",
+          "meaning": "to drink",
+          "collocation": "Paani / beer peenaa",
+          "card_count": 3,
+          "matched_cards": [
+            {
+              "cardId": 1785455281088,
+              "front": "Do you want to grab a beer with me tonight? (<i>informal, m</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281110,
+              "front": "We will definitely grab a drink together when I arrive.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786072496405,
+              "front": "Do you want to drink some coffee with me? <i>(informal, f)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 36,
+          "word": "sonaa",
+          "diacritics": "sonā",
+          "meaning": "to sleep",
+          "collocation": "Main sone jaa rahaa hoon",
+          "card_count": 9,
+          "matched_cards": [
+            {
+              "cardId": 1785455281073,
+              "front": "I am learning a new song on the piano right now.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281089,
+              "front": "I need to transition into a new career role soon.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786231940108,
+              "front": "Making a new song tonight will be fun.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786236329280,
+              "front": "<ol><li>I listened to an awesome new song</li><li>I am listening to an awesome new song</li><li>I will listen to an awesome new song</li></ol>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786304566163,
+              "front": "To sleep at night, astronauts use sleeping bags that are tied to walls.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786503349041,
+              "front": "J'aimais cette chanson / Cette chanson m'a plu.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787712827679,
+              "front": "That song goes something like \"badum dum dum\".",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787713559505,
+              "front": "My son is 4 years old and I am 6 months 2 weeks pregnant. <i>(f)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788913959252,
+              "front": "Your white cat sleeps all afternoon. (<i>formal)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "word": "uthnaa",
+          "diacritics": "uṭhnā",
+          "meaning": "to wake up / get up",
+          "collocation": "Subah jaldi uthnaa",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 38,
+          "word": "hansnaa",
+          "diacritics": "hañsnā",
+          "meaning": "to laugh",
+          "collocation": "Mazaak par hansnaa",
+          "card_count": 4,
+          "matched_cards": [
+            {
+              "cardId": 1787191036536,
+              "front": "What time is it? (2 conversational ways)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788231227749,
+              "front": "My mom has to cook food for our family every day.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789093222132,
+              "front": "Ishita told me about Norwich.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571659,
+              "front": "Really, it has been such a long time! (<i>exclamation of reunion</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "word": "ronaa",
+          "diacritics": "ronā",
+          "meaning": "to cry",
+          "collocation": "Ronaa band karo",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1787711943324,
+              "front": "Please do this work inside the room. <i>(polite, formal)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "word": "bhoolnaa",
+          "diacritics": "bhūlnā",
+          "meaning": "to forget",
+          "collocation": "Main naam bhool gayaa",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1786236329276,
+              "front": "<ol><li>I forgot my house keys</li><li>I am forgetting my house keys</li><li>I will forget my house keys</li></ol>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "word": "yaad aanaa",
+          "diacritics": "yād ānā",
+          "meaning": "to miss / recall",
+          "collocation": "Norwich ke din yaad aate hain",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 42,
+          "word": "maangnaa",
+          "diacritics": "māṅgnā",
+          "meaning": "to ask for / request",
+          "collocation": "Help maangnaa",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 43,
+          "word": "khelnaa",
+          "diacritics": "khelnā",
+          "meaning": "to play",
+          "collocation": "Games khelnaa",
+          "card_count": 2,
+          "matched_cards": [
+            {
+              "cardId": 1785455281074,
+              "front": "I play video games with friends on weekends.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787020643393,
+              "front": "After finishing work, I play video games.",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "word": "bajaanaa",
+          "diacritics": "bajānā",
+          "meaning": "to play instrument",
+          "collocation": "Guitar / piano bajanaa",
+          "card_count": 3,
+          "matched_cards": [
+            {
+              "cardId": 1785455281090,
+              "front": "I can play both guitar and piano.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786502859730,
+              "front": "I want to play guitar, but I don't have time.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787712827679,
+              "front": "That song goes something like \"badum dum dum\".",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 45,
+          "word": "seekhnaa",
+          "diacritics": "sīkhnā",
+          "meaning": "to learn",
+          "collocation": "Hindi seekhnaa",
+          "card_count": 3,
+          "matched_cards": [
+            {
+              "cardId": 1785455281073,
+              "front": "I am learning a new song on the piano right now.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281080,
+              "front": "I am learning Hindi because I want to chat with my friends.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281106,
+              "front": "I will try my best to learn fluent Hinglish before October.",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 46,
+          "word": "sikhaanaa",
+          "diacritics": "sikhānā",
+          "meaning": "to teach",
+          "collocation": "Mujhe ye sikhaao",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 47,
+          "word": "sambhaalnaa",
+          "diacritics": "sambhālnā",
+          "meaning": "to handle / manage / care",
+          "collocation": "Situation sambhaal lenaa",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 48,
+          "word": "bachnaa",
+          "diacritics": "bachnā",
+          "meaning": "to survive / be spared",
+          "collocation": "Traffic se bach gayaa",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 49,
+          "word": "girnaa",
+          "diacritics": "girnā",
+          "meaning": "to fall / to drop",
+          "collocation": "Phone gir gayaa",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 50,
+          "word": "lagnaa",
+          "diacritics": "lagnā",
+          "meaning": "to feel / seem / take time",
+          "collocation": "Bhookh lagnaa / Time lagnaa",
+          "card_count": 4,
+          "matched_cards": [
+            {
+              "cardId": 1785455281081,
+              "front": "That sounds like a great plan!",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281111,
+              "front": "It will take some time, but it will be great!",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786503349042,
+              "front": "I think I will like Norwich.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788913926723,
+              "front": "I believe that this local comedy club will be packed tonight.",
+              "status": "Learning"
+            }
+          ]
+        }
+      ]
+    },
+    "nouns": {
+      "total": 100,
+      "targeted": 42,
+      "percentage": 42,
+      "words": [
+        {
+          "id": 1,
+          "word": "waqt / samay",
+          "diacritics": "waqt / samay",
+          "meaning": "time",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 2,
+          "word": "din",
+          "diacritics": "din",
+          "meaning": "day",
+          "collocation": "",
+          "card_count": 3,
+          "matched_cards": [
+            {
+              "cardId": 1785455281094,
+              "front": "How was your day in Norwich today? <i>(informal, m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786304566161,
+              "front": "On the space station, there is a strict schedule every day.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788231227749,
+              "front": "My mom has to cook food for our family every day.",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "word": "raat",
+          "diacritics": "rāt",
+          "meaning": "night",
+          "collocation": "",
+          "card_count": 4,
+          "matched_cards": [
+            {
+              "cardId": 1785455281088,
+              "front": "Do you want to grab a beer with me tonight? (<i>informal, m</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786231940108,
+              "front": "Making a new song tonight will be fun.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786304566163,
+              "front": "To sleep at night, astronauts use sleeping bags that are tied to walls.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788913926723,
+              "front": "I believe that this local comedy club will be packed tonight.",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "word": "subah",
+          "diacritics": "subah",
+          "meaning": "morning",
+          "collocation": "",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1788231227750,
+              "front": "We have to get ready early tomorrow morning. <i>(internal obligation)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "word": "shaam",
+          "diacritics": "shām",
+          "meaning": "evening",
+          "collocation": "",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1787021167986,
+              "front": "This work will be done by this evening.",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "word": "dopahar",
+          "diacritics": "dopahar",
+          "meaning": "afternoon",
+          "collocation": "",
+          "card_count": 2,
+          "matched_cards": [
+            {
+              "cardId": 1788913959251,
+              "front": "On a hot afternoon, the cold river water is very refreshing.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788913959252,
+              "front": "Your white cat sleeps all afternoon. (<i>formal)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "word": "kal",
+          "diacritics": "kal",
+          "meaning": "tomorrow / yesterday",
+          "collocation": "",
+          "card_count": 14,
+          "matched_cards": [
+            {
+              "cardId": 1785455281092,
+              "front": "Yesterday was a very productive day at work.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281098,
+              "front": "Where did you go for dinner yesterday? (Informal, m)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281099,
+              "front": "I worked on my new coding project yesterday evening.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281102,
+              "front": "I will call you tomorrow evening.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785499662368,
+              "front": "<div style=\"text-align: center; font-family: Arial, sans-serif; font-size: 18px; line-height: 1.6;\">\n  Are you free tomorrow for a drink?\n</div>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786206309049,
+              "front": "Yesterday I came to see you but you weren't here. So today I came to see you again.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786673551920,
+              "front": "I always say the truth, I said the truth yesterday, and I will say the truth tomorrow too.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787021167992,
+              "front": "Yesterday our meeting ran late / got late.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036549,
+              "front": "I will meet with you tomorrow.&nbsp;<i>(informal, m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787626856130,
+              "front": "Yesterday I went to the store, and then I went to work. <i>(m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787627217027,
+              "front": "What happened yesterday, and what will happen tomorrow?",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788231227742,
+              "front": "Tomorrow I will have to catch the train. <i>(m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788231227747,
+              "front": "Tomorrow we will have to leave early for the station.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788231227750,
+              "front": "We have to get ready early tomorrow morning. <i>(internal obligation)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "word": "aaj",
+          "diacritics": "āj",
+          "meaning": "today",
+          "collocation": "",
+          "card_count": 12,
+          "matched_cards": [
+            {
+              "cardId": 1785379515772,
+              "front": "Hello! How are you doing today? (<i>formal, m</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281065,
+              "front": "Today I am a bit busy with work.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281088,
+              "front": "Do you want to grab a beer with me tonight? (<i>informal, m</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281094,
+              "front": "How was your day in Norwich today? <i>(informal, m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281101,
+              "front": "What happened at the care home today?",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786206309049,
+              "front": "Yesterday I came to see you but you weren't here. So today I came to see you again.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786231940108,
+              "front": "Making a new song tonight will be fun.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786501861612,
+              "front": "Do you have time for a beer today?&nbsp;<i>(informal)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786671710318,
+              "front": "I know that you are busy today. <i>(informal, w/ \"pata\")</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787021167986,
+              "front": "This work will be done by this evening.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787712432711,
+              "front": "Did anyone talk to you at the office today? <i>(informal, m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788913926723,
+              "front": "I believe that this local comedy club will be packed tonight.",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "word": "parson",
+          "diacritics": "parsoṁ",
+          "meaning": "day after / day before",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 10,
+          "word": "saal",
+          "diacritics": "sāl",
+          "meaning": "year",
+          "collocation": "",
+          "card_count": 3,
+          "matched_cards": [
+            {
+              "cardId": 1787713431626,
+              "front": "I am 25 years old. <i>(informal, m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787713559505,
+              "front": "My son is 4 years old and I am 6 months 2 weeks pregnant. <i>(f)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571861,
+              "front": "True that! Catching up in person after one year is truly the best feeling! (<i>heartfelt agreement</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "word": "mahina",
+          "diacritics": "mahīnā",
+          "meaning": "month",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 12,
+          "word": "hafta",
+          "diacritics": "haftā",
+          "meaning": "week",
+          "collocation": "",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1787713559505,
+              "front": "My son is 4 years old and I am 6 months 2 weeks pregnant. <i>(f)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "word": "ghanta",
+          "diacritics": "ghaṇṭā",
+          "meaning": "hour",
+          "collocation": "",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1786304566162,
+              "front": "To prevent body muscle loss, they have to exercise for at least two hours daily.",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "word": "der",
+          "diacritics": "der",
+          "meaning": "delay / lateness",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 15,
+          "word": "baar",
+          "diacritics": "bār",
+          "meaning": "time / occurrence",
+          "collocation": "",
+          "card_count": 7,
+          "matched_cards": [
+            {
+              "cardId": 1785455281087,
+              "front": "I don't know about that topic.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281107,
+              "front": "Tell me everything about your new life in the UK!&nbsp;<i>(informal, f)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786236329281,
+              "front": "<ol><li>I thought about our university improv days</li><li>I am thinking about our university improv days</li><li>I will think about our university improv days</li></ol>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787020643394,
+              "front": "Do you want to talk about that? <i>(formal)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787020643396,
+              "front": "Do you want to know about this? <i>(informal, m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789093222132,
+              "front": "Ishita told me about Norwich.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789095398763,
+              "front": "First time? Good. Second time? Great! Third time? Holy shit!!",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "word": "zamaanaa",
+          "diacritics": "zamānā",
+          "meaning": "ages / long time",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 17,
+          "word": "shuruwaat",
+          "diacritics": "shuruāt",
+          "meaning": "start / beginning",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 18,
+          "word": "aakhir",
+          "diacritics": "ākhir",
+          "meaning": "end / conclusion",
+          "collocation": "",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1789441571604,
+              "front": "First I searched on Google, then on Instagram, after that I asked a local, and finally I found the pub! (<i>informal, m</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "word": "jagah",
+          "diacritics": "jagah",
+          "meaning": "place / spot",
+          "collocation": "",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1789441571630,
+              "front": "Book a table, otherwise we won't get a spot in the pub! (<i>informal command, varna = sinon</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "word": "rastaa",
+          "diacritics": "rāstā",
+          "meaning": "way / road / route",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 21,
+          "word": "ghar",
+          "diacritics": "ghar",
+          "meaning": "home / house",
+          "collocation": "",
+          "card_count": 5,
+          "matched_cards": [
+            {
+              "cardId": 1786232844753,
+              "front": "<div>\n  What nonsense is happening? I'm coming home now!\n</div>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786236329276,
+              "front": "<ol><li>I forgot my house keys</li><li>I am forgetting my house keys</li><li>I will forget my house keys</li></ol>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786502230637,
+              "front": "I am coming from home.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787432648148,
+              "front": "I am relaxing at my own place with my friends.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789095291256,
+              "front": "Earlier, I used to cook dinner at home every weekend. (<i>m</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "word": "kamraa",
+          "diacritics": "kamrā",
+          "meaning": "room",
+          "collocation": "",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1787711943324,
+              "front": "Please do this work inside the room. <i>(polite, formal)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "word": "shehar",
+          "diacritics": "shehar",
+          "meaning": "city",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 24,
+          "word": "taraf",
+          "diacritics": "taraf",
+          "meaning": "direction / side",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 25,
+          "word": "door",
+          "diacritics": "dūr",
+          "meaning": "distance / far",
+          "collocation": "",
+          "card_count": 2,
+          "matched_cards": [
+            {
+              "cardId": 1787191036538,
+              "front": "Close the door. (Casual / Tum)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036547,
+              "front": "He is going away from me.",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "word": "paas",
+          "diacritics": "pās",
+          "meaning": "near / vicinity",
+          "collocation": "",
+          "card_count": 7,
+          "matched_cards": [
+            {
+              "cardId": 1785455281078,
+              "front": "I usually get free from work around (1-10) PM.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786501564701,
+              "front": "I have a banana. You have an apple. We have a bomb.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786501861612,
+              "front": "Do you have time for a beer today?&nbsp;<i>(informal)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786502859730,
+              "front": "I want to play guitar, but I don't have time.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786671810315,
+              "front": "This is Shivani's guitar now, therefore I don't have a guitar anymore.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787711943320,
+              "front": "Turn left near the care home, please. <i>(polite, formal)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787711943326,
+              "front": "Please sit inside near the window. <i>(polite, formal)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "word": "aage",
+          "diacritics": "āge",
+          "meaning": "front / forward",
+          "collocation": "",
+          "card_count": 2,
+          "matched_cards": [
+            {
+              "cardId": 1787711943321,
+              "front": "Go ahead and wait outside. <i>(informal, tum)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787711943327,
+              "front": "Walk forward slowly. <i>(informal, tum)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "word": "peeche",
+          "diacritics": "pīche",
+          "meaning": "back / behind",
+          "collocation": "",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1787711943325,
+              "front": "Put the guitar behind the amplifier. <i>(informal, tum)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "word": "upar",
+          "diacritics": "ūpar",
+          "meaning": "up / upstairs",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 30,
+          "word": "neeche",
+          "diacritics": "nīche",
+          "meaning": "down / downstairs",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 31,
+          "word": "baahar",
+          "diacritics": "bāhar",
+          "meaning": "outside",
+          "collocation": "",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1787711943321,
+              "front": "Go ahead and wait outside. <i>(informal, tum)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "word": "andar",
+          "diacritics": "andar",
+          "meaning": "inside",
+          "collocation": "",
+          "card_count": 4,
+          "matched_cards": [
+            {
+              "cardId": 1787711943324,
+              "front": "Please do this work inside the room. <i>(polite, formal)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787711943326,
+              "front": "Please sit inside near the window. <i>(polite, formal)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788231227743,
+              "front": "Can I come inside? <i>(polite, m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788231227745,
+              "front": "Coming inside is prohibited.",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "word": "baat",
+          "diacritics": "bāt",
+          "meaning": "matter / point / conversation",
+          "collocation": "",
+          "card_count": 7,
+          "matched_cards": [
+            {
+              "cardId": 1787020643394,
+              "front": "Do you want to talk about that? <i>(formal)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036550,
+              "front": "Don't talk to/with him/her.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036554,
+              "front": "Who were you talking to? <i>(informal)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787712432711,
+              "front": "Did anyone talk to you at the office today? <i>(informal, m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789064729055,
+              "front": "Forget it, dude, it's no big deal / no worries. (<i>casual/informal</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571714,
+              "front": "True that yaar, it's definitely quite different from Ford engineering! (<i>informal agreement</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571861,
+              "front": "True that! Catching up in person after one year is truly the best feeling! (<i>heartfelt agreement</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "word": "cheez",
+          "diacritics": "chīz",
+          "meaning": "thing / item",
+          "collocation": "",
+          "card_count": 2,
+          "matched_cards": [
+            {
+              "cardId": 1786304566160,
+              "front": "There is no gravity in space, so everything and every person floats.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787021167989,
+              "front": "Everything should happen on time.",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "word": "kaam",
+          "diacritics": "kām",
+          "meaning": "work / chore / task",
+          "collocation": "",
+          "card_count": 10,
+          "matched_cards": [
+            {
+              "cardId": 1785455281067,
+              "front": "I am working at my office desk right now.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281068,
+              "front": "I work in the AI field.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281077,
+              "front": "I am working on a software coding project.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281099,
+              "front": "I worked on my new coding project yesterday evening.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787021167986,
+              "front": "This work will be done by this evening.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787626856130,
+              "front": "Yesterday I went to the store, and then I went to work. <i>(m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787711943324,
+              "front": "Please do this work inside the room. <i>(polite, formal)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789093222164,
+              "front": "Who did this work?",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789440348454,
+              "front": "I was tired after work, still I went to the pub. (<i>informal, m</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789440348482,
+              "front": "I am working until 6 PM, will you wait until then? (<i>informal, addressing female peer</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 36,
+          "word": "matlab",
+          "diacritics": "matlab",
+          "meaning": "meaning / intention",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 37,
+          "word": "sach",
+          "diacritics": "sach",
+          "meaning": "truth",
+          "collocation": "",
+          "card_count": 5,
+          "matched_cards": [
+            {
+              "cardId": 1786673551920,
+              "front": "I always say the truth, I said the truth yesterday, and I will say the truth tomorrow too.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571566,
+              "front": "Really? You organized a pub night at the care home? (<i>informal/polite, past</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571659,
+              "front": "Really, it has been such a long time! (<i>exclamation of reunion</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571838,
+              "front": "Really? Did he/she really say that? (<i>clarification / disbelief</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571861,
+              "front": "True that! Catching up in person after one year is truly the best feeling! (<i>heartfelt agreement</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "word": "jhooth",
+          "diacritics": "jhūṭh",
+          "meaning": "lie",
+          "collocation": "",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1787191036534,
+              "front": "She knows I’m a liar (2 forms: jaanna & pataa hona)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "word": "faisla",
+          "diacritics": "faislā",
+          "meaning": "decision",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 40,
+          "word": "umeed",
+          "diacritics": "umīd",
+          "meaning": "hope / expectation",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 41,
+          "word": "bharosa",
+          "diacritics": "bharosā",
+          "meaning": "trust / faith",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 42,
+          "word": "galti",
+          "diacritics": "galtī",
+          "meaning": "mistake",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 43,
+          "word": "zaroorat",
+          "diacritics": "zarūrat",
+          "meaning": "need / necessity",
+          "collocation": "",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1787021167991,
+              "front": "You don't need to be worried. <i>(formal)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "word": "farq",
+          "diacritics": "farq",
+          "meaning": "difference",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 45,
+          "word": "faaydaa",
+          "diacritics": "fāydā",
+          "meaning": "benefit / advantage",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 46,
+          "word": "nuqsaan",
+          "diacritics": "nuqsān",
+          "meaning": "loss / harm",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 47,
+          "word": "vajah",
+          "diacritics": "vajah",
+          "meaning": "reason / cause",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 48,
+          "word": "khayaal",
+          "diacritics": "khayāl",
+          "meaning": "thought / care",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 49,
+          "word": "aadat",
+          "diacritics": "ādat",
+          "meaning": "habit",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 50,
+          "word": "koshish",
+          "diacritics": "koshish",
+          "meaning": "effort / attempt",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 51,
+          "word": "log",
+          "diacritics": "log",
+          "meaning": "people",
+          "collocation": "",
+          "card_count": 2,
+          "matched_cards": [
+            {
+              "cardId": 1786154412088,
+              "front": "Ivargal / Avargal",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788916040586,
+              "front": "Some people are waiting.",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 52,
+          "word": "dost",
+          "diacritics": "dost",
+          "meaning": "friend",
+          "collocation": "",
+          "card_count": 4,
+          "matched_cards": [
+            {
+              "cardId": 1787432648148,
+              "front": "I am relaxing at my own place with my friends.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787432648149,
+              "front": "Do you need to meet with your friend? <i>(formal)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788913959247,
+              "front": "My close female friend tells great stories. (<i>f</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788916040613,
+              "front": "All the friends reached the pub.",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 53,
+          "word": "dosti",
+          "diacritics": "dostī",
+          "meaning": "friendship",
+          "collocation": "",
+          "card_count": 4,
+          "matched_cards": [
+            {
+              "cardId": 1787432648148,
+              "front": "I am relaxing at my own place with my friends.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787432648149,
+              "front": "Do you need to meet with your friend? <i>(formal)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788913959247,
+              "front": "My close female friend tells great stories. (<i>f</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788916040613,
+              "front": "All the friends reached the pub.",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 54,
+          "word": "banda",
+          "diacritics": "bandā",
+          "meaning": "guy / fellow",
+          "collocation": "",
+          "card_count": 2,
+          "matched_cards": [
+            {
+              "cardId": 1787191036538,
+              "front": "Close the door. (Casual / Tum)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571804,
+              "front": "Come on, hurry up, otherwise the pub will close! (<i>urgent reminder</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 55,
+          "word": "bandi",
+          "diacritics": "bandī",
+          "meaning": "girl / woman",
+          "collocation": "",
+          "card_count": 2,
+          "matched_cards": [
+            {
+              "cardId": 1787191036538,
+              "front": "Close the door. (Casual / Tum)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571804,
+              "front": "Come on, hurry up, otherwise the pub will close! (<i>urgent reminder</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 56,
+          "word": "bhai",
+          "diacritics": "bhāī",
+          "meaning": "brother / bro",
+          "collocation": "",
+          "card_count": 2,
+          "matched_cards": [
+            {
+              "cardId": 1786501677201,
+              "front": "My brother is here, my sister is there, and these are my books.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787713821435,
+              "front": "This is my brother's new car.",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 57,
+          "word": "behen",
+          "diacritics": "behen",
+          "meaning": "sister",
+          "collocation": "",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1786501677201,
+              "front": "My brother is here, my sister is there, and these are my books.",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 58,
+          "word": "parivaar",
+          "diacritics": "parivār",
+          "meaning": "family",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 59,
+          "word": "rishtaa",
+          "diacritics": "rishtā",
+          "meaning": "relationship / bond",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 60,
+          "word": "padosi",
+          "diacritics": "paṛosī",
+          "meaning": "neighbour",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 61,
+          "word": "mehmaan",
+          "diacritics": "mehmān",
+          "meaning": "guest",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 62,
+          "word": "naam",
+          "diacritics": "nām",
+          "meaning": "name",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 63,
+          "word": "umar",
+          "diacritics": "umar",
+          "meaning": "age",
+          "collocation": "",
+          "card_count": 2,
+          "matched_cards": [
+            {
+              "cardId": 1787713431626,
+              "front": "I am 25 years old. <i>(informal, m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787713559505,
+              "front": "My son is 4 years old and I am 6 months 2 weeks pregnant. <i>(f)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 64,
+          "word": "zindagi",
+          "diacritics": "zindagī",
+          "meaning": "life",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 65,
+          "word": "duniya",
+          "diacritics": "duniyā",
+          "meaning": "world",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 66,
+          "word": "dimaag",
+          "diacritics": "dimāg",
+          "meaning": "brain / mind",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 67,
+          "word": "dil",
+          "diacritics": "dil",
+          "meaning": "heart",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 68,
+          "word": "aawaaz",
+          "diacritics": "āvāz",
+          "meaning": "voice / sound",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 69,
+          "word": "nazar",
+          "diacritics": "nazar",
+          "meaning": "sight / glance",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 70,
+          "word": "bhookh",
+          "diacritics": "bhūkh",
+          "meaning": "hunger",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 71,
+          "word": "pyaas",
+          "diacritics": "pyās",
+          "meaning": "thirst",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 72,
+          "word": "neend",
+          "diacritics": "nīnd",
+          "meaning": "sleep",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 73,
+          "word": "dard",
+          "diacritics": "dard",
+          "meaning": "pain / ache",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 74,
+          "word": "gussa",
+          "diacritics": "gussā",
+          "meaning": "anger",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 75,
+          "word": "khushi",
+          "diacritics": "khushī",
+          "meaning": "joy / happiness",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 76,
+          "word": "pareshaani",
+          "diacritics": "pareshānī",
+          "meaning": "trouble / problem",
+          "collocation": "",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1787021167991,
+              "front": "You don't need to be worried. <i>(formal)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 77,
+          "word": "mazaak",
+          "diacritics": "mazāk",
+          "meaning": "joke / teasing",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 78,
+          "word": "shak",
+          "diacritics": "shak",
+          "meaning": "doubt / suspicion",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 79,
+          "word": "haath",
+          "diacritics": "hāth",
+          "meaning": "hand",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 80,
+          "word": "pair",
+          "diacritics": "pair",
+          "meaning": "leg / foot",
+          "collocation": "",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1789440348401,
+              "front": "When Shivani is free, then we will call. (<i>informal/friendly, speaking about Shivani</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 81,
+          "word": "aankhein",
+          "diacritics": "āṅkheiṅ",
+          "meaning": "eyes",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 82,
+          "word": "chehra",
+          "diacritics": "chehrā",
+          "meaning": "face",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 83,
+          "word": "jaan",
+          "diacritics": "jān",
+          "meaning": "life / soul / energy",
+          "collocation": "",
+          "card_count": 2,
+          "matched_cards": [
+            {
+              "cardId": 1787020643392,
+              "front": "Before going to the UK, I practice guitar.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787020643397,
+              "front": "I am ready to go to Norwich in October.",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 84,
+          "word": "paani",
+          "diacritics": "pānī",
+          "meaning": "water",
+          "collocation": "",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1788913959251,
+              "front": "On a hot afternoon, the cold river water is very refreshing.",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 85,
+          "word": "khaanaa",
+          "diacritics": "khānā",
+          "meaning": "food / dinner",
+          "collocation": "",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1786072496404,
+              "front": "Do you want to eat lunch now, or do you want to eat later?&nbsp;<i>(informal, f)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 86,
+          "word": "chaay",
+          "diacritics": "chāy",
+          "meaning": "tea",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 87,
+          "word": "doodh",
+          "diacritics": "dūdh",
+          "meaning": "milk",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 88,
+          "word": "paise",
+          "diacritics": "paise",
+          "meaning": "money / cash",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 89,
+          "word": "hawaa",
+          "diacritics": "havā",
+          "meaning": "air / wind",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 90,
+          "word": "dhoop",
+          "diacritics": "dhūp",
+          "meaning": "sunlight / sun",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 91,
+          "word": "baarish",
+          "diacritics": "bārish",
+          "meaning": "rain",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 92,
+          "word": "thand",
+          "diacritics": "ṭhaṇḍ",
+          "meaning": "cold / winter",
+          "collocation": "",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1788913959251,
+              "front": "On a hot afternoon, the cold river water is very refreshing.",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 93,
+          "word": "garmi",
+          "diacritics": "garmī",
+          "meaning": "heat / warmth",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 94,
+          "word": "aag",
+          "diacritics": "āg",
+          "meaning": "fire",
+          "collocation": "",
+          "card_count": 2,
+          "matched_cards": [
+            {
+              "cardId": 1787711943321,
+              "front": "Go ahead and wait outside. <i>(informal, tum)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787711943327,
+              "front": "Walk forward slowly. <i>(informal, tum)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 95,
+          "word": "kapde",
+          "diacritics": "kapṛe",
+          "meaning": "clothes",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 96,
+          "word": "chaabi",
+          "diacritics": "chābī",
+          "meaning": "key",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 97,
+          "word": "joote",
+          "diacritics": "jūte",
+          "meaning": "shoes",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 98,
+          "word": "botal",
+          "diacritics": "botal",
+          "meaning": "bottle",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 99,
+          "word": "dawaai",
+          "diacritics": "davāī",
+          "meaning": "medicine",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 100,
+          "word": "khabar",
+          "diacritics": "khabar",
+          "meaning": "news / update",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        }
+      ]
+    },
+    "adjectives": {
+      "total": 50,
+      "targeted": 22,
+      "percentage": 44,
+      "words": [
+        {
+          "id": 1,
+          "word": "garam",
+          "diacritics": "",
+          "meaning": "hot / warm",
+          "collocation": "",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1788913959251,
+              "front": "On a hot afternoon, the cold river water is very refreshing.",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "word": "thandaa",
+          "diacritics": "",
+          "meaning": "cold",
+          "collocation": "",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1788913959251,
+              "front": "On a hot afternoon, the cold river water is very refreshing.",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "word": "badaa",
+          "diacritics": "",
+          "meaning": "big / large",
+          "collocation": "",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1788916040836,
+              "front": "Please show me that big synthesizer. <i>(polite request)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "word": "chhotaa",
+          "diacritics": "",
+          "meaning": "small",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 5,
+          "word": "nayaa",
+          "diacritics": "",
+          "meaning": "new",
+          "collocation": "",
+          "card_count": 11,
+          "matched_cards": [
+            {
+              "cardId": 1785455281073,
+              "front": "I am learning a new song on the piano right now.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281089,
+              "front": "I need to transition into a new career role soon.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281099,
+              "front": "I worked on my new coding project yesterday evening.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281107,
+              "front": "Tell me everything about your new life in the UK!&nbsp;<i>(informal, f)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786231940108,
+              "front": "Making a new song tonight will be fun.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786236329278,
+              "front": "<ol><li>I showed my new AI coding project</li><li>I am showing my new AI coding project</li><li>I will show my new AI coding project</li></ol>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786236329280,
+              "front": "<ol><li>I listened to an awesome new song</li><li>I am listening to an awesome new song</li><li>I will listen to an awesome new song</li></ol>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787713821435,
+              "front": "This is my brother's new car.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788232411036,
+              "front": "I am about to start the new AI script. <i>(speaker m)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788913959245,
+              "front": "This new acoustic guitar sounds really sweet. (<i>m</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789095286262,
+              "front": "Shivani was looking for a new cocktail recipe in Norwich. (<i>f</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "word": "puraanaa",
+          "diacritics": "",
+          "meaning": "old",
+          "collocation": "",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1787712956481,
+              "front": "Siemens pays according to old budgets, not according to GenAI experts' talent!",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "word": "achhaa",
+          "diacritics": "",
+          "meaning": "good / fine",
+          "collocation": "",
+          "card_count": 8,
+          "matched_cards": [
+            {
+              "cardId": 1785455281081,
+              "front": "That sounds like a great plan!",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281111,
+              "front": "It will take some time, but it will be great!",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786072496402,
+              "front": "Excuse me, how are you? I'm fine, but I don't understand Hindi very well.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787432648151,
+              "front": "His husband speaks French very well. <i>(respectful)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788913959247,
+              "front": "My close female friend tells great stories. (<i>f</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788916040864,
+              "front": "Don't buy that expensive one; this one is very good. <i>(casual advice)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789095398763,
+              "front": "First time? Good. Second time? Great! Third time? Holy shit!!",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571498,
+              "front": "Oh I see! So you've become a lifestyle coordinator! (<i>to Shivani, polite/formal, f</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "word": "buraa / kharaab",
+          "diacritics": "",
+          "meaning": "bad / spoiled",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 9,
+          "word": "saaf",
+          "diacritics": "",
+          "meaning": "clean / clear",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 10,
+          "word": "gandaa",
+          "diacritics": "",
+          "meaning": "dirty",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 11,
+          "word": "mehengaa",
+          "diacritics": "",
+          "meaning": "expensive",
+          "collocation": "",
+          "card_count": 2,
+          "matched_cards": [
+            {
+              "cardId": 1788916040746,
+              "front": "Hey brother, this is a bit expensive, please reduce a bit, won't you?&nbsp;<i>(polite bargaining)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788916040864,
+              "front": "Don't buy that expensive one; this one is very good. <i>(casual advice)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "word": "sastaa",
+          "diacritics": "",
+          "meaning": "cheap",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 13,
+          "word": "bhaari",
+          "diacritics": "",
+          "meaning": "heavy",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 14,
+          "word": "halkaa",
+          "diacritics": "",
+          "meaning": "lightweight / mild",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 15,
+          "word": "tez",
+          "diacritics": "",
+          "meaning": "fast / sharp / spicy",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 16,
+          "word": "dheere",
+          "diacritics": "",
+          "meaning": "slow",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 17,
+          "word": "aasaan",
+          "diacritics": "",
+          "meaning": "easy / simple",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 18,
+          "word": "mushkil",
+          "diacritics": "",
+          "meaning": "difficult / tough",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 19,
+          "word": "sahi",
+          "diacritics": "",
+          "meaning": "correct / right",
+          "collocation": "",
+          "card_count": 3,
+          "matched_cards": [
+            {
+              "cardId": 1785455281096,
+              "front": "I didn't understand that sentence properly.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571714,
+              "front": "True that yaar, it's definitely quite different from Ford engineering! (<i>informal agreement</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571861,
+              "front": "True that! Catching up in person after one year is truly the best feeling! (<i>heartfelt agreement</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "word": "galat",
+          "diacritics": "",
+          "meaning": "wrong / incorrect",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 21,
+          "word": "zaroori",
+          "diacritics": "",
+          "meaning": "important / necessary",
+          "collocation": "",
+          "card_count": 2,
+          "matched_cards": [
+            {
+              "cardId": 1785455281110,
+              "front": "We will definitely grab a drink together when I arrive.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571539,
+              "front": "Come on yaar, I really need to practice these conversational fillers! (<i>informal, m</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "word": "khaas",
+          "diacritics": "",
+          "meaning": "special / particular",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 23,
+          "word": "ajeeb",
+          "diacritics": "",
+          "meaning": "weird / strange",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 24,
+          "word": "seedhaa",
+          "diacritics": "",
+          "meaning": "straight / direct",
+          "collocation": "",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1787711943319,
+              "front": "Go straight and then take the bus. <i>(informal, tum)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "word": "ultaa",
+          "diacritics": "",
+          "meaning": "inverted / opposite",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 26,
+          "word": "sachaa",
+          "diacritics": "",
+          "meaning": "honest / truthful",
+          "collocation": "",
+          "card_count": 5,
+          "matched_cards": [
+            {
+              "cardId": 1786673551920,
+              "front": "I always say the truth, I said the truth yesterday, and I will say the truth tomorrow too.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571566,
+              "front": "Really? You organized a pub night at the care home? (<i>informal/polite, past</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571659,
+              "front": "Really, it has been such a long time! (<i>exclamation of reunion</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571838,
+              "front": "Really? Did he/she really say that? (<i>clarification / disbelief</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571861,
+              "front": "True that! Catching up in person after one year is truly the best feeling! (<i>heartfelt agreement</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "word": "jhoothaa",
+          "diacritics": "",
+          "meaning": "false / deceptive",
+          "collocation": "",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1787191036534,
+              "front": "She knows I’m a liar (2 forms: jaanna & pataa hona)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "word": "pakkaa",
+          "diacritics": "",
+          "meaning": "confirmed / solid",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 29,
+          "word": "kachhaa",
+          "diacritics": "",
+          "meaning": "tentative / raw",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 30,
+          "word": "tayyaar",
+          "diacritics": "",
+          "meaning": "ready / prepared",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 31,
+          "word": "khush",
+          "diacritics": "",
+          "meaning": "happy",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 32,
+          "word": "udaas",
+          "diacritics": "",
+          "meaning": "sad / down",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 33,
+          "word": "pareshaan",
+          "diacritics": "",
+          "meaning": "stressed / troubled",
+          "collocation": "",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1787021167991,
+              "front": "You don't need to be worried. <i>(formal)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "word": "thakaa",
+          "diacritics": "",
+          "meaning": "tired",
+          "collocation": "",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1789440348454,
+              "front": "I was tired after work, still I went to the pub. (<i>informal, m</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "word": "hairaan",
+          "diacritics": "",
+          "meaning": "surprised / shocked",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 36,
+          "word": "shaant",
+          "diacritics": "",
+          "meaning": "calm / quiet",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 37,
+          "word": "gusse mein",
+          "diacritics": "",
+          "meaning": "angry",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 38,
+          "word": "khaali",
+          "diacritics": "",
+          "meaning": "empty / free",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 39,
+          "word": "bharaa",
+          "diacritics": "",
+          "meaning": "full / packed",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 40,
+          "word": "akelaa",
+          "diacritics": "",
+          "meaning": "alone / solo",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 41,
+          "word": "poora",
+          "diacritics": "",
+          "meaning": "complete / whole",
+          "collocation": "",
+          "card_count": 2,
+          "matched_cards": [
+            {
+              "cardId": 1785455281106,
+              "front": "I will try my best to learn fluent Hinglish before October.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788913959252,
+              "front": "Your white cat sleeps all afternoon. (<i>formal)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "word": "aadha",
+          "diacritics": "",
+          "meaning": "half",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        },
+        {
+          "id": 43,
+          "word": "zyaada",
+          "diacritics": "",
+          "meaning": "more / excessive",
+          "collocation": "",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1787191036535,
+              "front": "I don't like too much sugar in my coffee.",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "word": "kam",
+          "diacritics": "",
+          "meaning": "less / insufficient",
+          "collocation": "",
+          "card_count": 3,
+          "matched_cards": [
+            {
+              "cardId": 1786304566162,
+              "front": "To prevent body muscle loss, they have to exercise for at least two hours daily.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788916040551,
+              "front": "Keep light ice in this cocktail. <i>(casual instruction / neutral imperative)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788916040746,
+              "front": "Hey brother, this is a bit expensive, please reduce a bit, won't you?&nbsp;<i>(polite bargaining)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 45,
+          "word": "kaafi",
+          "diacritics": "",
+          "meaning": "enough / quite / fairly",
+          "collocation": "",
+          "card_count": 2,
+          "matched_cards": [
+            {
+              "cardId": 1789441571692,
+              "front": "By the way, this pub is quite cozy. (<i>conversational pivot</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571714,
+              "front": "True that yaar, it's definitely quite different from Ford engineering! (<i>informal agreement</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 46,
+          "word": "thodaa",
+          "diacritics": "",
+          "meaning": "a little / some",
+          "collocation": "",
+          "card_count": 9,
+          "matched_cards": [
+            {
+              "cardId": 1785454571708,
+              "front": "I understand a little Hindi.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281065,
+              "front": "Today I am a bit busy with work.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281083,
+              "front": "I need some coffee before starting work.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281085,
+              "front": "I can speak a little bit of Hindi now.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281111,
+              "front": "It will take some time, but it will be great!",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1786503349039,
+              "front": "I needed a little time.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787020643395,
+              "front": "I need some time for this project.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787191036545,
+              "front": "I take a little rest after lunch.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788916040746,
+              "front": "Hey brother, this is a bit expensive, please reduce a bit, won't you?&nbsp;<i>(polite bargaining)</i>",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 47,
+          "word": "sab",
+          "diacritics": "",
+          "meaning": "all / everyone",
+          "collocation": "",
+          "card_count": 5,
+          "matched_cards": [
+            {
+              "cardId": 1785379515773,
+              "front": "Everything is going great on my side.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281071,
+              "front": "No worries, everything will be fine.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281107,
+              "front": "Tell me everything about your new life in the UK!&nbsp;<i>(informal, f)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785796879117,
+              "front": "What's up? Everything is fine.&nbsp;<i>(chal)</i>",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1788913959249,
+              "front": "All these sweet red apples are very fresh.",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "word": "pehla",
+          "diacritics": "",
+          "meaning": "first",
+          "collocation": "",
+          "card_count": 7,
+          "matched_cards": [
+            {
+              "cardId": 1785455281083,
+              "front": "I need some coffee before starting work.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1785455281106,
+              "front": "I will try my best to learn fluent Hinglish before October.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1787020643392,
+              "front": "Before going to the UK, I practice guitar.",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789095291256,
+              "front": "Earlier, I used to cook dinner at home every weekend. (<i>m</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789095398763,
+              "front": "First time? Good. Second time? Great! Third time? Holy shit!!",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571604,
+              "front": "First I searched on Google, then on Instagram, after that I asked a local, and finally I found the pub! (<i>informal, m</i>)",
+              "status": "Learning"
+            },
+            {
+              "cardId": 1789441571762,
+              "front": "Oh wonderful! Come on, let's order a round of drinks first! (<i>casual suggestion</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 49,
+          "word": "aakhiri",
+          "diacritics": "",
+          "meaning": "last / final",
+          "collocation": "",
+          "card_count": 1,
+          "matched_cards": [
+            {
+              "cardId": 1789441571604,
+              "front": "First I searched on Google, then on Instagram, after that I asked a local, and finally I found the pub! (<i>informal, m</i>)",
+              "status": "Learning"
+            }
+          ]
+        },
+        {
+          "id": 50,
+          "word": "alag",
+          "diacritics": "",
+          "meaning": "different / separate",
+          "collocation": "",
+          "card_count": 0,
+          "matched_cards": []
+        }
+      ]
+    }
+  }
+}

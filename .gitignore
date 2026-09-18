@@ -1,0 +1,23 @@
+.env
+__pycache__/
+**/__pycache__/
+*.pyc
+**/*.pyc
+node_modules/
+dist/
+.DS_Store
+*.log
+
+# Generated static public data (re-created dynamically on build via scripts/sync-data.mjs)
+frontend/public/data/
+
+# Agent scratch traces (preserve skills)
+.agents/*
+!.agents/skills/
+!.agents/skills/**
+.agents/skills/**/__pycache__/
+.agents/skills/**/*.pyc
+
+# Test output artifacts
+baseline_test_results.json
+
