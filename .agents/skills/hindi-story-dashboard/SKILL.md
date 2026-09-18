@@ -16,13 +16,18 @@ Every story generated under this skill must be built as a **full-screen, immersi
    - Designed with realistic physical book aesthetics: central spine gutter shadow, soft drop shadows, page borders, running headers, and running footers with page numbers.
    - **Zero-Flicker Instant Turns:** Remove page-turn animations or transitions that cause layout flickering; spread updates should render cleanly and instantaneously.
 
-2. **Authentic Closed Book Cover (Spread 0):**
+2. **Authentic Closed Book Cover (Spread 0) & Bookshelf Visual Parity:**
    - When the book is closed on Spread 0:
      - The left side of the screen must be **completely empty** (`visibility: hidden; opacity: 0; pointer-events: none; border: none; background: transparent; box-shadow: none;`).
      - The central spine divider is hidden (`visibility: hidden; opacity: 0; pointer-events: none;`).
-     - The **Cover Page sits on the right side only** using explicit grid positioning (`grid-column: 3;`), presenting an authentic closed hardcover book aesthetic with rich borders and depth shadows.
+     - The **Cover Page sits on the right side only** using explicit grid positioning (`grid-column: 3;`), presenting an authentic closed hardcover book aesthetic with rich borders, 3D spine groove shadow, and right edge paper sheen.
      - **Grid Slotting Precaution:** Always declare `#pageLeft { grid-column: 1; }`, `#spineDivider { grid-column: 2; }`, and `#pageRight { grid-column: 3; }` with `grid-template-columns: 1fr 14px 1fr;` to prevent the browser from inadvertently squishing the cover into the 14px center column.
-     - Content on cover: Only the book title in large display font, subtitle, and author's name (`Diya`).
+     - **Bookshelf Visual Parity Rule:** The cover in the reader MUST look identical to the hardcover in the bookshelf:
+       - **AI Image Cover:** Full-bleed image background with subtle zoom hover, dark vignette gradient overlay (`linear-gradient(to top, rgba(0,0,0,0.94) 0%, rgba(0,0,0,0.35) 45%, rgba(0,0,0,0.45) 100%)`), top-right cyan level badge (e.g. `A1-10`), bottom "✨ Diya Reader" amber crest, serif title, reading time pill, and author `Diya`.
+       - **Jewel-Tone Fallback Cover:** Background matches the story's deterministic jewel tone (e.g. `#831843` Deep Burgundy, `#1e3a8a` Royal Sapphire), double inset foil borders, top level badge + `✦ ✦ ✦` stars, white serif title with drop shadow, "Diya • Hindi Reader" in foil text, reading time pill, and author `Diya`.
+     - **Cover Themed Book Interior (Crucial Aesthetic Rule):** The inside pages and UI accents MUST follow the theme of the cover:
+       - If the cover is a solid jewel color (e.g. red / Deep Burgundy), the pages (`--page-bg`) must be subtly tinted with that color (e.g. `#231219` deep wine-red tinted paper), with matching borders (`--page-border: #461b2c`), rose accents (`--accent: #fb7185`), and rose-tinted sentence highlights.
+       - If the cover is an AI image, the reader must include a lightweight dynamic canvas color extractor (`applyDynamicCoverTheme(imgSrc)`) that samples the image's dominant hue and dynamically tints the pages, borders, top bars, and sentence highlights to match the art.
      - **No "Begin Reading" buttons** and **no frontispiece page**—clicking the cover, pressing Right Arrow / Space, or clicking the floating turn arrow turns to Page 1. The left turn arrow is disabled on Spread 0.
 
 3. **Typography Standards: Sans-Serif UI vs. Consistent Serif Book Interior:**
@@ -55,7 +60,7 @@ Every story generated under this skill must be built as a **full-screen, immersi
 6. **Sleek Minimal Top App Bar (Distraction-Free):**
    - **Left:** `☰` Drawer toggle button $+$ Book Title.
    - **Right:** 
-     - `📖 View Mode` toggle (Bilingual Spread vs. Novel Spread).
+     - **Mode Switch Toggle:** A sleek switch toggle going between **Novel** and **Bilingual** mode (no word "spread"), featuring Novel and Bilingual labels with an animated switch track and thumb slider (`.mode-switch-toggle`).
      - `🔤 Diacritics` text toggle (toggles diacritics in main body text).
      - `A-` / `A+` font size scaler buttons.
    - *Note:* Keep the header bar clean—do NOT clutter with color theme switchers or central chapter badge pills.

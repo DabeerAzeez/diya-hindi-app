@@ -3,21 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Norwich Ki Train Aur Shivani Ka Surprise - Hindi Story Dashboard</title>
+  <title>Norwich Ki Train Aur Shivani Ka Surprise - Hindi E-Reader</title>
   <style>
     :root {
-      --bg-color: #0f172a;
-      --card-bg: #1e293b;
-      --card-border: #334155;
-      --text-main: #f8fafc;
-      --text-muted: #94a3b8;
-      --accent: #38bdf8;
-      --accent-glow: rgba(56, 189, 248, 0.25);
-      --highlight-bg: rgba(56, 189, 248, 0.16);
-      --highlight-border: #38bdf8;
-      --tooltip-bg: #090d16;
-      --tooltip-text: #f8fafc;
-      --phonetic-color: #f59e0b;
+      --app-bg: #0d0609;
+      --bar-bg: #180c13;
+      --bar-border: #3b1424;
+      --book-desk: #090306;
+      --page-bg: #231219; /* Deep Burgundy / Subtle Red tinted pages following cover theme */
+      --page-border: #461b2c;
+      --page-shadow: rgba(0, 0, 0, 0.85);
+      --spine-shadow: rgba(18, 4, 10, 0.75);
+      --text-main: #fdf2f4;
+      --text-muted: #d6a5b5;
+      --text-dim: #9c6c7c;
+      --accent: #fb7185;
+      --accent-glow: rgba(251, 113, 133, 0.28);
+      --gold: #fbbf24;
+      --highlight-bg: rgba(251, 113, 133, 0.22);
+      --highlight-border: #fb7185;
+      --tooltip-bg: #16080f;
+      --tooltip-border: #fb7185;
+      
+      --cover-bg: #831843;
+      --cover-border: #f43f5e;
+      --cover-foil: #fecdd3;
+      
+      /* Sans-serif for all UI elements */
+      --ui-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      
+      /* Consistent Serif font for the Book itself */
+      --book-font: "Georgia", "Cambria", "Times New Roman", "Source Serif Pro", serif;
+      
+      --font-scale: 1.02rem;
+      --line-height: 1.82;
     }
 
     * {
@@ -26,177 +45,418 @@
       padding: 0;
     }
 
-    body {
-      background-color: var(--bg-color);
+    html, body {
+      height: 100vh;
+      width: 100vw;
+      overflow: hidden;
+      background-color: var(--app-bg);
       color: var(--text-main);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.85;
-      padding: 2.5rem 1rem;
+      font-family: var(--ui-font);
+      user-select: text;
+    }
+
+    .ereader-app {
       display: flex;
-      justify-content: center;
+      flex-direction: column;
+      height: 100vh;
+      width: 100vw;
+      position: relative;
     }
 
-    .container {
-      max-width: 1150px;
-      width: 100%;
-    }
-
-    header {
-      text-align: center;
-      margin-bottom: 2rem;
-      padding-bottom: 1.5rem;
-      border-bottom: 1px solid var(--card-border);
-    }
-
-    .badge {
-      display: inline-block;
-      background: rgba(56, 189, 248, 0.12);
-      color: var(--accent);
-      padding: 0.25rem 0.85rem;
-      border-radius: 9999px;
-      font-size: 0.85rem;
-      font-weight: 600;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      margin-bottom: 0.75rem;
-      border: 1px solid rgba(56, 189, 248, 0.25);
-    }
-
-    h1 {
-      font-size: 2.1rem;
-      font-weight: 700;
-      margin-bottom: 0.5rem;
-      background: linear-gradient(135deg, #f8fafc 0%, #38bdf8 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-
-    .subtitle {
-      color: var(--text-muted);
-      font-size: 1rem;
-    }
-
-    .controls-wrapper {
+    /* Minimalist Top App Bar - SANS-SERIF */
+    .top-app-bar {
+      height: 48px;
+      min-height: 48px;
+      background: var(--bar-bg);
+      border-bottom: 1px solid var(--bar-border);
       display: flex;
-      justify-content: space-between;
       align-items: center;
+      justify-content: space-between;
+      padding: 0 1.5rem;
+      z-index: 100;
       gap: 1rem;
-      margin-bottom: 2rem;
-      flex-wrap: wrap;
+      font-family: var(--ui-font);
     }
 
-    .view-toggles, .feature-toggles {
+    .bar-left, .bar-right {
       display: flex;
-      gap: 0.6rem;
-      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.75rem;
     }
 
-    .btn {
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
+    .app-title-text {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--accent);
+      letter-spacing: 0.02em;
+      font-family: var(--ui-font);
+    }
+
+    .icon-btn {
+      background: transparent;
+      border: 1px solid transparent;
       color: var(--text-muted);
-      padding: 0.55rem 1.15rem;
-      border-radius: 0.5rem;
-      font-size: 0.9rem;
-      font-weight: 600;
-      cursor: pointer;
-      transition: all 0.2s ease;
+      width: 34px;
+      height: 34px;
+      border-radius: 0.35rem;
       display: inline-flex;
       align-items: center;
-      gap: 0.4rem;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 1.05rem;
+      font-family: var(--ui-font);
+      transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
     }
 
-    .btn:hover {
+    .icon-btn:hover {
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--text-main);
+      border-color: var(--bar-border);
+    }
+
+    .pill-btn {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--bar-border);
+      color: var(--text-muted);
+      padding: 0.3rem 0.85rem;
+      border-radius: 0.4rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      font-family: var(--ui-font);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+    }
+
+    .pill-btn:hover {
       border-color: var(--accent);
       color: var(--text-main);
     }
 
-    .btn.active {
+    .pill-btn.active {
       background: var(--accent);
-      color: #0f172a;
+      color: #060a12;
       border-color: var(--accent);
-      box-shadow: 0 0 14px var(--accent-glow);
-    }
-
-    .btn-toggle {
-      background: #1e293b;
-      border: 1px solid #475569;
-      color: #cbd5e1;
-    }
-
-    .btn-toggle.active {
-      background: rgba(245, 158, 11, 0.15);
-      border-color: #f59e0b;
-      color: #fbbf24;
-      box-shadow: 0 0 12px rgba(245, 158, 11, 0.25);
-    }
-
-    .story-layout {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1.75rem;
-      transition: all 0.3s ease;
-    }
-
-    .story-layout.hindi-only {
-      grid-template-columns: 1fr;
-      max-width: 820px;
-      margin: 0 auto;
-    }
-    .story-layout.hindi-only .english-col {
-      display: none;
-    }
-
-    .story-layout.english-only {
-      grid-template-columns: 1fr;
-      max-width: 820px;
-      margin: 0 auto;
-    }
-    .story-layout.english-only .hindi-col {
-      display: none;
-    }
-
-    .column {
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      border-radius: 0.85rem;
-      padding: 1.85rem;
-      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
-    }
-
-    .col-header {
-      font-size: 1.15rem;
       font-weight: 700;
+    }
+
+    /* Mode Switch Toggle: Novel <-> Bilingual */
+    .mode-switch-toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--bar-border);
+      padding: 0.22rem 0.65rem;
+      border-radius: 9999px;
+      font-family: var(--ui-font);
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      user-select: none;
+      transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+      outline: none;
+    }
+
+    .mode-switch-toggle:hover {
+      border-color: var(--accent);
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .mode-switch-toggle:focus-visible {
+      box-shadow: 0 0 0 2px var(--accent-glow);
+    }
+
+    .switch-opt {
+      color: var(--text-muted);
+      transition: color 0.2s ease, font-weight 0.2s ease;
+      cursor: pointer;
+      line-height: 1;
+    }
+
+    .switch-opt:hover {
+      color: var(--text-main);
+    }
+
+    .switch-opt.active {
       color: var(--accent);
-      margin-bottom: 1.35rem;
+      font-weight: 700;
+    }
+
+    .switch-slider {
+      position: relative;
+      width: 32px;
+      height: 18px;
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 9999px;
+      transition: background-color 0.25s ease, box-shadow 0.25s ease;
+      flex-shrink: 0;
+    }
+
+    .mode-switch-toggle.mode-bilingual .switch-slider {
+      background: var(--accent);
+      box-shadow: 0 0 8px var(--accent-glow);
+    }
+
+    .switch-thumb {
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      width: 14px;
+      height: 14px;
+      background: #ffffff;
+      border-radius: 50%;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+      transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s ease;
+    }
+
+    .mode-switch-toggle.mode-novel .switch-thumb {
+      transform: translateX(0);
+      background: #e2e8f0;
+    }
+
+    .mode-switch-toggle.mode-bilingual .switch-thumb {
+      transform: translateX(14px);
+      background: #0b0f19;
+    }
+
+    /* Reading Stage */
+    .reading-stage {
+      flex: 1;
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-      padding-bottom: 0.75rem;
+      justify-content: center;
+      position: relative;
+      padding: 0.75rem 3.5rem;
+      background: var(--book-desk);
+      overflow: hidden;
     }
 
-    .col-tag {
-      font-size: 0.75rem;
-      font-weight: 500;
+    /* Floating Turn Arrows - SANS-SERIF */
+    .turn-arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 44px;
+      height: 70px;
+      background: rgba(18, 28, 44, 0.75);
+      border: 1px solid var(--page-border);
       color: var(--text-muted);
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 0.55rem;
+      cursor: pointer;
+      font-size: 1.8rem;
+      font-family: var(--ui-font);
+      z-index: 50;
+      backdrop-filter: blur(4px);
+      transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
     }
 
-    .paragraph {
-      margin-bottom: 1.65rem;
-      font-size: 1.08rem;
-      text-align: justify;
+    .turn-arrow:hover:not(:disabled) {
+      background: var(--accent);
+      color: #060a12;
+      border-color: var(--accent);
+      box-shadow: 0 0 16px var(--accent-glow);
     }
-    .paragraph:last-child {
-      margin-bottom: 0;
+
+    .turn-arrow:disabled {
+      opacity: 0.18;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+
+    .turn-prev { left: 0.85rem; }
+    .turn-next { right: 0.85rem; }
+
+    /* Open Book Container */
+    .open-book-container {
+      width: 100%;
+      max-width: 1480px;
+      height: 100%;
+      max-height: 94vh;
+      display: grid;
+      grid-template-columns: 1fr 14px 1fr;
+      box-shadow: 0 25px 65px var(--page-shadow);
+      border-radius: 0.75rem;
+      position: relative;
+      border: 1px solid var(--page-border);
+      background: var(--page-bg);
+      overflow: hidden;
+      font-family: var(--book-font);
+    }
+
+    #pageLeft {
+      grid-column: 1;
+    }
+
+    #spineDivider {
+      grid-column: 2;
+    }
+
+    #pageRight {
+      grid-column: 3;
+    }
+
+    /* Closed Cover Mode: Left side empty, spine hidden, cover on right */
+    .open-book-container.cover-mode {
+      border: none;
+      background: transparent;
+      box-shadow: none;
+    }
+
+    .open-book-container.cover-mode #pageLeft {
+      visibility: hidden;
+      opacity: 0;
+      pointer-events: none;
+      border: none;
+      box-shadow: none;
+      background: transparent;
+    }
+
+    .open-book-container.cover-mode #spineDivider {
+      visibility: hidden;
+      opacity: 0;
+      pointer-events: none;
+      border: none;
+      background: transparent;
+    }
+
+    .open-book-container.cover-mode #pageRight {
+      grid-column: 3;
+      border-radius: 0 0.75rem 0.75rem 0;
+      border: 1px solid var(--cover-border);
+      box-shadow: 0 25px 65px var(--page-shadow);
+      background: var(--cover-bg);
+      padding: 0 !important;
+      overflow: hidden;
+    }
+
+    /* Book Spine Divider */
+    .book-spine-divider {
+      background: linear-gradient(
+        to right,
+        var(--spine-shadow) 0%,
+        transparent 35%,
+        transparent 65%,
+        var(--spine-shadow) 100%
+      );
+      height: 100%;
+      border-left: 1px solid rgba(0,0,0,0.3);
+      border-right: 1px solid rgba(0,0,0,0.3);
+    }
+
+    /* Book Page Layout - SERIF */
+    .book-page {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 1.6rem 2.2rem;
+      position: relative;
+      background: var(--page-bg);
+      font-family: var(--book-font);
+    }
+
+    .page-left {
+      box-shadow: inset -15px 0 25px -10px var(--spine-shadow);
+    }
+    .page-right {
+      box-shadow: inset 15px 0 25px -10px var(--spine-shadow);
+    }
+
+    /* Page Running Header & Footer - SERIF */
+    .page-running-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 0.45rem;
+      margin-bottom: 0.9rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-family: var(--book-font);
+    }
+
+    .page-running-footer {
+      margin-top: auto;
+      padding-top: 0.6rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--text-dim);
+      font-family: var(--book-font);
+    }
+
+    /* Inner Content Rules */
+    .page-inner-content {
+      flex: 1;
+      font-size: var(--font-scale);
+      line-height: var(--line-height);
+      font-family: var(--book-font);
+    }
+
+    /* Left Hindi side NEVER has scrollbar */
+    #contentLeft {
+      overflow: hidden !important;
+    }
+
+    /* Novel mode: both Hindi sides never have scrollbars */
+    .open-book-container.novel-mode #contentRight {
+      overflow: hidden !important;
+    }
+
+    /* Bilingual mode: English side has subtle vertical scrollbar if text overflows */
+    .open-book-container.bilingual-mode #contentRight {
+      overflow-y: auto !important;
+      overflow-x: hidden;
+      padding-right: 0.35rem;
+    }
+
+    #contentRight::-webkit-scrollbar {
+      width: 5px;
+    }
+    #contentRight::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    #contentRight::-webkit-scrollbar-thumb {
+      background: var(--page-border);
+      border-radius: 4px;
+    }
+    #contentRight::-webkit-scrollbar-thumb:hover {
+      background: var(--text-dim);
+    }
+
+    /* Minimalist Single Chapter Title */
+    .chapter-start {
+      margin-bottom: 1.05rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .book-chapter-title {
+      font-size: 1.45rem;
+      font-weight: 700;
+      color: var(--gold);
+      line-height: 1.28;
+      letter-spacing: 0.01em;
+      font-family: var(--book-font);
+    }
+
+    .book-paragraph {
+      margin-bottom: 0.95rem;
+      text-align: justify;
+      hyphens: auto;
+      font-family: var(--book-font);
     }
 
     .sentence {
-      padding: 2px 4px;
-      border-radius: 4px;
-      transition: background-color 0.15s ease, box-shadow 0.15s ease;
+      padding: 1px 2px;
+      border-radius: 3px;
       display: inline;
     }
 
@@ -205,434 +465,789 @@
       box-shadow: 0 0 0 2px var(--highlight-border);
     }
 
-    /* Word styling & dual-line tooltips */
+    /* Guaranteed Diacritics on Hover */
     .word {
       position: relative;
       cursor: pointer;
-      border-radius: 3px;
-      padding: 0 2px;
-      transition: background-color 0.15s ease, color 0.15s ease;
+      display: inline-block;
+      border-radius: 2px;
+      padding: 0 1px;
+      transition: color 0.12s ease;
+      font-family: var(--book-font);
     }
 
     .word:hover {
-      background-color: rgba(56, 189, 248, 0.25);
-      color: #ffffff;
+      background-color: var(--highlight-bg);
+      color: var(--accent);
     }
 
     .word .diacritic-text {
       display: none;
     }
 
-    body.show-diacritics .word .plain-text {
+    body.show-diacritics-in-text .word .plain-text {
       display: none;
     }
-    body.show-diacritics .word .diacritic-text {
+    body.show-diacritics-in-text .word .diacritic-text {
       display: inline;
       color: #e0f2fe;
     }
 
-    /* Tooltip container */
+    /* Hover Tooltip Popup - SANS-SERIF UI */
     .word::after {
       content: attr(data-tooltip);
       position: absolute;
       bottom: 130%;
       left: 50%;
-      transform: translateX(-50%);
+      transform: translateX(-50%) translateY(4px);
       background: var(--tooltip-bg);
-      color: var(--tooltip-text);
-      font-size: 0.82rem;
-      font-weight: 500;
-      padding: 0.35rem 0.65rem;
+      color: #ffffff;
+      font-family: var(--ui-font);
+      font-size: 0.84rem;
+      font-weight: 600;
+      padding: 0.4rem 0.75rem;
       border-radius: 0.4rem;
       white-space: pre-line;
       text-align: center;
       pointer-events: none;
       opacity: 0;
       visibility: hidden;
-      transition: opacity 0.15s ease, transform 0.15s ease;
-      z-index: 50;
-      border: 1px solid var(--accent);
-      box-shadow: 0 4px 14px rgba(0,0,0,0.6);
-      min-width: 90px;
+      transition: opacity 0.12s ease, transform 0.12s ease;
+      z-index: 999;
+      border: 1px solid var(--tooltip-border);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.85);
+      min-width: 105px;
+      line-height: 1.35;
+      letter-spacing: 0.02em;
     }
 
     .word:hover::after {
       opacity: 1;
       visibility: visible;
-      transform: translateX(-50%) translateY(-2px);
+      transform: translateX(-50%) translateY(0);
     }
 
     .audio-btn {
       background: transparent;
       border: none;
-      color: var(--text-muted);
+      color: var(--text-dim);
       cursor: pointer;
-      padding: 0 4px;
-      font-size: 0.95rem;
+      padding: 0 2px;
+      font-size: 0.84rem;
       vertical-align: middle;
-      transition: color 0.15s ease;
+      font-family: var(--ui-font);
+      transition: color 0.15s ease, transform 0.15s ease;
     }
 
     .audio-btn:hover {
       color: var(--accent);
+      transform: scale(1.2);
     }
 
-    .legend {
-      margin-top: 2rem;
-      padding: 1.25rem;
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      border-radius: 0.75rem;
+    /* CLOSED BOOK COVER PAGE - MATCHING BOOKSHELF */
+    .cover-page-wrap {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      background: var(--cover-bg);
+      padding: 2.5rem 2rem;
       display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      gap: 1rem;
-      font-size: 0.85rem;
-      color: var(--text-muted);
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: center;
+      cursor: pointer;
+      user-select: none;
+      overflow: hidden;
+      font-family: var(--book-font);
+      border-radius: 0 0.75rem 0.75rem 0;
     }
 
-    .legend-item {
+    /* 3D Spine groove shadow on the left edge */
+    .cover-spine-groove {
+      position: absolute;
+      inset-y: 0;
+      left: 0;
+      width: 18px;
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.25) 50%, transparent 100%);
+      pointer-events: none;
+      z-index: 20;
+    }
+
+    /* Right edge paper sheen */
+    .cover-paper-sheen {
+      position: absolute;
+      inset-y: 0;
+      right: 0;
+      width: 8px;
+      background: linear-gradient(to left, rgba(255, 255, 255, 0.18) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 20;
+    }
+
+    /* Inset Gold Foil Borders matching bookshelf */
+    .cover-foil-outer {
+      position: absolute;
+      inset: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      border-radius: 0 0.65rem 0.65rem 0;
+      pointer-events: none;
+      z-index: 5;
+    }
+
+    .cover-foil-inner {
+      position: absolute;
+      inset: 18px;
+      border: 1px solid var(--cover-foil);
+      border-radius: 0 0.5rem 0.5rem 0;
+      opacity: 0.65;
+      pointer-events: none;
+      z-index: 5;
+    }
+
+    /* Top Cover Header: Level & Ornament */
+    .cover-top-header {
+      position: relative;
+      z-index: 10;
       display: flex;
       align-items: center;
-      gap: 0.5rem;
+      justify-content: space-between;
+      padding: 0.5rem 0.75rem 0;
     }
 
-    .legend-key {
-      font-family: monospace;
-      color: #fbbf24;
-      background: rgba(245, 158, 11, 0.15);
-      padding: 0.15rem 0.45rem;
-      border-radius: 0.25rem;
+    .cover-level-badge {
+      font-family: var(--ui-font);
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 0.25rem 0.75rem;
+      border-radius: 0.35rem;
+      background: rgba(0, 0, 0, 0.45);
+      color: var(--cover-foil);
+      border: 1px solid rgba(254, 205, 211, 0.4);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+    }
+
+    .cover-stars {
+      color: rgba(251, 191, 36, 0.85);
+      letter-spacing: 0.4em;
+      font-size: 0.85rem;
+    }
+
+    /* Middle: Prominent Serif Title in Clean Typography */
+    .cover-center-content {
+      position: relative;
+      z-index: 10;
+      padding: 1.5rem 1rem;
+      margin: auto 0;
+    }
+
+    .cover-main-title {
+      font-family: var(--book-font);
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: #ffffff;
+      line-height: 1.25;
+      letter-spacing: 0.02em;
+      margin-bottom: 0.75rem;
+      text-shadow: 0 4px 18px rgba(0, 0, 0, 0.8);
+    }
+
+    .cover-sub-label {
+      font-family: var(--ui-font);
+      font-size: 0.8rem;
       font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--cover-foil);
+      margin-bottom: 0.6rem;
     }
 
-    @media (max-width: 860px) {
-      .story-layout {
+    .cover-sub-title {
+      font-family: var(--book-font);
+      font-size: 1.05rem;
+      font-weight: 500;
+      color: rgba(255, 255, 255, 0.85);
+      font-style: italic;
+      letter-spacing: 0.02em;
+      max-width: 85%;
+      margin: 0 auto;
+    }
+
+    /* Bottom Cover Footer: Reading time & Author */
+    .cover-bottom-footer {
+      position: relative;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 0.75rem 0.5rem;
+    }
+
+    .cover-reading-time {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-family: var(--ui-font);
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: rgba(255, 255, 255, 0.85);
+      background: rgba(0, 0, 0, 0.45);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px;
+    }
+
+    .cover-author {
+      font-family: var(--book-font);
+      font-size: 0.95rem;
+      color: var(--cover-foil);
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    /* Bottom Status Bar - SANS-SERIF */
+    .bottom-status-bar {
+      height: 34px;
+      min-height: 34px;
+      background: var(--bar-bg);
+      border-top: 1px solid var(--bar-border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 1.5rem;
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      z-index: 100;
+      font-family: var(--ui-font);
+    }
+
+    .progress-track {
+      flex: 1;
+      max-width: 320px;
+      height: 5px;
+      background: var(--bar-border);
+      border-radius: 9999px;
+      overflow: hidden;
+      margin: 0 1rem;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: var(--accent);
+      width: 0%;
+      transition: width 0.2s ease;
+    }
+
+    /* Side Drawer (TOC) - SANS-SERIF */
+    .drawer-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.65);
+      backdrop-filter: blur(3px);
+      z-index: 200;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.2s ease, visibility 0.2s ease;
+    }
+
+    .drawer-overlay.open {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .side-drawer {
+      position: fixed;
+      top: 0;
+      left: -360px;
+      width: 360px;
+      max-width: 88vw;
+      height: 100vh;
+      background: var(--bar-bg);
+      border-right: 1px solid var(--bar-border);
+      z-index: 250;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 10px 0 35px rgba(0, 0, 0, 0.6);
+      font-family: var(--ui-font);
+      transition: left 0.25s ease;
+    }
+
+    .drawer-overlay.open .side-drawer {
+      left: 0;
+    }
+
+    .drawer-header {
+      padding: 1.15rem 1.4rem;
+      border-bottom: 1px solid var(--bar-border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: var(--ui-font);
+    }
+
+    .drawer-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--accent);
+      font-family: var(--ui-font);
+    }
+
+    .drawer-body {
+      flex: 1;
+      overflow-y: auto;
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      font-family: var(--ui-font);
+    }
+
+    .drawer-section-title {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-dim);
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      font-family: var(--ui-font);
+    }
+
+    .toc-item {
+      padding: 0.65rem 0.85rem;
+      border-radius: 0.45rem;
+      cursor: pointer;
+      border: 1px solid transparent;
+      margin-bottom: 0.35rem;
+      font-family: var(--ui-font);
+      transition: background-color 0.15s ease, border-color 0.15s ease;
+    }
+
+    .toc-item:hover {
+      background: rgba(255, 255, 255, 0.05);
+      border-color: var(--bar-border);
+    }
+
+    .toc-item.active {
+      background: rgba(56, 189, 248, 0.15);
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .toc-item-title {
+      font-size: 0.9rem;
+      font-weight: 600;
+      font-family: var(--ui-font);
+    }
+
+    .legend-box {
+      background: rgba(0, 0, 0, 0.25);
+      border: 1px solid var(--bar-border);
+      border-radius: 0.5rem;
+      padding: 0.85rem;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      font-family: var(--ui-font);
+    }
+
+    @media (max-width: 900px) {
+      .open-book-container {
         grid-template-columns: 1fr;
       }
-      .controls-wrapper {
-        flex-direction: column;
-        align-items: stretch;
+      .book-spine-divider {
+        display: none;
+      }
+      .reading-stage {
+        padding: 0.5rem 1rem;
+      }
+      .turn-arrow {
+        display: none;
       }
     }
   </style>
 </head>
-<body>
-  <div class="container">
-    <header>
-      <div class="badge">A1 Immersive Story • Episode 01</div>
-      <h1>Norwich Ki Train Aur Shivani Ka Surprise</h1>
-      <p class="subtitle">A reunion comedy adventure across London and Norwich</p>
+<body class="show-diacritics-in-text">
+  <div class="ereader-app">
+
+    <!-- SLEEK MINIMAL TOP BAR (SANS-SERIF) -->
+    <header class="top-app-bar">
+      <div class="bar-left">
+        <button class="icon-btn" onclick="toggleDrawer(true)" title="Table of Contents (☰)">
+          ☰
+        </button>
+        <span class="app-title-text">Norwich Ki Train Aur Shivani Ka Surprise</span>
+      </div>
+
+      <div class="bar-right">
+        <!-- View Mode Switch Toggle (Novel <-> Bilingual) -->
+        <div class="mode-switch-toggle mode-bilingual" id="viewModeBtn" onclick="toggleViewMode()" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleViewMode();}" role="switch" aria-checked="true" tabindex="0" title="Reading Mode: Novel or Bilingual (Click or Space to toggle)">
+          <span class="switch-opt switch-opt-novel" id="optNovel" onclick="event.stopPropagation(); setViewMode('novel');">Novel</span>
+          <div class="switch-slider">
+            <div class="switch-thumb"></div>
+          </div>
+          <span class="switch-opt switch-opt-bilingual active" id="optBilingual" onclick="event.stopPropagation(); setViewMode('bilingual');">Bilingual</span>
+          <span id="viewModeLabel" style="display:none;">Bilingual</span>
+        </div>
+
+        <!-- Diacritics Toggle -->
+        <button class="pill-btn active" id="diacriticsTextBtn" onclick="toggleTextDiacritics()" title="Toggle Diacritics in Text (Hover menu always shows them)">
+          <span>🔤</span> Diacritics
+        </button>
+
+        <!-- Font Scaling -->
+        <button class="icon-btn" onclick="adjustFontSize(-0.04)" title="Smaller Text (A-)">A-</button>
+        <button class="icon-btn" onclick="adjustFontSize(0.04)" title="Larger Text (A+)">A+</button>
+      </div>
     </header>
 
-    <div class="controls-wrapper">
-      <div class="view-toggles">
-        <button class="btn active" onclick="setView('dual', this)">Side-by-Side View</button>
-        <button class="btn" onclick="setView('hindi', this)">Hinglish Only</button>
-        <button class="btn" onclick="setView('english', this)">Natural English Only</button>
+    <!-- READING STAGE (>90% SCREEN OCCUPIED BY BOOK) -->
+    <main class="reading-stage">
+      <!-- Left Floating Turn Arrow -->
+      <button class="turn-arrow turn-prev" onclick="navigatePage(-1)" id="turnPrevBtn" disabled title="Previous (Left Arrow)">
+        ‹
+      </button>
+
+      <!-- The Two-Page Open Book Container -->
+      <div class="open-book-container cover-mode bilingual-mode" id="bookContainer">
+        <!-- LEFT PAGE -->
+        <article class="book-page page-left" id="pageLeft">
+          <header class="page-running-header" id="headerLeft">
+            <span id="headerTitleLeft">NORWICH KI TRAIN AUR SHIVANI KA SURPRISE</span>
+            <span id="headerPageNumLeft"></span>
+          </header>
+
+          <div class="page-inner-content" id="contentLeft"></div>
+
+          <footer class="page-running-footer" id="footerLeft">
+            <span id="footerNumLeft"></span>
+          </footer>
+        </article>
+
+        <!-- BOOK SPINE DIVIDER -->
+        <div class="book-spine-divider" id="spineDivider"></div>
+
+        <!-- RIGHT PAGE -->
+        <article class="book-page page-right" id="pageRight">
+          <header class="page-running-header" id="headerRight">
+            <span id="headerPageNumRight"></span>
+            <span id="headerTitleRight">NORWICH KI TRAIN AUR SHIVANI KA SURPRISE</span>
+          </header>
+
+          <div class="page-inner-content" id="contentRight"></div>
+
+          <footer class="page-running-footer" id="footerRight">
+            <span id="footerNumRight"></span>
+          </footer>
+        </article>
       </div>
 
-      <div class="feature-toggles">
-        <button class="btn btn-toggle" id="diacriticBtn" onclick="toggleDiacritics()">
-          <span>🔤</span> Show Diacritics (Macrons & Retroflex)
-        </button>
+      <!-- Right Floating Turn Arrow -->
+      <button class="turn-arrow turn-next" onclick="navigatePage(1)" id="turnNextBtn" title="Next (Right Arrow)">
+        ›
+      </button>
+    </main>
+
+    <!-- BOTTOM STATUS BAR (SANS-SERIF) -->
+    <footer class="bottom-status-bar">
+      <span id="pageCounterText">Cover</span>
+      <div class="progress-track">
+        <div class="progress-fill" id="readingProgressFill"></div>
       </div>
+      <span>Hint: Hover words for pronunciation • Arrow keys to turn</span>
+    </footer>
+
+    <!-- SIDE DRAWER (TOC) - SANS-SERIF -->
+    <div class="drawer-overlay" id="drawerOverlay" onclick="handleOverlayClick(event)">
+      <aside class="side-drawer" id="sideDrawer">
+        <div class="drawer-header">
+          <span class="drawer-title">Table of Contents</span>
+          <button class="icon-btn" onclick="toggleDrawer(false)">✕</button>
+        </div>
+
+        <div class="drawer-body">
+          <div>
+            <div class="drawer-section-title">Navigation</div>
+            <div class="toc-item active" data-nav="0" onclick="goToSpread(0)">
+              <div class="toc-item-title">Cover</div>
+            </div>
+            <div class="toc-item" data-nav="1" onclick="goToSpread(1)">
+              <div class="toc-item-title">Chapter 1 • Page 1</div>
+            </div>
+            <div class="toc-item" data-nav="2" onclick="goToSpread(2)">
+              <div class="toc-item-title">Chapter 2 • Page 2</div>
+            </div>
+            <div class="toc-item" data-nav="3" onclick="goToSpread(3)">
+              <div class="toc-item-title">Chapter 3 • Page 3</div>
+            </div>
+            <div class="toc-item" data-nav="4" onclick="goToSpread(4)">
+              <div class="toc-item-title">Chapter 4 • Page 4</div>
+            </div>
+          </div>
+
+          <div>
+            <div class="drawer-section-title">Diacritics Guide</div>
+            <div class="legend-box">
+              <p><strong>Hover Menu:</strong> Every Hindi word displays its English meaning and bracketed IAST diacritics.</p>
+              <br>
+              <p><strong>ā, ī, ū:</strong> Long vowels (<em>sīdhī, pahuñchā</em>)</p>
+              <p><strong>ṭ, ḍ, ṛ:</strong> Retroflex (<em>ṭikaṭ, khaṛā, pakaṛ</em>)</p>
+              <p><strong>ñ:</strong> Nasal / Anusvara (<em>maiñ, hañske</em>)</p>
+              <p><strong>🔊:</strong> Click for native speech audio</p>
+            </div>
+          </div>
+        </div>
+      </aside>
     </div>
 
-    <div class="story-layout" id="storyLayout">
-      <!-- Hindi Column -->
-      <div class="column hindi-col">
-        <div class="col-header">
-          <span>🇮🇳 Romanized Hindi</span>
-          <span class="col-tag">Hover for Pronunciation + Meaning</span>
-        </div>
-
-        <!-- Paragraph 1 -->
-        <div class="paragraph">
-          <span class="sentence" data-sid="s1">
-            <span class="word" data-tooltip="Toronto&#10;[ṭoronto]"><span class="plain-text">Toronto</span><span class="diacritic-text">Ṭoronṭo</span></span> 
-            <span class="word" data-tooltip="from&#10;[se]"><span class="plain-text">se</span><span class="diacritic-text">se</span></span> 
-            <span class="word" data-tooltip="London&#10;[landan]"><span class="plain-text">London</span><span class="diacritic-text">Landan</span></span> 
-            <span class="word" data-tooltip="after arriving&#10;[pahuñch-kar]"><span class="plain-text">pahunchkar</span><span class="diacritic-text">pahuñchkar</span></span>, 
-            <span class="word" data-tooltip="I&#10;[maiñ]"><span class="plain-text">main</span><span class="diacritic-text">maiñ</span></span> 
-            <span class="word" data-tooltip="very&#10;[bahut]"><span class="plain-text">bahut</span><span class="diacritic-text">bahut</span></span> 
-            <span class="word" data-tooltip="tired (masc)&#10;[thakā]"><span class="plain-text">thakaa</span><span class="diacritic-text">thakā</span></span> 
-            <span class="word" data-tooltip="was (masc)&#10;[thā]"><span class="plain-text">thaa</span><span class="diacritic-text">thā</span></span>, 
-            <span class="word" data-tooltip="but&#10;[lekin]"><span class="plain-text">lekin</span><span class="diacritic-text">lekin</span></span> 
-            <span class="word" data-tooltip="my&#10;[merā]"><span class="plain-text">meraa</span><span class="diacritic-text">merā</span></span> 
-            <span class="word" data-tooltip="mood&#10;[mūḍ]"><span class="plain-text">mood</span><span class="diacritic-text">mūḍ</span></span> 
-            <span class="word" data-tooltip="great / very good&#10;[bahut acchā]"><span class="plain-text">bahut achhaa</span><span class="diacritic-text">bahut acchā</span></span> 
-            <span class="word" data-tooltip="was&#10;[thā]"><span class="plain-text">thaa</span><span class="diacritic-text">thā</span></span>.
-            <button class="audio-btn" title="Listen to sentence" onclick="speakText('Toronto se London pahunchkar main bahut thakaa thaa lekin meraa mood bahut achhaa thaa')">🔊</button>
-          </span>
-          <span class="sentence" data-sid="s2">
-            <span class="word" data-tooltip="today&#10;[āj]"><span class="plain-text">Aaj</span><span class="diacritic-text">Āj</span></span> 
-            <span class="word" data-tooltip="to me (I had to)&#10;[mujhe]"><span class="plain-text">mujhe</span><span class="diacritic-text">mujhe</span></span> 
-            <span class="word" data-tooltip="Shivani&#10;[Shivānī]"><span class="plain-text">Shivani</span><span class="diacritic-text">Shivānī</span></span> 
-            <span class="word" data-tooltip="with / to&#10;[se]"><span class="plain-text">se</span><span class="diacritic-text">se</span></span> 
-            <span class="word" data-tooltip="to meet&#10;[milne]"><span class="plain-text">milne</span><span class="diacritic-text">milne</span></span> 
-            <span class="word" data-tooltip="in order to&#10;[ke liye]"><span class="plain-text">ke liye</span><span class="diacritic-text">ke liye</span></span> 
-            <span class="word" data-tooltip="Norwich&#10;[Nŏrich]"><span class="plain-text">Norwich</span><span class="diacritic-text">Norwich</span></span> 
-            <span class="word" data-tooltip="had to go&#10;[jānā thā]"><span class="plain-text">jaanaa thaa</span><span class="diacritic-text">jānā thā</span></span>.
-            <button class="audio-btn" title="Listen to sentence" onclick="speakText('Aaj mujhe Shivani se milne ke liye Norwich jaanaa thaa')">🔊</button>
-          </span>
-          <span class="sentence" data-sid="s3">
-            <span class="word" data-tooltip="Shivani&#10;[Shivānī]"><span class="plain-text">Shivani</span><span class="diacritic-text">Shivānī</span></span> 
-            <span class="word" data-tooltip="said (fem)&#10;[bolī]"><span class="plain-text">bolii</span><span class="diacritic-text">bolī</span></span> 
-            <span class="word" data-tooltip="that (conjunction)&#10;[ki]"><span class="plain-text">ki</span><span class="diacritic-text">ki</span></span> 
-            <span class="word" data-tooltip="she&#10;[vo]"><span class="plain-text">vo</span><span class="diacritic-text">vo</span></span> 
-            <span class="word" data-tooltip="station&#10;[sṭeśan]"><span class="plain-text">station</span><span class="diacritic-text">sṭeśan</span></span> 
-            <span class="word" data-tooltip="at&#10;[par]"><span class="plain-text">par</span><span class="diacritic-text">par</span></span> 
-            <span class="word" data-tooltip="my&#10;[merā]"><span class="plain-text">meraa</span><span class="diacritic-text">merā</span></span> 
-            <span class="word" data-tooltip="wait / waiting&#10;[intezār]"><span class="plain-text">intezaar</span><span class="diacritic-text">intezār</span></span> 
-            <span class="word" data-tooltip="will do (fem)&#10;[karegī]"><span class="plain-text">karegii</span><span class="diacritic-text">karegī</span></span>, 
-            <span class="word" data-tooltip="because&#10;[kyonki]"><span class="plain-text">kyunki</span><span class="diacritic-text">kyonki</span></span> 
-            <span class="word" data-tooltip="we&#10;[ham]"><span class="plain-text">ham</span><span class="diacritic-text">ham</span></span> 
-            <span class="word" data-tooltip="one year&#10;[ek sāl]"><span class="plain-text">ek saal</span><span class="diacritic-text">ek sāl</span></span> 
-            <span class="word" data-tooltip="later / after&#10;[bād]"><span class="plain-text">baad</span><span class="diacritic-text">bād</span></span> 
-            <span class="word" data-tooltip="are meeting&#10;[mil rahe haiñ]"><span class="plain-text">mil rahe hain</span><span class="diacritic-text">mil rahe haiñ</span></span>.
-            <button class="audio-btn" title="Listen to sentence" onclick="speakText('Shivani bolii ki vo station par meraa intezaar karegii, kyunki ham ek saal baad mil rahe hain')">🔊</button>
-          </span>
-        </div>
-
-        <!-- Paragraph 2 -->
-        <div class="paragraph">
-          <span class="sentence" data-sid="s4">
-            <span class="word" data-tooltip="Liverpool Street station&#10;[Livarpūl Sṭrīṭ sṭeśan]"><span class="plain-text">Liverpool Street station</span><span class="diacritic-text">Liverpool Street sṭeśan</span></span> 
-            <span class="word" data-tooltip="in / at&#10;[meñ]"><span class="plain-text">me</span><span class="diacritic-text">meñ</span></span> 
-            <span class="word" data-tooltip="crowd (fem)&#10;[bhīṛ]"><span class="plain-text">bheed</span><span class="diacritic-text">bhīṛ</span></span> 
-            <span class="word" data-tooltip="extremely&#10;[bahut]"><span class="plain-text">bahut</span><span class="diacritic-text">bahut</span></span> 
-            <span class="word" data-tooltip="heavy / excessive&#10;[zyādā]"><span class="plain-text">zyada</span><span class="diacritic-text">zyādā</span></span> 
-            <span class="word" data-tooltip="was (fem)&#10;[thī]"><span class="plain-text">thee</span><span class="diacritic-text">thī</span></span>, 
-            <span class="word" data-tooltip="and&#10;[aur]"><span class="plain-text">aur</span><span class="diacritic-text">aur</span></span> 
-            <span class="word" data-tooltip="I&#10;[maiñ]"><span class="plain-text">main</span><span class="diacritic-text">maiñ</span></span> 
-            <span class="word" data-tooltip="platform number nine&#10;[plaiṭphôrm nambar nau]"><span class="plain-text">platform number nau</span><span class="diacritic-text">plaiṭfôrm nambar nau</span></span> 
-            <span class="word" data-tooltip="towards&#10;[kī taraf]"><span class="plain-text">ki taraf</span><span class="diacritic-text">kī taraf</span></span> 
-            <span class="word" data-tooltip="was sprinting&#10;[bhāg rahā thā]"><span class="plain-text">bhaag rahaa thaa</span><span class="diacritic-text">bhāg rahā thā</span></span>.
-            <button class="audio-btn" title="Listen to sentence" onclick="speakText('Liverpool Street station me bheed bahut zyada thee aur main platform number nau ki taraf bhaag rahaa thaa')">🔊</button>
-          </span>
-          <span class="sentence" data-sid="s5">
-            <span class="word" data-tooltip="there&#10;[vahāñ]"><span class="plain-text">Vahaan</span><span class="diacritic-text">Vahāñ</span></span> 
-            <span class="word" data-tooltip="a / one&#10;[ek]"><span class="plain-text">ek</span><span class="diacritic-text">ek</span></span> 
-            <span class="word" data-tooltip="ticket collector&#10;[ṭikaṭ kalekṭar]"><span class="plain-text">ticket collector</span><span class="diacritic-text">ṭikaṭ kalekṭar</span></span> 
-            <span class="word" data-tooltip="standing&#10;[khaṛā]"><span class="plain-text">khadaa</span><span class="diacritic-text">khaṛā</span></span> 
-            <span class="word" data-tooltip="was&#10;[thā]"><span class="plain-text">thaa</span><span class="diacritic-text">thā</span></span>; 
-            <span class="word" data-tooltip="I (ergative)&#10;[maine]"><span class="plain-text">maine</span><span class="diacritic-text">maine</span></span> 
-            <span class="word" data-tooltip="to him&#10;[usse]"><span class="plain-text">usse</span><span class="diacritic-text">usse</span></span> 
-            <span class="word" data-tooltip="asked / said&#10;[kahā]"><span class="plain-text">kahaa</span><span class="diacritic-text">kahā</span></span>, 
-            <span class="word" data-tooltip="&quot;Please tell me&quot;&#10;[batāiye]"><span class="plain-text">&quot;Bataaiye</span><span class="diacritic-text">&quot;Batāiye</span></span>, 
-            <span class="word" data-tooltip="which (fem)&#10;[kaunsī]"><span class="plain-text">kaunsii</span><span class="diacritic-text">kaunsī</span></span> 
-            <span class="word" data-tooltip="train&#10;[ṭren]"><span class="plain-text">train</span><span class="diacritic-text">ṭren</span></span> 
-            <span class="word" data-tooltip="Norwich&#10;[Nŏrich]"><span class="plain-text">Norwich</span><span class="diacritic-text">Norwich</span></span> 
-            <span class="word" data-tooltip="goes?&quot;&#10;[jātī hai?]"><span class="plain-text">jaatii hai?&quot;</span><span class="diacritic-text">jātī hai?&quot;</span></span>
-            <button class="audio-btn" title="Listen to sentence" onclick="speakText('Vahaan ek ticket collector khadaa thaa, maine usse kahaa, Bataaiye kaunsii train Norwich jaatii hai')">🔊</button>
-          </span>
-          <span class="sentence" data-sid="s6">
-            <span class="word" data-tooltip="he (ergative)&#10;[usne]"><span class="plain-text">Usne</span><span class="diacritic-text">Usne</span></span> 
-            <span class="word" data-tooltip="with a grin / smiling&#10;[hañs-ke]"><span class="plain-text">hanske</span><span class="diacritic-text">hañske</span></span> 
-            <span class="word" data-tooltip="replied&#10;[bolā]"><span class="plain-text">bolaa</span><span class="diacritic-text">bolā</span></span>, 
-            <span class="word" data-tooltip="&quot;This train&#10;[yeh ṭren]"><span class="plain-text">&quot;Ye train</span><span class="diacritic-text">&quot;Yeh ṭren</span></span> 
-            <span class="word" data-tooltip="Norwich&#10;[Nŏrich]"><span class="plain-text">Norwich</span><span class="diacritic-text">Norwich</span></span> 
-            <span class="word" data-tooltip="goes&#10;[jātī hai]"><span class="plain-text">jaatii hai</span><span class="diacritic-text">jātī hai</span></span>, 
-            <span class="word" data-tooltip="hurry up&#10;[jaldī karo]"><span class="plain-text">jaldi karo</span><span class="diacritic-text">jaldī karo</span></span>, 
-            <span class="word" data-tooltip="doors&#10;[darvāze]"><span class="plain-text">doors</span><span class="diacritic-text">darvāze</span></span> 
-            <span class="word" data-tooltip="are closing!&quot;&#10;[band ho rahe haiñ!]"><span class="plain-text">band ho rahe hain!&quot;</span><span class="diacritic-text">band ho rahe haiñ!&quot;</span></span>
-            <button class="audio-btn" title="Listen to sentence" onclick="speakText('Usne hanske bolaa, Ye train Norwich jaatii hai, jaldi karo doors band ho rahe hain')">🔊</button>
-          </span>
-        </div>
-
-        <!-- Paragraph 3 -->
-        <div class="paragraph">
-          <span class="sentence" data-sid="s7">
-            <span class="word" data-tooltip="having hopped on&#10;[andar jākar]"><span class="plain-text">Andar jaakar</span><span class="diacritic-text">Andar jākar</span></span> 
-            <span class="word" data-tooltip="I (ergative)&#10;[maine]"><span class="plain-text">maine</span><span class="diacritic-text">maine</span></span> 
-            <span class="word" data-tooltip="window&#10;[khiṛkī]"><span class="plain-text">khidkii</span><span class="diacritic-text">khiṛkī</span></span> 
-            <span class="word" data-tooltip="by / beside&#10;[ke pās]"><span class="plain-text">ke paas</span><span class="diacritic-text">ke pās</span></span> 
-            <span class="word" data-tooltip="seat&#10;[sīṭ]"><span class="plain-text">seat</span><span class="diacritic-text">sīṭ</span></span> 
-            <span class="word" data-tooltip="grabbed / took&#10;[lī]"><span class="plain-text">lii</span><span class="diacritic-text">lī</span></span> 
-            <span class="word" data-tooltip="and&#10;[aur]"><span class="plain-text">aur</span><span class="diacritic-text">aur</span></span> 
-            <span class="word" data-tooltip="to Shivani&#10;[Shivānī ko]"><span class="plain-text">Shivani ko</span><span class="diacritic-text">Shivānī ko</span></span> 
-            <span class="word" data-tooltip="message&#10;[sandesh]"><span class="plain-text">message</span><span class="diacritic-text">sandesh</span></span> 
-            <span class="word" data-tooltip="shot off / sent&#10;[bhejā]"><span class="plain-text">bhejaa</span><span class="diacritic-text">bhejā</span></span>: 
-            <span class="word" data-tooltip="&quot;I'm on board!&quot;&#10;[Maiñ ṭren meñ hūñ!]"><span class="plain-text">&quot;Main train me hoon!&quot;</span><span class="diacritic-text">&quot;Maiñ ṭren meñ hūñ!&quot;</span></span>
-            <button class="audio-btn" title="Listen to sentence" onclick="speakText('Andar jaakar maine khidkii ke paas seat lii aur Shivani ko message bhejaa, Main train me hoon')">🔊</button>
-          </span>
-          <span class="sentence" data-sid="s8">
-            <span class="word" data-tooltip="ten&#10;[das]"><span class="plain-text">Das</span><span class="diacritic-text">Das</span></span> 
-            <span class="word" data-tooltip="minutes&#10;[minaṭ]"><span class="plain-text">minute</span><span class="diacritic-text">minaṭ</span></span> 
-            <span class="word" data-tooltip="later&#10;[bād]"><span class="plain-text">baad</span><span class="diacritic-text">bād</span></span>, 
-            <span class="word" data-tooltip="over the intercom&#10;[spīkar se]"><span class="plain-text">speaker se</span><span class="diacritic-text">spīkar se</span></span> 
-            <span class="word" data-tooltip="an announcement came&#10;[āvāz āī]"><span class="plain-text">aawaaz aayee</span><span class="diacritic-text">āvāz āī</span></span>: 
-            <span class="word" data-tooltip="&quot;Next stop: Cambridge!&quot;"><span class="plain-text">&quot;Next stop: Cambridge!&quot;</span><span class="diacritic-text">&quot;Next stop: Cambridge!&quot;</span></span>
-            <button class="audio-btn" title="Listen to sentence" onclick="speakText('Das minute baad speaker se aawaaz aayee, Next stop Cambridge')">🔊</button>
-          </span>
-          <span class="sentence" data-sid="s9">
-            <span class="word" data-tooltip="I panicked / got a shock&#10;[mujhe śŏk lagā]"><span class="plain-text">Mujhe shock lagaa</span><span class="diacritic-text">Mujhe śŏk lagā</span></span> 
-            <span class="word" data-tooltip="because&#10;[kyonki]"><span class="plain-text">kyunki</span><span class="diacritic-text">kyonki</span></span> 
-            <span class="word" data-tooltip="to me (I had to)&#10;[mujhe]"><span class="plain-text">mujhe</span><span class="diacritic-text">mujhe</span></span> 
-            <span class="word" data-tooltip="at the next stop&#10;[agle sṭeśan par]"><span class="plain-text">agle station par</span><span class="diacritic-text">agle sṭeśan par</span></span> 
-            <span class="word" data-tooltip="train&#10;[ṭren]"><span class="plain-text">train</span><span class="diacritic-text">ṭren</span></span> 
-            <span class="word" data-tooltip="had to switch!&#10;[badalnī thī!]"><span class="plain-text">change karnii thee!</span><span class="diacritic-text">badalnī thī!</span></span>
-            <button class="audio-btn" title="Listen to sentence" onclick="speakText('Mujhe shock lagaa kyunki mujhe agle station par train change karnii thee')">🔊</button>
-          </span>
-        </div>
-
-        <!-- Paragraph 4 -->
-        <div class="paragraph">
-          <span class="sentence" data-sid="s10">
-            <span class="word" data-tooltip="when&#10;[jab]"><span class="plain-text">Jab</span><span class="diacritic-text">Jab</span></span> 
-            <span class="word" data-tooltip="I&#10;[maiñ]"><span class="plain-text">main</span><span class="diacritic-text">maiñ</span></span> 
-            <span class="word" data-tooltip="finally&#10;[ākhirkār]"><span class="plain-text">aakhirkaar</span><span class="diacritic-text">ākhirkār</span></span> 
-            <span class="word" data-tooltip="Norwich&#10;[Nŏrich]"><span class="plain-text">Norwich</span><span class="diacritic-text">Norwich</span></span> 
-            <span class="word" data-tooltip="pulled into&#10;[pahunchā]"><span class="plain-text">pahunchaa</span><span class="diacritic-text">pahuñchā</span></span>, 
-            <span class="word" data-tooltip="Shivani&#10;[Shivānī]"><span class="plain-text">Shivani</span><span class="diacritic-text">Shivānī</span></span> 
-            <span class="word" data-tooltip="holding two coffees&#10;[do kôfī ke sāth]"><span class="plain-text">do coffee ke saath</span><span class="diacritic-text">do kôfī ke sāth</span></span> 
-            <span class="word" data-tooltip="was laughing&#10;[hañs rahī thī]"><span class="plain-text">hans rahii thee</span><span class="diacritic-text">hañs rahī thī</span></span>.
-            <button class="audio-btn" title="Listen to sentence" onclick="speakText('Jab main aakhirkaar Norwich pahunchaa, Shivani do coffee ke saath hans rahii thee')">🔊</button>
-          </span>
-          <span class="sentence" data-sid="s11">
-            <span class="word" data-tooltip="she teased / said&#10;[usne kahā]"><span class="plain-text">Usne kahaa</span><span class="diacritic-text">Usne kahā</span></span>, 
-            <span class="word" data-tooltip="&quot;You flew all the way&#10;[Tum Ṭoronṭo se yahāñ āye]"><span class="plain-text">&quot;Tum Toronto se yahaan aaye</span><span class="diacritic-text">&quot;Tum Ṭoronṭo se yahāñ āye</span></span>, 
-            <span class="word" data-tooltip="yet&#10;[lekin]"><span class="plain-text">lekin</span><span class="diacritic-text">lekin</span></span> 
-            <span class="word" data-tooltip="a simple direct train&#10;[ek sīdhī ṭren]"><span class="plain-text">ek seedhii train</span><span class="diacritic-text">ek sīdhī ṭren</span></span> 
-            <span class="word" data-tooltip="couldn't catch!&quot;&#10;[pakaṛ nahīñ sake!]"><span class="plain-text">pakad nahin sake!&quot;</span><span class="diacritic-text">pakaṛ nahīñ sake!&quot;</span></span>
-            <button class="audio-btn" title="Listen to sentence" onclick="speakText('Usne kahaa, Tum Toronto se yahaan aaye lekin ek seedhii train pakad nahin sake')">🔊</button>
-          </span>
-          <span class="sentence" data-sid="s12">
-            <span class="word" data-tooltip="now&#10;[ab]"><span class="plain-text">Ab</span><span class="diacritic-text">Ab</span></span> 
-            <span class="word" data-tooltip="we&#10;[ham]"><span class="plain-text">ham</span><span class="diacritic-text">ham</span></span> 
-            <span class="word" data-tooltip="at the pub&#10;[pab meñ]"><span class="plain-text">pub me</span><span class="diacritic-text">pab meñ</span></span> 
-            <span class="word" data-tooltip="are going to grab drinks&#10;[ḍriṅks piyenge]"><span class="plain-text">drinks piyenge</span><span class="diacritic-text">ḍriṅks piyenge</span></span> 
-            <span class="word" data-tooltip="and catch up on her new career&#10;[aur uskī naī jôb ke bāre meñ bāt karenge]"><span class="plain-text">aur uskii nayī job ke baare me baat karenge</span><span class="diacritic-text">aur uskī naī jôb ke bāre meñ bāt karenge</span></span>.
-            <button class="audio-btn" title="Listen to sentence" onclick="speakText('Ab ham pub me drinks piyenge aur uskii nayī job ke baare me baat karenge')">🔊</button>
-          </span>
-        </div>
-      </div>
-
-      <!-- English Column (Natural & Idiomatic) -->
-      <div class="column english-col">
-        <div class="col-header">
-          <span>🇬🇧 Natural English</span>
-          <span class="col-tag">Idiomatic Translation</span>
-        </div>
-
-        <!-- Paragraph 1 -->
-        <div class="paragraph">
-          <span class="sentence" data-sid="s1">
-            After finally landing in London from Toronto, I was completely exhausted, but my spirits were high.
-          </span>
-          <span class="sentence" data-sid="s2">
-            I had to catch a train to Norwich today to reunite with Shivani.
-          </span>
-          <span class="sentence" data-sid="s3">
-            Shivani promised she'd be waiting for me right at the platform, since it's been a whole year since we last hung out.
-          </span>
-        </div>
-
-        <!-- Paragraph 2 -->
-        <div class="paragraph">
-          <span class="sentence" data-sid="s4">
-            Liverpool Street station was an absolute madhouse, and I found myself sprinting desperately toward platform nine.
-          </span>
-          <span class="sentence" data-sid="s5">
-            Spotting a ticket collector standing nearby, I called out, "Excuse me, does this train go straight to Norwich?"
-          </span>
-          <span class="sentence" data-sid="s6">
-            He gave a sly grin and said, "It sure does—now get a move on, the doors are about to shut!"
-          </span>
-        </div>
-
-        <!-- Paragraph 3 -->
-        <div class="paragraph">
-          <span class="sentence" data-sid="s7">
-            I scrambled inside, snagged an empty window seat, and immediately texted Shivani: "Made it on the train!"
-          </span>
-          <span class="sentence" data-sid="s8">
-            Ten minutes into the ride, an announcement crackled over the intercom: "Next stop: Cambridge!"
-          </span>
-          <span class="sentence" data-sid="s9">
-            My heart sank—turns out this was the split service, and I was going to have to scramble to switch trains at the next stop!
-          </span>
-        </div>
-
-        <!-- Paragraph 4 -->
-        <div class="paragraph">
-          <span class="sentence" data-sid="s10">
-            When I finally pulled into Norwich station, there was Shivani holding two takeaway coffees, already cracking up.
-          </span>
-          <span class="sentence" data-sid="s11">
-            "You flew all the way across the Atlantic from Toronto," she smirked, "and you still couldn't manage a simple direct train?!"
-          </span>
-          <span class="sentence" data-sid="s12">
-            Now we're heading straight to the pub to grab a pint and catch up on everything about her new job.
-          </span>
-        </div>
-      </div>
-    </div>
-
-    <!-- Linguistic Key / Legend -->
-    <div class="legend">
-      <div class="legend-item">
-        <span class="legend-key">ā, ī, ū</span>
-        <span>Long Vowels (e.g. <em>sīdhī</em> vs short <em>ki</em>)</span>
-      </div>
-      <div class="legend-item">
-        <span class="legend-key">ṭ, ḍ, ṛ</span>
-        <span>Retroflex Consonants (curled tongue: <em>khaṛā</em>, <em>pakaṛ</em>)</span>
-      </div>
-      <div class="legend-item">
-        <span class="legend-key">ñ / ñh</span>
-        <span>Nasalized Vowels / Anusvara (<em>maiñ</em>, <em>hañske</em>)</span>
-      </div>
-      <div class="legend-item">
-        <span class="legend-key">🔊 Icon</span>
-        <span>Click to hear clear spoken audio playback!</span>
-      </div>
-    </div>
   </div>
 
   <script>
-    function setView(mode, btnElement) {
-      const layout = document.getElementById('storyLayout');
-      const buttons = document.querySelectorAll('.view-toggles .btn');
-      
-      buttons.forEach(btn => btn.classList.remove('active'));
-      btnElement.classList.add('active');
+    // Injected JSON content blocks for discrete pages 1 to 4
+    const pagesHindi = {
+      "1": `<div class="chapter-start"><h2 class="book-chapter-title">Chapter 1: Toronto Se London Arrival</h2></div><p class="book-paragraph"><span class="sentence" data-sid="s1"><span class="word" data-tooltip="Toronto&#10;[ṭoronto]"><span class="plain-text">Toronto</span><span class="diacritic-text">Ṭoronṭo</span></span> <span class="word" data-tooltip="from&#10;[se]"><span class="plain-text">se</span><span class="diacritic-text">se</span></span> <span class="word" data-tooltip="London&#10;[landan]"><span class="plain-text">London</span><span class="diacritic-text">Landan</span></span> <span class="word" data-tooltip="after arriving&#10;[pahuñch-kar]"><span class="plain-text">pahunchkar</span><span class="diacritic-text">pahuñchkar</span></span>, <span class="word" data-tooltip="I&#10;[maiñ]"><span class="plain-text">main</span><span class="diacritic-text">maiñ</span></span> <span class="word" data-tooltip="very&#10;[bahut]"><span class="plain-text">bahut</span><span class="diacritic-text">bahut</span></span> <span class="word" data-tooltip="tired (masc)&#10;[thakā]"><span class="plain-text">thakaa</span><span class="diacritic-text">thakā</span></span> <span class="word" data-tooltip="was (masc)&#10;[thā]"><span class="plain-text">thaa</span><span class="diacritic-text">thā</span></span>, <span class="word" data-tooltip="but&#10;[lekin]"><span class="plain-text">lekin</span><span class="diacritic-text">lekin</span></span> <span class="word" data-tooltip="my&#10;[merā]"><span class="plain-text">meraa</span><span class="diacritic-text">merā</span></span> <span class="word" data-tooltip="mood&#10;[mūḍ]"><span class="plain-text">mood</span><span class="diacritic-text">mūḍ</span></span> <span class="word" data-tooltip="great / very good&#10;[bahut acchā]"><span class="plain-text">bahut achhaa</span><span class="diacritic-text">bahut acchā</span></span> <span class="word" data-tooltip="was&#10;[thā]"><span class="plain-text">thaa</span><span class="diacritic-text">thā</span></span>. <button class="audio-btn" title="Listen to sentence" onclick="speakText('Toronto se London pahunchkar main bahut thakaa thaa lekin meraa mood bahut achhaa thaa')">🔊</button></span><span class="sentence" data-sid="s2"><span class="word" data-tooltip="today&#10;[āj]"><span class="plain-text">Aaj</span><span class="diacritic-text">Āj</span></span> <span class="word" data-tooltip="to me (I had to)&#10;[mujhe]"><span class="plain-text">mujhe</span><span class="diacritic-text">mujhe</span></span> <span class="word" data-tooltip="Shivani&#10;[Shivānī]"><span class="plain-text">Shivani</span><span class="diacritic-text">Shivānī</span></span> <span class="word" data-tooltip="with / to&#10;[se]"><span class="plain-text">se</span><span class="diacritic-text">se</span></span> <span class="word" data-tooltip="to meet&#10;[milne]"><span class="plain-text">milne</span><span class="diacritic-text">milne</span></span> <span class="word" data-tooltip="in order to&#10;[ke liye]"><span class="plain-text">ke liye</span><span class="diacritic-text">ke liye</span></span> <span class="word" data-tooltip="Norwich&#10;[Nŏrich]"><span class="plain-text">Norwich</span><span class="diacritic-text">Norwich</span></span> <span class="word" data-tooltip="had to go&#10;[jānā thā]"><span class="plain-text">jaanaa thaa</span><span class="diacritic-text">jānā thā</span></span>. <button class="audio-btn" title="Listen to sentence" onclick="speakText('Aaj mujhe Shivani se milne ke liye Norwich jaanaa thaa')">🔊</button></span><span class="sentence" data-sid="s3"><span class="word" data-tooltip="Shivani&#10;[Shivānī]"><span class="plain-text">Shivani</span><span class="diacritic-text">Shivānī</span></span> <span class="word" data-tooltip="said (fem)&#10;[bolī]"><span class="plain-text">bolii</span><span class="diacritic-text">bolī</span></span> <span class="word" data-tooltip="that (conjunction)&#10;[ki]"><span class="plain-text">ki</span><span class="diacritic-text">ki</span></span> <span class="word" data-tooltip="she&#10;[vo]"><span class="plain-text">vo</span><span class="diacritic-text">vo</span></span> <span class="word" data-tooltip="station&#10;[sṭeśan]"><span class="plain-text">station</span><span class="diacritic-text">sṭeśan</span></span> <span class="word" data-tooltip="at&#10;[par]"><span class="plain-text">par</span><span class="diacritic-text">par</span></span> <span class="word" data-tooltip="my&#10;[merā]"><span class="plain-text">meraa</span><span class="diacritic-text">merā</span></span> <span class="word" data-tooltip="wait / waiting&#10;[intezār]"><span class="plain-text">intezaar</span><span class="diacritic-text">intezār</span></span> <span class="word" data-tooltip="will do (fem)&#10;[karegī]"><span class="plain-text">karegii</span><span class="diacritic-text">karegī</span></span>, <span class="word" data-tooltip="because&#10;[kyonki]"><span class="plain-text">kyunki</span><span class="diacritic-text">kyonki</span></span> <span class="word" data-tooltip="we&#10;[ham]"><span class="plain-text">ham</span><span class="diacritic-text">ham</span></span> <span class="word" data-tooltip="one year&#10;[ek sāl]"><span class="plain-text">ek saal</span><span class="diacritic-text">ek sāl</span></span> <span class="word" data-tooltip="later / after&#10;[bād]"><span class="plain-text">baad</span><span class="diacritic-text">bād</span></span> <span class="word" data-tooltip="are meeting&#10;[mil rahe haiñ]"><span class="plain-text">mil rahe hain</span><span class="diacritic-text">mil rahe haiñ</span></span>. <button class="audio-btn" title="Listen to sentence" onclick="speakText('Shivani bolii ki vo station par meraa intezaar karegii, kyunki ham ek saal baad mil rahe hain')">🔊</button></span></p>`,
+      "2": `<div class="chapter-start"><h2 class="book-chapter-title">Chapter 2: Liverpool Street Ki Bheed</h2></div><p class="book-paragraph"><span class="sentence" data-sid="s4"><span class="word" data-tooltip="Liverpool Street station&#10;[Livarpūl Sṭrīṭ sṭeśan]"><span class="plain-text">Liverpool Street station</span><span class="diacritic-text">Liverpool Street sṭeśan</span></span> <span class="word" data-tooltip="in / at&#10;[meñ]"><span class="plain-text">me</span><span class="diacritic-text">meñ</span></span> <span class="word" data-tooltip="crowd (fem)&#10;[bhīṛ]"><span class="plain-text">bheed</span><span class="diacritic-text">bhīṛ</span></span> <span class="word" data-tooltip="extremely&#10;[bahut]"><span class="plain-text">bahut</span><span class="diacritic-text">bahut</span></span> <span class="word" data-tooltip="heavy / excessive&#10;[zyādā]"><span class="plain-text">zyada</span><span class="diacritic-text">zyādā</span></span> <span class="word" data-tooltip="was (fem)&#10;[thī]"><span class="plain-text">thee</span><span class="diacritic-text">thī</span></span>, <span class="word" data-tooltip="and&#10;[aur]"><span class="plain-text">aur</span><span class="diacritic-text">aur</span></span> <span class="word" data-tooltip="I&#10;[maiñ]"><span class="plain-text">main</span><span class="diacritic-text">maiñ</span></span> <span class="word" data-tooltip="platform number nine&#10;[plaiṭphôrm nambar nau]"><span class="plain-text">platform number nau</span><span class="diacritic-text">plaiṭfôrm nambar nau</span></span> <span class="word" data-tooltip="towards&#10;[kī taraf]"><span class="plain-text">ki taraf</span><span class="diacritic-text">kī taraf</span></span> <span class="word" data-tooltip="was sprinting&#10;[bhāg rahā thā]"><span class="plain-text">bhaag rahaa thaa</span><span class="diacritic-text">bhāg rahā thā</span></span>. <button class="audio-btn" title="Listen to sentence" onclick="speakText('Liverpool Street station me bheed bahut zyada thee aur main platform number nau ki taraf bhaag rahaa thaa')">🔊</button></span><span class="sentence" data-sid="s5"><span class="word" data-tooltip="there&#10;[vahāñ]"><span class="plain-text">Vahaan</span><span class="diacritic-text">Vahāñ</span></span> <span class="word" data-tooltip="a / one&#10;[ek]"><span class="plain-text">ek</span><span class="diacritic-text">ek</span></span> <span class="word" data-tooltip="ticket collector&#10;[ṭikaṭ kalekṭar]"><span class="plain-text">ticket collector</span><span class="diacritic-text">ṭikaṭ kalekṭar</span></span> <span class="word" data-tooltip="standing&#10;[khaṛā]"><span class="plain-text">khadaa</span><span class="diacritic-text">khaṛā</span></span> <span class="word" data-tooltip="was&#10;[thā]"><span class="plain-text">thaa</span><span class="diacritic-text">thā</span></span>; <span class="word" data-tooltip="I (ergative)&#10;[maine]"><span class="plain-text">maine</span><span class="diacritic-text">maine</span></span> <span class="word" data-tooltip="to him&#10;[usse]"><span class="plain-text">usse</span><span class="diacritic-text">usse</span></span> <span class="word" data-tooltip="asked / said&#10;[kahā]"><span class="plain-text">kahaa</span><span class="diacritic-text">kahā</span></span>, <span class="word" data-tooltip="&quot;Please tell me&quot;&#10;[batāiye]"><span class="plain-text">&quot;Bataaiye</span><span class="diacritic-text">&quot;Batāiye</span></span>, <span class="word" data-tooltip="which (fem)&#10;[kaunsī]"><span class="plain-text">kaunsii</span><span class="diacritic-text">kaunsī</span></span> <span class="word" data-tooltip="train&#10;[ṭren]"><span class="plain-text">train</span><span class="diacritic-text">ṭren</span></span> <span class="word" data-tooltip="Norwich&#10;[Nŏrich]"><span class="plain-text">Norwich</span><span class="diacritic-text">Norwich</span></span> <span class="word" data-tooltip="goes?&quot;&#10;[jātī hai?]"><span class="plain-text">jaatii hai?&quot;</span><span class="diacritic-text">jātī hai?&quot;</span></span> <button class="audio-btn" title="Listen to sentence" onclick="speakText('Vahaan ek ticket collector khadaa thaa, maine usse kahaa, Bataaiye kaunsii train Norwich jaatii hai')">🔊</button></span><span class="sentence" data-sid="s6"><span class="word" data-tooltip="he (ergative)&#10;[usne]"><span class="plain-text">Usne</span><span class="diacritic-text">Usne</span></span> <span class="word" data-tooltip="with a grin / smiling&#10;[hañs-ke]"><span class="plain-text">hanske</span><span class="diacritic-text">hañske</span></span> <span class="word" data-tooltip="replied&#10;[bolā]"><span class="plain-text">bolaa</span><span class="diacritic-text">bolā</span></span>, <span class="word" data-tooltip="&quot;This train&#10;[yeh ṭren]"><span class="plain-text">&quot;Ye train</span><span class="diacritic-text">&quot;Yeh ṭren</span></span> <span class="word" data-tooltip="Norwich&#10;[Nŏrich]"><span class="plain-text">Norwich</span><span class="diacritic-text">Norwich</span></span> <span class="word" data-tooltip="goes&#10;[jātī hai]"><span class="plain-text">jaatii hai</span><span class="diacritic-text">jātī hai</span></span>, <span class="word" data-tooltip="hurry up&#10;[jaldī karo]"><span class="plain-text">jaldi karo</span><span class="diacritic-text">jaldī karo</span></span>, <span class="word" data-tooltip="doors&#10;[darvāze]"><span class="plain-text">doors</span><span class="diacritic-text">darvāze</span></span> <span class="word" data-tooltip="are closing!&quot;&#10;[band ho rahe haiñ!]"><span class="plain-text">band ho rahe hain!&quot;</span><span class="diacritic-text">band ho rahe haiñ!&quot;</span></span> <button class="audio-btn" title="Listen to sentence" onclick="speakText('Usne hanske bolaa, Ye train Norwich jaatii hai, jaldi karo doors band ho rahe hain')">🔊</button></span></p>`,
+      "3": `<div class="chapter-start"><h2 class="book-chapter-title">Chapter 3: Cambridge Stop Ka Shock</h2></div><p class="book-paragraph"><span class="sentence" data-sid="s7"><span class="word" data-tooltip="having hopped on&#10;[andar jākar]"><span class="plain-text">Andar jaakar</span><span class="diacritic-text">Andar jākar</span></span> <span class="word" data-tooltip="I (ergative)&#10;[maine]"><span class="plain-text">maine</span><span class="diacritic-text">maine</span></span> <span class="word" data-tooltip="window&#10;[khiṛkī]"><span class="plain-text">khidkii</span><span class="diacritic-text">khiṛkī</span></span> <span class="word" data-tooltip="by / beside&#10;[ke pās]"><span class="plain-text">ke paas</span><span class="diacritic-text">ke pās</span></span> <span class="word" data-tooltip="seat&#10;[sīṭ]"><span class="plain-text">seat</span><span class="diacritic-text">sīṭ</span></span> <span class="word" data-tooltip="grabbed / took&#10;[lī]"><span class="plain-text">lii</span><span class="diacritic-text">lī</span></span> <span class="word" data-tooltip="and&#10;[aur]"><span class="plain-text">aur</span><span class="diacritic-text">aur</span></span> <span class="word" data-tooltip="to Shivani&#10;[Shivānī ko]"><span class="plain-text">Shivani ko</span><span class="diacritic-text">Shivānī ko</span></span> <span class="word" data-tooltip="message&#10;[sandesh]"><span class="plain-text">message</span><span class="diacritic-text">sandesh</span></span> <span class="word" data-tooltip="shot off / sent&#10;[bhejā]"><span class="plain-text">bhejaa</span><span class="diacritic-text">bhejā</span></span>: <span class="word" data-tooltip="&quot;I'm on board!&quot;&#10;[Maiñ ṭren meñ hūñ!]"><span class="plain-text">&quot;Main train me hoon!&quot;</span><span class="diacritic-text">&quot;Maiñ ṭren meñ hūñ!&quot;</span></span> <button class="audio-btn" title="Listen to sentence" onclick="speakText('Andar jaakar maine khidkii ke paas seat lii aur Shivani ko message bhejaa, Main train me hoon')">🔊</button></span><span class="sentence" data-sid="s8"><span class="word" data-tooltip="ten&#10;[das]"><span class="plain-text">Das</span><span class="diacritic-text">Das</span></span> <span class="word" data-tooltip="minutes&#10;[minaṭ]"><span class="plain-text">minute</span><span class="diacritic-text">minaṭ</span></span> <span class="word" data-tooltip="later&#10;[bād]"><span class="plain-text">baad</span><span class="diacritic-text">bād</span></span>, <span class="word" data-tooltip="over the intercom&#10;[spīkar se]"><span class="plain-text">speaker se</span><span class="diacritic-text">spīkar se</span></span> <span class="word" data-tooltip="an announcement came&#10;[āvāz āī]"><span class="plain-text">aawaaz aayee</span><span class="diacritic-text">āvāz āī</span></span>: <span class="word" data-tooltip="&quot;Next stop: Cambridge!&quot;"><span class="plain-text">&quot;Next stop: Cambridge!&quot;</span><span class="diacritic-text">&quot;Next stop: Cambridge!&quot;</span></span> <button class="audio-btn" title="Listen to sentence" onclick="speakText('Das minute baad speaker se aawaaz aayee, Next stop Cambridge')">🔊</button></span><span class="sentence" data-sid="s9"><span class="word" data-tooltip="I panicked / got a shock&#10;[mujhe śŏk lagā]"><span class="plain-text">Mujhe shock lagaa</span><span class="diacritic-text">Mujhe śŏk lagā</span></span> <span class="word" data-tooltip="because&#10;[kyonki]"><span class="plain-text">kyunki</span><span class="diacritic-text">kyonki</span></span> <span class="word" data-tooltip="to me (I had to)&#10;[mujhe]"><span class="plain-text">mujhe</span><span class="diacritic-text">mujhe</span></span> <span class="word" data-tooltip="at the next stop&#10;[agle sṭeśan par]"><span class="plain-text">agle station par</span><span class="diacritic-text">agle sṭeśan par</span></span> <span class="word" data-tooltip="train&#10;[ṭren]"><span class="plain-text">train</span><span class="diacritic-text">ṭren</span></span> <span class="word" data-tooltip="had to switch!&#10;[badalnī thī!]"><span class="plain-text">change karnii thee!</span><span class="diacritic-text">badalnī thī!</span></span> <button class="audio-btn" title="Listen to sentence" onclick="speakText('Mujhe shock lagaa kyunki mujhe agle station par train change karnii thee')">🔊</button></span></p>`,
+      "4": `<div class="chapter-start"><h2 class="book-chapter-title">Chapter 4: Norwich Platform Par Reunion</h2></div><p class="book-paragraph"><span class="sentence" data-sid="s10"><span class="word" data-tooltip="when&#10;[jab]"><span class="plain-text">Jab</span><span class="diacritic-text">Jab</span></span> <span class="word" data-tooltip="I&#10;[maiñ]"><span class="plain-text">main</span><span class="diacritic-text">maiñ</span></span> <span class="word" data-tooltip="finally&#10;[ākhirkār]"><span class="plain-text">aakhirkaar</span><span class="diacritic-text">ākhirkār</span></span> <span class="word" data-tooltip="Norwich&#10;[Nŏrich]"><span class="plain-text">Norwich</span><span class="diacritic-text">Norwich</span></span> <span class="word" data-tooltip="pulled into&#10;[pahunchā]"><span class="plain-text">pahunchaa</span><span class="diacritic-text">pahuñchā</span></span>, <span class="word" data-tooltip="Shivani&#10;[Shivānī]"><span class="plain-text">Shivani</span><span class="diacritic-text">Shivānī</span></span> <span class="word" data-tooltip="holding two coffees&#10;[do kôfī ke sāth]"><span class="plain-text">do coffee ke saath</span><span class="diacritic-text">do kôfī ke sāth</span></span> <span class="word" data-tooltip="was laughing&#10;[hañs rahī thī]"><span class="plain-text">hans rahii thee</span><span class="diacritic-text">hañs rahī thī</span></span>. <button class="audio-btn" title="Listen to sentence" onclick="speakText('Jab main aakhirkaar Norwich pahunchaa, Shivani do coffee ke saath hans rahii thee')">🔊</button></span><span class="sentence" data-sid="s11"><span class="word" data-tooltip="she teased / said&#10;[usne kahā]"><span class="plain-text">Usne kahaa</span><span class="diacritic-text">Usne kahā</span></span>, <span class="word" data-tooltip="&quot;You flew all the way&#10;[Tum Ṭoronṭo se yahāñ āye]"><span class="plain-text">&quot;Tum Toronto se yahaan aaye</span><span class="diacritic-text">&quot;Tum Ṭoronṭo se yahāñ āye</span></span>, <span class="word" data-tooltip="yet&#10;[lekin]"><span class="plain-text">lekin</span><span class="diacritic-text">lekin</span></span> <span class="word" data-tooltip="a simple direct train&#10;[ek sīdhī ṭren]"><span class="plain-text">ek seedhii train</span><span class="diacritic-text">ek sīdhī ṭren</span></span> <span class="word" data-tooltip="couldn't catch!&quot;&#10;[pakaṛ nahīñ sake!]"><span class="plain-text">pakad nahin sake!&quot;</span><span class="diacritic-text">pakaṛ nahīñ sake!&quot;</span></span> <button class="audio-btn" title="Listen to sentence" onclick="speakText('Usne kahaa, Tum Toronto se yahaan aaye lekin ek seedhii train pakad nahin sake')">🔊</button></span><span class="sentence" data-sid="s12"><span class="word" data-tooltip="now&#10;[ab]"><span class="plain-text">Ab</span><span class="diacritic-text">Ab</span></span> <span class="word" data-tooltip="we&#10;[ham]"><span class="plain-text">ham</span><span class="diacritic-text">ham</span></span> <span class="word" data-tooltip="at the pub&#10;[pab meñ]"><span class="plain-text">pub me</span><span class="diacritic-text">pab meñ</span></span> <span class="word" data-tooltip="are going to grab drinks&#10;[ḍriṅks piyenge]"><span class="plain-text">drinks piyenge</span><span class="diacritic-text">ḍriṅks piyenge</span></span> <span class="word" data-tooltip="and catch up on her new career&#10;[aur uskī naī jôb ke bāre meñ bāt karenge]"><span class="plain-text">aur uskii nayī job ke baare me baat karenge</span><span class="diacritic-text">aur uskī naī jôb ke bāre meñ bāt karenge</span></span>. <button class="audio-btn" title="Listen to sentence" onclick="speakText('Ab ham pub me drinks piyenge aur uskii nayī job ke baare me baat karenge')">🔊</button></span></p>`
+    };
 
-      layout.classList.remove('hindi-only', 'english-only');
-      if (mode === 'hindi') {
-        layout.classList.add('hindi-only');
-      } else if (mode === 'english') {
-        layout.classList.add('english-only');
+    const pagesEnglish = {
+      "1": `<div class="chapter-start"><h2 class="book-chapter-title">Chapter 1: Arrival from Toronto</h2></div><p class="book-paragraph"><span class="sentence" data-sid="s1">After finally landing in London from Toronto, I was completely exhausted, but my spirits were high.</span> <span class="sentence" data-sid="s2">I had to catch a train to Norwich today to reunite with Shivani.</span> <span class="sentence" data-sid="s3">Shivani promised she'd be waiting for me right at the platform, since it's been a whole year since we last hung out.</span></p>`,
+      "2": `<div class="chapter-start"><h2 class="book-chapter-title">Chapter 2: Liverpool Street Rush</h2></div><p class="book-paragraph"><span class="sentence" data-sid="s4">Liverpool Street station was an absolute madhouse, and I found myself sprinting desperately toward platform nine.</span> <span class="sentence" data-sid="s5">Spotting a ticket collector standing nearby, I called out, "Excuse me, does this train go straight to Norwich?"</span> <span class="sentence" data-sid="s6">He gave a sly grin and said, "It sure does—now get a move on, the doors are about to shut!"</span></p>`,
+      "3": `<div class="chapter-start"><h2 class="book-chapter-title">Chapter 3: The Cambridge Split Panic</h2></div><p class="book-paragraph"><span class="sentence" data-sid="s7">I scrambled inside, snagged an empty window seat, and immediately texted Shivani: "Made it on the train!"</span> <span class="sentence" data-sid="s8">Ten minutes into the ride, an announcement crackled over the intercom: "Next stop: Cambridge!"</span> <span class="sentence" data-sid="s9">My heart sank—turns out this was the split service, and I was going to have to scramble to switch trains at the next stop!</span></p>`,
+      "4": `<div class="chapter-start"><h2 class="book-chapter-title">Chapter 4: Reunion at Norwich</h2></div><p class="book-paragraph"><span class="sentence" data-sid="s10">When I finally pulled into Norwich station, there was Shivani holding two takeaway coffees, already cracking up.</span> <span class="sentence" data-sid="s11">"You flew all the way across the Atlantic from Toronto," she smirked, "and you still couldn't manage a simple direct train?!"</span> <span class="sentence" data-sid="s12">Now we're heading straight to the pub to grab a pint and catch up on everything about her new job.</span></p>`
+    };
+
+    const TOTAL_PAGES = 4;
+    let currentSpread = 0;
+    let mode = 'bilingual'; // 'bilingual' or 'novel'
+    let currentScale = 1.02;
+
+    // Cover Page HTML (Matching Deep Burgundy Bookshelf Hardcover)
+    const coverHTML = `
+      <div class="cover-page-wrap" onclick="navigatePage(1)" title="Click or press Right Arrow to read">
+        <div class="cover-spine-groove"></div>
+        <div class="cover-paper-sheen"></div>
+        <div class="cover-foil-outer"></div>
+        <div class="cover-foil-inner"></div>
+
+        <div class="cover-top-header">
+          <span class="cover-level-badge">A1-09</span>
+          <span class="cover-stars">✦ ✦ ✦</span>
+        </div>
+
+        <div class="cover-center-content">
+          <h1 class="cover-main-title">Norwich Ki Train Aur Shivani Ka Surprise</h1>
+          <div class="cover-sub-label">Diya • Hindi Reader</div>
+          <div class="cover-sub-title">London Platform Se Norwich Tak Ek Reunion Comedy</div>
+        </div>
+
+        <div class="cover-bottom-footer">
+          <div class="cover-reading-time">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>8 min</span>
+          </div>
+          <div class="cover-author">Diya</div>
+        </div>
+      </div>
+    `;
+
+    function renderView() {
+      const bookContainer = document.getElementById('bookContainer');
+      const contentLeft = document.getElementById('contentLeft');
+      const contentRight = document.getElementById('contentRight');
+      
+      const headerLeft = document.getElementById('headerLeft');
+      const headerRight = document.getElementById('headerRight');
+      const footerNumLeft = document.getElementById('footerNumLeft');
+      const footerNumRight = document.getElementById('footerNumRight');
+
+      const prevBtn = document.getElementById('turnPrevBtn');
+      const nextBtn = document.getElementById('turnNextBtn');
+      const counterText = document.getElementById('pageCounterText');
+      const progressFill = document.getElementById('readingProgressFill');
+
+      // Sync container mode classes for scrollbar handling
+      bookContainer.classList.toggle('bilingual-mode', mode === 'bilingual');
+      bookContainer.classList.toggle('novel-mode', mode === 'novel');
+
+      // Max spreads based on mode:
+      // Novel mode: 0 (Cover), 1 (Pages 1&2), 2 (Pages 3&4) => max 2
+      // Bilingual mode: 0 (Cover), 1 (P1), 2 (P2), 3 (P3), 4 (P4) => max 4
+      const maxSpread = (mode === 'novel') ? 2 : 4;
+      if (currentSpread > maxSpread) currentSpread = maxSpread;
+
+      prevBtn.disabled = (currentSpread === 0);
+      nextBtn.disabled = (currentSpread === maxSpread);
+
+      if (currentSpread === 0) {
+        // CLOSED BOOK ON RIGHT ONLY (LEFT SIDE COMPLETELY EMPTY)
+        bookContainer.classList.add('cover-mode');
+        headerLeft.style.display = 'none';
+        headerRight.style.display = 'none';
+        footerNumLeft.textContent = '';
+        footerNumRight.textContent = '';
+        contentLeft.innerHTML = '';
+        contentRight.innerHTML = coverHTML;
+
+        counterText.textContent = 'Cover';
+        progressFill.style.width = '0%';
+        updateTOC(0);
+        return;
+      }
+
+      // OPEN BOOK SPREADS
+      bookContainer.classList.remove('cover-mode');
+      headerLeft.style.display = 'flex';
+      headerRight.style.display = 'flex';
+
+      if (mode === 'bilingual') {
+        // BILINGUAL SPREAD: Left is Hindi, Right is English. SAME PAGE NUMBER on both sides!
+        const pNum = currentSpread; // 1 to 4
+        contentLeft.innerHTML = pagesHindi[pNum] || '';
+        contentRight.innerHTML = pagesEnglish[pNum] || '';
+
+        footerNumLeft.textContent = `— ${pNum} —`;
+        footerNumRight.textContent = `— ${pNum} —`;
+
+        counterText.textContent = `Page ${pNum} of ${TOTAL_PAGES}`;
+        progressFill.style.width = `${(pNum / TOTAL_PAGES) * 100}%`;
+        updateTOC(pNum);
+
+      } else {
+        // NOVEL SPREAD (Single Language - Hindi): Left is pLeft, Right is pRight
+        const pLeft = (currentSpread - 1) * 2 + 1; // 1, 3
+        const pRight = pLeft + 1; // 2, 4
+
+        contentLeft.innerHTML = pagesHindi[pLeft] || '';
+        contentRight.innerHTML = pagesHindi[pRight] || '';
+
+        footerNumLeft.textContent = `— ${pLeft} —`;
+        footerNumRight.textContent = `— ${pRight} —`;
+
+        counterText.textContent = `Pages ${pLeft} & ${pRight} of ${TOTAL_PAGES}`;
+        progressFill.style.width = `${(pRight / TOTAL_PAGES) * 100}%`;
+        updateTOC(pLeft);
+      }
+
+      // Scroll top when pages change
+      contentLeft.scrollTop = 0;
+      contentRight.scrollTop = 0;
+
+      // Re-bind hover sentence synchronization
+      bindSentenceHighlighting();
+    }
+
+    function updateTOC(target) {
+      document.querySelectorAll('.toc-item').forEach(item => {
+        const nav = parseInt(item.getAttribute('data-nav'));
+        if (mode === 'bilingual') {
+          item.classList.toggle('active', nav === target);
+        } else {
+          if (target === 0) {
+            item.classList.toggle('active', nav === 0);
+          } else {
+            item.classList.toggle('active', nav === target || nav === target + 1);
+          }
+        }
+      });
+    }
+
+    function goToSpread(navIndex) {
+      if (mode === 'bilingual') {
+        currentSpread = navIndex; // 0 to 4
+      } else {
+        if (navIndex === 0) currentSpread = 0;
+        else currentSpread = Math.ceil(navIndex / 2);
+      }
+      renderView();
+      toggleDrawer(false);
+    }
+
+    function navigatePage(dir) {
+      const maxSpread = (mode === 'novel') ? 2 : 4;
+      const next = currentSpread + dir;
+      if (next >= 0 && next <= maxSpread) {
+        currentSpread = next;
+        renderView();
       }
     }
 
-    function toggleDiacritics() {
+    function setViewMode(targetMode) {
+      if (mode === targetMode) return;
+      toggleViewMode();
+    }
+
+    function toggleViewMode() {
+      if (mode === 'bilingual') {
+        mode = 'novel';
+        if (currentSpread === 0) currentSpread = 0;
+        else currentSpread = Math.ceil(currentSpread / 2);
+      } else {
+        mode = 'bilingual';
+        if (currentSpread === 0) currentSpread = 0;
+        else currentSpread = (currentSpread - 1) * 2 + 1;
+      }
+
+      const toggle = document.getElementById('viewModeBtn');
+      const optNovel = document.getElementById('optNovel');
+      const optBilingual = document.getElementById('optBilingual');
+      const label = document.getElementById('viewModeLabel');
+
+      if (toggle) {
+        toggle.classList.toggle('mode-bilingual', mode === 'bilingual');
+        toggle.classList.toggle('mode-novel', mode === 'novel');
+        toggle.setAttribute('aria-checked', mode === 'bilingual' ? 'true' : 'false');
+      }
+      if (optNovel) {
+        optNovel.classList.toggle('active', mode === 'novel');
+      }
+      if (optBilingual) {
+        optBilingual.classList.toggle('active', mode === 'bilingual');
+      }
+      if (label) {
+        label.textContent = (mode === 'bilingual') ? 'Bilingual' : 'Novel';
+      }
+
+      renderView();
+    }
+
+    function toggleTextDiacritics() {
       const body = document.body;
-      const btn = document.getElementById('diacriticBtn');
-      body.classList.toggle('show-diacritics');
+      const btn = document.getElementById('diacriticsTextBtn');
+      body.classList.toggle('show-diacritics-in-text');
       btn.classList.toggle('active');
     }
 
-    // Synchronized sentence highlighting
-    const sentences = document.querySelectorAll('.sentence');
-    sentences.forEach(s => {
-      s.addEventListener('mouseenter', () => {
-        const sid = s.getAttribute('data-sid');
-        document.querySelectorAll(`.sentence[data-sid="${sid}"]`).forEach(match => {
-          match.classList.add('active-sentence');
+    function adjustFontSize(delta) {
+      currentScale = Math.min(1.22, Math.max(0.85, currentScale + delta));
+      document.documentElement.style.setProperty('--font-scale', `${currentScale}rem`);
+    }
+
+    function toggleDrawer(open) {
+      const overlay = document.getElementById('drawerOverlay');
+      if (overlay) overlay.classList.toggle('open', open);
+    }
+
+    function handleOverlayClick(e) {
+      if (e.target.id === 'drawerOverlay') toggleDrawer(false);
+    }
+
+    function bindSentenceHighlighting() {
+      const sentences = document.querySelectorAll('.sentence');
+      sentences.forEach(s => {
+        s.addEventListener('mouseenter', () => {
+          const sid = s.getAttribute('data-sid');
+          document.querySelectorAll(`.sentence[data-sid="${sid}"]`).forEach(m => m.classList.add('active-sentence'));
+        });
+        s.addEventListener('mouseleave', () => {
+          const sid = s.getAttribute('data-sid');
+          document.querySelectorAll(`.sentence[data-sid="${sid}"]`).forEach(m => m.classList.remove('active-sentence'));
         });
       });
+    }
 
-      s.addEventListener('mouseleave', () => {
-        const sid = s.getAttribute('data-sid');
-        document.querySelectorAll(`.sentence[data-sid="${sid}"]`).forEach(match => {
-          match.classList.remove('active-sentence');
-        });
-      });
-    });
-
-    // Native Speech Synthesis for pronunciation
     function speakText(text) {
       if (!('speechSynthesis' in window)) {
         alert("Speech synthesis is not supported in this browser.");
@@ -641,9 +1256,24 @@
       window.speechSynthesis.cancel();
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = 'hi-IN';
-      utterance.rate = 0.9; // clear, comfortable pace
+      utterance.rate = 0.88;
       window.speechSynthesis.speak(utterance);
     }
+
+    // Keyboard navigation (Left, Right, PageUp, PageDown, Space)
+    window.addEventListener('keydown', (e) => {
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.tagName === 'SELECT') return;
+      if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+        navigatePage(-1);
+      } else if (e.key === 'ArrowRight' || e.key === 'PageDown' || e.key === ' ') {
+        navigatePage(1);
+      } else if (e.key === 'Escape') {
+        toggleDrawer(false);
+      }
+    });
+
+    // Initialize
+    renderView();
   </script>
 </body>
 </html>

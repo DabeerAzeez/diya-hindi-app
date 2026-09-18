@@ -6,24 +6,28 @@
   <title>Norwich Ki Train Aur Shivani Ka Surprise - Hindi E-Reader</title>
   <style>
     :root {
-      --app-bg: #0a0e17;
-      --bar-bg: #0f1726;
-      --bar-border: #1e293b;
-      --book-desk: #060a12;
-      --page-bg: #141e30;
-      --page-border: #24324a;
-      --page-shadow: rgba(0, 0, 0, 0.75);
-      --spine-shadow: rgba(0, 0, 0, 0.65);
-      --text-main: #f1f5f9;
-      --text-muted: #94a3b8;
-      --text-dim: #64748b;
-      --accent: #38bdf8;
-      --accent-glow: rgba(56, 189, 248, 0.25);
+      --app-bg: #0d0609;
+      --bar-bg: #180c13;
+      --bar-border: #3b1424;
+      --book-desk: #090306;
+      --page-bg: #231219; /* Deep Burgundy / Subtle Red tinted pages following cover theme */
+      --page-border: #461b2c;
+      --page-shadow: rgba(0, 0, 0, 0.85);
+      --spine-shadow: rgba(18, 4, 10, 0.75);
+      --text-main: #fdf2f4;
+      --text-muted: #d6a5b5;
+      --text-dim: #9c6c7c;
+      --accent: #fb7185;
+      --accent-glow: rgba(251, 113, 133, 0.28);
       --gold: #fbbf24;
-      --highlight-bg: rgba(56, 189, 248, 0.22);
-      --highlight-border: #38bdf8;
-      --tooltip-bg: #050811;
-      --tooltip-border: #38bdf8;
+      --highlight-bg: rgba(251, 113, 133, 0.22);
+      --highlight-border: #fb7185;
+      --tooltip-bg: #16080f;
+      --tooltip-border: #fb7185;
+      
+      --cover-bg: #831843;
+      --cover-border: #f43f5e;
+      --cover-foil: #fecdd3;
       
       /* Sans-serif for all UI elements */
       --ui-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -138,6 +142,86 @@
       font-weight: 700;
     }
 
+    /* Mode Switch Toggle: Novel <-> Bilingual */
+    .mode-switch-toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--bar-border);
+      padding: 0.22rem 0.65rem;
+      border-radius: 9999px;
+      font-family: var(--ui-font);
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      user-select: none;
+      transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+      outline: none;
+    }
+
+    .mode-switch-toggle:hover {
+      border-color: var(--accent);
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .mode-switch-toggle:focus-visible {
+      box-shadow: 0 0 0 2px var(--accent-glow);
+    }
+
+    .switch-opt {
+      color: var(--text-muted);
+      transition: color 0.2s ease, font-weight 0.2s ease;
+      cursor: pointer;
+      line-height: 1;
+    }
+
+    .switch-opt:hover {
+      color: var(--text-main);
+    }
+
+    .switch-opt.active {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .switch-slider {
+      position: relative;
+      width: 32px;
+      height: 18px;
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 9999px;
+      transition: background-color 0.25s ease, box-shadow 0.25s ease;
+      flex-shrink: 0;
+    }
+
+    .mode-switch-toggle.mode-bilingual .switch-slider {
+      background: var(--accent);
+      box-shadow: 0 0 8px var(--accent-glow);
+    }
+
+    .switch-thumb {
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      width: 14px;
+      height: 14px;
+      background: #ffffff;
+      border-radius: 50%;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+      transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s ease;
+    }
+
+    .mode-switch-toggle.mode-novel .switch-thumb {
+      transform: translateX(0);
+      background: #e2e8f0;
+    }
+
+    .mode-switch-toggle.mode-bilingual .switch-thumb {
+      transform: translateX(14px);
+      background: #0b0f19;
+    }
+
     /* Reading Stage */
     .reading-stage {
       flex: 1;
@@ -243,10 +327,12 @@
 
     .open-book-container.cover-mode #pageRight {
       grid-column: 3;
-      border-radius: 0.75rem;
-      border: 1px solid var(--page-border);
+      border-radius: 0 0.75rem 0.75rem 0;
+      border: 1px solid var(--cover-border);
       box-shadow: 0 25px 65px var(--page-shadow);
-      background: var(--page-bg);
+      background: var(--cover-bg);
+      padding: 0 !important;
+      overflow: hidden;
     }
 
     /* Book Spine Divider */
@@ -458,68 +544,167 @@
       transform: scale(1.2);
     }
 
-    /* CLOSED BOOK COVER PAGE - SERIF */
+    /* CLOSED BOOK COVER PAGE - MATCHING BOOKSHELF */
     .cover-page-wrap {
       width: 100%;
       height: 100%;
-      border: 2px solid rgba(251, 191, 36, 0.4);
-      outline: 1px solid rgba(56, 189, 248, 0.2);
-      outline-offset: -10px;
-      border-radius: 0.65rem;
-      padding: 3.5rem 2rem;
+      position: relative;
+      background: var(--cover-bg);
+      padding: 2.5rem 2rem;
       display: flex;
       flex-direction: column;
-      align-items: center;
       justify-content: space-between;
       text-align: center;
-      background: radial-gradient(circle at center, rgba(30, 48, 77, 0.35) 0%, rgba(10, 16, 28, 0.95) 100%);
       cursor: pointer;
+      user-select: none;
+      overflow: hidden;
       font-family: var(--book-font);
+      border-radius: 0 0.75rem 0.75rem 0;
     }
 
-    .cover-title-group {
-      margin-top: 2rem;
+    /* 3D Spine groove shadow on the left edge */
+    .cover-spine-groove {
+      position: absolute;
+      inset-y: 0;
+      left: 0;
+      width: 18px;
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.25) 50%, transparent 100%);
+      pointer-events: none;
+      z-index: 20;
+    }
+
+    /* Right edge paper sheen */
+    .cover-paper-sheen {
+      position: absolute;
+      inset-y: 0;
+      right: 0;
+      width: 8px;
+      background: linear-gradient(to left, rgba(255, 255, 255, 0.18) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 20;
+    }
+
+    /* Inset Gold Foil Borders matching bookshelf */
+    .cover-foil-outer {
+      position: absolute;
+      inset: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      border-radius: 0 0.65rem 0.65rem 0;
+      pointer-events: none;
+      z-index: 5;
+    }
+
+    .cover-foil-inner {
+      position: absolute;
+      inset: 18px;
+      border: 1px solid var(--cover-foil);
+      border-radius: 0 0.5rem 0.5rem 0;
+      opacity: 0.65;
+      pointer-events: none;
+      z-index: 5;
+    }
+
+    /* Top Cover Header: Level & Ornament */
+    .cover-top-header {
+      position: relative;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.5rem 0.75rem 0;
+    }
+
+    .cover-level-badge {
+      font-family: var(--ui-font);
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 0.25rem 0.75rem;
+      border-radius: 0.35rem;
+      background: rgba(0, 0, 0, 0.45);
+      color: var(--cover-foil);
+      border: 1px solid rgba(254, 205, 211, 0.4);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+    }
+
+    .cover-stars {
+      color: rgba(251, 191, 36, 0.85);
+      letter-spacing: 0.4em;
+      font-size: 0.85rem;
+    }
+
+    /* Middle: Prominent Serif Title in Clean Typography */
+    .cover-center-content {
+      position: relative;
+      z-index: 10;
+      padding: 1.5rem 1rem;
+      margin: auto 0;
     }
 
     .cover-main-title {
-      font-size: 2.35rem;
-      font-weight: 800;
-      line-height: 1.25;
-      background: linear-gradient(135deg, #ffffff 0%, #fef08a 50%, #38bdf8 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      letter-spacing: 0.04em;
-      margin-bottom: 1rem;
       font-family: var(--book-font);
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: #ffffff;
+      line-height: 1.25;
+      letter-spacing: 0.02em;
+      margin-bottom: 0.75rem;
+      text-shadow: 0 4px 18px rgba(0, 0, 0, 0.8);
     }
 
-    .cover-ornament {
-      color: var(--gold);
-      font-size: 1rem;
-      letter-spacing: 0.5em;
-      margin-bottom: 1rem;
-      font-family: var(--book-font);
+    .cover-sub-label {
+      font-family: var(--ui-font);
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--cover-foil);
+      margin-bottom: 0.6rem;
     }
 
     .cover-sub-title {
-      font-size: 1.15rem;
-      font-weight: 600;
-      color: var(--gold);
-      letter-spacing: 0.02em;
       font-family: var(--book-font);
+      font-size: 1.05rem;
+      font-weight: 500;
+      color: rgba(255, 255, 255, 0.85);
+      font-style: italic;
+      letter-spacing: 0.02em;
+      max-width: 85%;
+      margin: 0 auto;
+    }
+
+    /* Bottom Cover Footer: Reading time & Author */
+    .cover-bottom-footer {
+      position: relative;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 0.75rem 0.5rem;
+    }
+
+    .cover-reading-time {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-family: var(--ui-font);
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: rgba(255, 255, 255, 0.85);
+      background: rgba(0, 0, 0, 0.45);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px;
     }
 
     .cover-author {
-      font-size: 1.25rem;
-      color: var(--text-main);
-      font-weight: 600;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      margin-bottom: 2rem;
-      padding-top: 1rem;
-      border-top: 1px solid rgba(251, 191, 36, 0.3);
-      width: 180px;
       font-family: var(--book-font);
+      font-size: 0.95rem;
+      color: var(--cover-foil);
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
     }
 
     /* Bottom Status Bar - SANS-SERIF */
@@ -696,10 +881,15 @@
       </div>
 
       <div class="bar-right">
-        <!-- View Mode Toggle -->
-        <button class="pill-btn active" id="viewModeBtn" onclick="toggleViewMode()">
-          <span id="viewModeIcon">📖</span> <span id="viewModeLabel">Bilingual Spread</span>
-        </button>
+        <!-- View Mode Switch Toggle (Novel <-> Bilingual) -->
+        <div class="mode-switch-toggle mode-bilingual" id="viewModeBtn" onclick="toggleViewMode()" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleViewMode();}" role="switch" aria-checked="true" tabindex="0" title="Reading Mode: Novel or Bilingual (Click or Space to toggle)">
+          <span class="switch-opt switch-opt-novel" id="optNovel" onclick="event.stopPropagation(); setViewMode('novel');">Novel</span>
+          <div class="switch-slider">
+            <div class="switch-thumb"></div>
+          </div>
+          <span class="switch-opt switch-opt-bilingual active" id="optBilingual" onclick="event.stopPropagation(); setViewMode('bilingual');">Bilingual</span>
+          <span id="viewModeLabel" style="display:none;">Bilingual</span>
+        </div>
 
         <!-- Diacritics Toggle -->
         <button class="pill-btn active" id="diacriticsTextBtn" onclick="toggleTextDiacritics()" title="Toggle Diacritics in Text (Hover menu always shows them)">
@@ -834,15 +1024,32 @@
     let mode = 'bilingual'; // 'bilingual' or 'novel'
     let currentScale = 1.02;
 
-    // Cover Page HTML (Title + Author Diya, matching full-screen E-reader standard)
+    // Cover Page HTML (Matching Deep Burgundy Bookshelf Hardcover)
     const coverHTML = `
-      <div class="cover-page-wrap" onclick="navigatePage(1)">
-        <div class="cover-title-group">
-          <h1 class="cover-main-title">NORWICH KI TRAIN AUR SHIVANI KA SURPRISE</h1>
-          <div class="cover-ornament">✦ &nbsp; ✦ &nbsp; ✦</div>
-          <h2 class="cover-sub-title">London Platform Se Norwich Tak Ek Reunion Comedy</h2>
+      <div class="cover-page-wrap" onclick="navigatePage(1)" title="Click or press Right Arrow to read">
+        <div class="cover-spine-groove"></div>
+        <div class="cover-paper-sheen"></div>
+        <div class="cover-foil-outer"></div>
+        <div class="cover-foil-inner"></div>
+
+        <div class="cover-top-header">
+          <span class="cover-level-badge">A1-09</span>
+          <span class="cover-stars">✦ ✦ ✦</span>
         </div>
-        <div class="cover-author">Diya</div>
+
+        <div class="cover-center-content">
+          <h1 class="cover-main-title">Norwich Ki Train Aur Shivani Ka Surprise</h1>
+          <div class="cover-sub-label">Diya • Hindi Reader</div>
+          <div class="cover-sub-title">London Platform Se Norwich Tak Ek Reunion Comedy</div>
+        </div>
+
+        <div class="cover-bottom-footer">
+          <div class="cover-reading-time">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>8 min</span>
+          </div>
+          <div class="cover-author">Diya</div>
+        </div>
       </div>
     `;
 
@@ -967,6 +1174,11 @@
       }
     }
 
+    function setViewMode(targetMode) {
+      if (mode === targetMode) return;
+      toggleViewMode();
+    }
+
     function toggleViewMode() {
       if (mode === 'bilingual') {
         mode = 'novel';
@@ -978,8 +1190,26 @@
         else currentSpread = (currentSpread - 1) * 2 + 1;
       }
 
+      const toggle = document.getElementById('viewModeBtn');
+      const optNovel = document.getElementById('optNovel');
+      const optBilingual = document.getElementById('optBilingual');
       const label = document.getElementById('viewModeLabel');
-      label.textContent = (mode === 'bilingual') ? 'Bilingual Spread' : 'Novel Spread';
+
+      if (toggle) {
+        toggle.classList.toggle('mode-bilingual', mode === 'bilingual');
+        toggle.classList.toggle('mode-novel', mode === 'novel');
+        toggle.setAttribute('aria-checked', mode === 'bilingual' ? 'true' : 'false');
+      }
+      if (optNovel) {
+        optNovel.classList.toggle('active', mode === 'novel');
+      }
+      if (optBilingual) {
+        optBilingual.classList.toggle('active', mode === 'bilingual');
+      }
+      if (label) {
+        label.textContent = (mode === 'bilingual') ? 'Bilingual' : 'Novel';
+      }
+
       renderView();
     }
 

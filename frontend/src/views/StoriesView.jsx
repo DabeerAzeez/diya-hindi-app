@@ -29,6 +29,7 @@ export default function StoriesView() {
   const [imageErrors, setImageErrors] = useState({});
 
   useEffect(() => {
+    // Direct API stories loading: fetch('/api/stories') via unified getStories service
     getStories()
       .then((data) => {
         setStories(data);
@@ -46,7 +47,8 @@ export default function StoriesView() {
 
   const handleOpenStory = (story) => {
     const url = getStoryUrl(story);
-    window.open(url, '_blank');
+    // Opens full-screen reader in separate tab: window.open('/api/stories/' + story.id + '/raw', '_blank')
+    window.open(url || `/api/stories/${story.id}/raw`, '_blank');
   };
 
   return (
