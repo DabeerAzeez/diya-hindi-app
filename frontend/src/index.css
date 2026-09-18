@@ -65,3 +65,53 @@
 .pulse-dot {
   animation: pulseGlow 2s infinite ease-in-out;
 }
+
+/* Quill Dark Theme Customization */
+.rich-text-container .ql-toolbar.ql-snow {
+  border: 1px solid #243049;
+  background-color: #1c263d;
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+.rich-text-container .ql-container.ql-snow {
+  border: 1px solid #243049;
+  border-top: none;
+  background-color: #151d2f;
+  border-bottom-left-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+  color: #f1f5f9;
+  font-family: inherit;
+}
+.rich-text-container .ql-editor {
+  min-height: var(--editor-min-height, 140px);
+  color: #f1f5f9;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+.rich-text-container .ql-editor.ql-blank::before {
+  color: #64748b;
+  font-style: normal;
+}
+.rich-text-container .ql-snow .ql-stroke {
+  stroke: #94a3b8;
+}
+.rich-text-container .ql-snow .ql-fill {
+  fill: #94a3b8;
+}
+.rich-text-container .ql-snow .ql-picker {
+  color: #94a3b8;
+}
+.rich-text-container .ql-snow .ql-picker-options {
+  background-color: #1c263d;
+  border: 1px solid #243049;
+}
+.rich-text-container .ql-snow button:hover .ql-stroke,
+.rich-text-container .ql-snow button.ql-active .ql-stroke,
+.rich-text-container .ql-snow .ql-picker-label:hover .ql-stroke {
+  stroke: #f59e0b;
+}
+.rich-text-container .ql-snow button:hover .ql-fill,
+.rich-text-container .ql-snow button.ql-active .ql-fill {
+  fill: #f59e0b;
+}
+

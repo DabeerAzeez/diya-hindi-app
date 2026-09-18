@@ -85,5 +85,5 @@ The workspace provides specialized Antigravity skills located in `.agents/skills
 - **Progress State:** [memory/progress.json](file:///C:/Users/dabee/Dev/diya-hindi-app/memory/progress.json) — Tracks active lesson level, mastered patterns, and active grammar struggles. Always consult this before teaching or quizzing.
 - **Learning Narrative:** [memory/learning_log.md](file:///C:/Users/dabee/Dev/diya-hindi-app/memory/learning_log.md) — Log of past sessions and teacher remarks.
 - **Master Curriculum:** [hindi_curriculum_a0_to_a2.md](file:///C:/Users/dabee/Dev/diya-hindi-app/hindi_curriculum_a0_to_a2.md) — Complete `A0`, `A1`, `A2` roadmap.
-- **Learner Profile:** [Learner Profile & Strategy.md](file:///C:/Users/dabee/Dev/diya-hindi-app/Learner%20Profile%20&%20Strategy.md) — Full personal backstory and study timetable.
+- **Learner Profile:** [diya/data/profile.json](file:///C:/Users/dabee/Dev/diya-hindi-app/diya/data/profile.json) — Full personal backstory, strategy notes, and study timetable.
 - **DIYA Web App Hub:** [diya/](file:///C:/Users/dabee/Dev/diya-hindi-app/diya/) — Unified local web application. Launch via [start_diya.bat](file:///C:/Users/dabee/Dev/diya-hindi-app/start_diya.bat).
