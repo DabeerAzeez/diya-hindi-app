@@ -4,8 +4,9 @@ import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vite.dev/config/
+const isGithubPages = process.env.VITE_GITHUB_PAGES === 'true';
 export default defineConfig({
-  base: '/diya-hindi-app/',
+  base: isGithubPages ? '/diya-hindi-app/' : '/',
   plugins: [
     react(),
     tailwindcss(),
@@ -20,6 +21,8 @@ export default defineConfig({
         background_color: '#0b0f19',
         display: 'standalone',
         orientation: 'portrait-primary',
+        start_url: isGithubPages ? '/diya-hindi-app/' : '/',
+        scope: isGithubPages ? '/diya-hindi-app/' : '/',
         icons: [
           {
             src: 'pwa-192x192.png',

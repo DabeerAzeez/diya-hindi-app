@@ -131,6 +131,7 @@ export function calculateLessonStats(cards = [], lessonCode = '', minThreshold =
     else learning++;
   });
 
+  const isReference = isReferenceLesson(lessonCode);
   if (isReference) {
     const gradientStyle = getMasteryGradientStyle(null);
     return {

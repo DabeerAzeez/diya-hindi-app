@@ -37,6 +37,8 @@ jobs:
 
       - name: Build Static Production Assets
         working-directory: frontend
+        env:
+          VITE_GITHUB_PAGES: 'true'
         run: npm run build
 
       - name: Setup Pages
