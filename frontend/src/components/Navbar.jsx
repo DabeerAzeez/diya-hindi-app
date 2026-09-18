@@ -100,25 +100,6 @@ export default function Navbar({ currentView, setView, ankiStatus, onOpenProfile
         </div>
       </div>
 
-      {/* Mobile Nav Bar */}
-      <div className="flex md:hidden items-center justify-around pt-3 mt-3 border-t border-[#243049]">
-        {navItems.map((item) => {
-          const Icon = item.icon;
-          const isActive = currentView === item.id;
-          return (
-            <button
-              key={item.id}
-              onClick={() => setView(item.id)}
-              className={`flex flex-col items-center gap-1 text-xs py-1 px-2 rounded-md ${
-                isActive ? 'text-amber-400 font-semibold' : 'text-slate-400 hover:text-slate-200'
-              }`}
-            >
-              <Icon size={18} />
-              {item.label}
-            </button>
-          );
-        })}
-      </div>
     </header>
   );
 }

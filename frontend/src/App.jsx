@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
+import MobileBottomNav from './components/MobileBottomNav';
 import ProfileDrawer from './components/ProfileDrawer';
 import HomeView from './views/HomeView';
 import LessonsView from './views/LessonsView';
@@ -42,8 +43,8 @@ export default function App() {
         onOpenProfile={() => setProfileOpen(true)}
       />
 
-      {/* Main View Display */}
-      <main className="flex-1 pb-16">
+      {/* Main View Display — pb-20 on mobile to clear the fixed bottom nav */}
+      <main className="flex-1 pb-20 md:pb-16">
         {currentView === 'home' && <HomeView setView={setCurrentView} />}
         {currentView === 'lessons' && <LessonsView />}
         {currentView === 'stories' && <StoriesView />}
@@ -56,10 +57,14 @@ export default function App() {
         onClose={() => setProfileOpen(false)}
       />
 
-      {/* Footer */}
-      <footer className="border-t border-[#243049]/60 py-6 text-center text-xs text-slate-500">
+      {/* Mobile Fixed Bottom Navigation */}
+      <MobileBottomNav currentView={currentView} setView={setCurrentView} />
+
+      {/* Footer — hidden on mobile so it doesn't crowd the bottom nav */}
+      <footer className="hidden md:block border-t border-[#243049]/60 py-6 text-center text-xs text-slate-500">
         <p>🪔 DIYA • Personal Hindi Language Learning Hub</p>
       </footer>
     </div>
   );
 }
+

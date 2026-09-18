@@ -42,6 +42,9 @@ export default function LessonsView() {
   const [quizRatings, setQuizRatings] = useState({});
   const [quizAnswers, setQuizAnswers] = useState({});
   const [quizStreak, setQuizStreak] = useState(0);
+  // Mobile-only: whether to show the detail panel (true) or catalogue (false)
+  const [mobileDetailOpen, setMobileDetailOpen] = useState(false);
+
 
   // Audio Pronunciation Helper (TTS)
   const speakHindi = (text) => {
@@ -241,8 +244,8 @@ export default function LessonsView() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 animate-fade-in">
       
-      {/* Top Header & Level Tabs */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8 pb-6 border-b border-[#243049]">
+      {/* Top Header & Level Tabs — hidden on mobile when lesson detail is open */}
+      <div className={`flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8 pb-6 border-b border-[#243049] ${mobileDetailOpen ? 'hidden lg:flex' : 'flex'}`}>
         <div>
           <h1 className="text-2xl sm:text-3xl font-bold text-white tracking-tight flex items-center gap-3">
             <span>📖 Lessons</span>
@@ -278,8 +281,8 @@ export default function LessonsView() {
       {/* Main Layout Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
         
-        {/* Left Column: Lesson Directory */}
-        <div className="lg:col-span-4 bg-[#151d2f] rounded-2xl border border-[#243049] p-4 max-h-[calc(100vh-220px)] overflow-y-auto space-y-1.5">
+        {/* Left Column: Lesson Directory — hidden on mobile when detail is open */}
+        <div className={`lg:col-span-4 bg-[#151d2f] rounded-2xl border border-[#243049] p-4 max-h-[calc(100vh-220px)] overflow-y-auto space-y-1.5 ${mobileDetailOpen ? 'hidden lg:block' : 'block'}`}>
           <div className="px-3 py-2 text-xs font-bold uppercase tracking-wider text-slate-400 border-b border-[#243049]/50 mb-2 flex items-center justify-between">
             <span>Lesson Catalog</span>
             <span className="text-[11px] text-slate-500 font-normal lowercase">({filteredLessons.length})</span>
@@ -297,7 +300,7 @@ export default function LessonsView() {
               return (
                 <button
                   key={l.id}
-                  onClick={() => setSelectedSlug(l.slug)}
+                  onClick={() => { setSelectedSlug(l.slug); setMobileDetailOpen(true); }}
                   className={`w-full text-left p-3 rounded-xl transition-all flex items-start justify-between gap-3 group ${
                     isSelected
                       ? 'bg-blue-600/20 border border-blue-500/50 text-white shadow-sm'
@@ -368,8 +371,18 @@ export default function LessonsView() {
           )}
         </div>
 
-        {/* Center / Right Column: Lesson Reader */}
-        <div className="lg:col-span-8 space-y-6">
+        {/* Center / Right Column: Lesson Reader — hidden on mobile when catalogue is shown */}
+        <div className={`lg:col-span-8 space-y-6 ${mobileDetailOpen ? 'block' : 'hidden lg:block'}`}>
+
+          {/* Mobile Back Button — only visible on small screens */}
+          <button
+            onClick={() => setMobileDetailOpen(false)}
+            className="lg:hidden flex items-center gap-2 text-sm text-slate-300 hover:text-amber-400 transition-colors mb-2 -mt-2"
+          >
+            <ChevronLeft size={18} />
+            <span>Back to Catalogue</span>
+          </button>
+
           {loadingDetail ? (
             <div className="bg-[#151d2f] rounded-2xl border border-[#243049] p-12 text-center text-slate-400 text-sm">
               Loading lesson content...
